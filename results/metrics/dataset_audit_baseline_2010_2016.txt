@@ -1,0 +1,22 @@
+Rows: 68010
+
+Years:
+year
+2010     3306
+2011    11142
+2012    10815
+2013    13066
+2014    11627
+2015    11236
+2016     6818
+Name: count, dtype: int64
+
+Labels:
+label_48h_final
+0    65612
+1     2398
+Name: count, dtype: int64
+
+Missing gcp_path: 0
+Missing sample_id: 0
+Missing label: 0
