@@ -1,0 +1,15 @@
+{
+  "date": "2026-07-04",
+  "project": "Solar Flare AIA",
+  "github_account": "Watchman77",
+  "vm_name": "solar-flare-aia-training-l4-c",
+  "zone": "europe-west4-c",
+  "gcp_project": "sonorous-shore-450510-i4",
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "platform": "Linux-6.17.0-1020-gcp-x86_64-with-glibc2.39",
+  "torch": "2.11.0+cu128",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA L4",
+  "gpu_vram_gb": 22.06,
+  "nvidia_smi": "Sun Jul  5 05:46:57 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 610.43.02              KMD Version: 610.43.02     CUDA UMD Version: 13.3     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L4                      On  |   00000000:00:03.0 Off |                    0 |\n| N/A   42C    P0             22W /   72W |       3MiB /  23034MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n"
+}
