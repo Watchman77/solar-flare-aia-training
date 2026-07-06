@@ -30,3 +30,4 @@ credentials/
 
 .DS_Store
 *.tmp
+*.ipynb.backup
