@@ -1,0 +1,45 @@
+Rows: 68010
+
+Labels:
+label_48h_final
+0    65612
+1     2398
+
+================================================================================
+Sample 1
+sample_id: 20130720_1824_HARP2968_NOAA11793
+year: 2013
+manifest label_48h_final: 0
+local: /home/abmoses2000/solar_flare_aia/cache/npz_inspection/1e18a259a0da041cd4d877c7916511b1.npz
+NPZ keys: ['x', 'y', 'sample_id', 'T_REC_dt', 'HARPNUM', 'NOAA_AR_clean', 'used_timestamp', 'used_s3_path', 'channels', 'crop_meta']
+  key='x' | shape=(512, 512, 6) | dtype=float32 | min=0.0 | max=1.0
+  key='y' | shape=() | dtype=int64 | min=0 | max=0 | value=0
+  key='sample_id' | shape=() | dtype=<U32 | value=20130720_1824_HARP2968_NOAA11793
+  key='T_REC_dt' | shape=() | dtype=<U19 | value=2013-07-20 18:24:00
+  key='HARPNUM' | shape=() | dtype=int64 | min=2968 | max=2968 | value=2968
+  key='NOAA_AR_clean' | shape=() | dtype=int64 | min=11793 | max=11793 | value=11793
+  key='used_timestamp' | shape=() | dtype=<U19 | value=2013-07-20 18:24:00
+  key='used_s3_path' | shape=() | dtype=<U46 | value=s3://nasa-surya-bench/2013/07/20130720_1824.nc
+  key='channels' | shape=(6,) | dtype=<U6 | value=['aia94', 'aia131', 'aia171', 'aia193', 'aia211', 'aia335']
+  key='crop_meta' | shape=() | dtype=<U58 | value={"pixel_cx": 1946, "pixel_cy": 1467, "crop_size_raw": 826}
+
+Downloading sample 2: label=1, year=2013
+gs://suryabench-sharp-pipeline-bamidele/samples_npz/2013/20130315_0136_HARP2546_NOAA11692.npz
+
+================================================================================
+Sample 2
+sample_id: 20130315_0136_HARP2546_NOAA11692
+year: 2013
+manifest label_48h_final: 1
+local: /home/abmoses2000/solar_flare_aia/cache/npz_inspection/5a9e99277c89de612de77a56b65fcd67.npz
+NPZ keys: ['x', 'y', 'sample_id', 'T_REC_dt', 'HARPNUM', 'NOAA_AR_clean', 'used_timestamp', 'used_s3_path', 'channels', 'crop_meta']
+  key='x' | shape=(512, 512, 6) | dtype=float32 | min=0.0 | max=1.0
+  key='y' | shape=() | dtype=int64 | min=1 | max=1 | value=1
+  key='sample_id' | shape=() | dtype=<U32 | value=20130315_0136_HARP2546_NOAA11692
+  key='T_REC_dt' | shape=() | dtype=<U19 | value=2013-03-15 01:36:00
+  key='HARPNUM' | shape=() | dtype=int64 | min=2546 | max=2546 | value=2546
+  key='NOAA_AR_clean' | shape=() | dtype=int64 | min=11692 | max=11692 | value=11692
+  key='used_timestamp' | shape=() | dtype=<U19 | value=2013-03-15 01:36:00
+  key='used_s3_path' | shape=() | dtype=<U46 | value=s3://nasa-surya-bench/2013/03/20130315_0136.nc
+  key='channels' | shape=(6,) | dtype=<U6 | value=['aia94', 'aia131', 'aia171', 'aia193', 'aia211', 'aia335']
+  key='crop_meta' | shape=() | dtype=<U58 | value={"pixel_cx": 1697, "pixel_cy": 1671, "crop_size_raw": 836}
