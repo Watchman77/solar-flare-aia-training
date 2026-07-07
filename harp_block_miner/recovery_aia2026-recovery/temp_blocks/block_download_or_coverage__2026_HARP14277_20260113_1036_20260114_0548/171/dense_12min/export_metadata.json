@@ -1,0 +1,9 @@
+{
+  "request_id": "JSOC_20260626_004196",
+  "query": "aia.lev1_euv_12s[2026-01-13T10:24:00.000/1176m@12m][171]{image}",
+  "wavelength": 171,
+  "patch_size_arcsec": 488.4948640471757,
+  "export_label": "dense_12min_recovery",
+  "n_files": 96,
+  "email": "worky4work@gmail.com"
+}

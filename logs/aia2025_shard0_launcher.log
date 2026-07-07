@@ -1,0 +1,15 @@
+===== 2025 SHARD 0 STARTED: Wed Jun 24 00:52:53 UTC 2026 =====
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 25144352 bytes to /home/abmoses2000/solar_flare_aia/logs/aia2025_shard0_executed.ipynb
+===== 2025 SHARD 0 ENDED: Fri Jun 26 18:04:33 UTC 2026, STATUS=0 =====
+===== 2025 SHARD 0 STARTED: Fri Jun 26 21:25:36 UTC 2026 =====
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 15210988 bytes to /home/abmoses2000/solar_flare_aia/logs/aia2025_shard0_executed.ipynb
+===== 2025 SHARD 0 ENDED: Sun Jun 28 13:31:03 UTC 2026, STATUS=0 =====
+===== 2025 SHARD 0 STARTED: Tue Jun 30 08:49:25 UTC 2026 =====
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 1142708 bytes to /home/abmoses2000/solar_flare_aia/logs/aia2025_shard0_executed.ipynb
+===== 2025 SHARD 0 ENDED: Tue Jun 30 09:26:34 UTC 2026, STATUS=0 =====

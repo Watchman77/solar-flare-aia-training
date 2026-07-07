@@ -1,0 +1,3 @@
+block_id,status,n_targets,n_pending_at_start,n_saved_this_run,elapsed_minutes,message
+2025_HARP13299_20250602_0236_20250603_0100,already_complete,15,,0,0.0,all_samples_already_in_gcp
+2025_HARP13424_20250628_1936_20250629_1836,completed,15,11.0,11,10.938,success

@@ -1,0 +1,6 @@
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+===== RESUME STARTED: Mon Jun 22 15:15:40 UTC 2026 =====
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb to notebook
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 1926812 bytes to /home/abmoses2000/solar_flare_aia/logs/aia2025_block_canary_executed.ipynb

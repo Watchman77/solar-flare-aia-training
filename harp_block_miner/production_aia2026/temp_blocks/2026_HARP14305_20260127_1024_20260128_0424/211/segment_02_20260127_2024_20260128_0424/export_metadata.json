@@ -1,0 +1,17 @@
+{
+  "request_id": "JSOC_20260624_000684",
+  "query": "aia.lev1_euv_12s[2026-01-27T20:24:00.000/576m@96m][211]{image}",
+  "wavelength": 211,
+  "reference_time": "2026-01-28 00:24:00",
+  "segment_start": "2026-01-27 20:24:00",
+  "segment_end": "2026-01-28 04:24:00",
+  "segment_targets": 6,
+  "patch_size_arcsec": 1100.0,
+  "reference_geometry": {
+    "x_arcsec": 29.038304323516602,
+    "y_arcsec": -245.6561094476292,
+    "box_arcsec": 1339.045634944313
+  },
+  "n_files": 6,
+  "email": "worky4work@gmail.com"
+}

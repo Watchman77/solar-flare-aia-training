@@ -1,0 +1,17 @@
+{
+  "request_id": "JSOC_20260624_000705",
+  "query": "aia.lev1_euv_12s[2025-01-22T19:36:00.000/192m@96m][171]{image}",
+  "wavelength": 171,
+  "reference_time": "2025-01-22 20:24:00",
+  "segment_start": "2025-01-22 19:36:00",
+  "segment_end": "2025-01-22 21:12:00",
+  "segment_targets": 2,
+  "patch_size_arcsec": 1100.0,
+  "reference_geometry": {
+    "x_arcsec": 60.3943115641081,
+    "y_arcsec": 224.4310566673901,
+    "box_arcsec": 1107.5716627130294
+  },
+  "n_files": 2,
+  "email": "abmoses2000@gmail.com"
+}

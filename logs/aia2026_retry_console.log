@@ -1,0 +1,5 @@
+[NbConvertApp] Converting notebook /home/abmoses2000/solar_flare_aia/notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb to notebook
+/home/abmoses2000/solar_flare_aia/venv/lib/python3.12/site-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[NbConvertApp] Writing 1031006 bytes to /home/abmoses2000/solar_flare_aia/logs/aia2026_retry_executed.ipynb

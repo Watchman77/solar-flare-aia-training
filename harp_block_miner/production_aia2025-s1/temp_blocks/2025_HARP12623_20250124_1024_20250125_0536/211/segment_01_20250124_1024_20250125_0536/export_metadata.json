@@ -1,0 +1,17 @@
+{
+  "request_id": "JSOC_20260624_001047",
+  "query": "aia.lev1_euv_12s[2025-01-24T10:24:00.000/1248m@96m][211]{image}",
+  "wavelength": 211,
+  "reference_time": "2025-01-24 20:00:00",
+  "segment_start": "2025-01-24 10:24:00",
+  "segment_end": "2025-01-25 05:36:00",
+  "segment_targets": 13,
+  "patch_size_arcsec": 530.1743257500993,
+  "reference_geometry": {
+    "x_arcsec": 119.7907100226601,
+    "y_arcsec": -100.13686200550737,
+    "box_arcsec": 367.9551148180987
+  },
+  "n_files": 13,
+  "email": "sleekwebdesigner@gmail.com"
+}
