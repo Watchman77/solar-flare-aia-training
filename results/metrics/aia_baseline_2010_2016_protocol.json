@@ -1,0 +1,204 @@
+{
+  "experiment_name": "aia_baseline_2010_2016_protocol",
+  "purpose": "Formal AIA 2010-2016 baseline protocol and chronological year-holdout fold definition.",
+  "dataset": {
+    "manifest": "/home/abmoses2000/solar_flare_aia/training/final_metadata/baseline_2010_2016_AR_SPECIFIC_manifest.csv",
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "input_tensor_key": "x",
+    "input_shape_hwc": [
+      512,
+      512,
+      6
+    ],
+    "channels": [
+      "aia94",
+      "aia131",
+      "aia171",
+      "aia193",
+      "aia211",
+      "aia335"
+    ],
+    "label_column": "label_48h_final",
+    "ignored_npz_label": "y",
+    "task": "M/X flare prediction within 48 hours for the same active region."
+  },
+  "split_protocol": {
+    "name": "rolling_origin_chronological_year_holdout",
+    "description": "For test year Y, validation year is Y-1 and training years are all years before Y-1. No future data are used for model training or threshold selection.",
+    "test_years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016
+    ],
+    "folds": [
+      {
+        "fold_id": "test_2012",
+        "train_years": [
+          2010
+        ],
+        "val_year": 2011,
+        "test_year": 2012,
+        "train_rows": 3306,
+        "train_pos": 29,
+        "train_neg": 3277,
+        "train_pos_rate": 0.008771929824561403,
+        "val_rows": 11142,
+        "val_pos": 404,
+        "val_neg": 10738,
+        "val_pos_rate": 0.03625919942559684,
+        "test_rows": 10815,
+        "test_pos": 305,
+        "test_neg": 10510,
+        "test_pos_rate": 0.02820157189089228,
+        "usable_for_full_benchmark": false,
+        "notes": "Low training positive count; may be unstable for deep CNN training."
+      },
+      {
+        "fold_id": "test_2013",
+        "train_years": [
+          2010,
+          2011
+        ],
+        "val_year": 2012,
+        "test_year": 2013,
+        "train_rows": 14448,
+        "train_pos": 433,
+        "train_neg": 14015,
+        "train_pos_rate": 0.02996954595791805,
+        "val_rows": 10815,
+        "val_pos": 305,
+        "val_neg": 10510,
+        "val_pos_rate": 0.02820157189089228,
+        "test_rows": 13066,
+        "test_pos": 492,
+        "test_neg": 12574,
+        "test_pos_rate": 0.037654982397061075,
+        "usable_for_full_benchmark": true,
+        "notes": "Candidate fold for formal benchmark."
+      },
+      {
+        "fold_id": "test_2014",
+        "train_years": [
+          2010,
+          2011,
+          2012
+        ],
+        "val_year": 2013,
+        "test_year": 2014,
+        "train_rows": 25263,
+        "train_pos": 738,
+        "train_neg": 24525,
+        "train_pos_rate": 0.02921268257926612,
+        "val_rows": 13066,
+        "val_pos": 492,
+        "val_neg": 12574,
+        "val_pos_rate": 0.037654982397061075,
+        "test_rows": 11627,
+        "test_pos": 629,
+        "test_neg": 10998,
+        "test_pos_rate": 0.05409821966113357,
+        "usable_for_full_benchmark": true,
+        "notes": "Candidate fold for formal benchmark."
+      },
+      {
+        "fold_id": "test_2015",
+        "train_years": [
+          2010,
+          2011,
+          2012,
+          2013
+        ],
+        "val_year": 2014,
+        "test_year": 2015,
+        "train_rows": 38329,
+        "train_pos": 1230,
+        "train_neg": 37099,
+        "train_pos_rate": 0.03209058415299121,
+        "val_rows": 11627,
+        "val_pos": 629,
+        "val_neg": 10998,
+        "val_pos_rate": 0.05409821966113357,
+        "test_rows": 11236,
+        "test_pos": 531,
+        "test_neg": 10705,
+        "test_pos_rate": 0.04725881096475614,
+        "usable_for_full_benchmark": true,
+        "notes": "Candidate fold for formal benchmark."
+      },
+      {
+        "fold_id": "test_2016",
+        "train_years": [
+          2010,
+          2011,
+          2012,
+          2013,
+          2014
+        ],
+        "val_year": 2015,
+        "test_year": 2016,
+        "train_rows": 49956,
+        "train_pos": 1859,
+        "train_neg": 48097,
+        "train_pos_rate": 0.037212747217551446,
+        "val_rows": 11236,
+        "val_pos": 531,
+        "val_neg": 10705,
+        "val_pos_rate": 0.04725881096475614,
+        "test_rows": 6818,
+        "test_pos": 8,
+        "test_neg": 6810,
+        "test_pos_rate": 0.0011733646230566149,
+        "usable_for_full_benchmark": false,
+        "notes": "Very low positive count in test year; report cautiously or treat as stress fold."
+      }
+    ]
+  },
+  "metric_protocol": {
+    "threshold_independent_metrics": [
+      "ROC-AUC",
+      "PR-AUC",
+      "Brier score"
+    ],
+    "threshold_dependent_metrics": [
+      "TSS",
+      "HSS",
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "Specificity",
+      "F1",
+      "Confusion matrix: TP, TN, FP, FN"
+    ],
+    "threshold_rules": {
+      "fixed_threshold": 0.5,
+      "selected_threshold": "Choose threshold on validation split by maximum TSS; apply unchanged to test split.",
+      "no_test_threshold_tuning": true
+    },
+    "class_imbalance_rules": {
+      "primary_reporting": "Use realistic class distribution for formal benchmark.",
+      "allowed_training_strategies": [
+        "BCEWithLogitsLoss with pos_weight computed from training split",
+        "WeightedRandomSampler only if explicitly documented"
+      ],
+      "balanced_subset_use": "Allowed only for sanity checks, not final benchmark claims."
+    }
+  },
+  "outputs": {
+    "year_counts_csv": "/home/abmoses2000/solar_flare_aia/results/metrics/aia_baseline_2010_2016_protocol_year_counts.csv",
+    "fold_summary_csv": "/home/abmoses2000/solar_flare_aia/results/metrics/aia_baseline_2010_2016_protocol_fold_summary.csv",
+    "fold_assignments_csv": "/home/abmoses2000/solar_flare_aia/results/metrics/aia_baseline_2010_2016_protocol_fold_assignments.csv",
+    "protocol_json": "/home/abmoses2000/solar_flare_aia/results/metrics/aia_baseline_2010_2016_protocol.json",
+    "readable_summary_md": "/home/abmoses2000/solar_flare_aia/results/metrics/aia_baseline_2010_2016_protocol_readable_summary.md"
+  },
+  "status": "Protocol only. No model training performed in this notebook."
+}
