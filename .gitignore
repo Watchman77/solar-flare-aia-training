@@ -49,3 +49,4 @@ results/models/*.pth
 
 # Very large protocol assignment files
 results/metrics/aia_baseline_2010_2016_protocol_fold_assignments.csv
+local_archive/
