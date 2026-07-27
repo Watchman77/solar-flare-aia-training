@@ -31,3 +31,21 @@ credentials/
 .DS_Store
 *.tmp
 *.ipynb.backup
+
+# Runtime logs
+logs/*.log
+
+# Local caches
+cache/
+__pycache__/
+*.tmp
+
+# Model checkpoints
+results/models/*.pt
+results/models/*.pth
+
+# Broken/manual notebook backups
+*.BROKEN_BACKUP.ipynb
+
+# Very large protocol assignment files
+results/metrics/aia_baseline_2010_2016_protocol_fold_assignments.csv
