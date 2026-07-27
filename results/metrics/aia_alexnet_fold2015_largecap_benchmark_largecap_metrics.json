@@ -1,0 +1,124 @@
+{
+  "experiment_name": "aia_alexnet_fold2015_largecap_benchmark",
+  "run_mode": "largecap",
+  "fold_id": "test_2015",
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 11230,
+      "positives": 1230,
+      "negatives": 10000,
+      "positive_rate": 0.10952804986642921,
+      "years": "[2010, 2011, 2012, 2013]"
+    },
+    {
+      "split": "val",
+      "rows": 5629,
+      "positives": 629,
+      "negatives": 5000,
+      "positive_rate": 0.11174276070349973,
+      "years": "[2014]"
+    },
+    {
+      "split": "test",
+      "rows": 5531,
+      "positives": 531,
+      "negatives": 5000,
+      "positive_rate": 0.09600433917917194,
+      "years": "[2015]"
+    }
+  ],
+  "model": {
+    "architecture": "AlexNet-style six-channel CNN",
+    "trainable_parameters": 7280129,
+    "image_size": 224,
+    "batch_size": 16,
+    "epochs": 6,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.0001,
+    "pos_weight": 8.130081300813009,
+    "weighted_random_sampler": true
+  },
+  "best_epoch": 1,
+  "selected_threshold_from_validation": 0.6975,
+  "validation": {
+    "roc_auc": 0.6122232114467409,
+    "pr_auc": 0.13461997775435322,
+    "brier_score": 0.41076718421070646,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.43009415526736544,
+      "precision": 0.1442758620689655,
+      "recall": 0.8314785373608903,
+      "specificity": 0.3796,
+      "f1": 0.24588622472966618,
+      "tss": 0.21107853736089033,
+      "hss": 0.06848845292536965,
+      "tp": 523,
+      "tn": 1898,
+      "fp": 3102,
+      "fn": 106
+    },
+    "best_tss": {
+      "threshold": 0.6975,
+      "accuracy": 0.524604725528513,
+      "precision": 0.16075571760026516,
+      "recall": 0.7710651828298887,
+      "specificity": 0.4936,
+      "f1": 0.2660449808008777,
+      "tss": 0.2646651828298887,
+      "hss": 0.09951872160291268,
+      "tp": 485,
+      "tn": 2468,
+      "fp": 2532,
+      "fn": 144
+    }
+  },
+  "test": {
+    "roc_auc": 0.6790623352165726,
+    "pr_auc": 0.2117349295396963,
+    "brier_score": 0.3859039351734589,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.4521786295425782,
+      "precision": 0.12845673505798394,
+      "recall": 0.8135593220338984,
+      "specificity": 0.4138,
+      "f1": 0.2218798151001541,
+      "tss": 0.2273593220338983,
+      "hss": 0.0671971514523265,
+      "tp": 432,
+      "tn": 2069,
+      "fp": 2931,
+      "fn": 99
+    },
+    "best_tss": {
+      "threshold": 0.41000000000000003,
+      "accuracy": 0.4304827336828783,
+      "precision": 0.1308147730476459,
+      "recall": 0.8738229755178908,
+      "specificity": 0.3834,
+      "f1": 0.22756253065228055,
+      "tss": 0.25722297551789075,
+      "hss": 0.07269626150118179,
+      "tp": 464,
+      "tn": 1917,
+      "fp": 3083,
+      "fn": 67
+    },
+    "at_selected_threshold": {
+      "threshold": 0.6975,
+      "accuracy": 0.5384198155848852,
+      "precision": 0.1280353200883002,
+      "recall": 0.655367231638418,
+      "specificity": 0.526,
+      "f1": 0.2142197599261311,
+      "tss": 0.18136723163841806,
+      "hss": 0.06384771696976532,
+      "tp": 348,
+      "tn": 2630,
+      "fp": 2370,
+      "fn": 183
+    }
+  }
+}
