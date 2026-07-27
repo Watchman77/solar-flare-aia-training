@@ -1,0 +1,3 @@
+experiment_label,run_mode,train_rows,val_rows,test_rows,test_positives,validation_selected_threshold,test_roc_auc,test_pr_auc,test_precision,test_recall,test_specificity,test_f1,test_tss,test_hss,tp,tn,fp,fn
+05 pilot,pilot,5500,3300,3300,300,0.91,0.7253,0.1912,0.1535,0.6667,0.6323,0.2495,0.299,0.1194,200,1897,1103,100
+06B largecap,largecap,11230,5629,5531,531,0.6975,0.6791,0.2117,0.128,0.6554,0.526,0.2142,0.1814,0.0638,348,2630,2370,183
