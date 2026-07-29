@@ -1,0 +1,87 @@
+{
+  "experiment_name": "aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark",
+  "run_mode": "largecap_v2_physics_safe",
+  "fold_id": "test_2015",
+  "completed_epochs": 6,
+  "latest_epoch": {
+    "epoch": 6,
+    "train_loss": 0.0592174422587803,
+    "val_roc_auc": 0.5197468998410175,
+    "val_pr_auc": 0.10894606090108032,
+    "val_best_threshold": 0.0,
+    "val_tss": 0.0,
+    "val_hss": 0.0,
+    "lr": 5e-05,
+    "epoch_elapsed_min": 11.231727302074432
+  },
+  "best_epoch_so_far": 1,
+  "best_val_tss_so_far": 0.19569189189189196,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0026220392352858,
+      "val_roc_auc": 0.5859179650238473,
+      "val_pr_auc": 0.12627757253200328,
+      "val_best_threshold": 0.045,
+      "val_tss": 0.19569189189189196,
+      "val_hss": 0.0580389031179086,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 11.233089776833852
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5393353705892368,
+      "val_roc_auc": 0.5178858505564388,
+      "val_pr_auc": 0.10833213278870013,
+      "val_best_threshold": 0.0025,
+      "val_tss": 0.02748330683624811,
+      "val_hss": 0.012916040209702185,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 11.267731750011444
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.30886724928422155,
+      "val_roc_auc": 0.5749243243243243,
+      "val_pr_auc": 0.12576882886199323,
+      "val_best_threshold": 0.005,
+      "val_tss": 0.03468394276629572,
+      "val_hss": 0.02533526589998079,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 11.237486851215362
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.20181359684497835,
+      "val_roc_auc": 0.43195898251192366,
+      "val_pr_auc": 0.09095396922477597,
+      "val_best_threshold": 0.0,
+      "val_tss": 0.0,
+      "val_hss": 0.0,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 11.226369929313659
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.08104477848012567,
+      "val_roc_auc": 0.4583330683624801,
+      "val_pr_auc": 0.09885495707316383,
+      "val_best_threshold": 0.0,
+      "val_tss": 0.0,
+      "val_hss": 0.0,
+      "lr": 5e-05,
+      "epoch_elapsed_min": 11.24492088953654
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.0592174422587803,
+      "val_roc_auc": 0.5197468998410175,
+      "val_pr_auc": 0.10894606090108032,
+      "val_best_threshold": 0.0,
+      "val_tss": 0.0,
+      "val_hss": 0.0,
+      "lr": 5e-05,
+      "epoch_elapsed_min": 11.231727302074432
+    }
+  ]
+}

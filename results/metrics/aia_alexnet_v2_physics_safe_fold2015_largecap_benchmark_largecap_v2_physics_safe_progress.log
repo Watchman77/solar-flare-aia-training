@@ -1,0 +1,55 @@
+Starting aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe
+Progress log: /home/abmoses2000/solar_flare_aia/results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_progress.log
+epoch=01 batch=100/351 loss_running=1.1746 elapsed_min=2.1
+epoch=01 batch=200/351 loss_running=1.1315 elapsed_min=4.3
+epoch=01 batch=300/351 loss_running=1.0335 elapsed_min=6.5
+epoch=01 batch=351/351 loss_running=1.0026 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=01/6 COMPLETE loss=1.0026 val_auc=0.5859 val_pr=0.1263 val_thr=0.0450 val_tss=0.1957 val_hss=0.0580 lr=1.00e-04 epoch_min=11.2
+saved checkpoint -> /home/abmoses2000/solar_flare_aia/results/models/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe.pt
+epoch=02 batch=100/351 loss_running=0.6356 elapsed_min=2.2
+epoch=02 batch=200/351 loss_running=0.6117 elapsed_min=4.4
+epoch=02 batch=300/351 loss_running=0.5762 elapsed_min=6.5
+epoch=02 batch=351/351 loss_running=0.5393 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=02/6 COMPLETE loss=0.5393 val_auc=0.5179 val_pr=0.1083 val_thr=0.0025 val_tss=0.0275 val_hss=0.0129 lr=1.00e-04 epoch_min=11.3
+epoch=03 batch=100/351 loss_running=0.3424 elapsed_min=2.2
+epoch=03 batch=200/351 loss_running=0.3476 elapsed_min=4.4
+epoch=03 batch=300/351 loss_running=0.3275 elapsed_min=6.5
+epoch=03 batch=351/351 loss_running=0.3089 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=03/6 COMPLETE loss=0.3089 val_auc=0.5749 val_pr=0.1258 val_thr=0.0050 val_tss=0.0347 val_hss=0.0253 lr=1.00e-04 epoch_min=11.2
+epoch=04 batch=100/351 loss_running=0.2292 elapsed_min=2.2
+epoch=04 batch=200/351 loss_running=0.2134 elapsed_min=4.4
+epoch=04 batch=300/351 loss_running=0.2014 elapsed_min=6.5
+epoch=04 batch=351/351 loss_running=0.2018 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=04/6 COMPLETE loss=0.2018 val_auc=0.4320 val_pr=0.0910 val_thr=0.0000 val_tss=0.0000 val_hss=0.0000 lr=1.00e-04 epoch_min=11.2
+epoch=05 batch=100/351 loss_running=0.1135 elapsed_min=2.2
+epoch=05 batch=200/351 loss_running=0.0837 elapsed_min=4.4
+epoch=05 batch=300/351 loss_running=0.0795 elapsed_min=6.5
+epoch=05 batch=351/351 loss_running=0.0810 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=05/6 COMPLETE loss=0.0810 val_auc=0.4583 val_pr=0.0989 val_thr=0.0000 val_tss=0.0000 val_hss=0.0000 lr=5.00e-05 epoch_min=11.2
+epoch=06 batch=100/351 loss_running=0.0725 elapsed_min=2.2
+epoch=06 batch=200/351 loss_running=0.0655 elapsed_min=4.4
+epoch=06 batch=300/351 loss_running=0.0664 elapsed_min=6.5
+epoch=06 batch=351/351 loss_running=0.0592 elapsed_min=7.6
+predict split=val batch=100/176 elapsed_min=2.1
+predict split=val batch=176/176 elapsed_min=3.6
+epoch=06/6 COMPLETE loss=0.0592 val_auc=0.5197 val_pr=0.1089 val_thr=0.0000 val_tss=0.0000 val_hss=0.0000 lr=5.00e-05 epoch_min=11.2
+Training complete. Best epoch=1, best_val_tss=0.19569189189189196
+History saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_history.csv
+Interim metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_interim_metrics.json
+Model saved: /home/abmoses2000/solar_flare_aia/results/models/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe.pt
+predict split=val_final batch=100/176 elapsed_min=2.0
+predict split=val_final batch=176/176 elapsed_min=3.6
+predict split=test_final batch=100/173 elapsed_min=2.0
+predict split=test_final batch=173/173 elapsed_min=3.5
+Metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_metrics.json
+Readable summary saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_readable_summary.md

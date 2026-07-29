@@ -1,0 +1,148 @@
+{
+  "experiment_name": "aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark",
+  "run_mode": "largecap_v2_physics_safe",
+  "fold_id": "test_2015",
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 11230,
+      "positives": 1230,
+      "negatives": 10000,
+      "positive_rate": 0.10952804986642921,
+      "years": "[2010, 2011, 2012, 2013]"
+    },
+    {
+      "split": "val",
+      "rows": 5629,
+      "positives": 629,
+      "negatives": 5000,
+      "positive_rate": 0.11174276070349973,
+      "years": "[2014]"
+    },
+    {
+      "split": "test",
+      "rows": 5531,
+      "positives": 531,
+      "negatives": 5000,
+      "positive_rate": 0.09600433917917194,
+      "years": "[2015]"
+    }
+  ],
+  "physics_safety": {
+    "label_source": "label_48h_final",
+    "uses_embedded_npz_label": false,
+    "spatial_augmentation": false,
+    "random_flip": false,
+    "random_rotation": false,
+    "random_crop": false,
+    "normalisation": "train_derived_channel_robust_q01_q99_clip_median_iqr_scale",
+    "normalisation_source": "training split only",
+    "weighted_random_sampler": false,
+    "threshold_protocol": "max TSS on validation applied unchanged to test"
+  },
+  "model": {
+    "architecture": "AlexNet-v2 six-channel CNN with BatchNorm",
+    "trainable_parameters": 12196097,
+    "image_size": 224,
+    "batch_size": 32,
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.5,
+    "pos_weight": 8.130081300813009,
+    "weighted_random_sampler": false
+  },
+  "best_epoch": 1,
+  "selected_threshold_from_validation": 0.045,
+  "validation": {
+    "roc_auc": 0.5859179650238473,
+    "pr_auc": 0.12627757253200328,
+    "brier_score": 0.16287350066270936,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.7818440220287796,
+      "precision": 0.12421580928481807,
+      "recall": 0.1573926868044515,
+      "specificity": 0.8604,
+      "f1": 0.1388499298737728,
+      "tss": 0.017792686804451563,
+      "hss": 0.015932627291891776,
+      "tp": 99,
+      "tn": 4302,
+      "fp": 698,
+      "fn": 530
+    },
+    "best_tss": {
+      "threshold": 0.045,
+      "accuracy": 0.3695150115473441,
+      "precision": 0.13879267689262742,
+      "recall": 0.8918918918918919,
+      "specificity": 0.3038,
+      "f1": 0.24020552344251767,
+      "tss": 0.19569189189189196,
+      "hss": 0.0580389031179086,
+      "tp": 561.0,
+      "tn": 1519.0,
+      "fp": 3481.0,
+      "fn": 68.0
+    }
+  },
+  "test": {
+    "roc_auc": 0.6811047080979284,
+    "pr_auc": 0.1682634702669304,
+    "brier_score": 0.13196985443500722,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.8085337190381486,
+      "precision": 0.17567567567567569,
+      "recall": 0.2693032015065913,
+      "specificity": 0.8658,
+      "f1": 0.21263940520446098,
+      "tss": 0.13510320150659139,
+      "hss": 0.1091144925104874,
+      "tp": 143,
+      "tn": 4329,
+      "fp": 671,
+      "fn": 388
+    },
+    "best_tss": {
+      "threshold": 0.0975,
+      "accuracy": 0.516362321460857,
+      "precision": 0.13808237677245105,
+      "recall": 0.7702448210922788,
+      "specificity": 0.4894,
+      "f1": 0.23418265101631838,
+      "tss": 0.2596448210922788,
+      "hss": 0.08524187902676005,
+      "tp": 409.0,
+      "tn": 2447.0,
+      "fp": 2553.0,
+      "fn": 122.0
+    },
+    "at_selected_threshold": {
+      "threshold": 0.045,
+      "accuracy": 0.3784125836195986,
+      "precision": 0.12509672427134383,
+      "recall": 0.9133709981167608,
+      "specificity": 0.3216,
+      "f1": 0.22005444646098002,
+      "tss": 0.23497099811676092,
+      "hss": 0.06157425497972339,
+      "tp": 485,
+      "tn": 1608,
+      "fp": 3392,
+      "fn": 46
+    }
+  },
+  "artifacts": {
+    "model_path": "results/models/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe.pt",
+    "history_path": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_history.csv",
+    "metrics_path": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_metrics.json",
+    "val_predictions": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_val_predictions.csv",
+    "test_predictions": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_test_predictions.csv",
+    "val_threshold_grid": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_val_threshold_grid.csv",
+    "test_threshold_grid": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_test_threshold_grid.csv",
+    "channel_stats": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_train_channel_stats.json",
+    "progress_log": "results/metrics/aia_alexnet_v2_physics_safe_fold2015_largecap_benchmark_largecap_v2_physics_safe_progress.log"
+  }
+}
