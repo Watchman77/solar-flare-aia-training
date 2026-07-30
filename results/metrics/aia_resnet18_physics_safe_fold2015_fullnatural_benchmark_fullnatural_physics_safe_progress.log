@@ -1,0 +1,146 @@
+Using existing full-natural sample files:
+/home/abmoses2000/solar_flare_aia/local_archive/aborted_06_full_attempt/aia_alexnet_fold2015_benchmark_full_train_samples.csv
+/home/abmoses2000/solar_flare_aia/local_archive/aborted_06_full_attempt/aia_alexnet_fold2015_benchmark_full_val_samples.csv
+/home/abmoses2000/solar_flare_aia/local_archive/aborted_06_full_attempt/aia_alexnet_fold2015_benchmark_full_test_samples.csv
+Computing train-derived robust channel statistics...
+stats progress: 100/2000 images elapsed_min=0.1
+stats progress: 200/2000 images elapsed_min=0.2
+stats progress: 300/2000 images elapsed_min=0.3
+stats progress: 400/2000 images elapsed_min=0.4
+stats progress: 500/2000 images elapsed_min=0.5
+stats progress: 600/2000 images elapsed_min=0.6
+stats progress: 700/2000 images elapsed_min=0.7
+stats progress: 800/2000 images elapsed_min=0.8
+stats progress: 900/2000 images elapsed_min=0.9
+stats progress: 1000/2000 images elapsed_min=1.0
+stats progress: 1100/2000 images elapsed_min=1.0
+stats progress: 1200/2000 images elapsed_min=1.1
+stats progress: 1300/2000 images elapsed_min=1.2
+stats progress: 1400/2000 images elapsed_min=1.3
+stats progress: 1500/2000 images elapsed_min=1.4
+stats progress: 1600/2000 images elapsed_min=1.5
+stats progress: 1700/2000 images elapsed_min=1.6
+stats progress: 1800/2000 images elapsed_min=1.7
+stats progress: 1900/2000 images elapsed_min=1.8
+stats progress: 2000/2000 images elapsed_min=1.9
+Saved train-derived channel stats: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_train_channel_stats.json
+Starting aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe
+Progress log: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_progress.log
+Model path: /home/abmoses2000/solar_flare_aia/results/models/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe.pt
+epoch=01 batch=100/1198 loss_running=1.8748 elapsed_min=2.2
+epoch=01 batch=200/1198 loss_running=1.6636 elapsed_min=4.3
+epoch=01 batch=300/1198 loss_running=1.6672 elapsed_min=6.6
+epoch=01 batch=400/1198 loss_running=1.6404 elapsed_min=8.8
+epoch=01 batch=500/1198 loss_running=1.5950 elapsed_min=10.9
+epoch=01 batch=600/1198 loss_running=1.5737 elapsed_min=13.1
+epoch=01 batch=700/1198 loss_running=1.5103 elapsed_min=15.4
+epoch=01 batch=800/1198 loss_running=1.5026 elapsed_min=17.5
+epoch=01 batch=900/1198 loss_running=1.4784 elapsed_min=19.8
+epoch=01 batch=1000/1198 loss_running=1.4507 elapsed_min=21.9
+epoch=01 batch=1100/1198 loss_running=1.4511 elapsed_min=24.1
+epoch=01 batch=1198/1198 loss_running=1.4289 elapsed_min=26.3
+predict split=val batch=100/364 elapsed_min=2.1
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=01/6 COMPLETE loss=1.4289 val_auc=0.6715 val_pr=0.0771 val_thr=0.2050 val_tss=0.2997 val_hss=0.0612 lr=1.00e-04 epoch_min=33.7
+saved checkpoint -> /home/abmoses2000/solar_flare_aia/results/models/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe.pt
+epoch=02 batch=100/1198 loss_running=1.2433 elapsed_min=2.2
+epoch=02 batch=200/1198 loss_running=1.2261 elapsed_min=4.4
+epoch=02 batch=300/1198 loss_running=1.2131 elapsed_min=6.6
+epoch=02 batch=400/1198 loss_running=1.2642 elapsed_min=8.7
+epoch=02 batch=500/1198 loss_running=1.2175 elapsed_min=10.9
+epoch=02 batch=600/1198 loss_running=1.2490 elapsed_min=13.1
+epoch=02 batch=700/1198 loss_running=1.2318 elapsed_min=15.3
+epoch=02 batch=800/1198 loss_running=1.2311 elapsed_min=17.5
+epoch=02 batch=900/1198 loss_running=1.2216 elapsed_min=19.7
+epoch=02 batch=1000/1198 loss_running=1.2082 elapsed_min=21.9
+epoch=02 batch=1100/1198 loss_running=1.2068 elapsed_min=24.0
+epoch=02 batch=1198/1198 loss_running=1.2006 elapsed_min=26.2
+predict split=val batch=100/364 elapsed_min=2.0
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=02/6 COMPLETE loss=1.2006 val_auc=0.6184 val_pr=0.0684 val_thr=0.0675 val_tss=0.2088 val_hss=0.0458 lr=1.00e-04 epoch_min=33.6
+epoch=03 batch=100/1198 loss_running=0.8555 elapsed_min=2.2
+epoch=03 batch=200/1198 loss_running=0.9724 elapsed_min=4.4
+epoch=03 batch=300/1198 loss_running=1.0034 elapsed_min=6.6
+epoch=03 batch=400/1198 loss_running=1.0264 elapsed_min=8.8
+epoch=03 batch=500/1198 loss_running=1.0347 elapsed_min=11.0
+epoch=03 batch=600/1198 loss_running=1.0408 elapsed_min=13.2
+epoch=03 batch=700/1198 loss_running=1.0140 elapsed_min=15.4
+epoch=03 batch=800/1198 loss_running=1.0058 elapsed_min=17.6
+epoch=03 batch=900/1198 loss_running=0.9919 elapsed_min=19.8
+epoch=03 batch=1000/1198 loss_running=0.9957 elapsed_min=22.0
+epoch=03 batch=1100/1198 loss_running=0.9675 elapsed_min=24.2
+epoch=03 batch=1198/1198 loss_running=0.9487 elapsed_min=26.3
+predict split=val batch=100/364 elapsed_min=2.0
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=03/6 COMPLETE loss=0.9487 val_auc=0.4480 val_pr=0.0504 val_thr=0.2250 val_tss=0.0159 val_hss=0.0083 lr=1.00e-04 epoch_min=33.8
+epoch=04 batch=100/1198 loss_running=0.7154 elapsed_min=2.2
+epoch=04 batch=200/1198 loss_running=0.8852 elapsed_min=4.4
+epoch=04 batch=300/1198 loss_running=0.8672 elapsed_min=6.6
+epoch=04 batch=400/1198 loss_running=0.8166 elapsed_min=8.8
+epoch=04 batch=500/1198 loss_running=0.8088 elapsed_min=10.9
+epoch=04 batch=600/1198 loss_running=0.7953 elapsed_min=13.1
+epoch=04 batch=700/1198 loss_running=0.7785 elapsed_min=15.3
+epoch=04 batch=800/1198 loss_running=0.7510 elapsed_min=17.5
+epoch=04 batch=900/1198 loss_running=0.7195 elapsed_min=19.7
+epoch=04 batch=1000/1198 loss_running=0.6942 elapsed_min=21.9
+epoch=04 batch=1100/1198 loss_running=0.6768 elapsed_min=24.1
+epoch=04 batch=1198/1198 loss_running=0.6829 elapsed_min=26.3
+predict split=val batch=100/364 elapsed_min=2.0
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=04/6 COMPLETE loss=0.6829 val_auc=0.4995 val_pr=0.0540 val_thr=0.2450 val_tss=0.0158 val_hss=0.0127 lr=1.00e-04 epoch_min=33.7
+epoch=05 batch=100/1198 loss_running=0.3066 elapsed_min=2.2
+epoch=05 batch=200/1198 loss_running=0.3692 elapsed_min=4.4
+epoch=05 batch=300/1198 loss_running=0.3083 elapsed_min=6.5
+epoch=05 batch=400/1198 loss_running=0.3020 elapsed_min=8.7
+epoch=05 batch=500/1198 loss_running=0.2856 elapsed_min=10.9
+epoch=05 batch=600/1198 loss_running=0.2857 elapsed_min=13.1
+epoch=05 batch=700/1198 loss_running=0.2883 elapsed_min=15.3
+epoch=05 batch=800/1198 loss_running=0.2713 elapsed_min=17.5
+epoch=05 batch=900/1198 loss_running=0.2751 elapsed_min=19.7
+epoch=05 batch=1000/1198 loss_running=0.2719 elapsed_min=21.9
+epoch=05 batch=1100/1198 loss_running=0.2680 elapsed_min=24.1
+epoch=05 batch=1198/1198 loss_running=0.2662 elapsed_min=26.2
+predict split=val batch=100/364 elapsed_min=2.0
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=05/6 COMPLETE loss=0.2662 val_auc=0.5647 val_pr=0.0591 val_thr=0.0025 val_tss=0.0198 val_hss=0.0085 lr=5.00e-05 epoch_min=33.6
+epoch=06 batch=100/1198 loss_running=0.1284 elapsed_min=2.2
+epoch=06 batch=200/1198 loss_running=0.1858 elapsed_min=4.4
+epoch=06 batch=300/1198 loss_running=0.2548 elapsed_min=6.6
+epoch=06 batch=400/1198 loss_running=0.2311 elapsed_min=8.8
+epoch=06 batch=500/1198 loss_running=0.2253 elapsed_min=11.0
+epoch=06 batch=600/1198 loss_running=0.2103 elapsed_min=13.2
+epoch=06 batch=700/1198 loss_running=0.2090 elapsed_min=15.4
+epoch=06 batch=800/1198 loss_running=0.2066 elapsed_min=17.6
+epoch=06 batch=900/1198 loss_running=0.2092 elapsed_min=19.8
+epoch=06 batch=1000/1198 loss_running=0.2129 elapsed_min=21.9
+epoch=06 batch=1100/1198 loss_running=0.2032 elapsed_min=24.1
+epoch=06 batch=1198/1198 loss_running=0.1988 elapsed_min=26.3
+predict split=val batch=100/364 elapsed_min=2.1
+predict split=val batch=200/364 elapsed_min=4.1
+predict split=val batch=300/364 elapsed_min=6.1
+predict split=val batch=364/364 elapsed_min=7.4
+epoch=06/6 COMPLETE loss=0.1988 val_auc=0.5066 val_pr=0.0576 val_thr=0.0100 val_tss=0.0339 val_hss=0.0322 lr=5.00e-05 epoch_min=33.7
+Training complete. Best epoch=1, best_val_tss=0.2997398573118222
+History saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_history.csv
+Interim metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_interim_metrics.json
+Model saved: /home/abmoses2000/solar_flare_aia/results/models/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe.pt
+predict split=val_final batch=100/364 elapsed_min=2.0
+predict split=val_final batch=200/364 elapsed_min=4.1
+predict split=val_final batch=300/364 elapsed_min=6.1
+predict split=val_final batch=364/364 elapsed_min=7.4
+predict split=test_final batch=100/352 elapsed_min=2.0
+predict split=test_final batch=200/352 elapsed_min=4.1
+predict split=test_final batch=300/352 elapsed_min=6.1
+predict split=test_final batch=352/352 elapsed_min=7.2
+Metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_metrics.json
+Readable summary saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_readable_summary.md

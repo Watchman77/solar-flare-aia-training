@@ -1,0 +1,87 @@
+{
+  "experiment_name": "aia_resnet18_physics_safe_fold2015_fullnatural_benchmark",
+  "run_mode": "fullnatural_physics_safe",
+  "fold_id": "test_2015",
+  "completed_epochs": 6,
+  "latest_epoch": {
+    "epoch": 6,
+    "train_loss": 0.19877747076243119,
+    "val_roc_auc": 0.5065634855997809,
+    "val_pr_auc": 0.05762156901126018,
+    "val_best_threshold": 0.01,
+    "val_tss": 0.03392653267496826,
+    "val_hss": 0.03223541501817761,
+    "lr": 5e-05,
+    "epoch_elapsed_min": 33.72592721780141
+  },
+  "best_epoch_so_far": 1,
+  "best_val_tss_so_far": 0.2997398573118222,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.4288719459248889,
+      "val_roc_auc": 0.67152142996949,
+      "val_pr_auc": 0.07709447880736447,
+      "val_best_threshold": 0.20500000000000002,
+      "val_tss": 0.2997398573118222,
+      "val_hss": 0.06115099013222412,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 33.73537410100301
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.2006116810232714,
+      "val_roc_auc": 0.6184360445937417,
+      "val_pr_auc": 0.06843012886896034,
+      "val_best_threshold": 0.0675,
+      "val_tss": 0.20878633519434509,
+      "val_hss": 0.04581774054107584,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 33.631288421154025
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.9486731771299914,
+      "val_roc_auc": 0.44797283564492574,
+      "val_pr_auc": 0.05043954583218217,
+      "val_best_threshold": 0.225,
+      "val_tss": 0.01594277439083447,
+      "val_hss": 0.008298887259991566,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 33.76285080909729
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6829031122435177,
+      "val_roc_auc": 0.4995325064161109,
+      "val_pr_auc": 0.05401576547176519,
+      "val_best_threshold": 0.245,
+      "val_tss": 0.015782751076868662,
+      "val_hss": 0.01269147394287451,
+      "lr": 0.0001,
+      "epoch_elapsed_min": 33.713705797990166
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.26617367345538295,
+      "val_roc_auc": 0.564740922688357,
+      "val_pr_auc": 0.05905866787520389,
+      "val_best_threshold": 0.0025,
+      "val_tss": 0.0198086311978678,
+      "val_hss": 0.008492367553529901,
+      "lr": 5e-05,
+      "epoch_elapsed_min": 33.633197792371114
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.19877747076243119,
+      "val_roc_auc": 0.5065634855997809,
+      "val_pr_auc": 0.05762156901126018,
+      "val_best_threshold": 0.01,
+      "val_tss": 0.03392653267496826,
+      "val_hss": 0.03223541501817761,
+      "lr": 5e-05,
+      "epoch_elapsed_min": 33.72592721780141
+    }
+  ]
+}

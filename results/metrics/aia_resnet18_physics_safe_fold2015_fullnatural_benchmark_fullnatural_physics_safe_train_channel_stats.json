@@ -1,0 +1,70 @@
+{
+  "normalisation": "train_derived_channel_robust_q01_q99_clip_median_iqr_scale",
+  "source_split": "train_only",
+  "stats_max_images": 2000,
+  "stats_pixels_per_channel_per_image": 512,
+  "num_train_paths_used": 2000,
+  "channel_stats": [
+    {
+      "channel_index": 0,
+      "q01": 0.055167828649282456,
+      "q25": 0.17258888110518456,
+      "median": 0.2512386590242386,
+      "q75": 0.3528756722807884,
+      "q99": 0.7012415689229968,
+      "iqr_or_std": 0.18028679117560387,
+      "sample_count": 1024000
+    },
+    {
+      "channel_index": 1,
+      "q01": 0.11278908155858516,
+      "q25": 0.25389232486486435,
+      "median": 0.3328672796487808,
+      "q75": 0.427011102437973,
+      "q99": 0.7315739071369172,
+      "iqr_or_std": 0.17311877757310867,
+      "sample_count": 1024000
+    },
+    {
+      "channel_index": 2,
+      "q01": 0.08931629747152328,
+      "q25": 0.2740473449230194,
+      "median": 0.3738001435995102,
+      "q75": 0.4837273582816124,
+      "q99": 0.8044464021921158,
+      "iqr_or_std": 0.209680013358593,
+      "sample_count": 1024000
+    },
+    {
+      "channel_index": 3,
+      "q01": 0.07163489587605,
+      "q25": 0.24431708827614784,
+      "median": 0.35146769881248474,
+      "q75": 0.4751448407769203,
+      "q99": 0.8162412625551224,
+      "iqr_or_std": 0.23082775250077248,
+      "sample_count": 1024000
+    },
+    {
+      "channel_index": 4,
+      "q01": 0.07842828072607518,
+      "q25": 0.23893103003501892,
+      "median": 0.3432472497224808,
+      "q75": 0.4704909324645996,
+      "q99": 0.8275024950504303,
+      "iqr_or_std": 0.2315599024295807,
+      "sample_count": 1024000
+    },
+    {
+      "channel_index": 5,
+      "q01": 0.0967176516354084,
+      "q25": 0.24355998262763023,
+      "median": 0.337508887052536,
+      "q75": 0.45245809108018875,
+      "q99": 0.8098571807146073,
+      "iqr_or_std": 0.20889810845255852,
+      "sample_count": 1024000
+    }
+  ],
+  "physics_note": "Statistics are estimated from training images only and then applied unchanged to train/validation/test. No validation or test information is used."
+}
