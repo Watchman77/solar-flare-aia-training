@@ -1,0 +1,168 @@
+{
+  "fold_metric_paths": [
+    "results/metrics/aia_resnet18_physics_safe_multifold_fullnatural_test_2013_metrics.json",
+    "results/metrics/aia_resnet18_physics_safe_multifold_fullnatural_test_2014_metrics.json",
+    "results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_metrics.json"
+  ],
+  "fold_level": [
+    {
+      "fold_id": "test_2013",
+      "source_file": "results/metrics/aia_resnet18_physics_safe_multifold_fullnatural_test_2013_metrics.json",
+      "train_rows": 14448,
+      "val_rows": 10815,
+      "test_rows": 13066,
+      "test_positives": 492,
+      "test_negatives": 12574,
+      "best_epoch": 1,
+      "threshold": 0.05,
+      "roc_auc": 0.6592398205873263,
+      "pr_auc": 0.05627386116913727,
+      "brier_score": 0.09503430803830297,
+      "accuracy": 0.511250574008878,
+      "precision": 0.054833836858006045,
+      "recall": 0.7378048780487805,
+      "specificity": 0.5023858756163512,
+      "f1": 0.10208098987626547,
+      "tss": 0.24019075366513176,
+      "hss": 0.03439174722864984,
+      "tp": 363,
+      "tn": 6317,
+      "fp": 6257,
+      "fn": 129,
+      "diagnostic_test_best_tss": 0.25384552716212694
+    },
+    {
+      "fold_id": "test_2014",
+      "source_file": "results/metrics/aia_resnet18_physics_safe_multifold_fullnatural_test_2014_metrics.json",
+      "train_rows": 25263,
+      "val_rows": 13066,
+      "test_rows": 11627,
+      "test_positives": 629,
+      "test_negatives": 10998,
+      "best_epoch": 3,
+      "threshold": 0.0075,
+      "roc_auc": 0.4974533597812696,
+      "pr_auc": 0.054149386905128605,
+      "brier_score": 0.08200977122585545,
+      "accuracy": 0.6104756170981337,
+      "precision": 0.0552007299270073,
+      "recall": 0.3847376788553259,
+      "specificity": 0.6233860701945808,
+      "f1": 0.09654897267105525,
+      "tss": 0.008123749049906648,
+      "hss": 0.0021298787542321437,
+      "tp": 242,
+      "tn": 6856,
+      "fp": 4142,
+      "fn": 387,
+      "diagnostic_test_best_tss": 0.009247237031968059
+    },
+    {
+      "fold_id": "test_2015",
+      "source_file": "results/metrics/aia_resnet18_physics_safe_fold2015_fullnatural_benchmark_fullnatural_physics_safe_metrics.json",
+      "train_rows": 38329,
+      "val_rows": 11627,
+      "test_rows": 11236,
+      "test_positives": 531,
+      "test_negatives": 10705,
+      "best_epoch": 1,
+      "threshold": 0.20500000000000002,
+      "roc_auc": 0.7476605525165124,
+      "pr_auc": 0.0970554242261262,
+      "brier_score": 0.19898693552392432,
+      "accuracy": 0.5986116055535777,
+      "precision": 0.09406243623750254,
+      "recall": 0.8681732580037664,
+      "specificity": 0.5852405418028959,
+      "f1": 0.16973490427098675,
+      "tss": 0.4534137998066623,
+      "hss": 0.0923305395090623,
+      "tp": 461,
+      "tn": 6265,
+      "fp": 4440,
+      "fn": 70,
+      "diagnostic_test_best_tss": 0.45601075231930466
+    }
+  ],
+  "mean_std": [
+    {
+      "metric": "roc_auc",
+      "mean": 0.6347845776283694,
+      "std": 0.12688362386552862,
+      "min": 0.4974533597812696,
+      "max": 0.7476605525165124
+    },
+    {
+      "metric": "pr_auc",
+      "mean": 0.06915955743346403,
+      "std": 0.02418187101549574,
+      "min": 0.054149386905128605,
+      "max": 0.0970554242261262
+    },
+    {
+      "metric": "brier_score",
+      "mean": 0.12534367159602758,
+      "std": 0.06410855934475593,
+      "min": 0.08200977122585545,
+      "max": 0.19898693552392432
+    },
+    {
+      "metric": "accuracy",
+      "mean": 0.5734459322201965,
+      "std": 0.05418842708326204,
+      "min": 0.511250574008878,
+      "max": 0.6104756170981337
+    },
+    {
+      "metric": "precision",
+      "mean": 0.06803233434083862,
+      "std": 0.022543475911980613,
+      "min": 0.054833836858006045,
+      "max": 0.09406243623750254
+    },
+    {
+      "metric": "recall",
+      "mean": 0.6635719383026243,
+      "std": 0.25012074444988436,
+      "min": 0.3847376788553259,
+      "max": 0.8681732580037664
+    },
+    {
+      "metric": "specificity",
+      "mean": 0.570337495871276,
+      "std": 0.061861436739881315,
+      "min": 0.5023858756163512,
+      "max": 0.6233860701945808
+    },
+    {
+      "metric": "f1",
+      "mean": 0.12278828893943583,
+      "std": 0.040750942589173875,
+      "min": 0.09654897267105525,
+      "max": 0.16973490427098675
+    },
+    {
+      "metric": "tss",
+      "mean": 0.23390943417390023,
+      "std": 0.22271146929750094,
+      "min": 0.008123749049906648,
+      "max": 0.4534137998066623
+    },
+    {
+      "metric": "hss",
+      "mean": 0.042950721830648096,
+      "std": 0.045705380808283694,
+      "min": 0.0021298787542321437,
+      "max": 0.0923305395090623
+    }
+  ],
+  "physics_safety": {
+    "label_source": "label_48h_final",
+    "uses_embedded_npz_label": false,
+    "spatial_augmentation": false,
+    "random_flip": false,
+    "random_rotation": false,
+    "random_crop": false,
+    "threshold_protocol": "validation-selected max-TSS per fold"
+  }
+}

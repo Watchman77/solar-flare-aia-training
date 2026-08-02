@@ -1,0 +1,149 @@
+{
+  "experiment_name": "aia_resnet18_physics_safe_multifold_fullnatural",
+  "fold_id": "test_2014",
+  "fold": {
+    "fold_id": "test_2014",
+    "train_years": [
+      2010,
+      2011,
+      2012
+    ],
+    "val_years": [
+      2013
+    ],
+    "test_years": [
+      2014
+    ]
+  },
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 25263,
+      "positives": 738,
+      "negatives": 24525,
+      "positive_rate": 0.02921268257926612,
+      "years": "[2010, 2011, 2012]"
+    },
+    {
+      "split": "val",
+      "rows": 13066,
+      "positives": 492,
+      "negatives": 12574,
+      "positive_rate": 0.037654982397061075,
+      "years": "[2013]"
+    },
+    {
+      "split": "test",
+      "rows": 11627,
+      "positives": 629,
+      "negatives": 10998,
+      "positive_rate": 0.05409821966113357,
+      "years": "[2014]"
+    }
+  ],
+  "physics_safety": {
+    "label_source": "label_48h_final",
+    "uses_embedded_npz_label": false,
+    "spatial_augmentation": false,
+    "random_flip": false,
+    "random_rotation": false,
+    "random_crop": false,
+    "normalisation": "train_derived_channel_robust_q01_q99_clip_median_iqr_scale",
+    "normalisation_source": "training split only per fold",
+    "weighted_random_sampler": false,
+    "threshold_protocol": "max TSS on validation applied unchanged to test"
+  },
+  "model": {
+    "architecture": "ResNet18 six-channel AIA CNN",
+    "trainable_parameters": 11186433,
+    "image_size": 224,
+    "batch_size": 32,
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.3,
+    "pos_weight": 33.23170731707317
+  },
+  "best_epoch": 3,
+  "selected_threshold_from_validation": 0.0075,
+  "validation": {
+    "roc_auc": 0.6272633489417445,
+    "pr_auc": 0.0635420964496039,
+    "brier_score": 0.06365376450854444,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.9207867748354508,
+      "precision": 0.080370942812983,
+      "recall": 0.10569105691056911,
+      "specificity": 0.9526801336090345,
+      "f1": 0.0913081650570676,
+      "tss": 0.0583711905196036,
+      "hss": 0.05069774187348417,
+      "tp": 52,
+      "tn": 11979,
+      "fp": 595,
+      "fn": 440
+    },
+    "best_tss": {
+      "threshold": 0.0075,
+      "accuracy": 0.5830399510179091,
+      "precision": 0.05543595263724435,
+      "recall": 0.6280487804878049,
+      "specificity": 0.5812788293303642,
+      "f1": 0.10187932739861524,
+      "tss": 0.2093276098181691,
+      "hss": 0.03510705870966745,
+      "tp": 309.0,
+      "tn": 7309.0,
+      "fp": 5265.0,
+      "fn": 183.0
+    }
+  },
+  "test": {
+    "roc_auc": 0.4974533597812696,
+    "pr_auc": 0.054149386905128605,
+    "brier_score": 0.08200977122585545,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.904188526705083,
+      "precision": 0.051756007393715345,
+      "recall": 0.04451510333863275,
+      "specificity": 0.953355155482815,
+      "f1": 0.04786324786324787,
+      "tss": -0.002129741178552247,
+      "hss": -0.0022801185977390577,
+      "tp": 28,
+      "tn": 10485,
+      "fp": 513,
+      "fn": 601
+    },
+    "best_tss": {
+      "threshold": 0.1225,
+      "accuracy": 0.8327169519222499,
+      "precision": 0.05779569892473118,
+      "recall": 0.13672496025437203,
+      "specificity": 0.872522276777596,
+      "f1": 0.0812470477090222,
+      "tss": 0.009247237031968059,
+      "hss": 0.0056256019853619995,
+      "tp": 86.0,
+      "tn": 9596.0,
+      "fp": 1402.0,
+      "fn": 543.0
+    },
+    "at_selected_threshold": {
+      "threshold": 0.0075,
+      "accuracy": 0.6104756170981337,
+      "precision": 0.0552007299270073,
+      "recall": 0.3847376788553259,
+      "specificity": 0.6233860701945808,
+      "f1": 0.09654897267105525,
+      "tss": 0.008123749049906648,
+      "hss": 0.0021298787542321437,
+      "tp": 242,
+      "tn": 6856,
+      "fp": 4142,
+      "fn": 387
+    }
+  }
+}
