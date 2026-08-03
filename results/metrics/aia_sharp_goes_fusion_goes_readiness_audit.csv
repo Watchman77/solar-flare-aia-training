@@ -1,4 +1,4 @@
 item,status,leakage_risk,next_action
 goes_future_flare_label_lineage,available_via_label_48h_final_and_ar_specific_label_columns,safe_if_used_only_as_target_label,preserve label_48h_final as official target
-goes_past_xrs_input_features,available,must_use_only_times_before_sample_T_REC_dt,extract GOES history features in a separate notebook if needed
+goes_past_xrs_input_features,not_confirmed_as_clean_input_feature_table,must_use_only_times_before_sample_T_REC_dt,extract GOES history features in a separate notebook if needed
 recent_flare_history_features,not_confirmed_as_clean_input_feature_table,future flare events inside 48h forecast window must never be inputs,"design past-only features: past_6h_12h_24h flare counts, time_since_last_MX, pre-issue background flux"

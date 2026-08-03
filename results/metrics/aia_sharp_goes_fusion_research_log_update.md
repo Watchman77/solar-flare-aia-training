@@ -68,12 +68,12 @@ Recommended first fusion temporal branch:
 
 GOES is currently present as the source lineage behind the flare labels, through `label_48h_final` and the AR-specific label columns.
 
-GOES input-feature status: **available**.
+GOES input-feature status: **not confirmed as a clean input-feature table in the current repository scan**.
 
 Therefore, the next stage should treat GOES in two layers:
 
 1. **Target supervision:** already active through `label_48h_final`.
-2. **Optional input branch:** requires a separate past-only GOES/XRS feature extraction notebook.
+2. **Future optional input branch:** requires a separate past-only GOES/XRS feature extraction notebook.
 
 Safe GOES input features must use only information before the issue time `T_REC_dt`.
 
