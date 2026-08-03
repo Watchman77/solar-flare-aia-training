@@ -1,0 +1,169 @@
+{
+  "experiment_name": "aia_resnet18_physics_safe_multifold_hyperparameter_sensitivity",
+  "config_name": "lower_lr",
+  "tune_config": {
+    "config_name": "lower_lr",
+    "epochs": 6,
+    "learning_rate": 3e-05,
+    "weight_decay": 0.0005,
+    "dropout": 0.3,
+    "pos_weight_factor": 1.0
+  },
+  "fold_id": "test_2013",
+  "fold": {
+    "fold_id": "test_2013",
+    "train_years": [
+      2010,
+      2011
+    ],
+    "val_years": [
+      2012
+    ],
+    "test_years": [
+      2013
+    ]
+  },
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 14448,
+      "positives": 433,
+      "negatives": 14015,
+      "positive_rate": 0.02996954595791805,
+      "years": "[2010, 2011]"
+    },
+    {
+      "split": "val",
+      "rows": 10815,
+      "positives": 305,
+      "negatives": 10510,
+      "positive_rate": 0.02820157189089228,
+      "years": "[2012]"
+    },
+    {
+      "split": "test",
+      "rows": 13066,
+      "positives": 492,
+      "negatives": 12574,
+      "positive_rate": 0.037654982397061075,
+      "years": "[2013]"
+    }
+  ],
+  "physics_safety": {
+    "label_source": "label_48h_final",
+    "uses_embedded_npz_label": false,
+    "spatial_augmentation": false,
+    "random_flip": false,
+    "random_rotation": false,
+    "random_crop": false,
+    "normalisation": "train_derived_channel_robust_q01_q99_clip_median_iqr_scale",
+    "normalisation_source": "training split only per fold",
+    "weighted_random_sampler": false,
+    "threshold_protocol": "validation max-TSS applied unchanged to test",
+    "selection_protocol": "select config by mean validation TSS across folds"
+  },
+  "model": {
+    "architecture": "ResNet18 six-channel AIA CNN",
+    "trainable_parameters": 11186433,
+    "image_size": 224,
+    "batch_size": 32,
+    "epochs": 6,
+    "learning_rate": 3e-05,
+    "weight_decay": 0.0005,
+    "dropout": 0.3,
+    "raw_pos_weight": 32.36720554272517,
+    "pos_weight_factor": 1.0,
+    "effective_pos_weight": 32.36720554272517
+  },
+  "best_epoch": 2,
+  "selected_threshold_from_validation": 0.025,
+  "validation": {
+    "roc_auc": 0.6234103351998876,
+    "pr_auc": 0.06668282819909167,
+    "brier_score": 0.04979291153859665,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.9386962552011096,
+      "precision": 0.07380952380952381,
+      "recall": 0.10163934426229508,
+      "specificity": 0.962987630827783,
+      "f1": 0.08551724137931034,
+      "tss": 0.06462697509007809,
+      "hss": 0.05462725825430818,
+      "tp": 31,
+      "tn": 10121,
+      "fp": 389,
+      "fn": 274
+    },
+    "best_tss": {
+      "threshold": 0.025,
+      "accuracy": 0.5562644475265834,
+      "precision": 0.04180261011419249,
+      "recall": 0.6721311475409836,
+      "specificity": 0.5529019980970504,
+      "f1": 0.07870992512958341,
+      "tss": 0.2250331456380339,
+      "hss": 0.027045456654411923,
+      "tp": 205.0,
+      "tn": 5811.0,
+      "fp": 4699.0,
+      "fn": 100.0
+    }
+  },
+  "test": {
+    "roc_auc": 0.5987728258465979,
+    "pr_auc": 0.05708096623572562,
+    "brier_score": 0.05304139013607768,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.9416806979947957,
+      "precision": 0.11206896551724138,
+      "recall": 0.07926829268292683,
+      "specificity": 0.9754254811515827,
+      "f1": 0.09285714285714286,
+      "tss": 0.05469377383450946,
+      "hss": 0.06364295032976634,
+      "tp": 39,
+      "tn": 12265,
+      "fp": 309,
+      "fn": 453
+    },
+    "best_tss": {
+      "threshold": 0.0125,
+      "accuracy": 0.4859176488596357,
+      "precision": 0.04819277108433735,
+      "recall": 0.6747967479674797,
+      "specificity": 0.4785271194528392,
+      "f1": 0.08996070993090367,
+      "tss": 0.153323867420319,
+      "hss": 0.021157918956625346,
+      "tp": 332.0,
+      "tn": 6017.0,
+      "fp": 6557.0,
+      "fn": 160.0
+    },
+    "at_selected_threshold": {
+      "threshold": 0.025,
+      "accuracy": 0.6111281187815705,
+      "precision": 0.05018623799255048,
+      "recall": 0.5203252032520326,
+      "specificity": 0.614681087959281,
+      "f1": 0.09154300017879492,
+      "tss": 0.13500629121131347,
+      "hss": 0.024543617122347046,
+      "tp": 256,
+      "tn": 7729,
+      "fp": 4845,
+      "fn": 236
+    }
+  },
+  "artifacts": {
+    "model_path": "results/models/aia_resnet18_hp_sensitivity_lower_lr_test_2013.pt",
+    "metrics_path": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_metrics.json",
+    "history_path": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_history.csv",
+    "progress_log": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_progress.log",
+    "train_samples": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_train_samples.csv",
+    "val_samples": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_val_samples.csv",
+    "test_samples": "results/metrics/aia_resnet18_hp_sensitivity_lower_lr_test_2013_test_samples.csv"
+  }
+}

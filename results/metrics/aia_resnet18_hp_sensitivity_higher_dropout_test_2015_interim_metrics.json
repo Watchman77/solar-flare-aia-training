@@ -1,0 +1,91 @@
+{
+  "completed_epochs": 6,
+  "latest_epoch": {
+    "config_name": "higher_dropout",
+    "fold_id": "test_2015",
+    "epoch": 6,
+    "train_loss": 0.4889405541252781,
+    "val_roc_auc": 0.5045610258376216,
+    "val_pr_auc": 0.05378485352672304,
+    "val_best_threshold": 0.0075,
+    "val_tss": 0.021941408049042543,
+    "val_hss": 0.0077981499603991915,
+    "lr": 5e-05
+  },
+  "best_epoch_so_far": 1,
+  "best_val_tss_so_far": 0.25392418508813996,
+  "history": [
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 1,
+      "train_loss": 1.5245678310101434,
+      "val_roc_auc": 0.6556627147991354,
+      "val_pr_auc": 0.07647807187641763,
+      "val_best_threshold": 0.1275,
+      "val_tss": 0.25392418508813996,
+      "val_hss": 0.05389712484151491,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 2,
+      "train_loss": 1.3921292888000558,
+      "val_roc_auc": 0.47698540940092876,
+      "val_pr_auc": 0.05731366536164482,
+      "val_best_threshold": 0.3925,
+      "val_tss": 0.09048270374928702,
+      "val_hss": 0.046216596511412425,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 3,
+      "train_loss": 1.2894425238077483,
+      "val_roc_auc": 0.4723406857324254,
+      "val_pr_auc": 0.05110141686575674,
+      "val_best_threshold": 0.0725,
+      "val_tss": 0.02596714361420238,
+      "val_hss": 0.007536638025660614,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 4,
+      "train_loss": 1.1215281007150177,
+      "val_roc_auc": 0.4550179813008349,
+      "val_pr_auc": 0.052261318729491114,
+      "val_best_threshold": 0.1575,
+      "val_tss": 0.03660486326318613,
+      "val_hss": 0.023938648509988072,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 5,
+      "train_loss": 0.6959924855428863,
+      "val_roc_auc": 0.4778180510345717,
+      "val_pr_auc": 0.04833003924947749,
+      "val_best_threshold": 0.0,
+      "val_tss": 0.0,
+      "val_hss": 0.0,
+      "lr": 5e-05
+    },
+    {
+      "config_name": "higher_dropout",
+      "fold_id": "test_2015",
+      "epoch": 6,
+      "train_loss": 0.4889405541252781,
+      "val_roc_auc": 0.5045610258376216,
+      "val_pr_auc": 0.05378485352672304,
+      "val_best_threshold": 0.0075,
+      "val_tss": 0.021941408049042543,
+      "val_hss": 0.0077981499603991915,
+      "lr": 5e-05
+    }
+  ]
+}

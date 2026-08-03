@@ -1,0 +1,109 @@
+===== START CONFIG=reduced_pos_weight FOLD=test_2013 =====
+{
+  "config": {
+    "config_name": "reduced_pos_weight",
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.3,
+    "pos_weight_factor": 0.5
+  },
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 14448,
+      "positives": 433,
+      "negatives": 14015,
+      "positive_rate": 0.02996954595791805,
+      "years": "[2010, 2011]"
+    },
+    {
+      "split": "val",
+      "rows": 10815,
+      "positives": 305,
+      "negatives": 10510,
+      "positive_rate": 0.02820157189089228,
+      "years": "[2012]"
+    },
+    {
+      "split": "test",
+      "rows": 13066,
+      "positives": 492,
+      "negatives": 12574,
+      "positive_rate": 0.037654982397061075,
+      "years": "[2013]"
+    }
+  ]
+}
+config=reduced_pos_weight fold=test_2013 epoch=01 batch=100/452 loss_running=1.0343 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=01 batch=200/452 loss_running=1.0340 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=01 batch=300/452 loss_running=0.9544 elapsed_min=6.3
+config=reduced_pos_weight fold=test_2013 epoch=01 batch=400/452 loss_running=0.9145 elapsed_min=8.4
+config=reduced_pos_weight fold=test_2013 epoch=01 batch=452/452 loss_running=0.8890 elapsed_min=9.5
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=01/6 COMPLETE loss=0.8890 val_auc=0.6054 val_pr=0.0404 val_thr=0.0650 val_tss=0.1922 val_hss=0.0164 lr=1.00e-04
+saved checkpoint -> /home/abmoses2000/solar_flare_aia/results/models/aia_resnet18_hp_sensitivity_reduced_pos_weight_test_2013.pt
+config=reduced_pos_weight fold=test_2013 epoch=02 batch=100/452 loss_running=0.7156 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=02 batch=200/452 loss_running=0.6876 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=02 batch=300/452 loss_running=0.6557 elapsed_min=6.3
+config=reduced_pos_weight fold=test_2013 epoch=02 batch=400/452 loss_running=0.6228 elapsed_min=8.4
+config=reduced_pos_weight fold=test_2013 epoch=02 batch=452/452 loss_running=0.6123 elapsed_min=9.5
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=02/6 COMPLETE loss=0.6123 val_auc=0.5157 val_pr=0.0365 val_thr=0.7625 val_tss=0.0579 val_hss=0.0734 lr=1.00e-04
+config=reduced_pos_weight fold=test_2013 epoch=03 batch=100/452 loss_running=0.4749 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=03 batch=200/452 loss_running=0.4569 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=03 batch=300/452 loss_running=0.4111 elapsed_min=6.3
+config=reduced_pos_weight fold=test_2013 epoch=03 batch=400/452 loss_running=0.3968 elapsed_min=8.5
+config=reduced_pos_weight fold=test_2013 epoch=03 batch=452/452 loss_running=0.3799 elapsed_min=9.5
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=03/6 COMPLETE loss=0.3799 val_auc=0.4822 val_pr=0.0308 val_thr=0.7450 val_tss=0.0450 val_hss=0.0506 lr=1.00e-04
+config=reduced_pos_weight fold=test_2013 epoch=04 batch=100/452 loss_running=0.2848 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=04 batch=200/452 loss_running=0.2588 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=04 batch=300/452 loss_running=0.2514 elapsed_min=6.3
+config=reduced_pos_weight fold=test_2013 epoch=04 batch=400/452 loss_running=0.2475 elapsed_min=8.4
+config=reduced_pos_weight fold=test_2013 epoch=04 batch=452/452 loss_running=0.2403 elapsed_min=9.5
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=04/6 COMPLETE loss=0.2403 val_auc=0.5258 val_pr=0.0305 val_thr=0.5225 val_tss=0.0399 val_hss=0.0332 lr=1.00e-04
+config=reduced_pos_weight fold=test_2013 epoch=05 batch=100/452 loss_running=0.1461 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=05 batch=200/452 loss_running=0.1107 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=05 batch=300/452 loss_running=0.1071 elapsed_min=6.3
+config=reduced_pos_weight fold=test_2013 epoch=05 batch=400/452 loss_running=0.0947 elapsed_min=8.5
+config=reduced_pos_weight fold=test_2013 epoch=05 batch=452/452 loss_running=0.0898 elapsed_min=9.6
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=05/6 COMPLETE loss=0.0898 val_auc=0.4713 val_pr=0.0257 val_thr=0.1400 val_tss=0.0138 val_hss=0.0094 lr=5.00e-05
+config=reduced_pos_weight fold=test_2013 epoch=06 batch=100/452 loss_running=0.0603 elapsed_min=2.1
+config=reduced_pos_weight fold=test_2013 epoch=06 batch=200/452 loss_running=0.0647 elapsed_min=4.2
+config=reduced_pos_weight fold=test_2013 epoch=06 batch=300/452 loss_running=0.0726 elapsed_min=6.4
+config=reduced_pos_weight fold=test_2013 epoch=06 batch=400/452 loss_running=0.0653 elapsed_min=8.5
+config=reduced_pos_weight fold=test_2013 epoch=06 batch=452/452 loss_running=0.0677 elapsed_min=9.6
+predict split=val batch=100/338 elapsed_min=2.1
+predict split=val batch=200/338 elapsed_min=4.2
+predict split=val batch=300/338 elapsed_min=6.3
+predict split=val batch=338/338 elapsed_min=7.1
+config=reduced_pos_weight fold=test_2013 epoch=06/6 COMPLETE loss=0.0677 val_auc=0.4167 val_pr=0.0219 val_thr=0.0000 val_tss=0.0000 val_hss=0.0000 lr=5.00e-05
+Training complete config=reduced_pos_weight fold=test_2013. Best epoch=1, best_val_tss=0.19220258613966412
+predict split=val_final batch=100/338 elapsed_min=2.1
+predict split=val_final batch=200/338 elapsed_min=4.2
+predict split=val_final batch=300/338 elapsed_min=6.3
+predict split=val_final batch=338/338 elapsed_min=7.1
+predict split=test_final batch=100/409 elapsed_min=2.1
+predict split=test_final batch=200/409 elapsed_min=4.1
+predict split=test_final batch=300/409 elapsed_min=6.2
+predict split=test_final batch=400/409 elapsed_min=8.2
+predict split=test_final batch=409/409 elapsed_min=8.4
+Metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_hp_sensitivity_reduced_pos_weight_test_2013_metrics.json

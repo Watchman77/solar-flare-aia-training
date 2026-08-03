@@ -1,0 +1,171 @@
+{
+  "experiment_name": "aia_resnet18_physics_safe_multifold_hyperparameter_sensitivity",
+  "config_name": "higher_dropout",
+  "tune_config": {
+    "config_name": "higher_dropout",
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.5,
+    "pos_weight_factor": 1.0
+  },
+  "fold_id": "test_2015",
+  "fold": {
+    "fold_id": "test_2015",
+    "train_years": [
+      2010,
+      2011,
+      2012,
+      2013
+    ],
+    "val_years": [
+      2014
+    ],
+    "test_years": [
+      2015
+    ]
+  },
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 38329,
+      "positives": 1230,
+      "negatives": 37099,
+      "positive_rate": 0.03209058415299121,
+      "years": "[2010, 2011, 2012, 2013]"
+    },
+    {
+      "split": "val",
+      "rows": 11627,
+      "positives": 629,
+      "negatives": 10998,
+      "positive_rate": 0.05409821966113357,
+      "years": "[2014]"
+    },
+    {
+      "split": "test",
+      "rows": 11236,
+      "positives": 531,
+      "negatives": 10705,
+      "positive_rate": 0.04725881096475614,
+      "years": "[2015]"
+    }
+  ],
+  "physics_safety": {
+    "label_source": "label_48h_final",
+    "uses_embedded_npz_label": false,
+    "spatial_augmentation": false,
+    "random_flip": false,
+    "random_rotation": false,
+    "random_crop": false,
+    "normalisation": "train_derived_channel_robust_q01_q99_clip_median_iqr_scale",
+    "normalisation_source": "training split only per fold",
+    "weighted_random_sampler": false,
+    "threshold_protocol": "validation max-TSS applied unchanged to test",
+    "selection_protocol": "select config by mean validation TSS across folds"
+  },
+  "model": {
+    "architecture": "ResNet18 six-channel AIA CNN",
+    "trainable_parameters": 11186433,
+    "image_size": 224,
+    "batch_size": 32,
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.5,
+    "raw_pos_weight": 30.161788617886177,
+    "pos_weight_factor": 1.0,
+    "effective_pos_weight": 30.161788617886177
+  },
+  "best_epoch": 1,
+  "selected_threshold_from_validation": 0.1275,
+  "validation": {
+    "roc_auc": 0.6556627147991354,
+    "pr_auc": 0.07647807187641763,
+    "brier_score": 0.10921439668457039,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.8355551733035177,
+      "precision": 0.0760079312623926,
+      "recall": 0.18282988871224165,
+      "specificity": 0.872885979268958,
+      "f1": 0.10737628384687209,
+      "tss": 0.05571586798119954,
+      "hss": 0.03351303035256565,
+      "tp": 115,
+      "tn": 9600,
+      "fp": 1398,
+      "fn": 514
+    },
+    "best_tss": {
+      "threshold": 0.1275,
+      "accuracy": 0.5438204179926034,
+      "precision": 0.08116824941766708,
+      "recall": 0.7201907790143084,
+      "specificity": 0.5337334060738316,
+      "f1": 0.14589371980676327,
+      "tss": 0.25392418508813996,
+      "hss": 0.05389712484151491,
+      "tp": 453.0,
+      "tn": 5870.0,
+      "fp": 5128.0,
+      "fn": 176.0
+    }
+  },
+  "test": {
+    "roc_auc": 0.6563450030830235,
+    "pr_auc": 0.07399285055958506,
+    "brier_score": 0.11747408441908197,
+    "at_0_5": {
+      "threshold": 0.5,
+      "accuracy": 0.807938768244927,
+      "precision": 0.08726534753932014,
+      "recall": 0.3239171374764595,
+      "specificity": 0.8319476879962634,
+      "f1": 0.1374900079936051,
+      "tss": 0.15586482547272285,
+      "hss": 0.06810267928346962,
+      "tp": 172,
+      "tn": 8906,
+      "fp": 1799,
+      "fn": 359
+    },
+    "best_tss": {
+      "threshold": 0.1375,
+      "accuracy": 0.5767176931292275,
+      "precision": 0.08143451555379433,
+      "recall": 0.7740112994350282,
+      "specificity": 0.5669313404950957,
+      "f1": 0.14736464682681966,
+      "tss": 0.3409426399301241,
+      "hss": 0.06762823379370675,
+      "tp": 411.0,
+      "tn": 6069.0,
+      "fp": 4636.0,
+      "fn": 120.0
+    },
+    "at_selected_threshold": {
+      "threshold": 0.1275,
+      "accuracy": 0.5648807404770381,
+      "precision": 0.0799922898997687,
+      "recall": 0.7815442561205274,
+      "specificity": 0.5541335824381131,
+      "f1": 0.14513026752928834,
+      "tss": 0.3356778385586403,
+      "hss": 0.06495807896600435,
+      "tp": 415,
+      "tn": 5932,
+      "fp": 4773,
+      "fn": 116
+    }
+  },
+  "artifacts": {
+    "model_path": "results/models/aia_resnet18_hp_sensitivity_higher_dropout_test_2015.pt",
+    "metrics_path": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_metrics.json",
+    "history_path": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_history.csv",
+    "progress_log": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_progress.log",
+    "train_samples": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_train_samples.csv",
+    "val_samples": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_val_samples.csv",
+    "test_samples": "results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2015_test_samples.csv"
+  }
+}

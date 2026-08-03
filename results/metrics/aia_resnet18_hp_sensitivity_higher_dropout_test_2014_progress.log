@@ -1,0 +1,133 @@
+===== START CONFIG=higher_dropout FOLD=test_2014 =====
+{
+  "config": {
+    "config_name": "higher_dropout",
+    "epochs": 6,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0005,
+    "dropout": 0.5,
+    "pos_weight_factor": 1.0
+  },
+  "data_summary": [
+    {
+      "split": "train",
+      "rows": 25263,
+      "positives": 738,
+      "negatives": 24525,
+      "positive_rate": 0.02921268257926612,
+      "years": "[2010, 2011, 2012]"
+    },
+    {
+      "split": "val",
+      "rows": 13066,
+      "positives": 492,
+      "negatives": 12574,
+      "positive_rate": 0.037654982397061075,
+      "years": "[2013]"
+    },
+    {
+      "split": "test",
+      "rows": 11627,
+      "positives": 629,
+      "negatives": 10998,
+      "positive_rate": 0.05409821966113357,
+      "years": "[2014]"
+    }
+  ]
+}
+config=higher_dropout fold=test_2014 epoch=01 batch=100/790 loss_running=1.6779 elapsed_min=2.1
+config=higher_dropout fold=test_2014 epoch=01 batch=200/790 loss_running=1.7606 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=01 batch=300/790 loss_running=1.6481 elapsed_min=6.2
+config=higher_dropout fold=test_2014 epoch=01 batch=400/790 loss_running=1.6676 elapsed_min=8.2
+config=higher_dropout fold=test_2014 epoch=01 batch=500/790 loss_running=1.6033 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=01 batch=600/790 loss_running=1.5577 elapsed_min=12.3
+config=higher_dropout fold=test_2014 epoch=01 batch=700/790 loss_running=1.5303 elapsed_min=14.3
+config=higher_dropout fold=test_2014 epoch=01 batch=790/790 loss_running=1.5133 elapsed_min=16.2
+predict split=val batch=100/409 elapsed_min=2.0
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.2
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=01/6 COMPLETE loss=1.5133 val_auc=0.6790 val_pr=0.0892 val_thr=0.5975 val_tss=0.2519 val_hss=0.1025 lr=1.00e-04
+saved checkpoint -> /home/abmoses2000/solar_flare_aia/results/models/aia_resnet18_hp_sensitivity_higher_dropout_test_2014.pt
+config=higher_dropout fold=test_2014 epoch=02 batch=100/790 loss_running=1.3037 elapsed_min=2.0
+config=higher_dropout fold=test_2014 epoch=02 batch=200/790 loss_running=1.2858 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=02 batch=300/790 loss_running=1.2215 elapsed_min=6.1
+config=higher_dropout fold=test_2014 epoch=02 batch=400/790 loss_running=1.2721 elapsed_min=8.2
+config=higher_dropout fold=test_2014 epoch=02 batch=500/790 loss_running=1.2664 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=02 batch=600/790 loss_running=1.2709 elapsed_min=12.2
+config=higher_dropout fold=test_2014 epoch=02 batch=700/790 loss_running=1.2686 elapsed_min=14.3
+config=higher_dropout fold=test_2014 epoch=02 batch=790/790 loss_running=1.2349 elapsed_min=16.1
+predict split=val batch=100/409 elapsed_min=2.0
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.1
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=02/6 COMPLETE loss=1.2349 val_auc=0.6266 val_pr=0.1085 val_thr=0.4275 val_tss=0.1802 val_hss=0.0883 lr=1.00e-04
+config=higher_dropout fold=test_2014 epoch=03 batch=100/790 loss_running=1.2093 elapsed_min=2.1
+config=higher_dropout fold=test_2014 epoch=03 batch=200/790 loss_running=1.0921 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=03 batch=300/790 loss_running=1.1015 elapsed_min=6.1
+config=higher_dropout fold=test_2014 epoch=03 batch=400/790 loss_running=1.0623 elapsed_min=8.2
+config=higher_dropout fold=test_2014 epoch=03 batch=500/790 loss_running=1.0530 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=03 batch=600/790 loss_running=1.0267 elapsed_min=12.3
+config=higher_dropout fold=test_2014 epoch=03 batch=700/790 loss_running=1.0130 elapsed_min=14.3
+config=higher_dropout fold=test_2014 epoch=03 batch=790/790 loss_running=1.0174 elapsed_min=16.2
+predict split=val batch=100/409 elapsed_min=2.0
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.2
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=03/6 COMPLETE loss=1.0174 val_auc=0.6185 val_pr=0.0844 val_thr=0.4200 val_tss=0.1976 val_hss=0.0983 lr=1.00e-04
+config=higher_dropout fold=test_2014 epoch=04 batch=100/790 loss_running=0.8442 elapsed_min=2.0
+config=higher_dropout fold=test_2014 epoch=04 batch=200/790 loss_running=0.8982 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=04 batch=300/790 loss_running=0.8938 elapsed_min=6.1
+config=higher_dropout fold=test_2014 epoch=04 batch=400/790 loss_running=0.9112 elapsed_min=8.2
+config=higher_dropout fold=test_2014 epoch=04 batch=500/790 loss_running=0.8915 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=04 batch=600/790 loss_running=0.8685 elapsed_min=12.3
+config=higher_dropout fold=test_2014 epoch=04 batch=700/790 loss_running=0.8421 elapsed_min=14.3
+config=higher_dropout fold=test_2014 epoch=04 batch=790/790 loss_running=0.8112 elapsed_min=16.1
+predict split=val batch=100/409 elapsed_min=2.1
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.2
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=04/6 COMPLETE loss=0.8112 val_auc=0.6117 val_pr=0.0735 val_thr=0.0150 val_tss=0.1546 val_hss=0.0489 lr=1.00e-04
+config=higher_dropout fold=test_2014 epoch=05 batch=100/790 loss_running=0.4354 elapsed_min=2.0
+config=higher_dropout fold=test_2014 epoch=05 batch=200/790 loss_running=0.3872 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=05 batch=300/790 loss_running=0.4382 elapsed_min=6.1
+config=higher_dropout fold=test_2014 epoch=05 batch=400/790 loss_running=0.4552 elapsed_min=8.1
+config=higher_dropout fold=test_2014 epoch=05 batch=500/790 loss_running=0.4410 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=05 batch=600/790 loss_running=0.4466 elapsed_min=12.2
+config=higher_dropout fold=test_2014 epoch=05 batch=700/790 loss_running=0.4733 elapsed_min=14.2
+config=higher_dropout fold=test_2014 epoch=05 batch=790/790 loss_running=0.4494 elapsed_min=16.1
+predict split=val batch=100/409 elapsed_min=2.0
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.1
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=05/6 COMPLETE loss=0.4494 val_auc=0.5660 val_pr=0.0600 val_thr=0.0025 val_tss=0.1290 val_hss=0.0369 lr=5.00e-05
+config=higher_dropout fold=test_2014 epoch=06 batch=100/790 loss_running=0.2275 elapsed_min=2.0
+config=higher_dropout fold=test_2014 epoch=06 batch=200/790 loss_running=0.2576 elapsed_min=4.1
+config=higher_dropout fold=test_2014 epoch=06 batch=300/790 loss_running=0.2434 elapsed_min=6.1
+config=higher_dropout fold=test_2014 epoch=06 batch=400/790 loss_running=0.2618 elapsed_min=8.2
+config=higher_dropout fold=test_2014 epoch=06 batch=500/790 loss_running=0.2715 elapsed_min=10.2
+config=higher_dropout fold=test_2014 epoch=06 batch=600/790 loss_running=0.2822 elapsed_min=12.2
+config=higher_dropout fold=test_2014 epoch=06 batch=700/790 loss_running=0.2884 elapsed_min=14.3
+config=higher_dropout fold=test_2014 epoch=06 batch=790/790 loss_running=0.2869 elapsed_min=16.1
+predict split=val batch=100/409 elapsed_min=2.0
+predict split=val batch=200/409 elapsed_min=4.1
+predict split=val batch=300/409 elapsed_min=6.1
+predict split=val batch=400/409 elapsed_min=8.1
+predict split=val batch=409/409 elapsed_min=8.3
+config=higher_dropout fold=test_2014 epoch=06/6 COMPLETE loss=0.2869 val_auc=0.5800 val_pr=0.0606 val_thr=0.0025 val_tss=0.1248 val_hss=0.0305 lr=5.00e-05
+Training complete config=higher_dropout fold=test_2014. Best epoch=1, best_val_tss=0.25187216879326413
+predict split=val_final batch=100/409 elapsed_min=2.0
+predict split=val_final batch=200/409 elapsed_min=4.1
+predict split=val_final batch=300/409 elapsed_min=6.1
+predict split=val_final batch=400/409 elapsed_min=8.1
+predict split=val_final batch=409/409 elapsed_min=8.3
+predict split=test_final batch=100/364 elapsed_min=2.0
+predict split=test_final batch=200/364 elapsed_min=4.1
+predict split=test_final batch=300/364 elapsed_min=6.1
+predict split=test_final batch=364/364 elapsed_min=7.4
+Metrics saved: /home/abmoses2000/solar_flare_aia/results/metrics/aia_resnet18_hp_sensitivity_higher_dropout_test_2014_metrics.json

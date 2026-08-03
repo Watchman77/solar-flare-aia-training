@@ -1,0 +1,91 @@
+{
+  "completed_epochs": 6,
+  "latest_epoch": {
+    "config_name": "reduced_pos_weight",
+    "fold_id": "test_2015",
+    "epoch": 6,
+    "train_loss": 0.1623259056870276,
+    "val_roc_auc": 0.5542836087266626,
+    "val_pr_auc": 0.06080610454856496,
+    "val_best_threshold": 0.1675,
+    "val_tss": 0.02490552553130776,
+    "val_hss": 0.028839186342923775,
+    "lr": 5e-05
+  },
+  "best_epoch_so_far": 1,
+  "best_val_tss_so_far": 0.2464078596744428,
+  "history": [
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 1,
+      "train_loss": 0.9243439727614036,
+      "val_roc_auc": 0.6577725795498011,
+      "val_pr_auc": 0.07931900799163642,
+      "val_best_threshold": 0.145,
+      "val_tss": 0.2464078596744428,
+      "val_hss": 0.04577704500006954,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 2,
+      "train_loss": 0.8091779505933752,
+      "val_roc_auc": 0.5826386702481822,
+      "val_pr_auc": 0.07085399122856414,
+      "val_best_threshold": 0.09,
+      "val_tss": 0.1683711245663686,
+      "val_hss": 0.03810172325418824,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 3,
+      "train_loss": 0.6754014190061786,
+      "val_roc_auc": 0.6035878470171336,
+      "val_pr_auc": 0.08564794831305245,
+      "val_best_threshold": 0.01,
+      "val_tss": 0.14636770206232042,
+      "val_hss": 0.022766741931175404,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 4,
+      "train_loss": 0.5277086096133984,
+      "val_roc_auc": 0.4922003451415216,
+      "val_pr_auc": 0.05450201118559993,
+      "val_best_threshold": 0.08,
+      "val_tss": 0.022376376569117618,
+      "val_hss": 0.01370651686905525,
+      "lr": 0.0001
+    },
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 5,
+      "train_loss": 0.25310035169510653,
+      "val_roc_auc": 0.5748283182576049,
+      "val_pr_auc": 0.06113988671759811,
+      "val_best_threshold": 0.0025,
+      "val_tss": 0.10046298344170701,
+      "val_hss": 0.02896282363119577,
+      "lr": 5e-05
+    },
+    {
+      "config_name": "reduced_pos_weight",
+      "fold_id": "test_2015",
+      "epoch": 6,
+      "train_loss": 0.1623259056870276,
+      "val_roc_auc": 0.5542836087266626,
+      "val_pr_auc": 0.06080610454856496,
+      "val_best_threshold": 0.1675,
+      "val_tss": 0.02490552553130776,
+      "val_hss": 0.028839186342923775,
+      "lr": 5e-05
+    }
+  ]
+}
