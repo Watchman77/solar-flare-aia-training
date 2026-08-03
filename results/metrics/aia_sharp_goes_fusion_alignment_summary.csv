@@ -1,0 +1,12 @@
+metric,value
+aia_rows,68010.0
+sharp_rows,141644.0
+aligned_rows,68010.0
+rows_with_sharp_match,68010.0
+rows_without_sharp_match,0.0
+sample_id_match_rate,1.0
+harpnum_mismatch_count,0.0
+noaa_mismatch_count,0.0
+label_mismatch_count_aia_vs_sharp,0.0
+positive_samples_official_label,2398.0
+negative_samples_official_label,65612.0
