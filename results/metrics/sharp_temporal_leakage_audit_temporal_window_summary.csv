@@ -1,0 +1,9 @@
+metric,value
+rows,68010.0
+expected_steps_24h,16.0
+rows_meeting_min_history_24h,35626.0
+coverage_rate_24h,0.5238347301867372
+past_only_violations,0.0
+lower_bound_violations,0.0
+max_observed_window_delta_hours,0.0
+min_observed_window_delta_hours,-24.0

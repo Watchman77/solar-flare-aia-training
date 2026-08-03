@@ -1,0 +1,92 @@
+feature,risk_level,keyword_hits,audit_note
+sharp_24h_MEANGBZ_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBZ_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBZ_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBZ_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBZ_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBZ_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANGAM_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGAM_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGAM_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGAM_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGAM_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGAM_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANGBT_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBT_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBT_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBT_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBT_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBT_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANGBH_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBH_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBH_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBH_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBH_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANGBH_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANJZD_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZD_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZD_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZD_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZD_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZD_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_TOTUSJZ_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTUSJZ_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTUSJZ_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTUSJZ_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTUSJZ_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTUSJZ_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANALP_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANALP_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANALP_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANALP_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANALP_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANALP_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANJZH_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZH_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZH_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZH_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZH_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANJZH_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_ABSNJZH_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_ABSNJZH_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_ABSNJZH_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_ABSNJZH_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_ABSNJZH_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_ABSNJZH_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_SAVNCPP_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SAVNCPP_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SAVNCPP_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SAVNCPP_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SAVNCPP_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SAVNCPP_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_MEANSHR_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANSHR_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANSHR_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANSHR_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANSHR_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_MEANSHR_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_SHRGT45_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SHRGT45_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SHRGT45_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SHRGT45_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SHRGT45_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_SHRGT45_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_R_VALUE_last,review,val,Column name contains a possible leakage keyword; inspect manually.
+sharp_24h_R_VALUE_mean,review,val,Column name contains a possible leakage keyword; inspect manually.
+sharp_24h_R_VALUE_std,review,val,Column name contains a possible leakage keyword; inspect manually.
+sharp_24h_R_VALUE_min,review,val,Column name contains a possible leakage keyword; inspect manually.
+sharp_24h_R_VALUE_max,review,val,Column name contains a possible leakage keyword; inspect manually.
+sharp_24h_R_VALUE_delta,review,val,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_USFLUX_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_USFLUX_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_USFLUX_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_USFLUX_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_USFLUX_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_USFLUX_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_TOTPOT_last,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTPOT_mean,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTPOT_std,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTPOT_min,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTPOT_max,low,,SHARP-derived physical/aggregate input feature.
+sharp_24h_TOTPOT_delta,low,,Past-window change feature; safe only if built from times <= issue time.
+sharp_24h_history_count,review,,"Sampling/history-completeness feature. Not label leakage, but should be ablated."
