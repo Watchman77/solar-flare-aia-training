@@ -1,0 +1,4 @@
+config_name,source_kind,fold_id,test_year,test_regime,train_rows,val_rows,test_rows,test_positives,test_positive_rate,selected_threshold,val_tss,test_roc_auc,test_pr_auc,test_precision,test_recall,test_specificity,test_tss,test_hss,test_tp,test_tn,test_fp,test_fn,diagnostic_test_best_tss
+higher_dropout,trained_tuning_config,test_2013,2013,cycle24_premax_high,14448,10815,13066,492,0.037654982397061075,0.0225,0.215,0.6408,0.0974,0.0496,0.6057,0.5455,0.1512,0.0237,298,6859,5715,194,0.2406
+higher_dropout,trained_tuning_config,test_2014,2014,cycle24_maximum,25263,13066,11627,629,0.05409821966113357,0.5975,0.2519,0.596,0.0692,0.0731,0.2146,0.8442,0.0589,0.0308,135,9285,1713,494,0.2064
+higher_dropout,trained_tuning_config,test_2015,2015,cycle24_declining,38329,11627,11236,531,0.04725881096475614,0.1275,0.2539,0.6563,0.074,0.08,0.7815,0.5541,0.3357,0.065,415,5932,4773,116,0.3409

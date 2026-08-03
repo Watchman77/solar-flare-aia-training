@@ -1,0 +1,4 @@
+fold_id,test_year,test_regime,mean_selected_threshold,std_selected_threshold,mean_val_tss,mean_official_test_tss,mean_diagnostic_best_test_tss,mean_diagnostic_gap,max_diagnostic_gap
+test_2014,2014,cycle24_maximum,0.155625,0.2945856907024961,,0.00385,0.085725,0.081875,0.1475
+test_2013,2013,cycle24_premax_high,0.040625,0.020450651986346713,,0.1865,0.21980000000000002,0.033299999999999975,0.0894
+test_2015,2015,cycle24_declining,0.175,0.045871196481742954,,0.374475,0.3873,0.012824999999999951,0.0335
