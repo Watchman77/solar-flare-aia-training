@@ -1,0 +1,75 @@
+{
+  "fusion_experiment_name": "aia_resnet18_sharp24h_intermediate_fusion_cycle24",
+  "solar_cycle_scope": "Solar_Cycle_24_only_2010_2015",
+  "claim_scope": "within_cycle_chronological_regime_robustness",
+  "aia_branch": {
+    "input": "6-channel AIA EUV NPZ image tensor",
+    "backbone": "ResNet18 adapted to six channels",
+    "preprocessing": "physics-safe train-only robust channel scaling; no random flips/rotations/crops",
+    "embedding": "global pooled image embedding before classifier head"
+  },
+  "sharp_branch": {
+    "input": "24h leakage-safe SHARP temporal aggregate vector",
+    "preferred_features_available": "15 preferred SHARP features; TOTUSJH audited missing",
+    "history_count_policy": "exclude from primary fusion input; include only as sensitivity after audit",
+    "normalisation": "train-only imputation/scaling fitted per fold"
+  },
+  "goes_branch": {
+    "current_status": "label-lineage only",
+    "input_features": "not used in first AIA+SHARP fusion",
+    "future_work": "extract past-only GOES/XRS history features in separate notebook"
+  },
+  "folds": {
+    "test_2013": {
+      "train_years": [
+        2010,
+        2011
+      ],
+      "val_years": [
+        2012
+      ],
+      "test_years": [
+        2013
+      ]
+    },
+    "test_2014": {
+      "train_years": [
+        2010,
+        2011,
+        2012
+      ],
+      "val_years": [
+        2013
+      ],
+      "test_years": [
+        2014
+      ]
+    },
+    "test_2015": {
+      "train_years": [
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "val_years": [
+        2014
+      ],
+      "test_years": [
+        2015
+      ]
+    }
+  },
+  "threshold_rule": "select threshold by validation TSS only; apply unchanged to test",
+  "primary_metrics": [
+    "TSS",
+    "HSS",
+    "ROC-AUC",
+    "PR-AUC",
+    "Precision",
+    "Recall",
+    "Specificity",
+    "F1",
+    "Brier"
+  ]
+}

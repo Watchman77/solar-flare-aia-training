@@ -1,0 +1,8 @@
+item,decision
+fusion_experiment_name,aia_resnet18_sharp24h_intermediate_fusion_cycle24
+solar_cycle_scope,Solar_Cycle_24_only_2010_2015
+claim_scope,within_cycle_chronological_regime_robustness
+aia_branch,six-channel ResNet18 physics-safe image embedding
+sharp_branch,24h temporal aggregate vector; primary fusion excludes history_count
+goes_usage,label-lineage only; no GOES/XRS input features
+threshold_rule,select threshold by validation TSS only; apply unchanged to test
