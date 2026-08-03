@@ -1,0 +1,6 @@
+feature_view,description,n_features,rows_before_history_filter,rows_after_history_filter,coverage_rate,positives_after_filter,positive_rate_after_filter
+snapshot_available_preferred,Current-time available preferred SHARP features; missing preferred features are excluded but audited.,15,68010,68010,1.0,2398,0.03525952065872666
+snapshot_plus_optional,Current-time available preferred SHARP features plus optional MEANPOT/AREA_ACR if present.,17,68010,68010,1.0,2398,0.03525952065872666
+temporal_6h_available_preferred,Past 6h leakage-safe aggregate SHARP features for available preferred feature set.,91,68010,62219,0.9148507572415822,2182,0.03506967325093621
+temporal_12h_available_preferred,Past 12h leakage-safe aggregate SHARP features for available preferred feature set.,91,68010,54638,0.8033818556094692,1892,0.03462791463816391
+temporal_24h_available_preferred,Past 24h leakage-safe aggregate SHARP features for available preferred feature set.,91,68010,35626,0.5238347301867372,1062,0.029809689552573963

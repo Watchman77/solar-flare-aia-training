@@ -1,0 +1,20 @@
+{
+  "feature_view": "temporal_24h_available_preferred",
+  "model_name": "random_forest_balanced",
+  "n_folds": 3,
+  "mean_val_tss": 0.733701818384121,
+  "std_val_tss": 0.11418306856136864,
+  "mean_test_tss": 0.6401806369347074,
+  "std_test_tss": 0.19015717796869225,
+  "mean_test_hss": 0.29961440605408746,
+  "std_test_hss": 0.1340539946773084,
+  "mean_test_roc_auc": 0.9170012688220055,
+  "std_test_roc_auc": 0.062029145052927594,
+  "mean_test_pr_auc": 0.39980051257439597,
+  "std_test_pr_auc": 0.17929859876333074,
+  "mean_test_precision": 0.22517284628767412,
+  "mean_test_recall": 0.7602584106610841,
+  "mean_test_specificity": 0.8799222262736234,
+  "mean_test_f1": 0.34283188157138605,
+  "mean_diagnostic_minus_official_tss": 0.09017680319453521
+}

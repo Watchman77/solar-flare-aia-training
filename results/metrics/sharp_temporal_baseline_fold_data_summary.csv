@@ -1,0 +1,16 @@
+feature_view,fold_id,train_rows,val_rows,test_rows,train_positives,val_positives,test_positives,n_features,history_filter_col
+snapshot_available_preferred,test_2013,14448,10815,13066,433,305,492,15,
+snapshot_available_preferred,test_2014,25263,13066,11627,738,492,629,15,
+snapshot_available_preferred,test_2015,38329,11627,11236,1230,629,531,15,
+snapshot_plus_optional,test_2013,14448,10815,13066,433,305,492,17,
+snapshot_plus_optional,test_2014,25263,13066,11627,738,492,629,17,
+snapshot_plus_optional,test_2015,38329,11627,11236,1230,629,531,17,
+temporal_6h_available_preferred,test_2013,13197,9807,11951,405,259,451,91,sharp_6h_meets_min_history
+temporal_6h_available_preferred,test_2014,23004,11951,10786,664,451,578,91,sharp_6h_meets_min_history
+temporal_6h_available_preferred,test_2015,34955,10786,10338,1115,578,481,91,sharp_6h_meets_min_history
+temporal_12h_available_preferred,test_2013,11570,8470,10487,361,200,392,91,sharp_12h_meets_min_history
+temporal_12h_available_preferred,test_2014,20040,10487,9664,561,392,507,91,sharp_12h_meets_min_history
+temporal_12h_available_preferred,test_2015,30527,9664,9174,953,507,424,91,sharp_12h_meets_min_history
+temporal_24h_available_preferred,test_2013,8240,5442,7113,245,72,265,91,sharp_24h_meets_min_history
+temporal_24h_available_preferred,test_2014,13682,7113,5957,317,265,194,91,sharp_24h_meets_min_history
+temporal_24h_available_preferred,test_2015,20795,5957,5738,582,194,278,91,sharp_24h_meets_min_history
