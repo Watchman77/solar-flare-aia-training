@@ -1,0 +1,1097 @@
+{
+  "version": "17ab-metadata-stage1-v1",
+  "stage": "17B_stage1_metadata_content",
+  "status": "STAGE1_COMPLETE_REVIEW_REQUIRED",
+  "training_authorised": false,
+  "source_profiles": [
+    {
+      "source": "baseline_manifest",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/manifests/baseline_2010_2016_AR_SPECIFIC_manifest.csv",
+      "rows": 68010,
+      "time_kinds": {
+        "naive_unresolved_scale": 68010
+      },
+      "raw_T_REC_tags": {
+        "missing": 68010
+      },
+      "feature_counts": {},
+      "year_counts": {
+        "2010": {
+          "rows": 3306,
+          "negatives": 3277,
+          "positives": 29
+        },
+        "2011": {
+          "rows": 11142,
+          "negatives": 10738,
+          "positives": 404
+        },
+        "2012": {
+          "rows": 10815,
+          "negatives": 10510,
+          "positives": 305
+        },
+        "2013": {
+          "rows": 13066,
+          "negatives": 12574,
+          "positives": 492
+        },
+        "2014": {
+          "rows": 11627,
+          "negatives": 10998,
+          "positives": 629
+        },
+        "2015": {
+          "rows": 11236,
+          "negatives": 10705,
+          "positives": 531
+        },
+        "2016": {
+          "rows": 6818,
+          "negatives": 6810,
+          "positives": 8
+        }
+      },
+      "time_examples": [
+        {
+          "T_REC": null,
+          "T_REC_dt": "2010-05-21 16:36:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": "2010-05-21 18:12:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": "2010-05-21 19:48:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": "2010-05-21 21:24:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        }
+      ],
+      "label_present": true,
+      "role": "baseline_manifest",
+      "invalid_times": 0,
+      "invalid_harp": 0,
+      "invalid_noaa": 0,
+      "blank_sample_ids": 0,
+      "raw_quality_counts_top": {},
+      "label_invalid": 0,
+      "label_missing": 0,
+      "event_class_counts": {},
+      "event_time_issues": {},
+      "columns": [
+        "gcp_path",
+        "file",
+        "sample_id",
+        "T_REC_dt",
+        "HARPNUM",
+        "NOAA_AR_clean",
+        "label_48h_global_old",
+        "label_48h_ar_specific",
+        "label_48h_final",
+        "label_48h",
+        "y",
+        "local_path",
+        "year",
+        "used_timestamp",
+        "used_s3_path",
+        "manifest_label_before_repair"
+      ],
+      "time_ranges_by_representation": {
+        "naive_unresolved_scale": [
+          "2010-05-21T16:36:00",
+          "2016-12-31T22:48:00"
+        ]
+      },
+      "event_peak_end_ranges": {},
+      "raw_quality_distinct": 0
+    },
+    {
+      "source": "curated_master",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/curated_sharp_suryabench_true96min_48h_AR_SPECIFIC_2010_2026.csv",
+      "rows": 141644,
+      "time_kinds": {
+        "naive_unresolved_scale": 141644
+      },
+      "raw_T_REC_tags": {
+        "TAI_tag": 141644
+      },
+      "feature_counts": {
+        "MEANGBZ": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "MEANGAM": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "MEANGBT": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "MEANGBH": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "MEANJZD": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "TOTUSJZ": {
+          "finite": 141644
+        },
+        "MEANALP": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "MEANJZH": {
+          "finite": 141555,
+          "missing": 89
+        },
+        "ABSNJZH": {
+          "finite": 141644
+        },
+        "SAVNCPP": {
+          "finite": 141644
+        },
+        "MEANSHR": {
+          "finite": 141395,
+          "missing": 249
+        },
+        "SHRGT45": {
+          "finite": 141559,
+          "missing": 85
+        },
+        "R_VALUE": {
+          "finite": 141644
+        },
+        "USFLUX": {
+          "finite": 141644
+        },
+        "TOTPOT": {
+          "finite": 141644
+        },
+        "MEANPOT": {
+          "finite": 141559,
+          "missing": 85
+        },
+        "AREA_ACR": {
+          "finite": 141644
+        }
+      },
+      "year_counts": {
+        "2010": {
+          "rows": 3316,
+          "negatives": 3287,
+          "positives": 29
+        },
+        "2011": {
+          "rows": 11277,
+          "negatives": 10865,
+          "positives": 412
+        },
+        "2012": {
+          "rows": 10855,
+          "negatives": 10550,
+          "positives": 305
+        },
+        "2013": {
+          "rows": 13333,
+          "negatives": 12833,
+          "positives": 500
+        },
+        "2014": {
+          "rows": 11653,
+          "negatives": 11024,
+          "positives": 629
+        },
+        "2015": {
+          "rows": 11259,
+          "negatives": 10728,
+          "positives": 531
+        },
+        "2016": {
+          "rows": 6885,
+          "negatives": 6877,
+          "positives": 8
+        },
+        "2017": {
+          "rows": 3462,
+          "negatives": 3376,
+          "positives": 86
+        },
+        "2018": {
+          "rows": 1711,
+          "negatives": 1711
+        },
+        "2019": {
+          "rows": 1058,
+          "negatives": 1058
+        },
+        "2020": {
+          "rows": 2089,
+          "negatives": 2089
+        },
+        "2021": {
+          "rows": 5828,
+          "negatives": 5684,
+          "positives": 144
+        },
+        "2022": {
+          "rows": 11534,
+          "negatives": 11403,
+          "positives": 131
+        },
+        "2023": {
+          "rows": 14677,
+          "negatives": 14359,
+          "positives": 318
+        },
+        "2024": {
+          "rows": 14732,
+          "negatives": 13189,
+          "positives": 1543
+        },
+        "2025": {
+          "rows": 14774,
+          "positives": 820,
+          "negatives": 13954
+        },
+        "2026": {
+          "rows": 3201,
+          "negatives": 3023,
+          "positives": 178
+        }
+      },
+      "time_examples": [
+        {
+          "T_REC": "2010.05.21_03:48:00_TAI",
+          "T_REC_dt": "2010-05-21 03:48:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.21_05:24:00_TAI",
+          "T_REC_dt": "2010-05-21 05:24:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.21_07:00:00_TAI",
+          "T_REC_dt": "2010-05-21 07:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.21_08:36:00_TAI",
+          "T_REC_dt": "2010-05-21 08:36:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        }
+      ],
+      "label_present": true,
+      "role": "curated_targets",
+      "invalid_times": 0,
+      "invalid_harp": 0,
+      "invalid_noaa": 0,
+      "blank_sample_ids": 0,
+      "raw_quality_counts_top": {
+        "0": 135348,
+        "66560": 2674,
+        "65536": 1409,
+        "4096": 998,
+        "1024": 429,
+        "32": 241,
+        "72704": 155,
+        "68608": 118,
+        "67584": 79,
+        "128": 67
+      },
+      "label_invalid": 0,
+      "label_missing": 0,
+      "event_class_counts": {},
+      "event_time_issues": {},
+      "columns": [
+        "T_REC",
+        "HARPNUM",
+        "NOAA_ARS",
+        "QUALITY",
+        "LON_MIN",
+        "LON_MAX",
+        "LAT_MIN",
+        "LAT_MAX",
+        "CRVAL1",
+        "CRVAL2",
+        "CRLN_OBS",
+        "CRLT_OBS",
+        "CDELT1",
+        "CDELT2",
+        "CRPIX1",
+        "CRPIX2",
+        "USFLUX",
+        "MEANGAM",
+        "MEANGBT",
+        "MEANGBZ",
+        "MEANGBH",
+        "MEANJZD",
+        "TOTUSJZ",
+        "MEANALP",
+        "MEANJZH",
+        "ABSNJZH",
+        "SAVNCPP",
+        "MEANPOT",
+        "TOTPOT",
+        "MEANSHR",
+        "SHRGT45",
+        "R_VALUE",
+        "AREA_ACR",
+        "T_REC_dt",
+        "year",
+        "month",
+        "day",
+        "center_lon",
+        "center_lat",
+        "source_median_cadence_minutes",
+        "target_cadence_minutes",
+        "NOAA_AR_clean",
+        "label_48h",
+        "s3_path",
+        "local_nc",
+        "sample_id",
+        "label_48h_global_old",
+        "label_48h_ar_specific",
+        "label_48h_final",
+        "LON_CENTER"
+      ],
+      "time_ranges_by_representation": {
+        "naive_unresolved_scale": [
+          "2010-05-21T03:48:00",
+          "2026-04-03T23:12:00"
+        ]
+      },
+      "event_peak_end_ranges": {},
+      "raw_quality_distinct": 23
+    },
+    {
+      "source": "extension",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/curated_2025_2026_AR_SPECIFIC_EXTENSION.csv",
+      "rows": 17975,
+      "time_kinds": {
+        "naive_unresolved_scale": 17975
+      },
+      "raw_T_REC_tags": {
+        "TAI_tag": 17975
+      },
+      "feature_counts": {
+        "MEANGBZ": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "MEANGAM": {
+          "finite": 17960,
+          "missing": 15
+        },
+        "MEANGBT": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "MEANGBH": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "MEANJZD": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "TOTUSJZ": {
+          "finite": 17975
+        },
+        "MEANALP": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "MEANJZH": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "ABSNJZH": {
+          "finite": 17975
+        },
+        "SAVNCPP": {
+          "finite": 17975
+        },
+        "MEANSHR": {
+          "finite": 17947,
+          "missing": 28
+        },
+        "SHRGT45": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "R_VALUE": {
+          "finite": 17975
+        },
+        "USFLUX": {
+          "finite": 17975
+        },
+        "TOTPOT": {
+          "finite": 17975
+        },
+        "MEANPOT": {
+          "finite": 17961,
+          "missing": 14
+        },
+        "AREA_ACR": {
+          "finite": 17975
+        }
+      },
+      "year_counts": {
+        "2025": {
+          "rows": 14774,
+          "positives": 820,
+          "negatives": 13954
+        },
+        "2026": {
+          "rows": 3201,
+          "negatives": 3023,
+          "positives": 178
+        }
+      },
+      "time_examples": [
+        {
+          "T_REC": "2025.01.01_01:00:00_TAI",
+          "T_REC_dt": "2025-01-01 01:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2025.01.01_01:00:00_TAI",
+          "T_REC_dt": "2025-01-01 01:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2025.01.01_01:24:00_TAI",
+          "T_REC_dt": "2025-01-01 01:24:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2025.01.01_02:36:00_TAI",
+          "T_REC_dt": "2025-01-01 02:36:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        }
+      ],
+      "label_present": true,
+      "role": "extension_targets",
+      "invalid_times": 0,
+      "invalid_harp": 0,
+      "invalid_noaa": 0,
+      "blank_sample_ids": 0,
+      "raw_quality_counts_top": {
+        "0": 17975
+      },
+      "label_invalid": 0,
+      "label_missing": 0,
+      "event_class_counts": {},
+      "event_time_issues": {},
+      "columns": [
+        "T_REC",
+        "HARPNUM",
+        "NOAA_ARS",
+        "QUALITY",
+        "LON_MIN",
+        "LON_MAX",
+        "LAT_MIN",
+        "LAT_MAX",
+        "CRVAL1",
+        "CRVAL2",
+        "CRLN_OBS",
+        "CRLT_OBS",
+        "CDELT1",
+        "CDELT2",
+        "CRPIX1",
+        "CRPIX2",
+        "USFLUX",
+        "MEANGAM",
+        "MEANGBT",
+        "MEANGBZ",
+        "MEANGBH",
+        "MEANJZD",
+        "TOTUSJZ",
+        "MEANALP",
+        "MEANJZH",
+        "ABSNJZH",
+        "SAVNCPP",
+        "MEANPOT",
+        "TOTPOT",
+        "MEANSHR",
+        "SHRGT45",
+        "R_VALUE",
+        "AREA_ACR",
+        "T_REC_dt",
+        "year",
+        "month",
+        "day",
+        "center_lon",
+        "center_lat",
+        "source_median_cadence_minutes",
+        "target_cadence_minutes",
+        "NOAA_AR_clean",
+        "label_48h",
+        "s3_path",
+        "local_nc",
+        "sample_id",
+        "label_48h_global_old",
+        "label_48h_ar_specific",
+        "label_48h_final",
+        "LON_CENTER"
+      ],
+      "time_ranges_by_representation": {
+        "naive_unresolved_scale": [
+          "2025-01-01T01:00:00",
+          "2026-04-03T23:12:00"
+        ]
+      },
+      "event_peak_end_ranges": {},
+      "raw_quality_distinct": 1
+    },
+    {
+      "source": "sharp96",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/SHARP_96MIN_FULL_2010_2026.csv",
+      "rows": 663265,
+      "time_kinds": {
+        "naive_unresolved_scale": 663265
+      },
+      "raw_T_REC_tags": {
+        "TAI_tag": 663265
+      },
+      "feature_counts": {
+        "MEANGBZ": {
+          "finite": 637076,
+          "missing": 26189
+        },
+        "MEANGAM": {
+          "finite": 636949,
+          "missing": 26316
+        },
+        "MEANGBT": {
+          "finite": 637074,
+          "missing": 26191
+        },
+        "MEANGBH": {
+          "finite": 637076,
+          "missing": 26189
+        },
+        "MEANJZD": {
+          "finite": 637076,
+          "missing": 26189
+        },
+        "TOTUSJZ": {
+          "finite": 663263,
+          "nonfinite_or_nonnumeric": 2
+        },
+        "MEANALP": {
+          "finite": 637074,
+          "missing": 26191
+        },
+        "MEANJZH": {
+          "finite": 637074,
+          "missing": 26190,
+          "nonfinite_or_nonnumeric": 1
+        },
+        "ABSNJZH": {
+          "finite": 663264,
+          "nonfinite_or_nonnumeric": 1
+        },
+        "SAVNCPP": {
+          "finite": 663262,
+          "nonfinite_or_nonnumeric": 3
+        },
+        "MEANSHR": {
+          "finite": 636329,
+          "missing": 26936
+        },
+        "SHRGT45": {
+          "finite": 637117,
+          "missing": 26148
+        },
+        "R_VALUE": {
+          "finite": 662705,
+          "missing": 560
+        },
+        "USFLUX": {
+          "finite": 663265
+        },
+        "TOTPOT": {
+          "finite": 663265
+        },
+        "MEANPOT": {
+          "finite": 637117,
+          "missing": 26148
+        },
+        "AREA_ACR": {
+          "finite": 640963,
+          "missing": 22302
+        }
+      },
+      "year_counts": {
+        "2010": {
+          "rows": 14941
+        },
+        "2011": {
+          "rows": 44525
+        },
+        "2012": {
+          "rows": 48820
+        },
+        "2013": {
+          "rows": 58643
+        },
+        "2014": {
+          "rows": 61632
+        },
+        "2015": {
+          "rows": 53090
+        },
+        "2016": {
+          "rows": 31375
+        },
+        "2017": {
+          "rows": 14670
+        },
+        "2018": {
+          "rows": 6231
+        },
+        "2019": {
+          "rows": 3795
+        },
+        "2020": {
+          "rows": 7478
+        },
+        "2021": {
+          "rows": 23227
+        },
+        "2022": {
+          "rows": 53165
+        },
+        "2023": {
+          "rows": 75931
+        },
+        "2024": {
+          "rows": 72218
+        },
+        "2025": {
+          "rows": 76746
+        },
+        "2026": {
+          "rows": 16778
+        }
+      },
+      "time_examples": [
+        {
+          "T_REC": "2010.05.01_00:00:00_TAI",
+          "T_REC_dt": "2010-05-01 00:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.01_00:00:00_TAI",
+          "T_REC_dt": "2010-05-01 00:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.01_00:00:00_TAI",
+          "T_REC_dt": "2010-05-01 00:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": "2010.05.01_00:00:00_TAI",
+          "T_REC_dt": "2010-05-01 00:00:00",
+          "event_starttime": null,
+          "parsed_kind": "naive_unresolved_scale"
+        }
+      ],
+      "label_present": false,
+      "role": "raw_sharp_history",
+      "invalid_times": 0,
+      "invalid_harp": 0,
+      "invalid_noaa": 0,
+      "blank_sample_ids": 0,
+      "raw_quality_counts_top": {
+        "0": 630229,
+        "66560": 12513,
+        "65536": 8799,
+        "4096": 5105,
+        "1024": 2137,
+        "72704": 1681,
+        "32": 769,
+        "68608": 714,
+        "67584": 341,
+        "69632": 323
+      },
+      "label_invalid": 0,
+      "label_missing": 0,
+      "event_class_counts": {},
+      "event_time_issues": {},
+      "columns": [
+        "T_REC",
+        "HARPNUM",
+        "NOAA_ARS",
+        "QUALITY",
+        "LON_MIN",
+        "LON_MAX",
+        "LAT_MIN",
+        "LAT_MAX",
+        "CRVAL1",
+        "CRVAL2",
+        "CRLN_OBS",
+        "CRLT_OBS",
+        "CDELT1",
+        "CDELT2",
+        "CRPIX1",
+        "CRPIX2",
+        "USFLUX",
+        "MEANGAM",
+        "MEANGBT",
+        "MEANGBZ",
+        "MEANGBH",
+        "MEANJZD",
+        "TOTUSJZ",
+        "MEANALP",
+        "MEANJZH",
+        "ABSNJZH",
+        "SAVNCPP",
+        "MEANPOT",
+        "TOTPOT",
+        "MEANSHR",
+        "SHRGT45",
+        "R_VALUE",
+        "AREA_ACR",
+        "T_REC_dt",
+        "year",
+        "month",
+        "day"
+      ],
+      "time_ranges_by_representation": {
+        "naive_unresolved_scale": [
+          "2010-05-01T00:00:00",
+          "2026-04-04T11:24:00"
+        ]
+      },
+      "event_peak_end_ranges": {},
+      "raw_quality_distinct": 29
+    },
+    {
+      "source": "events",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/hek_mx_ar_flares_2010_2026.csv",
+      "rows": 2185,
+      "time_kinds": {
+        "naive_unresolved_scale": 2185
+      },
+      "raw_T_REC_tags": {
+        "missing": 2185
+      },
+      "feature_counts": {},
+      "year_counts": {
+        "2010": {
+          "rows": 24,
+          "class_M": 24
+        },
+        "2011": {
+          "rows": 115,
+          "class_M": 106,
+          "class_X": 9
+        },
+        "2012": {
+          "rows": 131,
+          "class_M": 124,
+          "class_X": 7
+        },
+        "2013": {
+          "rows": 109,
+          "class_M": 97,
+          "class_X": 12
+        },
+        "2014": {
+          "rows": 209,
+          "class_M": 193,
+          "class_X": 16
+        },
+        "2015": {
+          "rows": 130,
+          "class_M": 128,
+          "class_X": 2
+        },
+        "2016": {
+          "rows": 15,
+          "class_M": 15
+        },
+        "2017": {
+          "rows": 41,
+          "class_M": 37,
+          "class_X": 4
+        },
+        "2021": {
+          "rows": 17,
+          "class_M": 15,
+          "class_X": 2
+        },
+        "2022": {
+          "rows": 22,
+          "class_M": 21,
+          "class_X": 1
+        },
+        "2023": {
+          "rows": 50,
+          "class_M": 48,
+          "class_X": 2
+        },
+        "2024": {
+          "rows": 878,
+          "class_M": 824,
+          "class_X": 54
+        },
+        "2025": {
+          "rows": 323,
+          "class_M": 306,
+          "class_X": 17
+        },
+        "2026": {
+          "rows": 121,
+          "class_M": 112,
+          "class_X": 9
+        }
+      },
+      "time_examples": [
+        {
+          "T_REC": null,
+          "T_REC_dt": null,
+          "event_starttime": "2010-01-19 13:03:00",
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": null,
+          "event_starttime": "2010-01-19 20:23:00",
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": null,
+          "event_starttime": "2010-01-20 06:45:00",
+          "parsed_kind": "naive_unresolved_scale"
+        },
+        {
+          "T_REC": null,
+          "T_REC_dt": null,
+          "event_starttime": "2010-01-20 07:42:00",
+          "parsed_kind": "naive_unresolved_scale"
+        }
+      ],
+      "label_present": false,
+      "role": "event_catalogue",
+      "invalid_times": 0,
+      "invalid_harp": 0,
+      "invalid_noaa": 0,
+      "blank_sample_ids": 0,
+      "raw_quality_counts_top": {},
+      "label_invalid": 0,
+      "label_missing": 0,
+      "event_class_counts": {
+        "M": 2050,
+        "X": 135
+      },
+      "event_time_issues": {
+        "end_before_peak": 1,
+        "peak_before_start": 1
+      },
+      "columns": [
+        "event_starttime",
+        "event_peaktime",
+        "event_endtime",
+        "fl_goescls",
+        "NOAA_AR_clean",
+        "flux"
+      ],
+      "time_ranges_by_representation": {
+        "naive_unresolved_scale": [
+          "2010-01-19T13:03:00",
+          "2026-05-10T13:19:00"
+        ]
+      },
+      "event_peak_end_ranges": {
+        "peak_naive_unresolved_scale": [
+          "2010-01-19T13:41:00",
+          "2026-05-10T13:39:00"
+        ],
+        "end_naive_unresolved_scale": [
+          "2010-01-19T13:50:00",
+          "2026-05-10T14:02:00"
+        ]
+      },
+      "raw_quality_distinct": 0
+    }
+  ],
+  "duplicate_audit": [
+    {
+      "source": "baseline_manifest",
+      "duplicate_id_groups": 0,
+      "duplicate_id_excess_rows": 0,
+      "conflicting_label_id_groups": 0,
+      "duplicate_harp_time_groups": 0
+    },
+    {
+      "source": "curated_master",
+      "duplicate_id_groups": 0,
+      "duplicate_id_excess_rows": 0,
+      "conflicting_label_id_groups": 0,
+      "duplicate_harp_time_groups": 0
+    },
+    {
+      "source": "extension",
+      "duplicate_id_groups": 0,
+      "duplicate_id_excess_rows": 0,
+      "conflicting_label_id_groups": 0,
+      "duplicate_harp_time_groups": 0
+    },
+    {
+      "source": "sharp96",
+      "duplicate_id_groups": 0,
+      "duplicate_id_excess_rows": 0,
+      "conflicting_label_id_groups": 0,
+      "duplicate_harp_time_groups": 0
+    },
+    {
+      "source": "events",
+      "duplicate_id_groups": 1,
+      "duplicate_id_excess_rows": 1,
+      "conflicting_label_id_groups": 0,
+      "duplicate_harp_time_groups": 0
+    }
+  ],
+  "identity_comparisons": [
+    {
+      "left_source": "extension",
+      "right_source": "curated_master",
+      "comparison_scope": "IDs unique within each table only; no duplicate resolution or label repair",
+      "left_unique_id_rows": 17975,
+      "right_unique_id_rows": 141644,
+      "matched_ids": 17975,
+      "left_without_unambiguous_right_match": 0,
+      "label_mismatches": 0,
+      "label_unknown_comparisons": 0,
+      "harp_mismatches": 0,
+      "harp_unknown_comparisons": 0,
+      "noaa_mismatches": 0,
+      "noaa_unknown_comparisons": 0,
+      "t_mismatches": 0,
+      "t_unknown_comparisons": 0,
+      "timestamp_note": "Comparison is representation-level only; timescale provenance remains unresolved."
+    },
+    {
+      "left_source": "baseline_manifest",
+      "right_source": "curated_master",
+      "comparison_scope": "IDs unique within each table only; no duplicate resolution or label repair",
+      "left_unique_id_rows": 68010,
+      "right_unique_id_rows": 141644,
+      "matched_ids": 68010,
+      "left_without_unambiguous_right_match": 0,
+      "label_mismatches": 0,
+      "label_unknown_comparisons": 0,
+      "harp_mismatches": 0,
+      "harp_unknown_comparisons": 0,
+      "noaa_mismatches": 0,
+      "noaa_unknown_comparisons": 0,
+      "t_mismatches": 0,
+      "t_unknown_comparisons": 0,
+      "timestamp_note": "Comparison is representation-level only; timescale provenance remains unresolved."
+    }
+  ],
+  "raw_sharp96_cadence": {
+    "basis": "Distinct timestamps per HARP within one timestamp representation; no quality filtering",
+    "most_common_positive_gaps_seconds": [
+      {
+        "gap_seconds": 5760.0,
+        "count": 620579
+      },
+      {
+        "gap_seconds": 6480.0,
+        "count": 8078
+      },
+      {
+        "gap_seconds": 7200.0,
+        "count": 5870
+      },
+      {
+        "gap_seconds": 7920.0,
+        "count": 2824
+      },
+      {
+        "gap_seconds": 15120.0,
+        "count": 1951
+      },
+      {
+        "gap_seconds": 8640.0,
+        "count": 1631
+      },
+      {
+        "gap_seconds": 14400.0,
+        "count": 1017
+      },
+      {
+        "gap_seconds": 12240.0,
+        "count": 1017
+      },
+      {
+        "gap_seconds": 9360.0,
+        "count": 957
+      },
+      {
+        "gap_seconds": 11520.0,
+        "count": 934
+      },
+      {
+        "gap_seconds": 13680.0,
+        "count": 932
+      },
+      {
+        "gap_seconds": 15840.0,
+        "count": 890
+      }
+    ],
+    "note": "Not an AIA-sequence coverage or leakage certification. TAI/UTC not resolved."
+  },
+  "findings": [
+    {
+      "severity": "REVIEW_REQUIRED",
+      "source": "events",
+      "issue": "duplicate_id_groups",
+      "count": 1
+    }
+  ],
+  "remaining_training_gates": [
+    "Cross-cycle AIA object/manifest reconciliation and actual image timestamps not yet audited.",
+    "TAI/UTC provenance and availability-time conversion must be established before cross-instrument joins.",
+    "Exact date splits, forecast-window purge and AR-group overlap policy are not frozen.",
+    "Qualified SHARP/AIA 6h/12h/24h history coverage and missingness policy remain to be audited.",
+    "GOES catalogue completeness, units, reporting delay and feature availability have not been verified.",
+    "2025-2026 extension comparison does not authorise automatic concatenation or source-label repair.",
+    "Source-label lineage and complete 48h follow-up coverage (right-censoring) remain to be verified.",
+    "HMI magnetic-image coverage and checkpoint loadability have not been tested."
+  ],
+  "created_utc": "2026-09-15T00:51:02.296972+00:00"
+}

@@ -1,0 +1,132 @@
+{
+  "version": "17ab-metadata-stage1-v1",
+  "created": "2026-09-08",
+  "project": "sonorous-shore-450510-i4",
+  "repository": "Watchman77/solar-flare-aia-training",
+  "basis_git_commit": "d1b921ecb950085f29547d5bc9aa093842b4ecd3",
+  "label": "label_48h_final",
+  "forecast_horizon_hours": 48,
+  "forecast_window": "(t, t+48h]",
+  "same_active_region_target": true,
+  "aia_channels_angstrom": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "aia_source_cadence_minutes": 96,
+  "aia_time_tolerance_seconds": 180,
+  "aia_after_issue_time_allowed": false,
+  "source_tensor_shape_hwc": [
+    512,
+    512,
+    6
+  ],
+  "source_tensor_shape_status": "prior configuration, not revalidated by stage1",
+  "label_source_policy": "official per-sample manifest/label lineage; never embedded NPZ or legacy label columns",
+  "source_archive_prefixes": {
+    "2010_2024": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/",
+    "2025_2026": "gs://suryabench-sharp-pipeline-bamidele/jsoc_2025_2026_production_v1/samples_npz/"
+  },
+  "split_status": "PROPOSED_NOT_FROZEN",
+  "proposed_date_roles": {
+    "train": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "validation": [
+      2018,
+      2019
+    ],
+    "transition_sensitivity": [
+      2020
+    ],
+    "independent_test": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "future_extension_not_primary_test": [
+      2026
+    ]
+  },
+  "split_note": "New concrete proposal from ranges in the existing plan. Freeze exact timestamps, timescales, purge and AR policy after metadata review, before modelling; do not tune using test performance.",
+  "no_test_threshold_tuning": true,
+  "history_windows_hours": [
+    6,
+    12,
+    24
+  ],
+  "optional_sharp_window_hours": 48,
+  "history_quality_policy": "PENDING; stage1 does not apply QUALITY/longitude/finite-feature filtering or certify sequence coverage.",
+  "time_scale_policy": "UNRESOLVED; never attach UTC to naive SHARP clocks by assumption. Inspect T_REC lineage before cross-instrument joins.",
+  "missing_feature_policy": "Report missing columns; do not fabricate TOTUSJH or substitute TOTUSJZ.",
+  "goes_feature_policy": "Past-only field-level availability: peak-derived class/flux not available before peak, end-derived quantities not before end; reporting latency and completeness need verification.",
+  "right_censoring_policy": "Verify independent event-catalogue coverage through t+48h; maximum observed event time is not a coverage certificate.",
+  "pinn_track": "Separate 20A/20B/20C; not part of the main-model ladder unless a future protocol explicitly integrates it.",
+  "main_notebook_sequence": [
+    "17A",
+    "17B",
+    "17C",
+    "18A",
+    "18B",
+    "18C",
+    "19A"
+  ],
+  "main_model_ladder": [
+    "SHARP temporal",
+    "GOES past-only",
+    "SHARP + GOES",
+    "temporal AIA",
+    "temporal AIA + SHARP",
+    "temporal AIA + SHARP + GOES",
+    "optional HMI-map branch"
+  ],
+  "billing_policy_correction": "Do not routinely disable billing on the archival-data project. Manage compute separately and verify backups before deletion. This code does not change billing or resources.",
+  "max_total_source_bytes": 471859200,
+  "disk_reserve_bytes": 1073741824,
+  "sources": [
+    {
+      "id": "baseline_manifest",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/manifests/baseline_2010_2016_AR_SPECIFIC_manifest.csv",
+      "role": "baseline_manifest",
+      "max_bytes": 104857600
+    },
+    {
+      "id": "curated_master",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/curated_sharp_suryabench_true96min_48h_AR_SPECIFIC_2010_2026.csv",
+      "role": "curated_targets",
+      "max_bytes": 104857600
+    },
+    {
+      "id": "extension",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/curated_2025_2026_AR_SPECIFIC_EXTENSION.csv",
+      "role": "extension_targets",
+      "max_bytes": 20971520
+    },
+    {
+      "id": "sharp96",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/SHARP_96MIN_FULL_2010_2026.csv",
+      "role": "raw_sharp_history",
+      "max_bytes": 314572800
+    },
+    {
+      "id": "events",
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/metadata/hek_mx_ar_flares_2010_2026.csv",
+      "role": "event_catalogue",
+      "max_bytes": 10485760
+    }
+  ],
+  "excluded_bulk_source": "gs://suryabench-sharp-pipeline-bamidele/metadata/SHARP_12MIN_FULL_2010_2026.csv",
+  "training_authorised": false
+}

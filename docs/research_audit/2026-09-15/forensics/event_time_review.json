@@ -1,0 +1,288 @@
+{
+  "version": "aia17-event-time-forensics-v1",
+  "status": "FORENSIC_REVIEW_COMPLETE_NO_REPAIRS",
+  "training_authorised": false,
+  "source_run": "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z",
+  "stage1_report_sha256": "66db8d2ed86469f3e9d605ced011e8c078c2b3259a14f3a9f0d7e9de6f8d7bc8",
+  "source_lock_snapshot_sha256": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+  "created_utc": "2026-09-15T10:34:46.628523+00:00",
+  "events": {
+    "source_path": "/home/abmoses2000/aia17_metadata_stage1/cache/events_1778961084955762.csv",
+    "generation": "1778961084955762",
+    "source_sha256": "f7756435331ab9dbd94507d49a3b1b29634b0ce24eebc3cea165b649d53a95c8",
+    "record_count": 2185,
+    "audit_key_fields": [
+      "NOAA_AR_clean",
+      "event_starttime",
+      "event_peaktime",
+      "fl_goescls"
+    ],
+    "audit_key_note": "Whitespace stripped; class uppercased, as in Stage 1. End time and flux are NOT in the key. No physical event identity inferred.",
+    "duplicate_group_count": 1,
+    "duplicate_excess_records": 1,
+    "duplicate_groups": [
+      {
+        "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+        "record_count": 2,
+        "all_exported_field_values_identical": false,
+        "differing_exported_columns": [
+          "event_endtime"
+        ],
+        "records": [
+          {
+            "source_record_number": 1094,
+            "csv_end_line": 1095,
+            "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+            "flags": [],
+            "raw": {
+              "event_starttime": "2024-05-08 21:08:00",
+              "event_peaktime": "2024-05-08 21:40:00",
+              "event_endtime": "2024-05-08 23:10:00",
+              "fl_goescls": "X1.0",
+              "NOAA_AR_clean": "13664",
+              "flux": "0.0001"
+            }
+          },
+          {
+            "source_record_number": 1095,
+            "csv_end_line": 1096,
+            "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+            "flags": [],
+            "raw": {
+              "event_starttime": "2024-05-08 21:08:00",
+              "event_peaktime": "2024-05-08 21:40:00",
+              "event_endtime": "2024-05-09 03:07:00",
+              "fl_goescls": "X1.0",
+              "NOAA_AR_clean": "13664",
+              "flux": "0.0001"
+            }
+          }
+        ]
+      }
+    ],
+    "event_time_flag_counts": {
+      "end_before_peak": 1,
+      "peak_before_start": 1
+    },
+    "time_representation_counts": {
+      "event_starttime": {
+        "naive_unresolved_scale": 2185
+      },
+      "event_peaktime": {
+        "naive_unresolved_scale": 2185
+      },
+      "event_endtime": {
+        "naive_unresolved_scale": 2185
+      }
+    },
+    "time_anomaly_record_count": 2,
+    "time_anomaly_records": [
+      {
+        "source_record_number": 1397,
+        "csv_end_line": 1398,
+        "audit_key": "13796|2024-08-18 23:46:00|2024-09-06 06:27:27|M1.4",
+        "flags": [
+          "end_before_peak"
+        ],
+        "raw": {
+          "event_starttime": "2024-08-18 23:46:00",
+          "event_peaktime": "2024-09-06 06:27:27",
+          "event_endtime": "2024-08-19 00:13:00",
+          "fl_goescls": "M1.4",
+          "NOAA_AR_clean": "13796",
+          "flux": "1.4e-05"
+        }
+      },
+      {
+        "source_record_number": 1639,
+        "csv_end_line": 1640,
+        "audit_key": "13889|2024-11-18 23:50:00|2024-10-25 23:30:15|M1.1",
+        "flags": [
+          "peak_before_start"
+        ],
+        "raw": {
+          "event_starttime": "2024-11-18 23:50:00",
+          "event_peaktime": "2024-10-25 23:30:15",
+          "event_endtime": "2024-11-19 00:04:00",
+          "fl_goescls": "M1.1",
+          "NOAA_AR_clean": "13889",
+          "flux": "1.1000000000000001e-05"
+        }
+      }
+    ],
+    "records_in_both_duplicate_and_time_anomaly_sets": [],
+    "distinct_records_flagged_for_any_reason": 4
+  },
+  "stored_TAI_clock_checks": [
+    {
+      "source": "curated_master",
+      "records_checked": 141644,
+      "counts": {
+        "same_clock_fields_as_raw_TAI": 141644
+      },
+      "exceptions_preview": [],
+      "interpretation": "Tests stored clock fields against explicit raw TAI. Not a UTC conversion, observation-availability audit or certification of previous label joins."
+    },
+    {
+      "source": "extension",
+      "records_checked": 17975,
+      "counts": {
+        "same_clock_fields_as_raw_TAI": 17975
+      },
+      "exceptions_preview": [],
+      "interpretation": "Tests stored clock fields against explicit raw TAI. Not a UTC conversion, observation-availability audit or certification of previous label joins."
+    },
+    {
+      "source": "sharp96",
+      "records_checked": 663265,
+      "counts": {
+        "same_clock_fields_as_raw_TAI": 663265
+      },
+      "exceptions_preview": [],
+      "interpretation": "Tests stored clock fields against explicit raw TAI. Not a UTC conversion, observation-availability audit or certification of previous label joins."
+    }
+  ],
+  "baseline_lineage_check": {
+    "status": "REVIEW_ONLY_NO_COLUMNS_CREATED",
+    "counts": {
+      "baseline_rows": 68010,
+      "matched_with_raw_TAI_clock_evidence": 68010
+    },
+    "note": "Matched sample_id with matching HARP, NOAA, label and clock fields supplies lineage evidence. No IDs or object paths are changed; no physical UTC time is written."
+  },
+  "positive_region_support": [
+    {
+      "year_as_stored": "2010",
+      "sample_rows": 3316,
+      "positive_rows": 29,
+      "positive_harps": 1,
+      "positive_noaa_ids": 1
+    },
+    {
+      "year_as_stored": "2011",
+      "sample_rows": 11277,
+      "positive_rows": 412,
+      "positive_harps": 11,
+      "positive_noaa_ids": 11
+    },
+    {
+      "year_as_stored": "2012",
+      "sample_rows": 10855,
+      "positive_rows": 305,
+      "positive_harps": 10,
+      "positive_noaa_ids": 10
+    },
+    {
+      "year_as_stored": "2013",
+      "sample_rows": 13333,
+      "positive_rows": 500,
+      "positive_harps": 18,
+      "positive_noaa_ids": 18
+    },
+    {
+      "year_as_stored": "2014",
+      "sample_rows": 11653,
+      "positive_rows": 629,
+      "positive_harps": 19,
+      "positive_noaa_ids": 19
+    },
+    {
+      "year_as_stored": "2015",
+      "sample_rows": 11259,
+      "positive_rows": 531,
+      "positive_harps": 15,
+      "positive_noaa_ids": 15
+    },
+    {
+      "year_as_stored": "2016",
+      "sample_rows": 6885,
+      "positive_rows": 8,
+      "positive_harps": 1,
+      "positive_noaa_ids": 1
+    },
+    {
+      "year_as_stored": "2017",
+      "sample_rows": 3462,
+      "positive_rows": 86,
+      "positive_harps": 3,
+      "positive_noaa_ids": 3
+    },
+    {
+      "year_as_stored": "2018",
+      "sample_rows": 1711,
+      "positive_rows": 0,
+      "positive_harps": 0,
+      "positive_noaa_ids": 0
+    },
+    {
+      "year_as_stored": "2019",
+      "sample_rows": 1058,
+      "positive_rows": 0,
+      "positive_harps": 0,
+      "positive_noaa_ids": 0
+    },
+    {
+      "year_as_stored": "2020",
+      "sample_rows": 2089,
+      "positive_rows": 0,
+      "positive_harps": 0,
+      "positive_noaa_ids": 0
+    },
+    {
+      "year_as_stored": "2021",
+      "sample_rows": 5828,
+      "positive_rows": 144,
+      "positive_harps": 7,
+      "positive_noaa_ids": 7
+    },
+    {
+      "year_as_stored": "2022",
+      "sample_rows": 11534,
+      "positive_rows": 131,
+      "positive_harps": 7,
+      "positive_noaa_ids": 7
+    },
+    {
+      "year_as_stored": "2023",
+      "sample_rows": 14677,
+      "positive_rows": 318,
+      "positive_harps": 11,
+      "positive_noaa_ids": 11
+    },
+    {
+      "year_as_stored": "2024",
+      "sample_rows": 14732,
+      "positive_rows": 1543,
+      "positive_harps": 43,
+      "positive_noaa_ids": 42
+    },
+    {
+      "year_as_stored": "2025",
+      "sample_rows": 14774,
+      "positive_rows": 820,
+      "positive_harps": 29,
+      "positive_noaa_ids": 29
+    },
+    {
+      "year_as_stored": "2026",
+      "sample_rows": 3201,
+      "positive_rows": 178,
+      "positive_harps": 6,
+      "positive_noaa_ids": 6
+    }
+  ],
+  "positive_region_support_note": "Distinct identifiers, not independently certified events/AR groups. Stored years not yet recomputed in UTC. No split is selected.",
+  "uq_protocol_file_presence": {
+    "docs/TRUSTWORTHY_RESEARCH_STANDARD.md": false,
+    "docs/AIA_UQ_CALIBRATION_PROTOCOL.md": false,
+    "configs/aia_uq_calibration_protocol.json": false
+  },
+  "uncleared_gates": [
+    "Event catalogue provenance, completeness, source versions, units and availability delay.",
+    "Expert/source review of flagged event rows; no automatic deduplication or timestamp sorting.",
+    "Physical TAI/UTC conversion and label-window impact, before training.",
+    "AIA observed timestamps versus forecast issue time and 180-second matching rule.",
+    "Qualified history coverage, non-overlapping AR-safe development split with positive support.",
+    "48-hour follow-up completeness and matched populations for calibration/UQ evaluation."
+  ]
+}

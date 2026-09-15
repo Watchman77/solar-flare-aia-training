@@ -1,5 +1,9 @@
 # Final Big-Bang Execution Plan
 
+<!-- aia17-checkpoint-20260915 -->
+> **15 September 2026 amendment — takes precedence over the affected historical proposals below.** The example 2018–2019 validation allocation is superseded: the audited current labels contain no positives there. No replacement split is frozen. Do not use routine billing disconnection to preserve the archive. Use bounded compute and verify backups before any deletion. The original plan is retained below as history; 17B still has uncleared training gates. See [the current checkpoint](RESEARCH_CHECKPOINT_2026-09-15.md).
+<!-- /aia17-checkpoint-20260915 -->
+
 **Project:** XFlareXAI final multimodal extension  
 **Date:** 2026-09-08  
 **Scope:** 48-hour M/X-class solar flare forecasting  

@@ -1,0 +1,31 @@
+Tests run during checkpoint preparation; no model/data audit rerun.
+
+Pattern: test_aia17_metadata.py
+test_actual_event_classes_and_raw_cadence (test_aia17_metadata.MetadataTests.test_actual_event_classes_and_raw_cadence) ... ok
+test_contract_preserved (test_aia17_metadata.MetadataTests.test_contract_preserved) ... ok
+test_duplicate_conflicting_labels_not_silently_merged (test_aia17_metadata.MetadataTests.test_duplicate_conflicting_labels_not_silently_merged) ... ok
+test_extension_subset_not_concatenated (test_aia17_metadata.MetadataTests.test_extension_subset_not_concatenated) ... ok
+test_invalid_labels_not_zero_filled (test_aia17_metadata.MetadataTests.test_invalid_labels_not_zero_filled) ... ok
+test_missing_feature_not_created (test_aia17_metadata.MetadataTests.test_missing_feature_not_created) ... ok
+test_raw_labels_not_required (test_aia17_metadata.MetadataTests.test_raw_labels_not_required) ... ok
+test_staging_reuses_verified_source_and_does_not_write_cloud (test_aia17_metadata.MetadataTests.test_staging_reuses_verified_source_and_does_not_write_cloud) ... ok
+test_tai_is_not_assumed_utc (test_aia17_metadata.MetadataTests.test_tai_is_not_assumed_utc) ... ok
+test_total_byte_cap_blocks_all_downloads (test_aia17_metadata.MetadataTests.test_total_byte_cap_blocks_all_downloads) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.278s
+
+OK
+
+Pattern: test_aia_uq_protocol.py
+test_calibration_never_fitted_on_test (test_aia_uq_protocol.UQProtocolTests.test_calibration_never_fitted_on_test) ... ok
+test_exact_standing_checklist (test_aia_uq_protocol.UQProtocolTests.test_exact_standing_checklist) ... ok
+test_grouped_paired_bootstrap_contract (test_aia_uq_protocol.UQProtocolTests.test_grouped_paired_bootstrap_contract) ... ok
+test_no_training_or_uq_execution_claim (test_aia_uq_protocol.UQProtocolTests.test_no_training_or_uq_execution_claim) ... ok
+test_notebook_addenda_present_without_execution_claims (test_aia_uq_protocol.UQProtocolTests.test_notebook_addenda_present_without_execution_claims) ... ok
+test_separate_pinn_and_original_task_preserved (test_aia_uq_protocol.UQProtocolTests.test_separate_pinn_and_original_task_preserved) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK

@@ -1,0 +1,98 @@
+{
+  "version": "aia17-time-label-impact-v1",
+  "status": "REVIEW_OVERLAY_NOT_A_REPLACEMENT_CATALOGUE",
+  "records": [
+    {
+      "source_record_number": 1094,
+      "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+      "raw": {
+        "event_starttime": "2024-05-08 21:08:00",
+        "event_peaktime": "2024-05-08 21:40:00",
+        "event_endtime": "2024-05-08 23:10:00",
+        "fl_goescls": "X1.0",
+        "NOAA_AR_clean": "13664",
+        "flux": "0.0001"
+      },
+      "primary_candidate_lines": [
+        " 600 +     2108   2140      2310  G16  5   XRA  1-8A      X1.0    5.3E-01   3664",
+        " 620       2108   2140      0307  G16  5   XRA  1-8A      X1.0    2.0E-01   3664"
+      ],
+      "review_status": "END_CONFLICT_UNRESOLVED",
+      "peak_time_review": "2024-05-08 21:40:00",
+      "end_time_review": null,
+      "peak_based_input_authorised": false,
+      "duration_input_authorised": false,
+      "catalogue_record_removed": false,
+      "note": "Review overlay only; start retained for conditional target-existence test. No reporting-time claim."
+    },
+    {
+      "source_record_number": 1095,
+      "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+      "raw": {
+        "event_starttime": "2024-05-08 21:08:00",
+        "event_peaktime": "2024-05-08 21:40:00",
+        "event_endtime": "2024-05-09 03:07:00",
+        "fl_goescls": "X1.0",
+        "NOAA_AR_clean": "13664",
+        "flux": "0.0001"
+      },
+      "primary_candidate_lines": [
+        " 600 +     2108   2140      2310  G16  5   XRA  1-8A      X1.0    5.3E-01   3664",
+        " 620       2108   2140      0307  G16  5   XRA  1-8A      X1.0    2.0E-01   3664"
+      ],
+      "review_status": "END_CONFLICT_UNRESOLVED",
+      "peak_time_review": "2024-05-08 21:40:00",
+      "end_time_review": null,
+      "peak_based_input_authorised": false,
+      "duration_input_authorised": false,
+      "catalogue_record_removed": false,
+      "note": "Review overlay only; start retained for conditional target-existence test. No reporting-time claim."
+    },
+    {
+      "source_record_number": 1397,
+      "audit_key": "13796|2024-08-18 23:46:00|2024-09-06 06:27:27|M1.4",
+      "raw": {
+        "event_starttime": "2024-08-18 23:46:00",
+        "event_peaktime": "2024-09-06 06:27:27",
+        "event_endtime": "2024-08-19 00:13:00",
+        "fl_goescls": "M1.4",
+        "NOAA_AR_clean": "13796",
+        "flux": "1.4e-05"
+      },
+      "primary_candidate_lines": [
+        "4630 +     2346   ////      0013  G16  5   XRA  1-8A      M1.4    1.5E-02   3796"
+      ],
+      "review_status": "PEAK_UNKNOWN_PRIMARY_MAX_MISSING",
+      "peak_time_review": null,
+      "end_time_review": "2024-08-19 00:13:00",
+      "peak_based_input_authorised": false,
+      "duration_input_authorised": false,
+      "catalogue_record_removed": false,
+      "note": "Review overlay only; start retained for conditional target-existence test. No reporting-time claim."
+    },
+    {
+      "source_record_number": 1639,
+      "audit_key": "13889|2024-11-18 23:50:00|2024-10-25 23:30:15|M1.1",
+      "raw": {
+        "event_starttime": "2024-11-18 23:50:00",
+        "event_peaktime": "2024-10-25 23:30:15",
+        "event_endtime": "2024-11-19 00:04:00",
+        "fl_goescls": "M1.1",
+        "NOAA_AR_clean": "13889",
+        "flux": "1.1000000000000001e-05"
+      },
+      "primary_candidate_lines": [
+        "9930 +     2350   ////      0004  G16  5   XRA  1-8A      M1.1    4.8E-03   3889"
+      ],
+      "review_status": "PEAK_UNKNOWN_PRIMARY_MAX_MISSING",
+      "peak_time_review": null,
+      "end_time_review": "2024-11-19 00:04:00",
+      "peak_based_input_authorised": false,
+      "duration_input_authorised": false,
+      "catalogue_record_removed": false,
+      "note": "Review overlay only; start retained for conditional target-existence test. No reporting-time claim."
+    }
+  ],
+  "primary_review": "/home/abmoses2000/aia17_metadata_stage1/reviews/primary_sources_20260915T164444194047Z/primary_source_review.json",
+  "primary_review_sha256": "3cd41161a6264df28473875cc9286ba4b50c298cbf89832d556820c5cb80ea21"
+}

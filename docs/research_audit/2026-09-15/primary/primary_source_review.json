@@ -1,0 +1,1613 @@
+{
+  "version": "aia17-primary-event-verification-v1",
+  "started_utc": "2026-09-15T16:44:44.196368+00:00",
+  "forensic_review": "/home/abmoses2000/aia17_metadata_stage1/reviews/event_time_20260915T103446628773Z/event_time_review.json",
+  "input_sha256": {
+    "/home/abmoses2000/aia17_metadata_stage1/reviews/event_time_20260915T103446628773Z/event_time_review.json": "ad48b5fd15eee6e61de983a7375d63325bd216b125326c2ceddc077905b2faa9",
+    "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/stage1_report.json": "66db8d2ed86469f3e9d605ced011e8c078c2b3259a14f3a9f0d7e9de6f8d7bc8",
+    "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/source_lock_snapshot.json": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+    "/home/abmoses2000/aia17_metadata_stage1/cache/events_1778961084955762.csv": "f7756435331ab9dbd94507d49a3b1b29634b0ce24eebc3cea165b649d53a95c8"
+  },
+  "network_authorised": true,
+  "targets": [
+    {
+      "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+      "reason": "duplicate_key_with_exported_field_review",
+      "records": [
+        {
+          "source_record_number": 1094,
+          "csv_end_line": 1095,
+          "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+          "flags": [],
+          "raw": {
+            "event_starttime": "2024-05-08 21:08:00",
+            "event_peaktime": "2024-05-08 21:40:00",
+            "event_endtime": "2024-05-08 23:10:00",
+            "fl_goescls": "X1.0",
+            "NOAA_AR_clean": "13664",
+            "flux": "0.0001"
+          }
+        },
+        {
+          "source_record_number": 1095,
+          "csv_end_line": 1096,
+          "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+          "flags": [],
+          "raw": {
+            "event_starttime": "2024-05-08 21:08:00",
+            "event_peaktime": "2024-05-08 21:40:00",
+            "event_endtime": "2024-05-09 03:07:00",
+            "fl_goescls": "X1.0",
+            "NOAA_AR_clean": "13664",
+            "flux": "0.0001"
+          }
+        }
+      ],
+      "day_from_stored_start": "20240508",
+      "begin_from_stored_start": "2108",
+      "class_from_export": "X1.0",
+      "full_noaa_from_export": "13664",
+      "candidate_archive_region_tokens": [
+        "13664",
+        "3664"
+      ],
+      "mapping_note": "Full ID and its four-digit suffix are candidate matching tokens ONLY, not a general AR-renumbering rule."
+    },
+    {
+      "audit_key": "13796|2024-08-18 23:46:00|2024-09-06 06:27:27|M1.4",
+      "reason": "event_time_order",
+      "records": [
+        {
+          "source_record_number": 1397,
+          "csv_end_line": 1398,
+          "audit_key": "13796|2024-08-18 23:46:00|2024-09-06 06:27:27|M1.4",
+          "flags": [
+            "end_before_peak"
+          ],
+          "raw": {
+            "event_starttime": "2024-08-18 23:46:00",
+            "event_peaktime": "2024-09-06 06:27:27",
+            "event_endtime": "2024-08-19 00:13:00",
+            "fl_goescls": "M1.4",
+            "NOAA_AR_clean": "13796",
+            "flux": "1.4e-05"
+          }
+        }
+      ],
+      "day_from_stored_start": "20240818",
+      "begin_from_stored_start": "2346",
+      "class_from_export": "M1.4",
+      "full_noaa_from_export": "13796",
+      "candidate_archive_region_tokens": [
+        "13796",
+        "3796"
+      ],
+      "mapping_note": "Full ID and its four-digit suffix are candidate matching tokens ONLY, not a general AR-renumbering rule."
+    },
+    {
+      "audit_key": "13889|2024-11-18 23:50:00|2024-10-25 23:30:15|M1.1",
+      "reason": "event_time_order",
+      "records": [
+        {
+          "source_record_number": 1639,
+          "csv_end_line": 1640,
+          "audit_key": "13889|2024-11-18 23:50:00|2024-10-25 23:30:15|M1.1",
+          "flags": [
+            "peak_before_start"
+          ],
+          "raw": {
+            "event_starttime": "2024-11-18 23:50:00",
+            "event_peaktime": "2024-10-25 23:30:15",
+            "event_endtime": "2024-11-19 00:04:00",
+            "fl_goescls": "M1.1",
+            "NOAA_AR_clean": "13889",
+            "flux": "1.1000000000000001e-05"
+          }
+        }
+      ],
+      "day_from_stored_start": "20241118",
+      "begin_from_stored_start": "2350",
+      "class_from_export": "M1.1",
+      "full_noaa_from_export": "13889",
+      "candidate_archive_region_tokens": [
+        "13889",
+        "3889"
+      ],
+      "mapping_note": "Full ID and its four-digit suffix are candidate matching tokens ONLY, not a general AR-renumbering rule."
+    }
+  ],
+  "primary_sources": [
+    {
+      "day": "20240508",
+      "url": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/daily_reports/solar_event_reports/2024/05/20240508events.txt",
+      "http_status": 200,
+      "last_modified": "Sat, 11 May 2024 03:57:06 GMT",
+      "etag": null,
+      "retrieved_utc": "2026-09-15T16:44:44.801501+00:00",
+      "bytes": 9130,
+      "sha256": "8f35f8773e9a996aede67dcb397b9a4a79bf253bdcf60eff9e5866f4d6e55d04",
+      "product_date": "20240508",
+      "header_lines": [
+        ":Product: 20240508events.txt",
+        ":Created: 2024 May 11 0357 UT",
+        ":Date: 2024 05 08"
+      ],
+      "xra_records": [
+        {
+          "line_number": 14,
+          "event_number_raw": "270",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0044",
+          "max_raw": "0051",
+          "end_raw": "0055",
+          "observer": "G18",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C9.3",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "4.3E-03   3664",
+          "raw_line": " 270 +     0044   0051      0055  G18  5   XRA  1-8A      C9.3    4.3E-03   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 20,
+          "event_number_raw": "290",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0133",
+          "max_raw": "0141",
+          "end_raw": "0148",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "4.7E-02   3663",
+          "raw_line": " 290 +     0133   0141      0148  G16  5   XRA  1-8A      X1.0    4.7E-02   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 24,
+          "event_number_raw": "300",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0216",
+          "max_raw": "0227",
+          "end_raw": "0236",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M3.4",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "2.9E-02   3664",
+          "raw_line": " 300 +     0216   0227      0236  G16  5   XRA  1-8A      M3.4    2.9E-02   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 30,
+          "event_number_raw": "320",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0319",
+          "max_raw": "0327",
+          "end_raw": "0338",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.8",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "4.2E-03   3664",
+          "raw_line": " 320 +     0319   0327      0338  G16  5   XRA  1-8A      M1.8    4.2E-03   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 46,
+          "event_number_raw": "340",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0437",
+          "max_raw": "0509",
+          "end_raw": "0532",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "6.3E-03   3664",
+          "raw_line": " 340 +     0437   0509      0532  G16  5   XRA  1-8A      X1.0    6.3E-03   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 67,
+          "event_number_raw": "370",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0729",
+          "max_raw": "0741",
+          "end_raw": "0753",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M4.5",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "5.1E-02   3663",
+          "raw_line": " 370 +     0729   0741      0753  G16  5   XRA  1-8A      M4.5    5.1E-02   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 76,
+          "event_number_raw": "390",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0931",
+          "max_raw": "0937",
+          "end_raw": "0942",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.8",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "1.2E-02   3663",
+          "raw_line": " 390 +     0931   0937      0942  G16  5   XRA  1-8A      M1.8    1.2E-02   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 80,
+          "event_number_raw": "400",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0943",
+          "max_raw": "0948",
+          "end_raw": "0956",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.1",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "1.6E-02   3663",
+          "raw_line": " 400 +     0943   0948      0956  G16  5   XRA  1-8A      M2.1    1.6E-02   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 88,
+          "event_number_raw": "430",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1109",
+          "max_raw": "1122",
+          "end_raw": "1126",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M4.1",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "1.4E-02   3663",
+          "raw_line": " 430 +     1109   1122      1126  G16  5   XRA  1-8A      M4.1    1.4E-02   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 109,
+          "event_number_raw": "490",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1553",
+          "max_raw": "1559",
+          "end_raw": "1613",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C6.6",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "1.0E-02   3664",
+          "raw_line": " 490 +     1553   1559      1613  G16  5   XRA  1-8A      C6.6    1.0E-02   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 116,
+          "event_number_raw": "530",
+          "preferred_marker_raw": "",
+          "begin_raw": "1613",
+          "max_raw": "1622",
+          "end_raw": "1627",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C6.6",
+          "region_raw": null,
+          "particulars_after_class_raw": "5.7E-03",
+          "raw_line": " 530       1613   1622      1627  G16  5   XRA  1-8A      C6.6    5.7E-03       ",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 122,
+          "event_number_raw": "520",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1732",
+          "max_raw": "1753",
+          "end_raw": "1800",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M7.9",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "5.8E-02   3664",
+          "raw_line": " 520 +     1732   1753      1800  G16  5   XRA  1-8A      M7.9    5.8E-02   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 131,
+          "event_number_raw": "540",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1814",
+          "max_raw": "1836",
+          "end_raw": "1851",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.9",
+          "region_raw": "3663",
+          "particulars_after_class_raw": "7.4E-03   3663",
+          "raw_line": " 540 +     1814   1836      1851  G16  5   XRA  1-8A      M2.9    7.4E-03   3663",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 138,
+          "event_number_raw": "550",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1915",
+          "max_raw": "1921",
+          "end_raw": "1929",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "1.6E-02   3664",
+          "raw_line": " 550 +     1915   1921      1929  G16  5   XRA  1-8A      M2.0    1.6E-02   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 145,
+          "event_number_raw": "590",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2027",
+          "max_raw": "2034",
+          "end_raw": "2039",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.7",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "1.2E-02   3664",
+          "raw_line": " 590 +     2027   2034      2039  G16  5   XRA  1-8A      M1.7    1.2E-02   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 147,
+          "event_number_raw": "600",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "2310",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "5.3E-01   3664",
+          "raw_line": " 600 +     2108   2140      2310  G16  5   XRA  1-8A      X1.0    5.3E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 149,
+          "event_number_raw": "620",
+          "preferred_marker_raw": "",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "0307",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "2.0E-01   3664",
+          "raw_line": " 620       2108   2140      0307  G16  5   XRA  1-8A      X1.0    2.0E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 160,
+          "event_number_raw": "920",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2205",
+          "max_raw": "2227",
+          "end_raw": "2312",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M9.8",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "3.2E-01   3664",
+          "raw_line": " 920 +     2205   2227      2312  G16  5   XRA  1-8A      M9.8    3.2E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        }
+      ],
+      "unparsed_xra_lines": [],
+      "interpretation": "Raw catalogue tokens only. No time-scale, date-rollover or event-identity repair.",
+      "status": "PRIMARY_REPORT_READ"
+    },
+    {
+      "day": "20240818",
+      "url": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/daily_reports/solar_event_reports/2024/08/20240818events.txt",
+      "http_status": 200,
+      "last_modified": "Wed, 21 Aug 2024 03:57:05 GMT",
+      "etag": null,
+      "retrieved_utc": "2026-09-15T16:44:45.206910+00:00",
+      "bytes": 3359,
+      "sha256": "1258675b34b0991b305a6a8af5d59073fd8ebab3c4a2d5b692b28e16a2a42e11",
+      "product_date": "20240818",
+      "header_lines": [
+        ":Product: 20240818events.txt",
+        ":Created: 2024 Aug 21 0357 UT",
+        ":Date: 2024 08 18"
+      ],
+      "xra_records": [
+        {
+          "line_number": 14,
+          "event_number_raw": "4370",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0006",
+          "max_raw": "0013",
+          "end_raw": "0018",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C4.6",
+          "region_raw": "3784",
+          "particulars_after_class_raw": "3.0E-03   3784",
+          "raw_line": "4370 +     0006   0013      0018  G16  5   XRA  1-8A      C4.6    3.0E-03   3784",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 18,
+          "event_number_raw": "4390",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0150",
+          "max_raw": "0204",
+          "end_raw": "0212",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.4",
+          "region_raw": "3784",
+          "particulars_after_class_raw": "1.8E-02   3784",
+          "raw_line": "4390 +     0150   0204      0212  G16  5   XRA  1-8A      M2.4    1.8E-02   3784",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 20,
+          "event_number_raw": "4400",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0340",
+          "max_raw": "0350",
+          "end_raw": "0401",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C8.3",
+          "region_raw": "3790",
+          "particulars_after_class_raw": "2.9E-03   3790",
+          "raw_line": "4400 +     0340   0350      0401  G16  5   XRA  1-8A      C8.3    2.9E-03   3790",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 22,
+          "event_number_raw": "4410",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0407",
+          "max_raw": "0416",
+          "end_raw": "0431",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.1",
+          "region_raw": "3784",
+          "particulars_after_class_raw": "1.4E-02   3784",
+          "raw_line": "4410 +     0407   0416      0431  G16  5   XRA  1-8A      M1.1    1.4E-02   3784",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 33,
+          "event_number_raw": "4460",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0715",
+          "max_raw": "0730",
+          "end_raw": "0744",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.2",
+          "region_raw": "3784",
+          "particulars_after_class_raw": "1.5E-02   3784",
+          "raw_line": "4460 +     0715   0730      0744  G16  5   XRA  1-8A      M1.2    1.5E-02   3784",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 45,
+          "event_number_raw": "4510",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1313",
+          "max_raw": "1320",
+          "end_raw": "1329",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C5.0",
+          "region_raw": "3784",
+          "particulars_after_class_raw": "4.3E-03   3784",
+          "raw_line": "4510 +     1313   1320      1329  G16  5   XRA  1-8A      C5.0    4.3E-03   3784",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 57,
+          "event_number_raw": "4570",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1733",
+          "max_raw": "1736",
+          "end_raw": "1741",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C4.5",
+          "region_raw": "3790",
+          "particulars_after_class_raw": "4.2E-03   3790",
+          "raw_line": "4570 +     1733   1736      1741  G16  5   XRA  1-8A      C4.5    4.2E-03   3790",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 62,
+          "event_number_raw": "4590",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2052",
+          "max_raw": "2107",
+          "end_raw": "2122",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.3",
+          "region_raw": "3796",
+          "particulars_after_class_raw": "2.0E-02   3796",
+          "raw_line": "4590 +     2052   2107      2122  G16  5   XRA  1-8A      M1.3    2.0E-02   3796",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 67,
+          "event_number_raw": "4610",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2233",
+          "max_raw": "2238",
+          "end_raw": "2242",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C5.6",
+          "region_raw": "3793",
+          "particulars_after_class_raw": "2.8E-03   3793",
+          "raw_line": "4610 +     2233   2238      2242  G16  5   XRA  1-8A      C5.6    2.8E-03   3793",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 73,
+          "event_number_raw": "4630",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2346",
+          "max_raw": "////",
+          "end_raw": "0013",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.4",
+          "region_raw": "3796",
+          "particulars_after_class_raw": "1.5E-02   3796",
+          "raw_line": "4630 +     2346   ////      0013  G16  5   XRA  1-8A      M1.4    1.5E-02   3796",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "unparsed_xra_lines": [],
+      "interpretation": "Raw catalogue tokens only. No time-scale, date-rollover or event-identity repair.",
+      "status": "PRIMARY_REPORT_READ"
+    },
+    {
+      "day": "20241118",
+      "url": "https://www.ngdc.noaa.gov/stp/space-weather/swpc-products/daily_reports/solar_event_reports/2024/11/20241118events.txt",
+      "http_status": 200,
+      "last_modified": "Thu, 21 Nov 2024 03:57:05 GMT",
+      "etag": null,
+      "retrieved_utc": "2026-09-15T16:44:46.080870+00:00",
+      "bytes": 9127,
+      "sha256": "17b814e2f2a5c952e407dec5f4b16401ee6f24e68dbb08188f135c3febce04de",
+      "product_date": "20241118",
+      "header_lines": [
+        ":Product: 20241118events.txt",
+        ":Created: 2024 Nov 21 0357 UT",
+        ":Date: 2024 11 18"
+      ],
+      "xra_records": [
+        {
+          "line_number": 16,
+          "event_number_raw": "9490",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0105",
+          "max_raw": "0114",
+          "end_raw": "0118",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C3.2",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "1.6E-03   3889",
+          "raw_line": "9490 +     0105   0114      0118  G16  5   XRA  1-8A      C3.2    1.6E-03   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 24,
+          "event_number_raw": "9510",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0152",
+          "max_raw": "0155",
+          "end_raw": "0200",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C1.5",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "7.9E-04   3889",
+          "raw_line": "9510 +     0152   0155      0200  G16  5   XRA  1-8A      C1.5    7.9E-04   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 27,
+          "event_number_raw": "9520",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0201",
+          "max_raw": "0207",
+          "end_raw": "0211",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C4.5",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "8.6E-04   3889",
+          "raw_line": "9520 +     0201   0207      0211  G16  5   XRA  1-8A      C4.5    8.6E-04   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 30,
+          "event_number_raw": "9530",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0224",
+          "max_raw": "0232",
+          "end_raw": "0236",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C3.1",
+          "region_raw": "3897",
+          "particulars_after_class_raw": "1.4E-03   3897",
+          "raw_line": "9530 +     0224   0232      0236  G16  5   XRA  1-8A      C3.1    1.4E-03   3897",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 35,
+          "event_number_raw": "9550",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0327",
+          "max_raw": "0335",
+          "end_raw": "0339",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C1.8",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "1.1E-03   3889",
+          "raw_line": "9550 +     0327   0335      0339  G16  5   XRA  1-8A      C1.8    1.1E-03   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 38,
+          "event_number_raw": "9560",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0400",
+          "max_raw": "0409",
+          "end_raw": "0420",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C2.3",
+          "region_raw": "3900",
+          "particulars_after_class_raw": "9.6E-04   3900",
+          "raw_line": "9560 +     0400   0409      0420  G16  5   XRA  1-8A      C2.3    9.6E-04   3900",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 41,
+          "event_number_raw": "9570",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0444",
+          "max_raw": "0453",
+          "end_raw": "0500",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C3.8",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "7.4E-04   3889",
+          "raw_line": "9570 +     0444   0453      0500  G16  5   XRA  1-8A      C3.8    7.4E-04   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 43,
+          "event_number_raw": "9580",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0513",
+          "max_raw": "0522",
+          "end_raw": "0527",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.0",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "8.0E-04   3901",
+          "raw_line": "9580 +     0513   0522      0527  G16  5   XRA  1-8A      M1.0    8.0E-04   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 51,
+          "event_number_raw": "9590",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0551",
+          "max_raw": "0559",
+          "end_raw": "0603",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C2.8",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "1.6E-03   3901",
+          "raw_line": "9590 +     0551   0559      0603  G16  5   XRA  1-8A      C2.8    1.6E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 59,
+          "event_number_raw": "9610",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0651",
+          "max_raw": "0659",
+          "end_raw": "0704",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C2.9",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "9.7E-04   3901",
+          "raw_line": "9610 +     0651   0659      0704  G16  5   XRA  1-8A      C2.9    9.7E-04   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 61,
+          "event_number_raw": "9620",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0713",
+          "max_raw": "0720",
+          "end_raw": "0725",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C3.7",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "2.7E-03   3901",
+          "raw_line": "9620 +     0713   0720      0725  G16  5   XRA  1-8A      C3.7    2.7E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 64,
+          "event_number_raw": "9710",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0725",
+          "max_raw": "0732",
+          "end_raw": "0736",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.7",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "6.4E-03   3901",
+          "raw_line": "9710 +     0725   0732      0736  G16  5   XRA  1-8A      M1.7    6.4E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 68,
+          "event_number_raw": "9630",
+          "preferred_marker_raw": "+",
+          "begin_raw": "0754",
+          "max_raw": "0757",
+          "end_raw": "0801",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.2",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "3.3E-03   3901",
+          "raw_line": "9630 +     0754   0757      0801  G16  5   XRA  1-8A      M1.2    3.3E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 82,
+          "event_number_raw": "9670",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1023",
+          "max_raw": "1030",
+          "end_raw": "1034",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C2.2",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "1.2E-03   3901",
+          "raw_line": "9670 +     1023   1030      1034  G16  5   XRA  1-8A      C2.2    1.2E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 85,
+          "event_number_raw": "9680",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1041",
+          "max_raw": "1058",
+          "end_raw": "1102",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.5",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "8.9E-03   3901",
+          "raw_line": "9680 +     1041   1058      1102  G16  5   XRA  1-8A      M2.5    8.9E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 90,
+          "event_number_raw": "9730",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1106",
+          "max_raw": "1112",
+          "end_raw": "1119",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.6",
+          "region_raw": "3897",
+          "particulars_after_class_raw": "5.0E-03   3897",
+          "raw_line": "9730 +     1106   1112      1119  G16  5   XRA  1-8A      M1.6    5.0E-03   3897",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 96,
+          "event_number_raw": "9770",
+          "preferred_marker_raw": "",
+          "begin_raw": "1119",
+          "max_raw": "1127",
+          "end_raw": "1144",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.5",
+          "region_raw": "3897",
+          "particulars_after_class_raw": "2.3E-02   3897",
+          "raw_line": "9770       1119   1127      1144  G16  5   XRA  1-8A      M1.5    2.3E-02   3897",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 109,
+          "event_number_raw": "9750",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1242",
+          "max_raw": "1253",
+          "end_raw": "1257",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M3.7",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "1.6E-02   3901",
+          "raw_line": "9750 +     1242   1253      1257  G16  5   XRA  1-8A      M3.7    1.6E-02   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 114,
+          "event_number_raw": "9760",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1524",
+          "max_raw": "1539",
+          "end_raw": "1546",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C4.3",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "4.0E-03   3901",
+          "raw_line": "9760 +     1524   1539      1546  G16  5   XRA  1-8A      C4.3    4.0E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 122,
+          "event_number_raw": "9800",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1658",
+          "max_raw": "1706",
+          "end_raw": "1710",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C5.5",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "1.9E-03   3889",
+          "raw_line": "9800 +     1658   1706      1710  G16  5   XRA  1-8A      C5.5    1.9E-03   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 130,
+          "event_number_raw": "9820",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1743",
+          "max_raw": "1749",
+          "end_raw": "1754",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.8",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "2.1E-03   3901",
+          "raw_line": "9820 +     1743   1749      1754  G16  5   XRA  1-8A      M1.8    2.1E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 134,
+          "event_number_raw": "9830",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1759",
+          "max_raw": "1804",
+          "end_raw": "1808",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C6.6",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "3.0E-03   3901",
+          "raw_line": "9830 +     1759   1804      1808  G16  5   XRA  1-8A      C6.6    3.0E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 136,
+          "event_number_raw": "9850",
+          "preferred_marker_raw": "+",
+          "begin_raw": "1845",
+          "max_raw": "1915",
+          "end_raw": "1948",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M2.0",
+          "region_raw": "3901",
+          "particulars_after_class_raw": "2.1E-03   3901",
+          "raw_line": "9850 +     1845   1915      1948  G16  5   XRA  1-8A      M2.0    2.1E-03   3901",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 149,
+          "event_number_raw": "9890",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2042",
+          "max_raw": "2045",
+          "end_raw": "2054",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C6.8",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "5.2E-03   3889",
+          "raw_line": "9890 +     2042   2045      2054  G16  5   XRA  1-8A      C6.8    5.2E-03   3889",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 154,
+          "event_number_raw": "9900",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2224",
+          "max_raw": "2230",
+          "end_raw": "2237",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "C4.3",
+          "region_raw": "3897",
+          "particulars_after_class_raw": "2.9E-03   3897",
+          "raw_line": "9900 +     2224   2230      2237  G16  5   XRA  1-8A      C4.3    2.9E-03   3897",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 159,
+          "event_number_raw": "9930",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2350",
+          "max_raw": "////",
+          "end_raw": "0004",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.1",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "4.8E-03   3889",
+          "raw_line": "9930 +     2350   ////      0004  G16  5   XRA  1-8A      M1.1    4.8E-03   3889",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "unparsed_xra_lines": [],
+      "interpretation": "Raw catalogue tokens only. No time-scale, date-rollover or event-identity repair.",
+      "status": "PRIMARY_REPORT_READ"
+    }
+  ],
+  "comparisons": [
+    {
+      "audit_key": "13664|2024-05-08 21:08:00|2024-05-08 21:40:00|X1.0",
+      "status": "CANDIDATES_ONLY_NO_CORRECTION",
+      "time_class_candidates": [
+        {
+          "line_number": 147,
+          "event_number_raw": "600",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "2310",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "5.3E-01   3664",
+          "raw_line": " 600 +     2108   2140      2310  G16  5   XRA  1-8A      X1.0    5.3E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 149,
+          "event_number_raw": "620",
+          "preferred_marker_raw": "",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "0307",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "2.0E-01   3664",
+          "raw_line": " 620       2108   2140      0307  G16  5   XRA  1-8A      X1.0    2.0E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        }
+      ],
+      "time_class_region_candidates": [
+        {
+          "line_number": 147,
+          "event_number_raw": "600",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "2310",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "5.3E-01   3664",
+          "raw_line": " 600 +     2108   2140      2310  G16  5   XRA  1-8A      X1.0    5.3E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        },
+        {
+          "line_number": 149,
+          "event_number_raw": "620",
+          "preferred_marker_raw": "",
+          "begin_raw": "2108",
+          "max_raw": "2140",
+          "end_raw": "0307",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "X1.0",
+          "region_raw": "3664",
+          "particulars_after_class_raw": "2.0E-01   3664",
+          "raw_line": " 620       2108   2140      0307  G16  5   XRA  1-8A      X1.0    2.0E-01   3664",
+          "all_clock_tokens_plain_HHMM": true
+        }
+      ],
+      "raw_unique_max_tokens": [
+        "2140"
+      ],
+      "raw_unique_end_tokens": [
+        "0307",
+        "2310"
+      ],
+      "warning": "Catalogue candidates need manual/source-lineage review. A missing, qualified or conflicting MAX is not replaced. Clock matching does not establish export-time-scale provenance."
+    },
+    {
+      "audit_key": "13796|2024-08-18 23:46:00|2024-09-06 06:27:27|M1.4",
+      "status": "CANDIDATES_ONLY_NO_CORRECTION",
+      "time_class_candidates": [
+        {
+          "line_number": 73,
+          "event_number_raw": "4630",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2346",
+          "max_raw": "////",
+          "end_raw": "0013",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.4",
+          "region_raw": "3796",
+          "particulars_after_class_raw": "1.5E-02   3796",
+          "raw_line": "4630 +     2346   ////      0013  G16  5   XRA  1-8A      M1.4    1.5E-02   3796",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "time_class_region_candidates": [
+        {
+          "line_number": 73,
+          "event_number_raw": "4630",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2346",
+          "max_raw": "////",
+          "end_raw": "0013",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.4",
+          "region_raw": "3796",
+          "particulars_after_class_raw": "1.5E-02   3796",
+          "raw_line": "4630 +     2346   ////      0013  G16  5   XRA  1-8A      M1.4    1.5E-02   3796",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "raw_unique_max_tokens": [
+        "////"
+      ],
+      "raw_unique_end_tokens": [
+        "0013"
+      ],
+      "warning": "Catalogue candidates need manual/source-lineage review. A missing, qualified or conflicting MAX is not replaced. Clock matching does not establish export-time-scale provenance."
+    },
+    {
+      "audit_key": "13889|2024-11-18 23:50:00|2024-10-25 23:30:15|M1.1",
+      "status": "CANDIDATES_ONLY_NO_CORRECTION",
+      "time_class_candidates": [
+        {
+          "line_number": 159,
+          "event_number_raw": "9930",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2350",
+          "max_raw": "////",
+          "end_raw": "0004",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.1",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "4.8E-03   3889",
+          "raw_line": "9930 +     2350   ////      0004  G16  5   XRA  1-8A      M1.1    4.8E-03   3889",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "time_class_region_candidates": [
+        {
+          "line_number": 159,
+          "event_number_raw": "9930",
+          "preferred_marker_raw": "+",
+          "begin_raw": "2350",
+          "max_raw": "////",
+          "end_raw": "0004",
+          "observer": "G16",
+          "quality": "5",
+          "band": "1-8A",
+          "class_raw": "M1.1",
+          "region_raw": "3889",
+          "particulars_after_class_raw": "4.8E-03   3889",
+          "raw_line": "9930 +     2350   ////      0004  G16  5   XRA  1-8A      M1.1    4.8E-03   3889",
+          "all_clock_tokens_plain_HHMM": false
+        }
+      ],
+      "raw_unique_max_tokens": [
+        "////"
+      ],
+      "raw_unique_end_tokens": [
+        "0004"
+      ],
+      "warning": "Catalogue candidates need manual/source-lineage review. A missing, qualified or conflicting MAX is not replaced. Clock matching does not establish export-time-scale provenance."
+    }
+  ],
+  "repairs_applied": false,
+  "training_authorised": false,
+  "event_scale_provenance": "Still unverified for the full exported event catalogue",
+  "requests_cap": 3,
+  "response_cap_bytes_each": 131072,
+  "code_lineage_scan": {
+    "bytes_scanned": 2625242,
+    "candidate_files": 34,
+    "snippets": [
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb",
+        "file_sha256": "7f9791b4a7f5ef4d7b2bce099b6096c59dc934741cb64bee1029704501733578",
+        "block": "code_cell_9",
+        "line_in_block": 16,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "14:     frame = frame.copy()\n15: \n16:     frame[\"T_REC_dt\"] = pd.to_datetime(\n17:         frame[\"T_REC_dt\"],\n18:         errors=\"coerce\",\n19:     )"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb",
+        "file_sha256": "7f9791b4a7f5ef4d7b2bce099b6096c59dc934741cb64bee1029704501733578",
+        "block": "code_cell_9",
+        "line_in_block": 30,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "28:             for column in [\n29:                 \"label_48h_final\",\n30:                 \"label_48h_ar_specific\",\n31:                 \"label_48h\",\n32:             ]\n33:             if column in frame.columns"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb",
+        "file_sha256": "7f9791b4a7f5ef4d7b2bce099b6096c59dc934741cb64bee1029704501733578",
+        "block": "code_cell_17",
+        "line_in_block": 4,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "2: def parse_jsoc_time(value):\n3:     try:\n4:         return pd.Timestamp(drms.to_datetime(str(value)))\n5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY.ipynb",
+        "file_sha256": "7f9791b4a7f5ef4d7b2bce099b6096c59dc934741cb64bee1029704501733578",
+        "block": "code_cell_17",
+        "line_in_block": 7,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")\n8: \n9: \n10: def extract_request_id(message):"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_9",
+        "line_in_block": 16,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "14:     frame = frame.copy()\n15: \n16:     frame[\"T_REC_dt\"] = pd.to_datetime(\n17:         frame[\"T_REC_dt\"],\n18:         errors=\"coerce\",\n19:     )"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_9",
+        "line_in_block": 30,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "28:             for column in [\n29:                 \"label_48h_final\",\n30:                 \"label_48h_ar_specific\",\n31:                 \"label_48h\",\n32:             ]\n33:             if column in frame.columns"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_18",
+        "line_in_block": 4,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "2: def parse_jsoc_time(value):\n3:     try:\n4:         return pd.Timestamp(drms.to_datetime(str(value)))\n5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_18",
+        "line_in_block": 7,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")\n8: \n9: \n10: def extract_request_id(message):"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_18",
+        "line_in_block": 128,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "126: \n127:     available_times = [item[0] for item in indexed]\n128:     for target in pd.to_datetime(target_frame[\"T_REC_dt\"]):\n129:         nearest_delta = min(\n130:             abs((timestamp - pd.Timestamp(target)).total_seconds())\n131:             for timestamp in available_times"
+      },
+      {
+        "path": "notebooks/05_AIA_JSOC_HARP_BLOCK_MINER_VM_READY_v2_CADENCE_FIXED.ipynb",
+        "file_sha256": "f6db52a0de2e9001d6b8c464988caa73f14f3360401b5fb19801efd816f82549",
+        "block": "code_cell_18",
+        "line_in_block": 271,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "269:         indexed = index_downloaded_files(all_fits)\n270:         available_times = [item[0] for item in indexed]\n271:         for target in pd.to_datetime(block[\"T_REC_dt\"]):\n272:             nearest_delta = min(\n273:                 abs((timestamp - pd.Timestamp(target)).total_seconds())\n274:                 for timestamp in available_times"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_9",
+        "line_in_block": 16,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "14:     frame = frame.copy()\n15: \n16:     frame[\"T_REC_dt\"] = pd.to_datetime(\n17:         frame[\"T_REC_dt\"],\n18:         errors=\"coerce\",\n19:     )"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_9",
+        "line_in_block": 30,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "28:             for column in [\n29:                 \"label_48h_final\",\n30:                 \"label_48h_ar_specific\",\n31:                 \"label_48h\",\n32:             ]\n33:             if column in frame.columns"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_18",
+        "line_in_block": 4,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "2: def parse_jsoc_time(value):\n3:     try:\n4:         return pd.Timestamp(drms.to_datetime(str(value)))\n5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_18",
+        "line_in_block": 7,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "5:     except Exception:\n6:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n7:         return pd.to_datetime(text, errors=\"coerce\")\n8: \n9: \n10: def extract_request_id(message):"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_18",
+        "line_in_block": 128,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "126: \n127:     available_times = [item[0] for item in indexed]\n128:     for target in pd.to_datetime(target_frame[\"T_REC_dt\"]):\n129:         nearest_delta = min(\n130:             abs((timestamp - pd.Timestamp(target)).total_seconds())\n131:             for timestamp in available_times"
+      },
+      {
+        "path": "notebooks/06_AIA_JSOC_HARP_BLOCK_MINER_v3_SHARDED_PRODUCTION.ipynb",
+        "file_sha256": "6e6e037ea962f838ce3568a53307690b34f6459223aa1e06a02bbb5a2080b0e8",
+        "block": "code_cell_18",
+        "line_in_block": 271,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "269:         indexed = index_downloaded_files(all_fits)\n270:         available_times = [item[0] for item in indexed]\n271:         for target in pd.to_datetime(block[\"T_REC_dt\"]):\n272:             nearest_delta = min(\n273:                 abs((timestamp - pd.Timestamp(target)).total_seconds())\n274:                 for timestamp in available_times"
+      },
+      {
+        "path": "notebooks/07_AIA_JSOC_2026_MISSING_ONLY_RECOVERY.ipynb",
+        "file_sha256": "cdc11454a4785796b0521e747ffc9b5ba7a5b75769403d46b0f751339ccfec09",
+        "block": "code_cell_7",
+        "line_in_block": 21,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "19: inventory = pd.read_csv(INVENTORY_LOCAL, low_memory=False)\n20: \n21: raw_df[\"T_REC_dt\"] = pd.to_datetime(raw_df[\"T_REC_dt\"], errors=\"coerce\")\n22: \n23: if \"NOAA_AR_clean\" not in raw_df.columns:\n24:     source_column = ("
+      },
+      {
+        "path": "notebooks/07_AIA_JSOC_2026_MISSING_ONLY_RECOVERY.ipynb",
+        "file_sha256": "cdc11454a4785796b0521e747ffc9b5ba7a5b75769403d46b0f751339ccfec09",
+        "block": "code_cell_7",
+        "line_in_block": 36,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "34:         for column in [\n35:             \"label_48h_final\",\n36:             \"label_48h_ar_specific\",\n37:             \"label_48h\",\n38:         ]\n39:         if column in raw_df.columns"
+      },
+      {
+        "path": "notebooks/07_AIA_JSOC_2026_MISSING_ONLY_RECOVERY.ipynb",
+        "file_sha256": "cdc11454a4785796b0521e747ffc9b5ba7a5b75769403d46b0f751339ccfec09",
+        "block": "code_cell_11",
+        "line_in_block": 3,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "1: def parse_jsoc_time(value):\n2:     try:\n3:         return pd.Timestamp(drms.to_datetime(str(value)))\n4:     except Exception:\n5:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n6:         return pd.to_datetime(text, errors=\"coerce\")"
+      },
+      {
+        "path": "notebooks/07_AIA_JSOC_2026_MISSING_ONLY_RECOVERY.ipynb",
+        "file_sha256": "cdc11454a4785796b0521e747ffc9b5ba7a5b75769403d46b0f751339ccfec09",
+        "block": "code_cell_11",
+        "line_in_block": 6,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "4:     except Exception:\n5:         text = str(value).replace(\"_TAI\", \"\").replace(\"Z\", \"\")\n6:         return pd.to_datetime(text, errors=\"coerce\")\n7: \n8: \n9: def extract_request_id(message):"
+      },
+      {
+        "path": "notebooks/07_AIA_JSOC_2026_MISSING_ONLY_RECOVERY.ipynb",
+        "file_sha256": "cdc11454a4785796b0521e747ffc9b5ba7a5b75769403d46b0f751339ccfec09",
+        "block": "code_cell_11",
+        "line_in_block": 134,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "132:     for sample_id, target in zip(\n133:         target_frame[\"sample_id\"],\n134:         pd.to_datetime(target_frame[\"T_REC_dt\"]),\n135:     ):\n136:         nearest_delta = min(\n137:             abs((timestamp - pd.Timestamp(target)).total_seconds())"
+      },
+      {
+        "path": "notebooks/training/09_aia_resnet18_physics_safe_fold2015_fullnatural_benchmark.ipynb",
+        "file_sha256": "72ce3d1a011927c934df7a9d079e8b11f1f8a62c5064bf81ce3520a143475e35",
+        "block": "code_cell_3",
+        "line_in_block": 48,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "46:     if \"year\" not in df.columns:\n47:         if \"timestamp\" in df.columns:\n48:             df[\"year\"] = pd.to_datetime(df[\"timestamp\"]).dt.year\n49:         elif \"date\" in df.columns:\n50:             df[\"year\"] = pd.to_datetime(df[\"date\"]).dt.year\n51:         else:"
+      },
+      {
+        "path": "notebooks/training/09_aia_resnet18_physics_safe_fold2015_fullnatural_benchmark.ipynb",
+        "file_sha256": "72ce3d1a011927c934df7a9d079e8b11f1f8a62c5064bf81ce3520a143475e35",
+        "block": "code_cell_3",
+        "line_in_block": 50,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "48:             df[\"year\"] = pd.to_datetime(df[\"timestamp\"]).dt.year\n49:         elif \"date\" in df.columns:\n50:             df[\"year\"] = pd.to_datetime(df[\"date\"]).dt.year\n51:         else:\n52:             extracted = df[\"gcp_path\"].astype(str).str.extract(r\"/(20\\d{2})/|_(20\\d{2})\\d{4}_\")\n53:             year = extracted.bfill(axis=1).iloc[:, 0]"
+      },
+      {
+        "path": "notebooks/training/11_aia_resnet18_physics_safe_multifold_fullnatural_benchmark.ipynb",
+        "file_sha256": "999f734dbef7a24fdb9647804c872736c3b7c7147af4565bffd883d6359081b1",
+        "block": "code_cell_1",
+        "line_in_block": 94,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "92:     if 'year' not in df.columns:\n93:         if 'timestamp' in df.columns:\n94:             df['year'] = pd.to_datetime(df['timestamp']).dt.year\n95:         elif 'date' in df.columns:\n96:             df['year'] = pd.to_datetime(df['date']).dt.year\n97:         else:"
+      },
+      {
+        "path": "notebooks/training/11_aia_resnet18_physics_safe_multifold_fullnatural_benchmark.ipynb",
+        "file_sha256": "999f734dbef7a24fdb9647804c872736c3b7c7147af4565bffd883d6359081b1",
+        "block": "code_cell_1",
+        "line_in_block": 96,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "94:             df['year'] = pd.to_datetime(df['timestamp']).dt.year\n95:         elif 'date' in df.columns:\n96:             df['year'] = pd.to_datetime(df['date']).dt.year\n97:         else:\n98:             extracted = df['gcp_path'].astype(str).str.extract(r'/(20\\d{2})/|_(20\\d{2})\\d{4}_')\n99:             df['year'] = pd.to_numeric(extracted.bfill(axis=1).iloc[:, 0], errors='coerce').astype('Int64')"
+      },
+      {
+        "path": "notebooks/training/12_aia_resnet18_physics_safe_multifold_hyperparameter_sensitivity.ipynb",
+        "file_sha256": "3692a4f054b6fdeefb6684c279c6f35fa83747cc320bc3ce6b22f6eee11a78b1",
+        "block": "code_cell_3",
+        "line_in_block": 15,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "13:     if \"year\" not in df.columns:\n14:         if \"timestamp\" in df.columns:\n15:             df[\"year\"] = pd.to_datetime(df[\"timestamp\"]).dt.year\n16:         elif \"date\" in df.columns:\n17:             df[\"year\"] = pd.to_datetime(df[\"date\"]).dt.year\n18:         else:"
+      },
+      {
+        "path": "notebooks/training/12_aia_resnet18_physics_safe_multifold_hyperparameter_sensitivity.ipynb",
+        "file_sha256": "3692a4f054b6fdeefb6684c279c6f35fa83747cc320bc3ce6b22f6eee11a78b1",
+        "block": "code_cell_3",
+        "line_in_block": 17,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "15:             df[\"year\"] = pd.to_datetime(df[\"timestamp\"]).dt.year\n16:         elif \"date\" in df.columns:\n17:             df[\"year\"] = pd.to_datetime(df[\"date\"]).dt.year\n18:         else:\n19:             extracted = df[\"gcp_path\"].astype(str).str.extract(r\"/(20\\d{2})/|_(20\\d{2})\\d{4}_\")\n20:             df[\"year\"] = pd.to_numeric(extracted.bfill(axis=1).iloc[:, 0], errors=\"coerce\").astype(\"Int64\")"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_5",
+        "line_in_block": 6,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "4:         for c in parse_dates:\n5:             if c in df.columns:\n6:                 df[c] = pd.to_datetime(df[c], errors=\"coerce\")\n7:     return df\n8: \n9: aia = load_csv(FILES[\"aia_baseline_manifest_2010_2016\"], parse_dates=[\"T_REC_dt\"])"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_9",
+        "line_in_block": 3,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "1: aia_core_cols = [\n2:     \"sample_id\", \"gcp_path\", \"file\", \"T_REC_dt\", \"HARPNUM\", \"NOAA_AR_clean\",\n3:     \"year\", \"label_48h_global_old\", \"label_48h_ar_specific\", \"label_48h_final\",\n4:     \"label_48h\", \"y\", \"manifest_label_before_repair\"\n5: ]\n6: aia_core_cols = [c for c in aia_core_cols if c in aia.columns]"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_9",
+        "line_in_block": 13,
+        "needles": [
+          "label_48h_ar_specific"
+        ],
+        "excerpt": "11:     \"QUALITY\", \"year\", \"source_median_cadence_minutes\", \"target_cadence_minutes\",\n12:     \"center_lon\", \"center_lat\", \"LON_CENTER\",\n13:     \"label_48h_global_old\", \"label_48h_ar_specific\", \"label_48h_final\", \"label_48h\",\n14: ]\n15: sharp_feature_candidates = [f for f in PREFERRED_SHARP_FEATURES_16 + OPTIONAL_SHARP_FEATURES if f in sharp.columns]\n16: sharp_cols = [c for c in sharp_base_cols + sharp_feature_candidates if c in sharp.columns]"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_9",
+        "line_in_block": 27,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "25: if \"T_REC_dt\" in aligned.columns and \"sharp_T_REC_dt\" in aligned.columns:\n26:     aligned[\"aia_sharp_time_delta_seconds\"] = (\n27:         pd.to_datetime(aligned[\"T_REC_dt\"], errors=\"coerce\")\n28:         - pd.to_datetime(aligned[\"sharp_T_REC_dt\"], errors=\"coerce\")\n29:     ).dt.total_seconds().abs()\n30: else:"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_9",
+        "line_in_block": 28,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "26:     aligned[\"aia_sharp_time_delta_seconds\"] = (\n27:         pd.to_datetime(aligned[\"T_REC_dt\"], errors=\"coerce\")\n28:         - pd.to_datetime(aligned[\"sharp_T_REC_dt\"], errors=\"coerce\")\n29:     ).dt.total_seconds().abs()\n30: else:\n31:     aligned[\"aia_sharp_time_delta_seconds\"] = np.nan"
+      },
+      {
+        "path": "notebooks/training/14_aia_sharp_goes_fusion_dataset_alignment_protocol.ipynb",
+        "file_sha256": "13c92f5260813e54162d8c0e0060a451e10f0ffcfc86077e69e4d1855e520a20",
+        "block": "code_cell_13",
+        "line_in_block": 3,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "1: sharp_time = sharp[[\"HARPNUM\", \"T_REC_dt\", \"sample_id\"]].dropna(subset=[\"HARPNUM\", \"T_REC_dt\"]).copy()\n2: sharp_time[\"HARPNUM\"] = sharp_time[\"HARPNUM\"].astype(int)\n3: sharp_time[\"t_ns\"] = pd.to_datetime(sharp_time[\"T_REC_dt\"]).astype(\"int64\")\n4: sharp_time = sharp_time.sort_values([\"HARPNUM\", \"t_ns\"])\n5: \n6: harp_to_times = {"
+      },
+      {
+        "path": "notebooks/training/15B_sharp_temporal_leakage_and_robustness_audit.ipynb",
+        "file_sha256": "af293d986e24c594388db7782590880d996e6ccf9e2d50dcc1388921f6983a51",
+        "block": "code_cell_7",
+        "line_in_block": 10,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "8:         if c == 'sample_id': aligned[c] = aligned[c].astype(str)\n9:         else: aligned[c] = pd.to_numeric(aligned[c], errors='coerce').astype('Int64')\n10: aligned['T_REC_dt'] = pd.to_datetime(aligned['T_REC_dt'], errors='coerce')\n11: aligned[LABEL_COL] = pd.to_numeric(aligned[LABEL_COL], errors='coerce').astype('Int64')\n12: \n13: available_preferred = [f'sharp_{f}' for f in PREFERRED_SHARP_FEATURES_16 if f'sharp_{f}' in aligned.columns]"
+      },
+      {
+        "path": "notebooks/training/15B_sharp_temporal_leakage_and_robustness_audit.ipynb",
+        "file_sha256": "af293d986e24c594388db7782590880d996e6ccf9e2d50dcc1388921f6983a51",
+        "block": "code_cell_11",
+        "line_in_block": 20,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "18:     work = df[['sample_id','HARPNUM','T_REC_dt']+feature_cols].copy()\n19:     work['HARPNUM']=pd.to_numeric(work['HARPNUM'], errors='coerce').astype('Int64')\n20:     work['T_REC_dt']=pd.to_datetime(work['T_REC_dt'], errors='coerce')\n21:     work=work.dropna(subset=['HARPNUM','T_REC_dt']).sort_values(['HARPNUM','T_REC_dt']).reset_index(drop=True)\n22:     work['t_ns']=work['T_REC_dt'].astype('int64')\n23:     expected_steps=int(np.floor((hours*60)/cadence_minutes))+1"
+      },
+      {
+        "path": "notebooks/training/15_sharp_temporal_baseline_from_fusion_manifest.ipynb",
+        "file_sha256": "0e86e58cbaeb8f5a8135069176d68a7dee5fb57592d0ed39853c41b8ecdbe837",
+        "block": "code_cell_9",
+        "line_in_block": 11,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "9:     work = df[key_cols + feature_cols].copy()\n10:     work[\"HARPNUM\"] = pd.to_numeric(work[\"HARPNUM\"], errors=\"coerce\").astype(\"Int64\")\n11:     work[\"T_REC_dt\"] = pd.to_datetime(work[\"T_REC_dt\"], errors=\"coerce\")\n12:     work = work.dropna(subset=[\"HARPNUM\", \"T_REC_dt\"]).sort_values([\"HARPNUM\", \"T_REC_dt\"]).reset_index(drop=True)\n13:     work[\"t_ns\"] = work[\"T_REC_dt\"].astype(\"int64\")\n14: "
+      },
+      {
+        "path": "notebooks/training/16B_aia_sharp_intermediate_fusion_training.ipynb",
+        "file_sha256": "bbbc815817008bf940315781d8fbf5c9185d247bcc5e9465e02ec2dd320468c1",
+        "block": "code_cell_9",
+        "line_in_block": 5,
+        "needles": [
+          "to_datetime"
+        ],
+        "excerpt": "3:     work = df[key_cols + feature_cols].copy()\n4:     work[\"HARPNUM\"] = pd.to_numeric(work[\"HARPNUM\"], errors=\"coerce\").astype(\"Int64\")\n5:     work[\"T_REC_dt\"] = pd.to_datetime(work[\"T_REC_dt\"], errors=\"coerce\")\n6:     work = work.dropna(subset=[\"HARPNUM\", \"T_REC_dt\"]).sort_values([\"HARPNUM\", \"T_REC_dt\"]).reset_index(drop=True)\n7:     work[\"t_ns\"] = work[\"T_REC_dt\"].astype(\"int64\")\n8: "
+      }
+    ],
+    "skipped": [],
+    "scope_note": "Bounded local code/cell excerpts, not proof of executed extraction lineage. Sparse-checkout omissions, other repos and historical revisions are not covered."
+  },
+  "uq_protocol_presence": {
+    "docs/TRUSTWORTHY_RESEARCH_STANDARD.md": true,
+    "docs/AIA_UQ_CALIBRATION_PROTOCOL.md": true,
+    "configs/aia_uq_calibration_protocol.json": true
+  },
+  "status": "PRIMARY_EVIDENCE_COLLECTED_REVIEW_REQUIRED_NO_REPAIRS"
+}

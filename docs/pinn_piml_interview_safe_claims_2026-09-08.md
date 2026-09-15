@@ -1,5 +1,9 @@
 # Interview-Safe PINN/PIML Claims
 
+<!-- aia17-checkpoint-20260915 -->
+> **Completion-language warning, 15 September 2026.** The past-tense interview paragraphs below are templates for use ONLY after the corresponding experiment is implemented, run and evidenced. The separate 20A/20B/20C track remains planned in this checkpoint; these templates are not proof of completed PINN/PIML work. See [the current checkpoint](RESEARCH_CHECKPOINT_2026-09-15.md).
+<!-- /aia17-checkpoint-20260915 -->
+
 This document defines what can be safely said about the separate PINN/PIML track.
 
 ## Strong but honest claim

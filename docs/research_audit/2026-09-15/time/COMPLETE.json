@@ -1,0 +1,11 @@
+{
+  "status": "TIME_LABEL_IMPACT_COMPLETE_CONDITIONAL_NO_REPAIRS",
+  "output_sha256": {
+    "window_impact_by_year.csv": "14b5a7b3964089ac6a035cb99b382ede7ea943a2638a497c6ec623703ba3c802",
+    "research_log_time_label_impact.md": "c9d2f7930be96c82be3762d52f62c88b5f7c25bcb02c2a3d4197cd44f25d00d0",
+    "affected_samples.csv.gz": "452680d766278d728072d43456b8568638d22145881c9d29fe35d1baf33e11b1",
+    "time_label_impact_report.json": "399ac6452daa453d135ba248b0d2082a675a777345455bd2964a417fdfa65b34",
+    "sample_time_and_window_diagnostics.csv.gz": "f950276f473574b717914d630ea2591245037f262bdc0e2962a74db68d78bb39",
+    "event_source_resolution_overlay.json": "817bb6de36c1f2fac6916d901c7d3c5d02863796d977e92ea7d872bc6f96382f"
+  }
+}

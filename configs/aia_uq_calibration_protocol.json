@@ -1,0 +1,134 @@
+{
+  "protocol_id": "aia-uq-calibration-v1",
+  "updated": "2026-09-14",
+  "status": "ADOPTED_REQUIREMENTS_METHOD_SETTINGS_PROVISIONAL",
+  "research_checklist": [
+    "Performance",
+    "Calibration",
+    "Uncertainty",
+    "Robustness",
+    "Explainability",
+    "Statistical significance"
+  ],
+  "training_authorised": false,
+  "uq_experiments_executed_by_this_update": false,
+  "stage1_audit_computation_changed": false,
+  "pinn_track": "SEPARATE_20A_20B_20C",
+  "label": "label_48h_final",
+  "horizon_hours": 48,
+  "prediction_uq": {
+    "candidates": [
+      "mc_dropout",
+      "deep_ensemble"
+    ],
+    "selected_method": null,
+    "pilot_mc_passes": 30,
+    "pilot_ensemble_members": 3,
+    "ensemble_expansion_candidate": 5,
+    "settings_status": "PROVISIONAL_COSTED_CANARY_AND_DEVELOPMENT_REVIEW_REQUIRED",
+    "member_training_eligibility": "same frozen training/development protocol; never historical later-fold leakage",
+    "mc_requires_compatible_trained_dropout": true,
+    "normalization_frozen_at_inference": true,
+    "outputs": [
+      "mean_raw_probability",
+      "calibrated_probability",
+      "raw_probability_sd",
+      "raw_predictive_entropy",
+      "method",
+      "member_or_pass_count",
+      "seed_ids"
+    ],
+    "raw_probability_sd_denominator": "M-1 when M>=2; undefined for M=1",
+    "prediction_spread_is_not_metric_ci": true,
+    "calibration_of_mean_does_not_calibrate_spread": true
+  },
+  "metric_uncertainty": {
+    "confidence_level": 0.95,
+    "proposed_replicates": 2000,
+    "seed": 20260914,
+    "unit_status": "PENDING_AR_MAPPING_AND_DEPENDENCE_AUDIT",
+    "row_iid_bootstrap_primary": false,
+    "primary_unit_proposal": "independent active-region groups retaining within-group trajectories",
+    "time_block_sensitivity": "where justified; rule frozen before test comparisons",
+    "bootstrap_models_calibrators_thresholds_frozen": true,
+    "ci_scope": "test sampling conditional on fitted pipeline",
+    "undefined_replicates": "report attempted, valid and invalid counts; do not zero-fill or silently redraw",
+    "paired_comparisons": true,
+    "paired_identical_resample_indices": true,
+    "metric_definitions": [
+      "TSS",
+      "HSS",
+      "ROC_AUC",
+      "average_precision",
+      "precision",
+      "recall",
+      "F1",
+      "Brier",
+      "log_loss"
+    ],
+    "pr_auc_definition_status": "average_precision proposed; retain named legacy definition and distinguish trapezoidal area",
+    "primary_confirmatory_comparisons": "PENDING_PRESPECIFICATION_NO_MULTIPLE_TEST_FISHING"
+  },
+  "calibration": {
+    "required_metrics": [
+      "Brier",
+      "log_loss",
+      "event_probability_ECE"
+    ],
+    "required_plots": [
+      "reliability_with_bin_sample_and_positive_counts",
+      "score_histogram"
+    ],
+    "candidates": [
+      "none",
+      "sigmoid_platt",
+      "temperature",
+      "isotonic_if_supported"
+    ],
+    "selected_method": null,
+    "fit_role": "development_calibration_only",
+    "assessment_role": "heldout_or_forward_crossfit_development",
+    "fit_on_test_allowed": false,
+    "date_roles_status": "PENDING_READINESS_AUDIT",
+    "threshold_selection_after_calibration": true,
+    "threshold_selection_metric": "development_TSS",
+    "threshold_selection_on_test_allowed": false,
+    "preserve_natural_evaluation_prevalence": true,
+    "reference_probability": "training_prevalence_frozen_before_test",
+    "ece": {
+      "positive_class": "MX_event",
+      "proposed_bins": 10,
+      "scheme": "equal_width",
+      "sensitivity": [
+        "20_equal_width",
+        "equal_frequency"
+      ],
+      "definition": "sum_b n_b/N * abs(mean_event_probability_b - observed_event_frequency_b)",
+      "settings_status": "PROVISIONAL_REPORT_SPARSE_BINS"
+    },
+    "test_year_regime_diagnostics": "frozen mapping; no per-test-year fitting"
+  },
+  "robustness": {
+    "proposals": [
+      "cross_cycle",
+      "time_year_regime",
+      "missing_modalities",
+      "history_gaps",
+      "quality_strata",
+      "confident_errors"
+    ],
+    "measurement_noise_model_status": "NOT_IMPLEMENTED_NO_CLAIM_OF_FULL_PHYSICAL_UNCERTAINTY"
+  },
+  "pv_transfer": {
+    "policy": "validation-frozen human-review/referral candidate",
+    "report": [
+      "risk_coverage",
+      "referral_rate",
+      "retained_class_errors",
+      "full_population_metrics"
+    ],
+    "grouping": "panel/site/acquisition session when available; do not invent IDs",
+    "human_review_perfect_assumed": false
+  },
+  "code_status": "PROTOCOL_AND_CONFIGURATION_ONLY_NO_UQ_ALGORITHM_IMPLEMENTATION"
+}

@@ -1,0 +1,239 @@
+{
+  "version": "aia17-git-checkpoint-v1",
+  "base_commit": "d1b921ecb950085f29547d5bc9aa093842b4ecd3",
+  "created_utc": "2026-09-15T20:27:02.893445+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1359,
+      "sha256": "7a523ec1aeacac3992fefe7fee29bede4ca117bb266f64e3ea2e319715a52fea",
+      "origin": "dated notice; original HEAD body retained except README environment heading"
+    },
+    {
+      "path": "configs/aia17_metadata_stage1.json",
+      "bytes": 4778,
+      "sha256": "935e616b8584952cccc909c96594ad215d7b2d56a1ccb232d8c85dc0f2671d79",
+      "origin": "/home/abmoses2000/solar_flare_aia/configs/aia17_metadata_stage1.json"
+    },
+    {
+      "path": "configs/aia17_time_environment_frozen_2026-09-15.txt",
+      "bytes": 123,
+      "sha256": "6f3a952de2ba52b99bd849886638171a139d1e5c3f5534cf2cd183a1dd578225",
+      "origin": "/home/abmoses2000/aia17_time_env_fix_DKwbDBuB/packages_after.txt"
+    },
+    {
+      "path": "configs/aia17_time_requirements.txt",
+      "bytes": 28,
+      "sha256": "97c718fb7990ebbc7878fa380b74e30e842a6031fc43e3dac87159a4c46353f4",
+      "origin": "/home/abmoses2000/aia17_time_env_fix_DKwbDBuB/requirements.txt"
+    },
+    {
+      "path": "configs/aia_uq_calibration_protocol.json",
+      "bytes": 4555,
+      "sha256": "b53d4b34c46096f23b54801d25cdcd797e39e7963d52b6711339d1ea8a27d84f",
+      "origin": "/home/abmoses2000/solar_flare_aia/configs/aia_uq_calibration_protocol.json"
+    },
+    {
+      "path": "docs/AIA17_METADATA_STAGE_README.md",
+      "bytes": 6118,
+      "sha256": "545a49efd14b00fb6cf2af8654c7d1bccee6057657cae7a8400a4ba265f0035e",
+      "origin": "/home/abmoses2000/solar_flare_aia/docs/AIA17_METADATA_STAGE_README.md"
+    },
+    {
+      "path": "docs/AIA_UQ_CALIBRATION_PROTOCOL.md",
+      "bytes": 13056,
+      "sha256": "1e0ca54ea54bff28c13fddc4e51fac96f341f7ccd97de94d62ead5aa664554b0",
+      "origin": "/home/abmoses2000/solar_flare_aia/docs/AIA_UQ_CALIBRATION_PROTOCOL.md"
+    },
+    {
+      "path": "docs/RESEARCH_CHECKPOINT_2026-09-15.md",
+      "bytes": 5747,
+      "sha256": "37ed4c254b58b9dd1232b0e8ae7337c293068a3c0f1009e775670da99cc9b83c",
+      "origin": "generated from completed reports plus dated protocol decisions"
+    },
+    {
+      "path": "docs/TRUSTWORTHY_RESEARCH_STANDARD.md",
+      "bytes": 6480,
+      "sha256": "62eb8c77e7e03fdcf8532faac71bcc9c8743a0939fba2188b8c3e8a9ccb6a713",
+      "origin": "/home/abmoses2000/solar_flare_aia/docs/TRUSTWORTHY_RESEARCH_STANDARD.md"
+    },
+    {
+      "path": "docs/final_bigbang_cycle24_to_cycle25_execution_plan_2026-09-08.md",
+      "bytes": 10287,
+      "sha256": "a054f4dcaf8fb78c2de866e5232cae524630dbe62993abddad12f179e3831c6f",
+      "origin": "dated notice; original HEAD body retained except README environment heading"
+    },
+    {
+      "path": "docs/pinn_piml_interview_safe_claims_2026-09-08.md",
+      "bytes": 2940,
+      "sha256": "54d822e94f647c45ba5e416704aeaf670a00d0aa9c4ce7ea8e0819841c295624",
+      "origin": "dated notice; original HEAD body retained except README environment heading"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/checkpoint_local_tests.txt",
+      "bytes": 2308,
+      "sha256": "4e90376aa8b4025acfa6d4d485a6b84d58f4cd9b07e1a3225429ac8b9b4a59f1",
+      "origin": "fresh local fixture/protocol tests"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/forensics/event_time_review.json",
+      "bytes": 9068,
+      "sha256": "ad48b5fd15eee6e61de983a7375d63325bd216b125326c2ceddc077905b2faa9",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/event_time_20260915T103446628773Z/event_time_review.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/forensics/event_time_review.md",
+      "bytes": 1910,
+      "sha256": "4a59f6c488a09355a2eb3e24284b5e277db19c7435a2b98378c65362b9049c1d",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/event_time_20260915T103446628773Z/event_time_review.md"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/forensics/flagged_event_records.csv",
+      "bytes": 537,
+      "sha256": "7fb7f69452c974b259ed9ff008f4122dbe6a0a216da1fddca4d988fb3b88745c",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/event_time_20260915T103446628773Z/flagged_event_records.csv"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/primary/20240508events.txt",
+      "bytes": 9130,
+      "sha256": "8f35f8773e9a996aede67dcb397b9a4a79bf253bdcf60eff9e5866f4d6e55d04",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/primary_sources_20260915T164444194047Z/20240508events.txt"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/primary/20240818events.txt",
+      "bytes": 3359,
+      "sha256": "1258675b34b0991b305a6a8af5d59073fd8ebab3c4a2d5b692b28e16a2a42e11",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/primary_sources_20260915T164444194047Z/20240818events.txt"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/primary/20241118events.txt",
+      "bytes": 9127,
+      "sha256": "17b814e2f2a5c952e407dec5f4b16401ee6f24e68dbb08188f135c3febce04de",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/primary_sources_20260915T164444194047Z/20241118events.txt"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/primary/primary_source_review.json",
+      "bytes": 68294,
+      "sha256": "3cd41161a6264df28473875cc9286ba4b50c298cbf89832d556820c5cb80ea21",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/primary_sources_20260915T164444194047Z/primary_source_review.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/stage1/protocol_snapshot.json",
+      "bytes": 4492,
+      "sha256": "14ab23bf791d3b05f2eaeee023f3bcd1c012b69aff3855dfdf984b9a6695bc42",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/protocol_snapshot.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/stage1/source_lock_snapshot.json",
+      "bytes": 10003,
+      "sha256": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/source_lock_snapshot.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/stage1/stage1_report.json",
+      "bytes": 26526,
+      "sha256": "66db8d2ed86469f3e9d605ced011e8c078c2b3259a14f3a9f0d7e9de6f8d7bc8",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/stage1_report.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/stage1/stage1_summary.md",
+      "bytes": 3276,
+      "sha256": "b7906620bf3f3b07dd64d5a85787be0aa508c8348cfbcd5bf1573e8d2884be2b",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/runs/20260915T005020436079Z/stage1_summary.md"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/time/COMPLETE.json",
+      "bytes": 736,
+      "sha256": "4dfae2434b8dfd4f90de93c87d8d4a09f61a7c8f6739d33a598d5eb88095aaf3",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/COMPLETE.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/time/event_source_resolution_overlay.json",
+      "bytes": 4134,
+      "sha256": "817bb6de36c1f2fac6916d901c7d3c5d02863796d977e92ea7d872bc6f96382f",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/event_source_resolution_overlay.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/time/research_log_time_label_impact.md",
+      "bytes": 1339,
+      "sha256": "c9d2f7930be96c82be3762d52f62c88b5f7c25bcb02c2a3d4197cd44f25d00d0",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/research_log_time_label_impact.md"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/time/time_label_impact_report.json",
+      "bytes": 18720,
+      "sha256": "399ac6452daa453d135ba248b0d2082a675a777345455bd2964a417fdfa65b34",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/time_label_impact_report.json"
+    },
+    {
+      "path": "docs/research_audit/2026-09-15/time/window_impact_by_year.csv",
+      "bytes": 1884,
+      "sha256": "14b5a7b3964089ac6a035cb99b382ede7ea943a2638a497c6ec623703ba3c802",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/window_impact_by_year.csv"
+    },
+    {
+      "path": "notebooks/training/17A_final_cycle24_to_cycle25_temporal_multimodal_protocol.ipynb",
+      "bytes": 11589,
+      "sha256": "825c03cd0425b31157f4b2ef226c1d4c40e324375d288cc81a51475818a8b7fc",
+      "origin": "/home/abmoses2000/solar_flare_aia/notebooks/training/17A_final_cycle24_to_cycle25_temporal_multimodal_protocol.ipynb"
+    },
+    {
+      "path": "notebooks/training/17B_cycle24_to_cycle25_multimodal_data_readiness_audit.ipynb",
+      "bytes": 7297,
+      "sha256": "0764cf06875258800f8a3799ce9f117924af575cde700cda2743d1b9992aa3bd",
+      "origin": "/home/abmoses2000/solar_flare_aia/notebooks/training/17B_cycle24_to_cycle25_multimodal_data_readiness_audit.ipynb"
+    },
+    {
+      "path": "scripts/aia17_event_time_forensics.py",
+      "bytes": 20266,
+      "sha256": "f2d94c05200589064ca1446d0a48b9b500a3d665ca36bb9af8fea4c4e0bbdac3",
+      "origin": "/home/abmoses2000/aia17_event_time_forensics.py"
+    },
+    {
+      "path": "scripts/aia17_prepare_git_checkpoint.py",
+      "bytes": 22847,
+      "sha256": "24e147c8a4045683da63fd30568505fc241091d5c70c02b520eea1213f0363c0",
+      "origin": "/home/abmoses2000/aia17_prepare_git_checkpoint.py"
+    },
+    {
+      "path": "scripts/aia17_primary_event_verification.py",
+      "bytes": 18640,
+      "sha256": "0d2f118deb13617907e0bf6246c191f3b5f9965d892a20d642f3d242ca0591e5",
+      "origin": "/home/abmoses2000/aia17_primary_event_verification.py"
+    },
+    {
+      "path": "scripts/aia17_time_label_impact.py",
+      "bytes": 27705,
+      "sha256": "8ff5f9de5f119c004cccb96e1faaa17cdb4d9ccd9701880c2ab63c0fe309264e",
+      "origin": "/home/abmoses2000/aia17_time_label_impact.py"
+    },
+    {
+      "path": "scripts/run17_metadata.py",
+      "bytes": 306,
+      "sha256": "a4b9921af0a3634aba7ad6a8edc17f270da896e43d715518a4348fbd553d8d86",
+      "origin": "/home/abmoses2000/solar_flare_aia/scripts/run17_metadata.py"
+    },
+    {
+      "path": "src/aia17_metadata_audit.py",
+      "bytes": 31541,
+      "sha256": "01f4f49fa5cf78bff49be4d76a5289b41616d24e4a73e0edaa1b4f68ae295779",
+      "origin": "/home/abmoses2000/solar_flare_aia/src/aia17_metadata_audit.py"
+    },
+    {
+      "path": "tests/test_aia17_metadata.py",
+      "bytes": 8067,
+      "sha256": "d3b22e49032c201767f9bf2d5a29b093294331605e9834c0493259256e58bdd0",
+      "origin": "/home/abmoses2000/solar_flare_aia/tests/test_aia17_metadata.py"
+    },
+    {
+      "path": "tests/test_aia_uq_protocol.py",
+      "bytes": 2456,
+      "sha256": "3698094a23201b4e00d13b024051414eef6a4242b83fa82cbdb1a3d261e4c558",
+      "origin": "/home/abmoses2000/solar_flare_aia/tests/test_aia_uq_protocol.py"
+    }
+  ],
+  "self_hash_excluded": "docs/research_audit/2026-09-15/checkpoint_file_manifest.json",
+  "committed": false,
+  "pushed": false,
+  "note": "Manifest records preparation, not later publication. Large artifacts are not backed up here."
+}
