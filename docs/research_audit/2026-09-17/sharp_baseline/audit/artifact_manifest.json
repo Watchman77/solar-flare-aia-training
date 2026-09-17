@@ -1,0 +1,96 @@
+{
+  "run": "18A_SHARP_development_baseline",
+  "date": "2026-09-17",
+  "records": [
+    {
+      "path": "/home/abmoses2000/solar-flare-aia-training/notebooks/training/18A_SHARP_development_baseline.ipynb",
+      "bytes": 20890,
+      "sha256": "f96675bf078fdc7706cc00502b90ebfddf7dac2363231f4459df60f25a48cf34"
+    },
+    {
+      "path": "/home/abmoses2000/solar-flare-aia-training/notebooks/training/18A_SHARP_development_baseline_EXECUTED.ipynb",
+      "bytes": 29385,
+      "sha256": "53716ba07ca1e346364568531710d23b54e0638050752ed233583e0ad8b052fa"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/development_results.csv",
+      "bytes": 2431,
+      "sha256": "d49d36dde3679bf0830c5c58b259c28532dc35cbd9ae4c13ea58bb9c5d979fc2"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/development_results.json",
+      "bytes": 6838,
+      "sha256": "cabe43a0b509f6dcd51f47a2fa032ef83715a0e2157ec37e844375f41d5179d2"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/protocol_record.json",
+      "bytes": 1015,
+      "sha256": "096447a79e7d353cfef9005f749e183312d5877e7de216890ef38271651e6293"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_cpu_environment_2026-09-17.txt",
+      "bytes": 1189,
+      "sha256": "83a0f343538306ae53c0dcf9da67511e7170548a5210243f1c2a0d09da03bc07"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2013__logistic_regression.csv.gz",
+      "bytes": 138624,
+      "sha256": "8b2d802f30b6a04929ab25a290fd681ea6e69a59379015c7da91fb935a5e5fa2"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2013__random_forest.csv.gz",
+      "bytes": 87070,
+      "sha256": "476c667b0f0f2e3b0cbc832e26ac3031454d4901d7eef3223adb25fdc311f0c2"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2014__logistic_regression.csv.gz",
+      "bytes": 129161,
+      "sha256": "5db3e9da717ffd4af979d997b0433589ab5a67964b5c9ef2e5551adbdeaf88bc"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2014__random_forest.csv.gz",
+      "bytes": 87053,
+      "sha256": "0cea7c74141a152bfe2867f882f8cead50cacdc2e853ccfb51c4e278dd827e95"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2015__logistic_regression.csv.gz",
+      "bytes": 120980,
+      "sha256": "ec329c56c3f0479dff63a81d60476d2ec73a26eb96d76d7fd33626d96f4150e4"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/predictions/cycle24_forward_validate_2015__random_forest.csv.gz",
+      "bytes": 77296,
+      "sha256": "ab865f94daf02dbaa73b2ab1b9bece23603dade7485bedeba0d50e4548d9bc05"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2013__logistic_regression.joblib",
+      "bytes": 2801,
+      "sha256": "c5e79e7d3e3e04ab59d295a4e7e4ee68ea9413ec1c4a577199f9ea50e2c60979"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2013__random_forest.joblib",
+      "bytes": 12399593,
+      "sha256": "5079d02e049fc1e4b4c8fbc04569d331e15ec8f7e9224978f253d75d192c9edf"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2014__logistic_regression.joblib",
+      "bytes": 2801,
+      "sha256": "3a028beeac46feb64d62987c9b4af7533556781cd61493a8766ea603464badaf"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2014__random_forest.joblib",
+      "bytes": 20233513,
+      "sha256": "904957283f7d939ade2cade826855e7207037fef035d56183b5cb8d2dab3791b"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2015__logistic_regression.joblib",
+      "bytes": 2801,
+      "sha256": "dd5ef6374274232500100f032e588b38eea43f446b48c78a86dbe902d0601f5e"
+    },
+    {
+      "path": "/home/abmoses2000/sharp_dev_baseline_20260917/models/cycle24_forward_validate_2015__random_forest.joblib",
+      "bytes": 32055753,
+      "sha256": "ebd7c8caf5f02cf515af83bdb922d83035fdb86b2f11dd754bac62420cf34842"
+    }
+  ]
+}

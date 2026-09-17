@@ -1,0 +1,35 @@
+{
+  "status": "DEVELOPMENT_DIAGNOSTIC_COMPLETE_NOT_FINAL_TEST",
+  "input_shape": [
+    64725,
+    3,
+    15
+  ],
+  "flattened_feature_count": 45,
+  "history_minutes": [
+    -288,
+    -192,
+    -96
+  ],
+  "quality_rule": "All three source records require QUALITY=0, 15/15 finite features, exact single source match, no explicit NOAA conflict.",
+  "models": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "development_folds": [
+    "cycle24_forward_validate_2013",
+    "cycle24_forward_validate_2014",
+    "cycle24_forward_validate_2015"
+  ],
+  "cycle25_used": false,
+  "final_calibration_holdout_used": false,
+  "final_threshold_holdout_used": false,
+  "final_test_used": false,
+  "scientific_clearance": false,
+  "reason_not_final": [
+    "label clearance remains pending",
+    "training_authorised remains false in source manifest",
+    "SHARP historical availability/contributing-time review remains pending",
+    "validation-selected threshold is evaluated on the same development validation fold"
+  ]
+}
