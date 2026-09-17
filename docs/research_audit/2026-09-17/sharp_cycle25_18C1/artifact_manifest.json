@@ -1,0 +1,20 @@
+{
+  "run": "18C1_SHARP_build_cycle25_test_arrays",
+  "records": [
+    {
+      "path": "/home/abmoses2000/aia_sharp_cycle25_input/sharp_cycle25_test_X.npy",
+      "bytes": 16356008,
+      "sha256": "a136ed28bd91dd74fb8e5f63f798605030af5d978afee563f38918a37abbf4b6"
+    },
+    {
+      "path": "/home/abmoses2000/aia_sharp_cycle25_input/sharp_cycle25_test_y.npy",
+      "bytes": 363592,
+      "sha256": "d6a11628fe71ca101ab3244e6246db50e1e4afc06637e1bae1e7ac5719acaef9"
+    },
+    {
+      "path": "/home/abmoses2000/aia_sharp_cycle25_input/sharp_cycle25_test_rows.csv.gz",
+      "bytes": 185126,
+      "sha256": "c959fe8555c2938f070095bb321b3b40b5257f5701213a8b79c0c60b255e3ed0"
+    }
+  ]
+}

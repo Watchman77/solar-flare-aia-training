@@ -1,0 +1,44 @@
+{
+  "status": "CYCLE25_SHARP_TEST_ARRAYS_BUILT_NO_MODEL_EVALUATION",
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "history_minutes": [
+    -288,
+    -192,
+    -96
+  ],
+  "feature_order": [
+    "MEANGBZ",
+    "MEANGAM",
+    "MEANGBT",
+    "MEANGBH",
+    "MEANJZD",
+    "TOTUSJZ",
+    "MEANALP",
+    "MEANJZH",
+    "ABSNJZH",
+    "SAVNCPP",
+    "MEANSHR",
+    "SHRGT45",
+    "R_VALUE",
+    "USFLUX",
+    "TOTPOT"
+  ],
+  "shape": [
+    45433,
+    3,
+    15
+  ],
+  "positives": 2159,
+  "regions": 987,
+  "quality_rule": "QUALITY=0 at all three records, 15/15 finite features, one exact source match, no explicit NOAA conflict",
+  "model_fitted": false,
+  "calibration_fitted": false,
+  "threshold_selected": false,
+  "cycle25_used_for_tuning": false
+}
