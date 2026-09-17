@@ -1,0 +1,20 @@
+{
+  "status": "CYCLE24_TEMPORAL_AIA_STAGING_PLAN_READY_FROM_PRESERVED_METADATA_NO_TRAINING",
+  "supersedes": "19A2A_Cycle24_Temporal_AIA_staging_plan",
+  "targets": 64725,
+  "positives": 2094,
+  "regions": 1232,
+  "temporal_frame_references": 194175,
+  "unique_npz_objects": 70217,
+  "mean_reuse_count": 2.7653559679279947,
+  "median_reuse_count": 3.0,
+  "max_reuse_count": 3,
+  "total_payload_bytes": 386895767066,
+  "total_payload_gb_decimal": 386.895767066,
+  "total_payload_gib": 360.3247618917376,
+  "recommended_free_disk_gib_20pct_headroom": 432.3897142700851,
+  "metadata_source": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/temporal_sequence_candidates.jsonl.gz",
+  "gcs_per_object_queries_used": false,
+  "cycle25_used": false,
+  "model_trained": false
+}
