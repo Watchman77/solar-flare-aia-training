@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_SHARP_PIPELINES_EVALUATED_ON_INDEPENDENT_CYCLE25_2021_2025",
+  "test_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "test_shape": [
+    45433,
+    3,
+    15
+  ],
+  "test_positives": 2159,
+  "test_regions": 987,
+  "models": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "base_model_refit_on_cycle25": false,
+  "preprocessing_refit_on_cycle25": false,
+  "calibration_refit_on_cycle25": false,
+  "threshold_reselected_on_cycle25": false,
+  "feature_selection_on_cycle25": false,
+  "sample_selection_changed_after_results": false,
+  "scientific_clearance": false,
+  "limitations": [
+    "Earlier label-clearance and SHARP historical-availability limitations remain documented.",
+    "This notebook reports the independent SHARP cross-cycle evaluation only.",
+    "No post-test tuning is permitted from these results."
+  ]
+}
