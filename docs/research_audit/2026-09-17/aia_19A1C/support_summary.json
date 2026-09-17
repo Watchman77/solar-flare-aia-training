@@ -1,0 +1,22 @@
+{
+  "all_retained_loader_ready": {
+    "n": 118057,
+    "positives": 4580,
+    "regions": 2302
+  },
+  "cycle24_development": {
+    "n": 64725,
+    "positives": 2094,
+    "regions": 1232
+  },
+  "cycle25_2021_2025_independent": {
+    "n": 49329,
+    "positives": 2351,
+    "regions": 985
+  },
+  "supplementary_2026": {
+    "n": 2086,
+    "positives": 135,
+    "regions": 49
+  }
+}

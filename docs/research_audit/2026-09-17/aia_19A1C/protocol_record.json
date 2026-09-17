@@ -1,0 +1,148 @@
+{
+  "status": "CORRECTED_TEMPORAL_AIA_LOADER_PREPARED_CHANNEL_LABELS_VERIFIED_NO_MODEL_TRAINING",
+  "supersedes": "19A1B_Temporal_AIA_dataset_loader_corrected",
+  "correction": "Frozen structural-retention rules are applied before temporal AIA joining; stored NPZ channel labels are verified with their aia-prefix convention.",
+  "forecast_target": "same-active-region M/X occurrence in (t,t+48h]",
+  "channels_angstrom_verified": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "stored_channel_order_verified": [
+    "aia94",
+    "aia131",
+    "aia171",
+    "aia193",
+    "aia211",
+    "aia335"
+  ],
+  "physical_wavelength_order_angstrom": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "verified_image_key": "x",
+  "verified_image_shape": [
+    512,
+    512,
+    6
+  ],
+  "verified_image_dtype": "float32",
+  "history_lags_minutes_oldest_to_newest": [
+    288,
+    192,
+    96
+  ],
+  "authoritative_label_column": "label_48h_final",
+  "embedded_npz_y_authoritative": false,
+  "cycle25_used_for_model_development": false,
+  "primary_independent_test_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "supplementary_2026_only": true,
+  "region_overlap_cycle24_cycle25": 0,
+  "support": {
+    "all_retained_loader_ready": {
+      "n": 118057,
+      "positives": 4580,
+      "regions": 2302
+    },
+    "cycle24_development": {
+      "n": 64725,
+      "positives": 2094,
+      "regions": 1232
+    },
+    "cycle25_2021_2025_independent": {
+      "n": 49329,
+      "positives": 2351,
+      "regions": 985
+    },
+    "supplementary_2026": {
+      "n": 2086,
+      "positives": 135,
+      "regions": 49
+    }
+  },
+  "canary": [
+    {
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2010/20100521_1636_HARP26_NOAA11072.npz",
+      "x_shape": [
+        512,
+        512,
+        6
+      ],
+      "x_dtype": "float32",
+      "channels": [
+        "aia94",
+        "aia131",
+        "aia171",
+        "aia193",
+        "aia211",
+        "aia335"
+      ],
+      "finite": true,
+      "embedded_y_present": true,
+      "embedded_y_used_as_target": false
+    },
+    {
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2010/20100521_1812_HARP26_NOAA11072.npz",
+      "x_shape": [
+        512,
+        512,
+        6
+      ],
+      "x_dtype": "float32",
+      "channels": [
+        "aia94",
+        "aia131",
+        "aia171",
+        "aia193",
+        "aia211",
+        "aia335"
+      ],
+      "finite": true,
+      "embedded_y_present": true,
+      "embedded_y_used_as_target": false
+    },
+    {
+      "uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2010/20100521_1948_HARP26_NOAA11072.npz",
+      "x_shape": [
+        512,
+        512,
+        6
+      ],
+      "x_dtype": "float32",
+      "channels": [
+        "aia94",
+        "aia131",
+        "aia171",
+        "aia193",
+        "aia211",
+        "aia335"
+      ],
+      "finite": true,
+      "embedded_y_present": true,
+      "embedded_y_used_as_target": false
+    }
+  ],
+  "model_trained": false,
+  "calibration_fitted": false,
+  "threshold_selected": false,
+  "scientific_clearance": false,
+  "notes": [
+    "Supervisor methodology is implemented as model-design/evaluation requirements without publishing confidential correspondence.",
+    "Frozen cross-cycle structural exclusions are inherited exactly.",
+    "No embedded NPZ label is used as the authoritative target.",
+    "Historical-source availability and label-clearance limitations remain inherited from earlier audit stages."
+  ]
+}
