@@ -1,0 +1,53 @@
+Executed synthetic integration: original temporal builder -> original broader v2 assignment builder -> new SHARP arrays.
+No network or real source data. All selected 240 targets matched 720 exact synthetic records.
+
+===== BROADER CYCLE-24 FIT PROPOSAL RESULTS =====
+All original targets retained: 1344
+Role | structurally retained | original positive | positive region components
+cycle24_calibration_holdout | 24 | 12 | 12
+cycle24_final_refit_pool | 192 | 96 | 96
+cycle24_threshold_holdout | 24 | 12 | 12
+cycle25_early_diagnostic | 24 | 12 | 12
+independent_cycle25_test | 48 | 24 | 24
+supplementary_2026 | 24 | 12 | 12
+
+FINAL REFIT POOL BY STORED YEAR: year | candidates | positives
+2010 | 19 | 10
+2011 | 20 | 10
+2012 | 18 | 10
+2013 | 18 | 9
+2014 | 18 | 7
+2015 | 20 | 11
+2016 | 18 | 9
+2017 | 22 | 11
+2018 | 18 | 8
+2019 | 21 | 11
+
+FORWARD DEVELOPMENT FOLDS: fold | role | candidates | positives | positive components
+cycle24_forward_validate_2013 | train | 57 | 30 | 30
+cycle24_forward_validate_2013 | validation | 18 | 9 | 9
+cycle24_forward_validate_2014 | train | 75 | 39 | 39
+cycle24_forward_validate_2014 | validation | 18 | 7 | 7
+cycle24_forward_validate_2015 | train | 93 | 46 | 46
+cycle24_forward_validate_2015 | validation | 20 | 11 | 11
+Structural blockers: []
+Support warnings: []
+Final calibration: REGION-HELD-OUT; NOT chronologically after all fitting observations.
+STATUS: BROAD_CYCLE24_FIT_PROPOSAL_BUILT_NOT_FROZEN
+REPORT: /tmp/aia18_compat_k_7c7ndr/proposal/broad_cycle24_fit_report.json
+SUMMARY: /tmp/aia18_compat_k_7c7ndr/proposal/broad_cycle24_fit_summary.zip
+Original index/v1 roles unchanged. No training, cloud, labels changed or Git actions.
+Verifying the already-cached SHARP source; no download.
+Cycle-24 targets selected: 240; requested unique SHARP keys: 720.
+
+===== CYCLE-24 SHARP ARRAY RESULTS =====
+Raw array shape: [240, 3, 15] | no scaling, imputation or training
+Role | candidates | exact three records | complete raw numeric | original positive
+cycle24_final_refit_pool | 192 | 192 | 192 | 96
+cycle24_calibration_holdout | 24 | 24 | 24 | 12
+cycle24_threshold_holdout | 24 | 24 | 24 | 12
+Unique missing SHARP keys: 0 | duplicate keys: 0
+Cycle-25/2026 arrays constructed: 0
+STATUS: CYCLE24_SHARP_ARRAYS_BUILT_NO_TRAINING_OR_CLEARANCE
+REPORT: /tmp/aia18_compat_k_7c7ndr/arrays/20260916T193019085183Z/sharp_array_build_report.json
+SUMMARY: /tmp/aia18_compat_k_7c7ndr/arrays/20260916T193019085183Z/sharp_arrays_summary.zip

@@ -1,0 +1,10 @@
+{
+  "status": "MULTIMODAL_ENGINEERING_CHECK_PASSED_NOT_A_FORECAST_BENCHMARK",
+  "output_sha256": {
+    "sharp_three_slot_scaled_DEBUG_ONLY.npy": "b223d6262bd4cc2e462c0877d8d473225651fefc39e8f2d3c4aa2fa09b87ed4e",
+    "model_integration_report.json": "81952461a61344ff788719e315af5ffee1679485de2e2506a1116150bf027158",
+    "DEBUG_ONLY_scaler.json": "ccfd81ffbe0903136f79ad765967806b05a8a588501aa19f918996672a390a43",
+    "research_log_model_integration.md": "946b28b921123c7ce101cc24cde90bf8a65046f5639bad1eb70f9021bb8eb7fc",
+    "sharp_three_slot_raw.npy": "7651cc1fa91898e885f021aa52dbe672d65f4b7bdc70c3ec53653bedf5720f03"
+  }
+}

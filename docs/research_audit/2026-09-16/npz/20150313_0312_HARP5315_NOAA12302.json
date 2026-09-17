@@ -1,0 +1,186 @@
+{
+  "sample_id": "20150313_0312_HARP5315_NOAA12302",
+  "stored_year": 2015,
+  "original_label": 0,
+  "generation": "1778867125828084",
+  "npz_members": {
+    "x": {
+      "shape": [
+        512,
+        512,
+        6
+      ],
+      "dtype": "float32"
+    },
+    "y": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "sample_id": {
+      "shape": [],
+      "dtype": "<U32"
+    },
+    "T_REC_dt": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "HARPNUM": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "NOAA_AR_clean": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "used_timestamp": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "used_s3_path": {
+      "shape": [],
+      "dtype": "<U46"
+    },
+    "channels": {
+      "shape": [
+        6
+      ],
+      "dtype": "<U6"
+    },
+    "crop_meta": {
+      "shape": [],
+      "dtype": "<U58"
+    }
+  },
+  "issues": [],
+  "timing_evidence": [
+    {
+      "field": "used_timestamp_shared_not_per_channel",
+      "channel": null,
+      "raw_value": "2015-03-13 03:12:00",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 35.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": 0.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS"
+    }
+  ],
+  "metadata": {
+    "sample_id": "20150313_0312_HARP5315_NOAA12302",
+    "T_REC_dt": "2015-03-13 03:12:00",
+    "HARPNUM": 5315,
+    "NOAA_AR_clean": 12302,
+    "used_timestamp": "2015-03-13 03:12:00",
+    "used_s3_path": "s3://nasa-surya-bench/2015/03/20150313_0312.nc",
+    "crop_meta": "{\"pixel_cx\": 1766, \"pixel_cy\": 1772, \"crop_size_raw\": 244}",
+    "y": 1
+  },
+  "observation_headers_verified": false,
+  "training_authorised": false,
+  "channel_declarations": {
+    "channels": [
+      94,
+      131,
+      171,
+      193,
+      211,
+      335
+    ]
+  },
+  "tensor_shape": [
+    512,
+    512,
+    6
+  ],
+  "tensor_dtype": "float32",
+  "channel_statistics": [
+    {
+      "wavelength": 94,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.22393156588077545,
+      "std": 0.09531258791685104,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 131,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2902064919471741,
+      "std": 0.10130850225687027,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 171,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.30205896496772766,
+      "std": 0.1288735419511795,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 193,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2884429693222046,
+      "std": 0.1261851191520691,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 211,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.29851052165031433,
+      "std": 0.11862682551145554,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 335,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.36260026693344116,
+      "std": 0.1030784472823143,
+      "zero_fraction": 3.814697265625e-06
+    }
+  ],
+  "embedded_label_comparisons": {
+    "y": {
+      "value": 1,
+      "matches_original_manifest_label": false
+    }
+  },
+  "raw_T_REC": "2015.03.13_03:12:00_TAI",
+  "derived_issue_utc": "2015-03-13T03:11:25.000000Z",
+  "format": "SHARED_USED_TIMESTAMP",
+  "content_status": "CONTENT_CHECKS_PASSED_ON_THIS_FILE",
+  "timing_status": "TIMING_PROVENANCE_REVIEW_REQUIRED",
+  "download_receipt": {
+    "uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2015/20150313_0312_HARP5315_NOAA12302.npz",
+    "generation": "1778867125828084",
+    "fetched_utc": "2026-09-16T08:44:19.178621+00:00",
+    "hashes": {
+      "bytes": 5474376,
+      "sha256": "4eb497fd29878ac9e07fc1ce479aa27e4a9fd07c6c9e089c120035120a555c1a",
+      "md5Hash": "tDE1dm3O+Hjff7Bd3NA97A==",
+      "crc32c": "LQd4/A=="
+    },
+    "reused": true
+  },
+  "selection_reason": "one_label_independent_hash_sample_per_stored_year"
+}

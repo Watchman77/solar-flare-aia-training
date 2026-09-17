@@ -1,0 +1,11 @@
+{
+  "status": "CROSS_CYCLE_ROLE_PROPOSAL_BUILT_NOT_FROZEN",
+  "output_sha256": {
+    "cross_cycle_assignment_report.json": "43c69fc3aaf759e32111ddd9fe5f24cf4e3db813c801daf2d4e1d5c7e552d5f6",
+    "research_log_cross_cycle_assignment.md": "13c7c383a0ccf9750365027f59d37b9c86504595cf9742203bec864da1a02356",
+    "region_components.csv": "3f3af94877758301ab44daaa1df0d87f1e1e1dfc684f0612ecd4a5cee4e89427",
+    "cross_cycle_role_assignments.csv.gz": "c6984a0aede49ff42e1239d93100a9dc980b25027d377279963cd44910f00e92",
+    "first_cross_cycle_protocol_proposal.json": "981560937baec719397d6e2c21db0c8c10ab2f2c8bb64504144d8e85f4e9e911",
+    "cross_cycle_role_support.csv": "3ad55113d3702e0080ced0c476a4bc49c9edb3f956928a31884d768e244cc726"
+  }
+}

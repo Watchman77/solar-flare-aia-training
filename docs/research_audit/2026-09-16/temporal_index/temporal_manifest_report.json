@@ -1,0 +1,377 @@
+{
+  "version": "17c-nominal-history-index-v1",
+  "status": "TEMPORAL_INDEX_BUILT_TIMING_AND_LABEL_CLEARANCE_PENDING",
+  "created_utc": "2026-09-16T14:36:27.973448+00:00",
+  "input_files": {
+    "register": {
+      "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/target_object_register.csv",
+      "sha256": "b4bbf9098d2005cfacd7eff7649fdbac3b82fc55162fcbfb822024b1abcd6931"
+    },
+    "clock_table": {
+      "path": "/home/abmoses2000/aia17_metadata_stage1/reviews/time_label_impact_20260915T172829490191Z/sample_time_and_window_diagnostics.csv.gz",
+      "sha256": "f950276f473574b717914d630ea2591245037f262bdc0e2962a74db68d78bb39"
+    }
+  },
+  "experimental_status": "PROPOSED_HISTORY_ONLY_DESIGN_NOT_HISTORICAL_RELABELLING",
+  "nominal_lags_minutes_oldest_to_newest": [
+    288,
+    192,
+    96
+  ],
+  "channels": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "nominal_match": "exact raw TAI coordinate; not previous three rows; same HARP and NOAA",
+  "requested_history_horizon_hours": 6,
+  "forecast_horizon_hours_unchanged": 48,
+  "actual_channel_slot_tolerance_seconds": 180,
+  "target_rows": 141644,
+  "history_status_counts": {
+    "NOMINAL_HISTORY_INCOMPLETE_OR_EXCLUDED": 23427,
+    "NOMINAL_HISTORY_OBJECTS_AVAILABLE_TIMING_PENDING": 118217
+  },
+  "missing_or_excluded_slot_counts": {
+    "NOMINAL_SLOT_NOT_IN_CURATED_TARGET_TABLE": 39745,
+    "HISTORY_OBJECT_NOT_EXACT_NONEMPTY": 10256,
+    "KNOWN_SOURCE_SLOT_MISMATCH": 3
+  },
+  "label_boundary_review_target_count": 1,
+  "year_label_coverage": [
+    {
+      "stored_year": 2010,
+      "original_label": 0,
+      "targets": 3287,
+      "nominal_history_objects_available": 2822,
+      "incomplete_or_excluded_history": 465,
+      "available_history_with_current_image_missing": 1,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 57
+    },
+    {
+      "stored_year": 2010,
+      "original_label": 1,
+      "targets": 29,
+      "nominal_history_objects_available": 23,
+      "incomplete_or_excluded_history": 6,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 1
+    },
+    {
+      "stored_year": 2011,
+      "original_label": 0,
+      "targets": 10865,
+      "nominal_history_objects_available": 9607,
+      "incomplete_or_excluded_history": 1258,
+      "available_history_with_current_image_missing": 8,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 183
+    },
+    {
+      "stored_year": 2011,
+      "original_label": 1,
+      "targets": 412,
+      "nominal_history_objects_available": 367,
+      "incomplete_or_excluded_history": 45,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 11
+    },
+    {
+      "stored_year": 2012,
+      "original_label": 0,
+      "targets": 10550,
+      "nominal_history_objects_available": 9126,
+      "incomplete_or_excluded_history": 1424,
+      "available_history_with_current_image_missing": 2,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 191
+    },
+    {
+      "stored_year": 2012,
+      "original_label": 1,
+      "targets": 305,
+      "nominal_history_objects_available": 233,
+      "incomplete_or_excluded_history": 72,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 10
+    },
+    {
+      "stored_year": 2013,
+      "original_label": 0,
+      "targets": 12833,
+      "nominal_history_objects_available": 11084,
+      "incomplete_or_excluded_history": 1749,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 227
+    },
+    {
+      "stored_year": 2013,
+      "original_label": 1,
+      "targets": 500,
+      "nominal_history_objects_available": 430,
+      "incomplete_or_excluded_history": 70,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 18
+    },
+    {
+      "stored_year": 2014,
+      "original_label": 0,
+      "targets": 11024,
+      "nominal_history_objects_available": 9618,
+      "incomplete_or_excluded_history": 1406,
+      "available_history_with_current_image_missing": 2,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 186
+    },
+    {
+      "stored_year": 2014,
+      "original_label": 1,
+      "targets": 629,
+      "nominal_history_objects_available": 503,
+      "incomplete_or_excluded_history": 126,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 19
+    },
+    {
+      "stored_year": 2015,
+      "original_label": 0,
+      "targets": 10728,
+      "nominal_history_objects_available": 9333,
+      "incomplete_or_excluded_history": 1395,
+      "available_history_with_current_image_missing": 3,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 185
+    },
+    {
+      "stored_year": 2015,
+      "original_label": 1,
+      "targets": 531,
+      "nominal_history_objects_available": 462,
+      "incomplete_or_excluded_history": 69,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 15
+    },
+    {
+      "stored_year": 2016,
+      "original_label": 0,
+      "targets": 6877,
+      "nominal_history_objects_available": 5842,
+      "incomplete_or_excluded_history": 1035,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 122
+    },
+    {
+      "stored_year": 2016,
+      "original_label": 1,
+      "targets": 8,
+      "nominal_history_objects_available": 8,
+      "incomplete_or_excluded_history": 0,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 1
+    },
+    {
+      "stored_year": 2017,
+      "original_label": 0,
+      "targets": 3376,
+      "nominal_history_objects_available": 2909,
+      "incomplete_or_excluded_history": 467,
+      "available_history_with_current_image_missing": 3,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 60
+    },
+    {
+      "stored_year": 2017,
+      "original_label": 1,
+      "targets": 86,
+      "nominal_history_objects_available": 68,
+      "incomplete_or_excluded_history": 18,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 3
+    },
+    {
+      "stored_year": 2018,
+      "original_label": 0,
+      "targets": 1711,
+      "nominal_history_objects_available": 1427,
+      "incomplete_or_excluded_history": 284,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 37
+    },
+    {
+      "stored_year": 2019,
+      "original_label": 0,
+      "targets": 1058,
+      "nominal_history_objects_available": 942,
+      "incomplete_or_excluded_history": 116,
+      "available_history_with_current_image_missing": 1,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 21
+    },
+    {
+      "stored_year": 2020,
+      "original_label": 0,
+      "targets": 2089,
+      "nominal_history_objects_available": 1850,
+      "incomplete_or_excluded_history": 239,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 34
+    },
+    {
+      "stored_year": 2021,
+      "original_label": 0,
+      "targets": 5684,
+      "nominal_history_objects_available": 4978,
+      "incomplete_or_excluded_history": 706,
+      "available_history_with_current_image_missing": 2,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 104
+    },
+    {
+      "stored_year": 2021,
+      "original_label": 1,
+      "targets": 144,
+      "nominal_history_objects_available": 126,
+      "incomplete_or_excluded_history": 18,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 7
+    },
+    {
+      "stored_year": 2022,
+      "original_label": 0,
+      "targets": 11403,
+      "nominal_history_objects_available": 9880,
+      "incomplete_or_excluded_history": 1523,
+      "available_history_with_current_image_missing": 14,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 194
+    },
+    {
+      "stored_year": 2022,
+      "original_label": 1,
+      "targets": 131,
+      "nominal_history_objects_available": 119,
+      "incomplete_or_excluded_history": 12,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 7
+    },
+    {
+      "stored_year": 2023,
+      "original_label": 0,
+      "targets": 14359,
+      "nominal_history_objects_available": 12114,
+      "incomplete_or_excluded_history": 2245,
+      "available_history_with_current_image_missing": 15,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 233
+    },
+    {
+      "stored_year": 2023,
+      "original_label": 1,
+      "targets": 318,
+      "nominal_history_objects_available": 278,
+      "incomplete_or_excluded_history": 40,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 11
+    },
+    {
+      "stored_year": 2024,
+      "original_label": 0,
+      "targets": 13189,
+      "nominal_history_objects_available": 11237,
+      "incomplete_or_excluded_history": 1952,
+      "available_history_with_current_image_missing": 5,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 233
+    },
+    {
+      "stored_year": 2024,
+      "original_label": 1,
+      "targets": 1543,
+      "nominal_history_objects_available": 1317,
+      "incomplete_or_excluded_history": 226,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 1,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 42
+    },
+    {
+      "stored_year": 2025,
+      "original_label": 0,
+      "targets": 13954,
+      "nominal_history_objects_available": 8791,
+      "incomplete_or_excluded_history": 5163,
+      "available_history_with_current_image_missing": 52,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 251
+    },
+    {
+      "stored_year": 2025,
+      "original_label": 1,
+      "targets": 820,
+      "nominal_history_objects_available": 519,
+      "incomplete_or_excluded_history": 301,
+      "available_history_with_current_image_missing": 2,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 25
+    },
+    {
+      "stored_year": 2026,
+      "original_label": 0,
+      "targets": 3023,
+      "nominal_history_objects_available": 2069,
+      "incomplete_or_excluded_history": 954,
+      "available_history_with_current_image_missing": 1,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 55
+    },
+    {
+      "stored_year": 2026,
+      "original_label": 1,
+      "targets": 178,
+      "nominal_history_objects_available": 135,
+      "incomplete_or_excluded_history": 43,
+      "available_history_with_current_image_missing": 0,
+      "boundary_label_review_targets": 0,
+      "distinct_HARP_NOAA_pairs_with_nominal_history": 6
+    }
+  ],
+  "known_excluded_frame_pairings": [
+    "20240714_0724_HARP11520_NOAA13753"
+  ],
+  "frames_have_all_observation_headers": false,
+  "training_authorised": false,
+  "original_labels_changed": false,
+  "splits_frozen": false,
+  "model_fitted": false,
+  "limitations": [
+    "Nominal history completeness is not verified exposure-time or product-availability completeness.",
+    "Only samples in the curated table are used as historical frames; other raw source frames may exist.",
+    "The current target image is not required for a history-only sequence; absent history is not a negative label.",
+    "Every target remains in this index, including incomplete histories and the unresolved boundary target.",
+    "The known stale source/target pairing is excluded as a frame, not repaired or deleted.",
+    "The one conditional label disagreement is flagged; labels are not silently replaced.",
+    "Same HARP/NOAA is a conservative identity restriction, not independent region-group certification.",
+    "Full split/purge/calibration design, label follow-up and per-modality contributing times remain separate gates.",
+    "SHARP row time alone is not verification of its contributing observation window or availability.",
+    "AIA/SHARP/GOES final experiment ladder and separate PINN/PIML scope are not changed by this index.",
+    "The local loader is implemented and fixture-tested, not run here against a verified real three-frame sequence."
+  ]
+}

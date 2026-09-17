@@ -1,0 +1,402 @@
+{
+  "sample_id": "20250426_1736_HARP13117_NOAA14068",
+  "stored_year": 2025,
+  "original_label": 0,
+  "generation": "1782402543909387",
+  "npz_members": {
+    "x": {
+      "shape": [
+        512,
+        512,
+        6
+      ],
+      "dtype": "float32"
+    },
+    "y": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "sample_id": {
+      "shape": [],
+      "dtype": "<U33"
+    },
+    "T_REC_dt": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "HARPNUM": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "NOAA_AR_clean": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "label_48h_final": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "wavelengths": {
+      "shape": [
+        6
+      ],
+      "dtype": "int64"
+    },
+    "source": {
+      "shape": [],
+      "dtype": "<U49"
+    },
+    "block_id": {
+      "shape": [],
+      "dtype": "<U42"
+    },
+    "channel_metadata": {
+      "shape": [],
+      "dtype": "<U2200"
+    }
+  },
+  "issues": [],
+  "timing_evidence": [
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 94,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 94,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.94.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 131,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 131,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.131.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 171,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 171,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.171.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 193,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 193,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.193.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 211,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 211,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.211.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 335,
+      "raw_value": "2025-04-26 17:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 335,
+      "raw_value": "2025-04-26T17:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2025-04-26T173559Z.335.image.fits"
+    }
+  ],
+  "metadata": {
+    "sample_id": "20250426_1736_HARP13117_NOAA14068",
+    "T_REC_dt": "2025-04-26 17:36:00",
+    "HARPNUM": 13117,
+    "NOAA_AR_clean": 14068,
+    "source": "JSOC HARP-block tracked im_patch + local WCS crop",
+    "block_id": "2025_HARP13117_20250425_2224_20250426_2048",
+    "channel_metadata": "{\"94\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.94.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008095\", \"crop\": {\"block_shape\": [967, 967], \"local_bounds\": [137, 836, 135, 834], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}, \"131\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.131.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008101\", \"crop\": {\"block_shape\": [966, 966], \"local_bounds\": [136, 835, 135, 834], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}, \"171\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.171.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008106\", \"crop\": {\"block_shape\": [968, 968], \"local_bounds\": [136, 837, 136, 836], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}, \"193\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.193.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008117\", \"crop\": {\"block_shape\": [966, 966], \"local_bounds\": [137, 835, 135, 833], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}, \"211\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.211.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008121\", \"crop\": {\"block_shape\": [966, 966], \"local_bounds\": [136, 835, 135, 834], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}, \"335\": {\"source_file\": \"aia.lev1_euv_12s.2025-04-26T173559Z.335.image.fits\", \"used_time\": \"2025-04-26 17:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260625_008128\", \"crop\": {\"block_shape\": [966, 966], \"local_bounds\": [137, 835, 135, 833], \"target_geometry\": {\"x_arcsec\": -96.91934847142802, \"y_arcsec\": -428.0177652782227, \"box_arcsec\": 419.0694771015086}}}}",
+    "y": 0,
+    "label_48h_final": 0
+  },
+  "observation_headers_verified": false,
+  "training_authorised": false,
+  "channel_declarations": {
+    "wavelengths": [
+      94,
+      131,
+      171,
+      193,
+      211,
+      335
+    ]
+  },
+  "tensor_shape": [
+    512,
+    512,
+    6
+  ],
+  "tensor_dtype": "float32",
+  "channel_statistics": [
+    {
+      "wavelength": 94,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4324604272842407,
+      "std": 0.11913658678531647,
+      "zero_fraction": 0.00170135498046875
+    },
+    {
+      "wavelength": 131,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4477214813232422,
+      "std": 0.11577893793582916,
+      "zero_fraction": 0.00020599365234375
+    },
+    {
+      "wavelength": 171,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.3864418864250183,
+      "std": 0.13694530725479126,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 193,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.3867199122905731,
+      "std": 0.15059109032154083,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 211,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4291348457336426,
+      "std": 0.15082210302352905,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 335,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.39430296421051025,
+      "std": 0.17180240154266357,
+      "zero_fraction": 0.01279449462890625
+    }
+  ],
+  "embedded_label_comparisons": {
+    "y": {
+      "value": 0,
+      "matches_original_manifest_label": true
+    },
+    "label_48h_final": {
+      "value": 0,
+      "matches_original_manifest_label": true
+    }
+  },
+  "raw_T_REC": "2025.04.26_17:36:00_TAI",
+  "derived_issue_utc": "2025-04-26T17:35:23.000000Z",
+  "format": "PER_CHANNEL_METADATA",
+  "content_status": "CONTENT_CHECKS_PASSED_ON_THIS_FILE",
+  "timing_status": "TIMING_PROVENANCE_REVIEW_REQUIRED",
+  "download_receipt": {
+    "uri": "gs://suryabench-sharp-pipeline-bamidele/jsoc_2025_2026_production_v1/samples_npz/2025/20250426_1736_HARP13117_NOAA14068.npz",
+    "generation": "1782402543909387",
+    "fetched_utc": "2026-09-16T10:36:11.293838+00:00",
+    "hashes": {
+      "bytes": 5501195,
+      "sha256": "96340d22dc69514e959cc12b5e1e4ce4209795dbd9fc19cc6edbefa26f33a8df",
+      "md5Hash": "SepuDUQBej99wqDY96e7oA==",
+      "crc32c": "63c9DA=="
+    },
+    "reused": false
+  },
+  "selection_reason": "one_label_independent_hash_sample_per_stored_year"
+}

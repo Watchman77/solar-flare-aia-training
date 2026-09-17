@@ -1,0 +1,22 @@
+test_actual_component_scan_cross_phase (__main__.RoleTests.test_actual_component_scan_cross_phase) ... ok
+test_checksum_mismatch_stops (__main__.RoleTests.test_checksum_mismatch_stops) ... ok
+test_connected_components_merge_shared_identifier (__main__.RoleTests.test_connected_components_merge_shared_identifier) ... ok
+test_cross_role_component_excluded (__main__.RoleTests.test_cross_role_component_excluded) ... ok
+test_cycle25_never_development (__main__.RoleTests.test_cycle25_never_development) ... ok
+test_disjoint_chronological_development (__main__.RoleTests.test_disjoint_chronological_development) ... ok
+test_exact_calendar_boundaries (__main__.RoleTests.test_exact_calendar_boundaries) ... ok
+test_exact_horizon_boundary_is_purged (__main__.RoleTests.test_exact_horizon_boundary_is_purged) ... ok
+test_existing_split_not_reassigned (__main__.RoleTests.test_existing_split_not_reassigned) ... ok
+test_explicit_utc_required (__main__.RoleTests.test_explicit_utc_required) ... ok
+test_history_cross_role_flag (__main__.RoleTests.test_history_cross_role_flag) ... ok
+test_label_flag_excluded_not_relabelled (__main__.RoleTests.test_label_flag_excluded_not_relabelled) ... ok
+test_missing_history_preserves_target (__main__.RoleTests.test_missing_history_preserves_target) ... ok
+test_output_inside_source_rejected (__main__.RoleTests.test_output_inside_source_rejected) ... ok
+test_real_builder_output_full_offline_run (__main__.RoleTests.test_real_builder_output_full_offline_run) ... ok
+test_undefined_development_support_flagged (__main__.RoleTests.test_undefined_development_support_flagged) ... ok
+test_wrong_region_rejected (__main__.RoleTests.test_wrong_region_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.056s
+
+OK

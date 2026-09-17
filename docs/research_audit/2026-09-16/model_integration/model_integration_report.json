@@ -1,0 +1,495 @@
+{
+  "version": "17c-aia-sharp-model-integration-v1",
+  "status": "MULTIMODAL_ENGINEERING_CHECK_PASSED_NOT_A_FORECAST_BENCHMARK",
+  "created_utc": "2026-09-16T18:13:03.106801+00:00",
+  "inputs_sha256": {
+    "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/COMPLETE.json": "f1ccc184d5e4ed596a6fa0d97ed7ab1452b56414b511d7a5adbb4ad7cb2bce1b",
+    "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/canary_plan.json": "42f166f7820257ec5e66b1dde2939fc3c20001f1db1556a1715707cd4c5b47c3",
+    "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/real_sequence_canary_report.json": "636fcc295f4e049de459ce9b96031ac3bf4f5506b4ad90ece20b63f683aea38a",
+    "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/engineering_batch.npy": "bd74bf8201366aa9a2e93dd0d1aaf084012dce1042d2e010d6fe22303567eab2",
+    "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/manifest_targets.npy": "dbe1cc8058e6d4a4659f0927fdb2f04712f8e63b879026c70966ceea6659350b",
+    "/home/abmoses2000/solar_flare_aia/docs/research_audit/2026-09-15/stage1/source_lock_snapshot.json": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+    "/home/abmoses2000/aia17_metadata_stage1/cache/sharp96_1778506816063678.csv": "07f11b1d560a971b9519e01e6eda11d1ed28446ed341bc2415c6d8a480f43525"
+  },
+  "script_sha256": "4439e8af459a7e7d8801031475833d62e109aa379a90dd44cdc430a977450492",
+  "canary_sequence_count": 4,
+  "original_batch_shape": [
+    4,
+    3,
+    6,
+    512,
+    512
+  ],
+  "target_sample_ids": [
+    "20121005_1748_HARP2106_NOAA11588",
+    "20110413_1800_HARP495_NOAA11190",
+    "20140111_0624_HARP3604_NOAA11950",
+    "20140205_0648_HARP3686_NOAA11967"
+  ],
+  "roles": [
+    "train",
+    "train",
+    "model_validation",
+    "model_validation"
+  ],
+  "targets_from_manifest": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "sharp": {
+    "feature_order": [
+      "MEANGBZ",
+      "MEANGAM",
+      "MEANGBT",
+      "MEANGBH",
+      "MEANJZD",
+      "TOTUSJZ",
+      "MEANALP",
+      "MEANJZH",
+      "ABSNJZH",
+      "SAVNCPP",
+      "MEANSHR",
+      "SHRGT45",
+      "R_VALUE",
+      "USFLUX",
+      "TOTPOT"
+    ],
+    "preferred_TOTUSJH_present_in_source": false,
+    "TOTUSJH_used": false,
+    "quality_filter_applied": false,
+    "quality_note": "QUALITY retained for review; this engineering join does not authorise a science quality policy.",
+    "join_key": [
+      "HARPNUM",
+      "explicit_TAI_T_REC"
+    ],
+    "matched_record_count": 12,
+    "records": [
+      {
+        "target_sample_id": "20110413_1800_HARP495_NOAA11190",
+        "history_sample_id": "20110413_1312_HARP495_NOAA11190",
+        "source_csv_record_number": 23353,
+        "HARPNUM": 495,
+        "T_REC": "2011.04.13_13:12:00_TAI",
+        "lag_minutes": 288,
+        "noaa_fields": {
+          "NOAA_ARS": "11190,11192"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20110413_1800_HARP495_NOAA11190",
+        "history_sample_id": "20110413_1448_HARP495_NOAA11190",
+        "source_csv_record_number": 23359,
+        "HARPNUM": 495,
+        "T_REC": "2011.04.13_14:48:00_TAI",
+        "lag_minutes": 192,
+        "noaa_fields": {
+          "NOAA_ARS": "11190,11192"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20110413_1800_HARP495_NOAA11190",
+        "history_sample_id": "20110413_1624_HARP495_NOAA11190",
+        "source_csv_record_number": 23365,
+        "HARPNUM": 495,
+        "T_REC": "2011.04.13_16:24:00_TAI",
+        "lag_minutes": 96,
+        "noaa_fields": {
+          "NOAA_ARS": "11190,11192"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20121005_1748_HARP2106_NOAA11588",
+        "history_sample_id": "20121005_1300_HARP2106_NOAA11588",
+        "source_csv_record_number": 97331,
+        "HARPNUM": 2106,
+        "T_REC": "2012.10.05_13:00:00_TAI",
+        "lag_minutes": 288,
+        "noaa_fields": {
+          "NOAA_ARS": "11588"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20121005_1748_HARP2106_NOAA11588",
+        "history_sample_id": "20121005_1436_HARP2106_NOAA11588",
+        "source_csv_record_number": 97341,
+        "HARPNUM": 2106,
+        "T_REC": "2012.10.05_14:36:00_TAI",
+        "lag_minutes": 192,
+        "noaa_fields": {
+          "NOAA_ARS": "11588"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20121005_1748_HARP2106_NOAA11588",
+        "history_sample_id": "20121005_1612_HARP2106_NOAA11588",
+        "source_csv_record_number": 97351,
+        "HARPNUM": 2106,
+        "T_REC": "2012.10.05_16:12:00_TAI",
+        "lag_minutes": 96,
+        "noaa_fields": {
+          "NOAA_ARS": "11588"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140111_0624_HARP3604_NOAA11950",
+        "history_sample_id": "20140111_0136_HARP3604_NOAA11950",
+        "source_csv_record_number": 168986,
+        "HARPNUM": 3604,
+        "T_REC": "2014.01.11_01:36:00_TAI",
+        "lag_minutes": 288,
+        "noaa_fields": {
+          "NOAA_ARS": "11950"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140111_0624_HARP3604_NOAA11950",
+        "history_sample_id": "20140111_0312_HARP3604_NOAA11950",
+        "source_csv_record_number": 169003,
+        "HARPNUM": 3604,
+        "T_REC": "2014.01.11_03:12:00_TAI",
+        "lag_minutes": 192,
+        "noaa_fields": {
+          "NOAA_ARS": "11950"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140111_0624_HARP3604_NOAA11950",
+        "history_sample_id": "20140111_0448_HARP3604_NOAA11950",
+        "source_csv_record_number": 169020,
+        "HARPNUM": 3604,
+        "T_REC": "2014.01.11_04:48:00_TAI",
+        "lag_minutes": 96,
+        "noaa_fields": {
+          "NOAA_ARS": "11950"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140205_0648_HARP3686_NOAA11967",
+        "history_sample_id": "20140205_0200_HARP3686_NOAA11967",
+        "source_csv_record_number": 172511,
+        "HARPNUM": 3686,
+        "T_REC": "2014.02.05_02:00:00_TAI",
+        "lag_minutes": 288,
+        "noaa_fields": {
+          "NOAA_ARS": "11967,11972,11975"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140205_0648_HARP3686_NOAA11967",
+        "history_sample_id": "20140205_0336_HARP3686_NOAA11967",
+        "source_csv_record_number": 172520,
+        "HARPNUM": 3686,
+        "T_REC": "2014.02.05_03:36:00_TAI",
+        "lag_minutes": 192,
+        "noaa_fields": {
+          "NOAA_ARS": "11967,11972,11975"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      },
+      {
+        "target_sample_id": "20140205_0648_HARP3686_NOAA11967",
+        "history_sample_id": "20140205_0512_HARP3686_NOAA11967",
+        "source_csv_record_number": 172529,
+        "HARPNUM": 3686,
+        "T_REC": "2014.02.05_05:12:00_TAI",
+        "lag_minutes": 96,
+        "noaa_fields": {
+          "NOAA_ARS": "11967,11972,11975"
+        },
+        "QUALITY_raw": "0",
+        "finite_feature_count": 15,
+        "missing_feature_names": [],
+        "maximum_contributing_time_verified": false,
+        "historical_product_availability_verified": false
+      }
+    ],
+    "nominal_cutoff": "latest record is issue TAI minus 96 minutes",
+    "is_24hour_aggregate_branch": false
+  },
+  "preprocessing": {
+    "fit_indices": [
+      0,
+      1
+    ],
+    "fit_historical_rows": 6,
+    "feature_order": [
+      "MEANGBZ",
+      "MEANGAM",
+      "MEANGBT",
+      "MEANGBH",
+      "MEANJZD",
+      "TOTUSJZ",
+      "MEANALP",
+      "MEANJZH",
+      "ABSNJZH",
+      "SAVNCPP",
+      "MEANSHR",
+      "SHRGT45",
+      "R_VALUE",
+      "USFLUX",
+      "TOTPOT"
+    ],
+    "median": [
+      142.3675,
+      49.735,
+      135.383,
+      77.22800000000001,
+      0.75923909,
+      18630803250000.0,
+      -0.02371489,
+      -0.007026625,
+      10.852,
+      1680974250000.0,
+      35.1,
+      30.653000000000002,
+      3.1585,
+      9.375190150000001e+21,
+      1.3878636895e+23
+    ],
+    "mean": [
+      148.2565,
+      47.67350000000001,
+      144.58066666666667,
+      78.87466666666667,
+      0.7860712183333333,
+      19111211083333.332,
+      -0.041252723333333324,
+      -0.011929796666666666,
+      36.982166666666664,
+      2974210583333.3335,
+      32.598000000000006,
+      25.64316666666667,
+      2.84,
+      9.400668566666667e+21,
+      1.4125745219999998e+23
+    ],
+    "scale": [
+      35.057399018134056,
+      4.854674474153751,
+      32.82868928577903,
+      8.883259286745803,
+      0.6627995758278291,
+      18597654119830.664,
+      0.040833067439655514,
+      0.011554278967689369,
+      45.711720610133334,
+      2872226685540.715,
+      8.362048034622461,
+      11.247701341706323,
+      1.5849455300840256,
+      9.185344113610139e+21,
+      1.4048475881740626e+23
+    ],
+    "constant_training_features": [],
+    "missing_values_by_sequence": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "purpose": "two-target engineering scaling only; NEVER reuse for a full experiment"
+  },
+  "model_engineering": {
+    "device": "cpu",
+    "steps": 10,
+    "train_indices": [
+      0,
+      1
+    ],
+    "validation_weight_updates": 0,
+    "test_samples_loaded": 0,
+    "input_model_aia_shape": [
+      4,
+      3,
+      6,
+      64,
+      64
+    ],
+    "input_sharp_shape": [
+      4,
+      3,
+      15
+    ],
+    "output_shape": [
+      4
+    ],
+    "all_logits_finite": true,
+    "finite_nonzero_branch_gradients": true,
+    "branch_parameters_changed": {
+      "aia_encoder": true,
+      "aia_temporal": true,
+      "sharp_temporal": true,
+      "fusion": true
+    },
+    "debug_training_losses_not_metrics": [
+      0.7036152482032776,
+      0.6994197368621826,
+      0.695166826248169,
+      0.6907485723495483,
+      0.6860175132751465,
+      0.680861234664917,
+      0.6751877069473267,
+      0.6688398122787476,
+      0.6618338823318481,
+      0.6541882157325745
+    ],
+    "branch_gradient_norms": [
+      {
+        "aia_encoder": 0.01921707393431643,
+        "aia_temporal": 0.005070680587378009,
+        "sharp_temporal": 0.08417136258230559,
+        "fusion": 0.11824815543498518
+      },
+      {
+        "aia_encoder": 0.02314987333030378,
+        "aia_temporal": 0.005545083490027116,
+        "sharp_temporal": 0.08244022180669758,
+        "fusion": 0.11538488005116142
+      },
+      {
+        "aia_encoder": 0.027703897027293017,
+        "aia_temporal": 0.007369127982630876,
+        "sharp_temporal": 0.08104200607364126,
+        "fusion": 0.11409872110209004
+      },
+      {
+        "aia_encoder": 0.035531425253018695,
+        "aia_temporal": 0.009848099526913387,
+        "sharp_temporal": 0.08026648690499485,
+        "fusion": 0.11458169416975758
+      },
+      {
+        "aia_encoder": 0.0432972471573725,
+        "aia_temporal": 0.012575213577900082,
+        "sharp_temporal": 0.07990066824896556,
+        "fusion": 0.1167196949586745
+      },
+      {
+        "aia_encoder": 0.04988883912598646,
+        "aia_temporal": 0.01567257828061922,
+        "sharp_temporal": 0.07978238670164038,
+        "fusion": 0.12061175020931889
+      },
+      {
+        "aia_encoder": 0.060686654565346575,
+        "aia_temporal": 0.019210022026300615,
+        "sharp_temporal": 0.0798346235595117,
+        "fusion": 0.1265135911906789
+      },
+      {
+        "aia_encoder": 0.06805050949554252,
+        "aia_temporal": 0.023222020444719237,
+        "sharp_temporal": 0.07999407496959537,
+        "fusion": 0.13481467631035357
+      },
+      {
+        "aia_encoder": 0.076983629390194,
+        "aia_temporal": 0.027602249428826,
+        "sharp_temporal": 0.08022265377669381,
+        "fusion": 0.14550261592548397
+      },
+      {
+        "aia_encoder": 0.0873217480972012,
+        "aia_temporal": 0.03232057660400244,
+        "sharp_temporal": 0.08049606147987831,
+        "fusion": 0.1583784229712444
+      }
+    ],
+    "parameter_count": 18097,
+    "final_parameter_digest_for_regression_only": "4769ed10557a569d01abc18779bcc05d91116c8bab4ed5e4c7aa11642b766ddd",
+    "model_weights_saved": false,
+    "model_weights_reused_for_research": false,
+    "validation_labels_used_for_loss_or_selection": false,
+    "forecasting_performance_metrics_calculated": false,
+    "architecture": "small shared CNN + AIA LSTM + SHARP LSTM + fusion MLP",
+    "checkpoint_note": "Disposable debug weights are discarded; no model selected."
+  },
+  "scientific_clearance": {
+    "official_training_authorised": false,
+    "prior_contributing_time_clearance": false,
+    "label_validity_and_followup_certified": false,
+    "SHARP_contributing_time_and_historical_availability_verified": false,
+    "GOES_input_branch_included": false,
+    "UQ_or_calibration_experiment_completed": false,
+    "no_claim_of_model_skill": true
+  },
+  "protocol": {
+    "scope": "ENGINEERING_ONLY",
+    "split_dates_changed": false,
+    "split_dates_frozen": false,
+    "full_fit_design": "Broader eligible Cycle-24 fitting including 2015-2017 still to be implemented; provisional canary roles are not the final-fit specification.",
+    "primary_test": "2021-2025 held out",
+    "additional_test": "eligible covered portion of 2026 held out",
+    "PINN_PIML": "separate track, not included",
+    "final_SHARP_history_window": "not selected by this three-slot interface test"
+  },
+  "operations": {
+    "network_requests": 0,
+    "cloud_writes": 0,
+    "git_operations": 0,
+    "original_labels_changed": false,
+    "image_downloads": 0,
+    "disposable_train_weight_updates": 10
+  },
+  "versions": {
+    "python": "3.12.3 (main, Jul 15 2026, 23:46:41) [GCC 13.3.0]",
+    "numpy": "2.2.6",
+    "torch": "2.10.0+cpu"
+  }
+}

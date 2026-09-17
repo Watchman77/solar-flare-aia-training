@@ -1,0 +1,59 @@
+{
+  "version": "aia17-broad-cycle24-finalfit-proposal-v2",
+  "proposal_not_frozen": true,
+  "model_fitted": false,
+  "training_authorised": false,
+  "source_index_unchanged": true,
+  "original_v1_role_assignment_unchanged": true,
+  "outer_periods": [
+    {
+      "role": "cycle24_development",
+      "start_inclusive": "2010-01-01T00:00:00Z",
+      "end_exclusive": "2019-12-01T00:00:00Z"
+    },
+    {
+      "role": "cycle25_early_diagnostic",
+      "start_inclusive": "2019-12-01T00:00:00Z",
+      "end_exclusive": "2021-01-01T00:00:00Z"
+    },
+    {
+      "role": "independent_cycle25_test",
+      "start_inclusive": "2021-01-01T00:00:00Z",
+      "end_exclusive": "2026-01-01T00:00:00Z"
+    },
+    {
+      "role": "supplementary_2026",
+      "start_inclusive": "2026-01-01T00:00:00Z",
+      "end_exclusive": "2027-01-01T00:00:00Z"
+    }
+  ],
+  "december_2019_boundary": "2019-12-01 is an operational month-boundary convention, not an exact physical transition instant.",
+  "reserved_fraction_of_each_component_stratum": {
+    "final_fit_pool_approximately": 0.8,
+    "calibration_approximately": 0.1,
+    "threshold_approximately": 0.1
+  },
+  "integer_allocation": "k=max(1,n//10) if n>=3 else 0; first k calibration, next k threshold, remaining final fit; same rule for both strata.",
+  "reservation_seed": "aia17-broad-cycle24-v2-20260916",
+  "reservation_strata": "Any original-positive structurally eligible Cycle-24 target in component vs none. Test labels never used.",
+  "reservation_unit": "Whole connected HARP/NOAA component, with all its positive and negative snapshots.",
+  "final_calibration_design": "RETROSPECTIVE_REGION_HELDOUT_WITHIN_CYCLE24_NOT_CHRONOLOGICALLY_FUTURE",
+  "model_selection": "Forward train-before-validation folds at 2013, 2014, 2015 from final-fit pool only; remove fold-crossing components and purge endpoints/history.",
+  "final_refit": "After hyperparameters and training duration are fixed from the development folds, fit on the broader eligible fit pool through November 2019. Never include reserved calibration/threshold groups.",
+  "final_calibration": "Fit only on reserved calibration groups to final-model predictions. Old debug scalers and earlier-model calibrators/thresholds are not reusable.",
+  "threshold_selection": "Assess prespecified calibration candidates and select operating threshold using only threshold-holdout groups. This is development, not independent performance.",
+  "test_protocol": "Freeze model/preprocessing/calibrator/threshold/ensemble weights before 2021-2025 testing. Same frozen pipeline for available 2026. No test-score-based method choice.",
+  "repeated_folds": "A fitting-pool record may be validation in an earlier development fold and training in a later one. No train/validation overlap is permitted WITHIN each fold.",
+  "shared_object_policy": "No identical generation-pinned AIA object across final roles or across train/validation within a development fold.",
+  "no_performance_tuning_of_assignment": true,
+  "model_selection_performance_used": false,
+  "cycle25_labels_used_for_assignment": false,
+  "label_counts_note": "Original labels in test rows are only copied and counted for reporting, never used in reservation selection.",
+  "input_history": "Three frames at lags 288/192/96 minutes; SHARP full temporal-window policy remains a separate implementation.",
+  "label_horizon": "Original 48-physical-hour endpoint is preserved from the canonical index; no labels replaced.",
+  "pinn_piml": "Separate; unchanged.",
+  "remaining_clearance": "Per-object timing, SHARP contributing times/quality, event labels, complete follow-up and reporting latency are NOT certified by this proposal.",
+  "support_warning": "Five-positive-component warning is a simple screen, not proof of calibration adequacy or statistical significance.",
+  "data_dependence_limitation": "Whole-AR holdout reduces direct region reuse but does not guarantee independence across simultaneous solar regions or remove temporal distribution shift.",
+  "scientific_scope": "Candidate design for retrospective cross-cycle research; not proof of historical operational availability."
+}

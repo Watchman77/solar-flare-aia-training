@@ -1,0 +1,25 @@
+test_all_missing_train_feature_rejected (test_model_integration.IntegrationTests.test_all_missing_train_feature_rejected) ... ok
+test_complete_offline_synthetic_run_preserves_inputs (test_model_integration.IntegrationTests.test_complete_offline_synthetic_run_preserves_inputs) ... ok
+test_duplicate_sharp_key_rejected (test_model_integration.IntegrationTests.test_duplicate_sharp_key_rejected) ... ok
+test_exact_twelve_row_join_and_feature_order (test_model_integration.IntegrationTests.test_exact_twelve_row_join_and_feature_order) ... ok
+test_forward_backward_and_validation_label_isolation (test_model_integration.IntegrationTests.test_forward_backward_and_validation_label_isolation) ... ok
+test_hash_failure_not_repaired (test_model_integration.IntegrationTests.test_hash_failure_not_repaired) ... ok
+test_missing_exact_sharp_row_rejected (test_model_integration.IntegrationTests.test_missing_exact_sharp_row_rejected) ... ok
+test_missing_field_not_fabricated (test_model_integration.IntegrationTests.test_missing_field_not_fabricated) ... ok
+test_no_test_roles_accepted_by_smoke_test (test_model_integration.IntegrationTests.test_no_test_roles_accepted_by_smoke_test) ... ok
+test_nonfinite_values_retained_for_train_only_imputation (test_model_integration.IntegrationTests.test_nonfinite_values_retained_for_train_only_imputation) ... ok
+test_reject_duplicated_region (test_model_integration.IntegrationTests.test_reject_duplicated_region) ... ok
+test_reject_report_order_mismatch (test_model_integration.IntegrationTests.test_reject_report_order_mismatch) ... ok
+test_reject_test_target (test_model_integration.IntegrationTests.test_reject_test_target) ... ok
+test_reject_wrong_historical_region (test_model_integration.IntegrationTests.test_reject_wrong_historical_region) ... ok
+test_reject_wrong_lag (test_model_integration.IntegrationTests.test_reject_wrong_lag) ... ok
+test_supplied_plan_and_report_schema_accepted (test_model_integration.IntegrationTests.test_supplied_plan_and_report_schema_accepted) ... ok
+test_tai_tag_mandatory (test_model_integration.IntegrationTests.test_tai_tag_mandatory) ... ok
+test_validation_input_cannot_change_optimization (test_model_integration.IntegrationTests.test_validation_input_cannot_change_optimization) ... ok
+test_validation_values_cannot_change_scaler (test_model_integration.IntegrationTests.test_validation_values_cannot_change_scaler) ... ok
+test_wrong_noaa_rejected (test_model_integration.IntegrationTests.test_wrong_noaa_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 7.292s
+
+OK

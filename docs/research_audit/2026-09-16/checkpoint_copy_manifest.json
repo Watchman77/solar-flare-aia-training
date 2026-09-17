@@ -1,0 +1,1156 @@
+{
+  "version": "aia-documentation-checkpoint-20260916-public-selection-v2",
+  "prepared_from_commit": "a66a9928125a2775b02358df2774a3e5e3f41849",
+  "repository": "Watchman77/solar-flare-aia-training",
+  "created_utc": "2026-09-16T23:45:25.713012+00:00",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2080,
+      "sha256": "7f6a61182002ee833982a2ac7e3aac35bab23d17036037d9b3a67e571baaadbc",
+      "origin": "existing README plus dated continuation link",
+      "verification": "Reviewed publication-only wording and link changes; original staged bytes backed up before amendment.",
+      "prior_staged_sha256": "857de9fbcc4b42ee32e37fa61a6b73b2f6e8ad5efa57df4d09a3049686ea57a2"
+    },
+    {
+      "path": "docs/AIA_DECISION_REGISTER_2026-09-16.md",
+      "bytes": 4358,
+      "sha256": "e407d02052b965ebf7f14032e307a4554ec642b0008b777393c3af748f792b71",
+      "origin": "consolidation prepared 2026-09-16 from cited project records",
+      "verification": "Reviewed publication-only wording and link changes; original staged bytes backed up before amendment.",
+      "prior_staged_sha256": "00400ee400e81c09b8e6f599e807d58282348344d86fda4e8365835c12c56d30"
+    },
+    {
+      "path": "docs/AIA_RESEARCH_STATUS_2026-09-16.md",
+      "bytes": 4325,
+      "sha256": "e368102a5a82e759b65bc46d743c0dee7c432190e600cbe63a2f6e9cc5729c24",
+      "origin": "consolidation prepared 2026-09-16 from cited project records",
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "docs/AIA_START_HERE.md",
+      "bytes": 4049,
+      "sha256": "7d61d8212f270aa6a54e00372b2dd251178fc1396113acbfa0cc5bfb7500f6b8",
+      "origin": "consolidation prepared 2026-09-16 from cited project records",
+      "verification": "Reviewed publication-only wording and link changes; original staged bytes backed up before amendment.",
+      "prior_staged_sha256": "e4bc4cd0a13bb13f4315ad31da5ff811d22a98f81b173420bce06d5489e1b6f9"
+    },
+    {
+      "path": "docs/RESEARCH_LOG_ADDENDUM_2026-09-16.md",
+      "bytes": 2693,
+      "sha256": "1f3c175b8620b75195a98978c9f92cb5ad2996ee5667cce7249da06fe658b3de",
+      "origin": "consolidation prepared 2026-09-16 from cited project records",
+      "verification": "Reviewed publication-only wording and link changes; original staged bytes backed up before amendment.",
+      "prior_staged_sha256": "981a8ee567e783c6b82a5c468d0ef391aadd58abb73bcf279e78b6441480357f"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/COMPLETE.json",
+      "bytes": 740,
+      "sha256": "9e716d2906e8ab514b60eb875ad8c7a1762e73828ec5799ec849b8cdf491302f",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/archive_reconciliation_report.json",
+      "bytes": 124595,
+      "sha256": "241295bb6cbb3f69ef0e5b9b9d090ef4da7f9dda698361bdd2fdc1d223c238a1",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/archive_reconciliation_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/objects_without_target.csv",
+      "bytes": 79,
+      "sha256": "dbfe952d997993e7330a6226abec36d582a93e9021702312b0923271ac193f01",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/objects_without_target.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/research_log_archive_reconciliation.md",
+      "bytes": 1520,
+      "sha256": "148086951cf3f28b9105384b25bda52db462c27034ec5898e0e3b5fe02487d00",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/research_log_archive_reconciliation.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/timing_canary_candidates.csv",
+      "bytes": 7988,
+      "sha256": "cd77abefb42f044389ce434d2ec051ef495958502fbbe0c3fc43c5b24e068ea8",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/timing_canary_candidates.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/archive/yearly_object_coverage.csv",
+      "bytes": 859,
+      "sha256": "6b355f0809ee8bb29e3375742abe2dc3a8a1bedd0ca1a2e34ae74377455783d7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/yearly_object_coverage.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/boundary/COMPLETE.json",
+      "bytes": 294,
+      "sha256": "cace66831711d2e53e6bb5f5b102e3de7e5c4b7a9ad8977b2d5379f6f4f8cf5e",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/boundary_review_20260916T065814216457Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/boundary/boundary_review.json",
+      "bytes": 3748,
+      "sha256": "a50828844cf52621c32bc69a24ef40cbd1675c3543f2ed7cd09ee06fea3b2b83",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/boundary_review_20260916T065814216457Z/boundary_review.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/boundary/research_log_boundary_review.md",
+      "bytes": 1118,
+      "sha256": "d3778ff272ca3025503ff8ce96bf1175990f33c37a6844ab6aed4e26b2faf0e9",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/reviews/boundary_review_20260916T065814216457Z/research_log_boundary_review.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/model_integration/COMPLETE.json",
+      "bytes": 630,
+      "sha256": "e72530ecb84e119a2ef43f4ee1b402adeb0147800b4106349437b31e2a964d60",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/model_integration/DEBUG_ONLY_scaler.json",
+      "bytes": 1531,
+      "sha256": "ccfd81ffbe0903136f79ad765967806b05a8a588501aa19f918996672a390a43",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/DEBUG_ONLY_scaler.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/model_integration/model_integration_report.json",
+      "bytes": 15911,
+      "sha256": "81952461a61344ff788719e315af5ffee1679485de2e2506a1116150bf027158",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/model_integration_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/model_integration/research_log_model_integration.md",
+      "bytes": 745,
+      "sha256": "946b28b921123c7ce101cc24cde90bf8a65046f5639bad1eb70f9021bb8eb7fc",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/research_log_model_integration.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20100831_0624_HARP145_NOAA11101.json",
+      "bytes": 4697,
+      "sha256": "90c1b497bd9099e75c4b24cd6f13362d1b465e4c549243c1f97ea6dc9bbbb9b4",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20100831_0624_HARP145_NOAA11101.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20110509_2312_HARP590_NOAA11211.json",
+      "bytes": 4500,
+      "sha256": "aa91cdfc5874adca2c858e3123a2fc4127b874a98bce635027c668fa3829cb83",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20110509_2312_HARP590_NOAA11211.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20120723_1012_HARP1866_NOAA11524.json",
+      "bytes": 4503,
+      "sha256": "5add7416dce786198352f919d112a498cfd61cb5298a8cd23370d908f7ea9276",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20120723_1012_HARP1866_NOAA11524.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20130411_2036_HARP2651_NOAA11721.json",
+      "bytes": 4504,
+      "sha256": "9ab03e60f263ba6ee56e92de1ab380d9cf2dad0f15dd5ae04144969971072abf",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20130411_2036_HARP2651_NOAA11721.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20140311_2312_HARP3845_NOAA12003.json",
+      "bytes": 4502,
+      "sha256": "d99c8783cf4f1ce752257ccac21dd4d0ec2eb6eb403831e88c358b68ad5124fb",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20140311_2312_HARP3845_NOAA12003.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20150313_0312_HARP5315_NOAA12302.json",
+      "bytes": 4504,
+      "sha256": "ec5894d5e761a7f63a75144937244e3af69207fb3d8bfc4cb274c0e681e05971",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20150313_0312_HARP5315_NOAA12302.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20160618_1112_HARP6617_NOAA12558.json",
+      "bytes": 4503,
+      "sha256": "f05c9f1b84f4aade6bf6d9115901752f973718ad11abec5fd1f1101b6f401912",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20160618_1112_HARP6617_NOAA12558.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20170917_1336_HARP7131_NOAA12680.json",
+      "bytes": 4504,
+      "sha256": "a356dc515552f17f23645201921400f224f49fd55983f21672057b82244e410c",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20170917_1336_HARP7131_NOAA12680.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20180513_0300_HARP7256_NOAA12709.json",
+      "bytes": 4500,
+      "sha256": "57ca339547209a948dbdb019f1ba8e725a217cb2caedcb129a33aaee5c120ec1",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20180513_0300_HARP7256_NOAA12709.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20190901_1412_HARP7384_NOAA12748.json",
+      "bytes": 4502,
+      "sha256": "20c6b95a201dd80698164b678b5cc9b745a7a69696dd67185ae72576a34c84c2",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20190901_1412_HARP7384_NOAA12748.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20201123_1712_HARP7472_NOAA12783.json",
+      "bytes": 4506,
+      "sha256": "f58af3b865f8a15b6645886f7cd3ad4a0c93893141f18fffdd62112805da1eaa",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20201123_1712_HARP7472_NOAA12783.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20210323_0624_HARP7558_NOAA12810.json",
+      "bytes": 4498,
+      "sha256": "3d5f3567e395fd90854b76e0da96031daaed12dfc1c7f9b2b7de74c18fc073f0",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20210323_0624_HARP7558_NOAA12810.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20220613_0348_HARP8294_NOAA13031.json",
+      "bytes": 4506,
+      "sha256": "8b0625ff04835b34d42fe45fb731aaac5121662fd7f599d2e81062d7efc79ade",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20220613_0348_HARP8294_NOAA13031.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20230506_2224_HARP9481_NOAA13297.json",
+      "bytes": 4504,
+      "sha256": "9c0d3f675e4ddf8950415ba18a93872bfe17eb9c662a726591ff90ea6bcd6a61",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20230506_2224_HARP9481_NOAA13297.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20240714_0724_HARP11520_NOAA13753.json",
+      "bytes": 4503,
+      "sha256": "a96bbc760bfe092179d3e95b9d614e4a53f1f59abc1c9c7a695df7edbaadf0ea",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20240714_0724_HARP11520_NOAA13753.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20240825_1736_HARP11760_NOAA13800.json",
+      "bytes": 4509,
+      "sha256": "e00f830f36b155faf1e49f88024072afbebfb387033d6132a30ca5cbd92b6413",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20240825_1736_HARP11760_NOAA13800.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20250426_1736_HARP13117_NOAA14068.json",
+      "bytes": 14423,
+      "sha256": "fe558d2d12a2389a70dae504b66abf0522ee88258e7940922b90cc29b78d7810",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20250426_1736_HARP13117_NOAA14068.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/20260116_1036_HARP14277_NOAA14340.json",
+      "bytes": 14423,
+      "sha256": "e406935c91f80a1cbb1fd7f8ef63bad08ad5c717531ce8dd50abdb3dd03edfde",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/20260116_1036_HARP14277_NOAA14340.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/COMPLETE.json",
+      "bytes": 2453,
+      "sha256": "792696a09ef9e68998e8ab9c8af528ea9ad1134b925581d44eb045bd2f9da79a",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/npz_canary_report.json",
+      "bytes": 122659,
+      "sha256": "5aeb195d95f3c60a2598ef1280bbce66a25ef67794ecf0d48e8583e2797a25d2",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/npz_canary_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/object_availability_by_year_and_original_label.csv",
+      "bytes": 1830,
+      "sha256": "90eadbc91635d49730060831c51597233076cd1b3210e35b47931b0f0e724fb7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/object_availability_by_year_and_original_label.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/npz/research_log_npz_canary.md",
+      "bytes": 2833,
+      "sha256": "289ce61ce8de5ebe3b56f078de07f2ec4b0cf6b7078b3322aa994a86e006deea",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z/research_log_npz_canary.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20110413_1312_HARP495_NOAA11190_frame.json",
+      "bytes": 187235,
+      "sha256": "ad04ac664b7bbad050a78955b3178ebd7dc6dcef52f5eafc92abbab792cbf133",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20110413_1312_HARP495_NOAA11190_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20110413_1448_HARP495_NOAA11190_frame.json",
+      "bytes": 186841,
+      "sha256": "7cb74d8167dcbf06aabcf097e51fd50605f31c114b7514c6a195a8ac226c2ac6",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20110413_1448_HARP495_NOAA11190_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20110413_1624_HARP495_NOAA11190_frame.json",
+      "bytes": 186840,
+      "sha256": "3365b00681ba692994191d32e1e11791a845e0d43e921ca810eddaa5a6c4f936",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20110413_1624_HARP495_NOAA11190_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20121005_1300_HARP2106_NOAA11588_frame.json",
+      "bytes": 186799,
+      "sha256": "3ce13695b8725f385b2e0996706b73ff9105a004087728c1d8148a79bf0b4741",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20121005_1300_HARP2106_NOAA11588_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20121005_1436_HARP2106_NOAA11588_frame.json",
+      "bytes": 186811,
+      "sha256": "da9030614f5c92a8a62a57d75f80cc9092bb610633650e9fa153724024d80f3c",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20121005_1436_HARP2106_NOAA11588_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20121005_1612_HARP2106_NOAA11588_frame.json",
+      "bytes": 187062,
+      "sha256": "9f45997a7c3b441f46c39c1ce8fbcf8c826a8fac0fd8e67e2bcdac764753fa58",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20121005_1612_HARP2106_NOAA11588_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140111_0136_HARP3604_NOAA11950_frame.json",
+      "bytes": 187147,
+      "sha256": "ccf1c3b17d3e7e7bbf3c0f81905ed9dcbe0b647c8c305a990f9547801731e5f7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140111_0136_HARP3604_NOAA11950_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140111_0312_HARP3604_NOAA11950_frame.json",
+      "bytes": 186525,
+      "sha256": "60b25f1196896de262801dac7d8fc8dfc023cb08934b668b225f6b415b721048",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140111_0312_HARP3604_NOAA11950_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140111_0448_HARP3604_NOAA11950_frame.json",
+      "bytes": 186486,
+      "sha256": "531654940aa6cf585ee063dc9375da953face4489d148300c272a6aa0bc25ac8",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140111_0448_HARP3604_NOAA11950_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140205_0200_HARP3686_NOAA11967_frame.json",
+      "bytes": 187348,
+      "sha256": "cfa698ac397960b362c2b844de48476fe7e42094e6595e0dd07f7e57b5823f2d",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140205_0200_HARP3686_NOAA11967_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140205_0336_HARP3686_NOAA11967_frame.json",
+      "bytes": 186356,
+      "sha256": "7150312624546e358a38758a7005e628f1f724a618bd49d79f08c6c07e50798f",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140205_0336_HARP3686_NOAA11967_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/20140205_0512_HARP3686_NOAA11967_frame.json",
+      "bytes": 187203,
+      "sha256": "703900550caf8e38cfbbd77d8c3e20ffa85475065132c1a0b3ffa16f9417143c",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/20140205_0512_HARP3686_NOAA11967_frame.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/COMPLETE.json",
+      "bytes": 2038,
+      "sha256": "f1ccc184d5e4ed596a6fa0d97ed7ab1452b56414b511d7a5adbb4ad7cb2bce1b",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/canary_plan.json",
+      "bytes": 16102,
+      "sha256": "42f166f7820257ec5e66b1dde2939fc3c20001f1db1556a1715707cd4c5b47c3",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/canary_plan.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/real_sequence_canary_report.json",
+      "bytes": 79763,
+      "sha256": "636fcc295f4e049de459ce9b96031ac3bf4f5506b4ad90ece20b63f683aea38a",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/real_sequence_canary_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/real_sequence/research_log_real_sequence_canary.md",
+      "bytes": 858,
+      "sha256": "d794c8284e4d20ca4326ecee46534604b3182dae795f83f04095778f434c5746",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/research_log_real_sequence_canary.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/COMPLETE.json",
+      "bytes": 738,
+      "sha256": "35195135fec851072ea729cdafb82d7ddaa1adb161f4209d63f477daa64d998a",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/cross_cycle_assignment_report.json",
+      "bytes": 8678,
+      "sha256": "43c69fc3aaf759e32111ddd9fe5f24cf4e3db813c801daf2d4e1d5c7e552d5f6",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/cross_cycle_assignment_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/cross_cycle_role_support.csv",
+      "bytes": 941,
+      "sha256": "3ad55113d3702e0080ced0c476a4bc49c9edb3f956928a31884d768e244cc726",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/cross_cycle_role_support.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/first_cross_cycle_protocol_proposal.json",
+      "bytes": 2342,
+      "sha256": "981560937baec719397d6e2c21db0c8c10ab2f2c8bb64504144d8e85f4e9e911",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/first_cross_cycle_protocol_proposal.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/region_components.csv",
+      "bytes": 134736,
+      "sha256": "3f3af94877758301ab44daaa1df0d87f1e1e1dfc684f0612ecd4a5cee4e89427",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/region_components.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v1/research_log_cross_cycle_assignment.md",
+      "bytes": 3121,
+      "sha256": "13c7c383a0ccf9750365027f59d37b9c86504595cf9742203bec864da1a02356",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/research_log_cross_cycle_assignment.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/COMPLETE.json",
+      "bytes": 1050,
+      "sha256": "2640ccd14013cfb6621739a0b0979b7beb3ecbd96707bc15ad0e43974104637e",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/broad_cycle24_fit_report.json",
+      "bytes": 14424,
+      "sha256": "5c26430f7856ad73bb880e83fe3cd6da36e795b78a38d27522a68bcde016b923",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_fit_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/broad_cycle24_protocol_PROPOSED.json",
+      "bytes": 4143,
+      "sha256": "31ade696c2bbd683239bbd577b2341ea465eeee6ac6976bdbeb953b04cb95b4e",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_protocol_PROPOSED.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/final_role_support.csv",
+      "bytes": 482,
+      "sha256": "603384c6e6480d43dafd44ce3ee22c3d3251c92a32d7dc522e51d9d74fb307d7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/final_role_support.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/final_roles_by_year.csv",
+      "bytes": 2327,
+      "sha256": "46031a7f72139aa1313bf51f66470c3b5d32364c72c931fa5c96bcce68ccd4c3",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/final_roles_by_year.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/forward_fold_support.csv",
+      "bytes": 484,
+      "sha256": "1dbeabe65b87c854238f4304c46609bb24088ef4d78b83608aefa6231e6c94f4",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/forward_fold_support.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/region_reservations.csv",
+      "bytes": 175939,
+      "sha256": "fd3991ef230d328c1598a4b4b4f6e659e81b28bc6216cc51cda84a54cacce3c3",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/region_reservations.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/roles_v2/research_log_broad_cycle24_proposal.md",
+      "bytes": 2076,
+      "sha256": "a11c9ca24c089248c32cf0f13207caffafefb6ac2b8046ead7efb771223a110e",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/research_log_broad_cycle24_proposal.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/sharp_arrays/COMPLETE.json",
+      "bytes": 1037,
+      "sha256": "f58b0c6ae0463c864bda684283d35e8aa1ade74e6e05f55b0e35731c03c63aca",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/sharp_arrays/research_log_sharp_arrays.md",
+      "bytes": 1267,
+      "sha256": "e6bb0c279a2400bfd1938bdfc0404a32fcdacdf2e5c1e97b62d150b851fef6e5",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/research_log_sharp_arrays.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/sharp_arrays/sharp_array_build_report.json",
+      "bytes": 5915,
+      "sha256": "c0a0dec849e3a599686eed7b94fb11bf72049d88edc5ae44409bb760866e868f",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/sharp_array_build_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/source_resolution/artifact_hashes.json",
+      "bytes": 318,
+      "sha256": "aa30f2d740428645b2c6e5380a845767fa9338fb3d582b3572c2cb7bea14c99e",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/consolidated_resolution_v1/reports/20260916T125903405600Z/artifact_hashes.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/source_resolution/object_availability_by_year_and_original_label.csv",
+      "bytes": 1830,
+      "sha256": "90eadbc91635d49730060831c51597233076cd1b3210e35b47931b0f0e724fb7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/consolidated_resolution_v1/reports/20260916T125903405600Z/object_availability_by_year_and_original_label.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/source_resolution/resolution_report.json",
+      "bytes": 3061071,
+      "sha256": "c81eb2979139d9e387322929cb94f09967876d28dbfe3953d2a3158587f056d9",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/consolidated_resolution_v1/reports/20260916T125903405600Z/resolution_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/source_resolution/resolution_summary.md",
+      "bytes": 1289,
+      "sha256": "a27417220e23a11f63902e8bbdf577af42021f409faecbb0cd83817aab8351d6",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/consolidated_resolution_v1/reports/20260916T125903405600Z/resolution_summary.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/temporal_index/COMPLETE.json",
+      "bytes": 550,
+      "sha256": "f42de7a77c78e4599f77631ff34b33fc729643c5acf29890362801521bc684d7",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/COMPLETE.json",
+      "verification": "original marker copied; covers more artifacts than this checkpoint"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/temporal_index/research_log_temporal_manifest.md",
+      "bytes": 1692,
+      "sha256": "31f2e37444908b6ea737d8c61ab65622affe5fc862c883b98e4352cbe6440241",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/research_log_temporal_manifest.md",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/temporal_index/sequence_coverage_by_year_and_original_label.csv",
+      "bytes": 1103,
+      "sha256": "14fba73eed3ce382921c69cfc7c5181d4db2a92adcf20bb1bae57680d9aaaba1",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/sequence_coverage_by_year_and_original_label.csv",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "docs/research_audit/2026-09-16/temporal_index/temporal_manifest_report.json",
+      "bytes": 13591,
+      "sha256": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b",
+      "origin": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/temporal_manifest_report.json",
+      "verification": "matched original completion SHA-256"
+    },
+    {
+      "path": "notebooks/training/17C_temporal_multimodal_loader_canary.ipynb",
+      "bytes": 2262,
+      "sha256": "23d949278b07e2f9c4f24dc9c1971fa363185c40f7cd6a18e668573556cb28a0",
+      "origin": [
+        "AIA17_Real_Sequence_Loader_Canary_Package.zip:17C_temporal_multimodal_loader_canary.ipynb"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/README.md",
+      "bytes": 1893,
+      "sha256": "2b99da984aa6be3c480501f51742c279626d9712f9052ac214c2cb6aa6aee138",
+      "origin": "new snapshot/readability note",
+      "verification": "Reviewed publication-only wording and link changes; original staged bytes backed up before amendment.",
+      "prior_staged_sha256": "3f3dc7373331c01ee25d1dbad51b0c70fae7269530b69931c9bd67898cd19f9e"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_archive_reconciliation.py",
+      "bytes": 23473,
+      "sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "origin": "/home/abmoses2000/aia17_archive_reconciliation.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_archive_reconciliation_paged.py",
+      "bytes": 19224,
+      "sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "origin": "/home/abmoses2000/aia17_archive_reconciliation_paged.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_assign_cross_cycle_roles.py",
+      "bytes": 25757,
+      "sha256": "1273dbbcf12fd554db40380bb7d10470e11b8b1b3b52076a5563483dcb460bc6",
+      "origin": "/home/abmoses2000/aia17_assign_cross_cycle_roles.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_boundary_review.py",
+      "bytes": 12532,
+      "sha256": "83820dba77bcb4780483a2052f6b4ef27ccc5ac785308e1b1713b4a65077b8c1",
+      "origin": "/home/abmoses2000/aia17_boundary_review.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_build_temporal_manifest.py",
+      "bytes": 27912,
+      "sha256": "7175c7361aa64643ae93ec8c645a4de96339bb6af6b3850563146fbd3cf2ce96",
+      "origin": "/home/abmoses2000/aia17_build_temporal_manifest.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_consolidated_resolution.py",
+      "bytes": 32933,
+      "sha256": "191a74baa62d089f66d1db28ab2ce7368fc20846b6601ccbf684e8ed675c13a9",
+      "origin": "/home/abmoses2000/aia17_consolidated_resolution.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_event_time_forensics.py",
+      "bytes": 20266,
+      "sha256": "f2d94c05200589064ca1446d0a48b9b500a3d665ca36bb9af8fea4c4e0bbdac3",
+      "origin": "/home/abmoses2000/aia17_event_time_forensics.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_model_integration.py",
+      "bytes": 24619,
+      "sha256": "4439e8af459a7e7d8801031475833d62e109aa379a90dd44cdc430a977450492",
+      "origin": "/home/abmoses2000/aia17_model_integration.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_npz_timing_canary.py",
+      "bytes": 35828,
+      "sha256": "878424c0a74f453396bdba616cd1f1bebcc4667e6cff9c92e0f9419f676d3755",
+      "origin": "/home/abmoses2000/aia17_npz_timing_canary.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_npz_timing_canary_gcloud.py",
+      "bytes": 12191,
+      "sha256": "45a6b1a21412fa694c80ff6ab9ccd60f3e697e2560ab88dfb04702c892979e6e",
+      "origin": "/home/abmoses2000/aia17_npz_timing_canary_gcloud.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_prepare_broad_cycle24_fit.py",
+      "bytes": 26543,
+      "sha256": "c28f36322b7da77bc4e6eeb949d18a4d84ceb1692ba8ad682160d23533a731fc",
+      "origin": "/home/abmoses2000/aia17_prepare_broad_cycle24_fit.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_primary_event_verification.py",
+      "bytes": 18640,
+      "sha256": "0d2f118deb13617907e0bf6246c191f3b5f9965d892a20d642f3d242ca0591e5",
+      "origin": "/home/abmoses2000/aia17_primary_event_verification.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_real_sequence_canary.py",
+      "bytes": 27504,
+      "sha256": "99f4a32aa71c0184c34442d0a4162218ed70a7dae7c16f84917a82332ad22409",
+      "origin": "/home/abmoses2000/aia17_real_sequence_canary.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia17_time_label_impact.py",
+      "bytes": 27705,
+      "sha256": "8ff5f9de5f119c004cccb96e1faaa17cdb4d9ccd9701880c2ab63c0fe309264e",
+      "origin": "/home/abmoses2000/aia17_time_label_impact.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/aia18_build_sharp_training_arrays.py",
+      "bytes": 25545,
+      "sha256": "b133051cc0303ad673a20aa867deb47008e8bc91db78ad8ea37461abff8a7fd6",
+      "origin": "/home/abmoses2000/aia18_build_sharp_training_arrays.py",
+      "verification": "matched supplied source SHA-256"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_AIA_SHARP_Model_Integration_Package/README.md",
+      "bytes": 5401,
+      "sha256": "041619b006aacb480754597bd348822f76fa49e3b07f85c8ac7ac4e9ac61a641",
+      "origin": [
+        "AIA17_AIA_SHARP_Model_Integration_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_AIA_SHARP_Model_Integration_Package/tests_run.txt",
+      "bytes": 2599,
+      "sha256": "4b379dfb53d405bec6dc7d223aa10f8b82685303aa9c2ab4515ff7d0cd3df003",
+      "origin": [
+        "AIA17_AIA_SHARP_Model_Integration_Package.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Broader_Cycle24_FinalFit_Proposal_v2/README.md",
+      "bytes": 7032,
+      "sha256": "257e691de6f71d023f290b5f219998298a7ac9acf56d04d5f2e258e6631297f5",
+      "origin": [
+        "AIA17_Broader_Cycle24_FinalFit_Proposal_v2.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Broader_Cycle24_FinalFit_Proposal_v2/tests_run.txt",
+      "bytes": 2925,
+      "sha256": "38bef912f151917ec5c6645caab82abc18a14f4f877d3587fdefaa5824f9c16d",
+      "origin": [
+        "AIA17_Broader_Cycle24_FinalFit_Proposal_v2.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Consolidated_Resolution_Package/README.md",
+      "bytes": 6827,
+      "sha256": "a52724b3fce0b3248174b2ca8a37f8374c408176493580e468c67edb13d3818b",
+      "origin": [
+        "AIA17_Consolidated_Resolution_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Cross_Cycle_Role_Assignment_Package/README.md",
+      "bytes": 6238,
+      "sha256": "6a2325673b2e2b7c1e3178848254b743dab8efe67ae9df8d6092b96a34a4ff8f",
+      "origin": [
+        "AIA17_Cross_Cycle_Role_Assignment_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Cross_Cycle_Role_Assignment_Package/tests_run.txt",
+      "bytes": 1793,
+      "sha256": "aeb55e8b1174fc8818f48a880d257201152e293426c3829a70ab86299f0140da",
+      "origin": [
+        "AIA17_Cross_Cycle_Role_Assignment_Package.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_NPZ_Timing_Canary_Package/README.md",
+      "bytes": 6152,
+      "sha256": "3fc16656c9cb38814ced78d9e2e1b80300900259baa92c012bb8a3bb2b85fc79",
+      "origin": [
+        "AIA17_NPZ_Timing_Canary_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Real_Sequence_Loader_Canary_Package/README.md",
+      "bytes": 6114,
+      "sha256": "298e44024a09efb0271409a5b374ccdca83377c3968f0898848823f6f8a13cfc",
+      "origin": [
+        "AIA17_Real_Sequence_Loader_Canary_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Real_Sequence_Loader_Canary_Package/tests_run.txt",
+      "bytes": 5133,
+      "sha256": "b79af94ecf1cb8cf85e1840a9ad7bc68b9dd2deb79a9f5d72cb954c278d1266c",
+      "origin": [
+        "AIA17_Real_Sequence_Loader_Canary_Package.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Temporal_Manifest_Build_v1/README.md",
+      "bytes": 7395,
+      "sha256": "89ee36d22baa69b2b12489b419431a1b94ffda8346689b1b94c531e430289f0c",
+      "origin": [
+        "AIA17_Temporal_Manifest_Build_v1.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA17_Temporal_Manifest_Build_v1/tests_run.txt",
+      "bytes": 4761,
+      "sha256": "d0d819323600d18d3ac700113e2d4196cfee8e03b3038ee158cd2b91d72eca1c",
+      "origin": [
+        "AIA17_Temporal_Manifest_Build_v1.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA18_Cycle24_SHARP_Array_Preparation_Package/README.md",
+      "bytes": 4795,
+      "sha256": "5410c7b55e55a607fee6e62eba88c393f7cea3cb911a7c8e216e484f656fe9cf",
+      "origin": [
+        "AIA18_Cycle24_SHARP_Array_Preparation_Package.zip:README.md"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA18_Cycle24_SHARP_Array_Preparation_Package/earlier_builder_compatibility.txt",
+      "bytes": 2452,
+      "sha256": "89a884b6a8a6e039162e19500bbe4e3a2b7cfa09a93e30ad4b21c6b9771c5636",
+      "origin": [
+        "AIA18_Cycle24_SHARP_Array_Preparation_Package.zip:earlier_builder_compatibility.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA18_Cycle24_SHARP_Array_Preparation_Package/test_environment.json",
+      "bytes": 139,
+      "sha256": "4429639d0503f8e9f0fa41c04b27ba1ba4e4d46d3e217de4ea3e2ae81ce2e93d",
+      "origin": [
+        "AIA18_Cycle24_SHARP_Array_Preparation_Package.zip:test_environment.json"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/original_package_notes/AIA18_Cycle24_SHARP_Array_Preparation_Package/tests_run.txt",
+      "bytes": 1885,
+      "sha256": "82765af944444ea79708fcf81b3e676df8b5f8b6b4e53f3c0857becb07b72cbd",
+      "origin": [
+        "AIA18_Cycle24_SHARP_Array_Preparation_Package.zip:tests_run.txt"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_archive_reconciliation.py",
+      "bytes": 7575,
+      "sha256": "17e90c657c669913e1a8d1e2316e33d7d6ebc03b911ad9e34f7f79af8564fd23",
+      "origin": [
+        "AIA17_Archive_Reconciliation_Package.zip:test_aia17_archive_reconciliation.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_archive_reconciliation_paged.py",
+      "bytes": 13336,
+      "sha256": "3dab6b4991a7f6ba0521cdbdeca3b0c7cce6f08fd4e200d7db9fa43d11f54d38",
+      "origin": [
+        "AIA17_Archive_Paged_Resume_Package.zip:test_aia17_archive_reconciliation_paged.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_cross_cycle_roles.py",
+      "bytes": 9524,
+      "sha256": "d77d5c0ff330042e44e1d51f9c1f2e59bbac6916ab37ee3b1866e23ae469ee85",
+      "origin": [
+        "AIA17_Cross_Cycle_Role_Assignment_Package.zip:test_aia17_cross_cycle_roles.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_npz_timing_canary.py",
+      "bytes": 12944,
+      "sha256": "e27ff3153eab8d3dc14c8a25bac19d9cde8136250c953b89cf294ac942646316",
+      "origin": [
+        "AIA17_NPZ_Timing_Canary_Package.zip:test_aia17_npz_timing_canary.py",
+        "AIA17_NPZ_Native_Download_Resume_Package.zip:test_aia17_npz_timing_canary.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_npz_timing_canary_gcloud.py",
+      "bytes": 8061,
+      "sha256": "8b154582b515d018594a4b4c0670f9c4d317d9cfbce0ec620659623daaf176ac",
+      "origin": [
+        "AIA17_NPZ_Native_Download_Resume_Package.zip:test_aia17_npz_timing_canary_gcloud.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_real_sequence.py",
+      "bytes": 12321,
+      "sha256": "4bb9c64e5b57b8004ebb267ee5d565b500f87ecad1299a8be236e04ef770c148",
+      "origin": [
+        "AIA17_Real_Sequence_Loader_Canary_Package.zip:test_aia17_real_sequence.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_aia17_temporal_manifest.py",
+      "bytes": 11217,
+      "sha256": "0457fcb3b2477c72c54acf7305e2ddd156c5a4dc9ace2653ed1f8794e5a10bc5",
+      "origin": [
+        "AIA17_Temporal_Manifest_Build_v1.zip:test_aia17_temporal_manifest.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_broad_cycle24.py",
+      "bytes": 10401,
+      "sha256": "6b6472eb647d50fa65648219cce90b5403a2daa0a9f690e5abb548202f272516",
+      "origin": [
+        "AIA17_Broader_Cycle24_FinalFit_Proposal_v2.zip:test_broad_cycle24.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_consolidated_resolution.py",
+      "bytes": 7908,
+      "sha256": "0d05b128a086b21230de3fdd5dc0ddfa33254ce63fdd9189250d0174e2919396",
+      "origin": [
+        "AIA17_Consolidated_Resolution_Package.zip:test_consolidated_resolution.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/test_sharp_arrays.py",
+      "bytes": 11262,
+      "sha256": "f494fb2e4c43802c753b79f8f3b46f82460c4d4d6d918655cd33b4bb0ff32211",
+      "origin": [
+        "AIA18_Cycle24_SHARP_Array_Preparation_Package.zip:test_sharp_arrays.py"
+      ],
+      "verification": "bundled exact bytes"
+    },
+    {
+      "path": "reproducibility/continuation_20260916/tests/test_model_integration.py",
+      "bytes": 8944,
+      "sha256": "30f1b914e696597a72987e327807d4cfd3df51d5503d64c97c8bd66224d58cba",
+      "origin": [
+        "AIA17_AIA_SHARP_Model_Integration_Package.zip:tests/test_model_integration.py"
+      ],
+      "verification": "bundled exact bytes"
+    }
+  ],
+  "run_reports": [
+    {
+      "run": "boundary",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/reviews/boundary_review_20260916T065814216457Z",
+      "report": "boundary_review.json",
+      "report_status": "BOUNDARY_REVIEW_COMPLETE_CONDITIONAL_NO_REPAIRS",
+      "selected_files": 3,
+      "original_report_sha256": "a50828844cf52621c32bc69a24ef40cbd1675c3543f2ed7cd09ee06fea3b2b83"
+    },
+    {
+      "run": "archive",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z",
+      "report": "archive_reconciliation_report.json",
+      "report_status": "OBJECT_RECONCILIATION_COMPLETE_CONTENT_AND_TIMING_NOT_VERIFIED",
+      "selected_files": 6,
+      "original_report_sha256": "241295bb6cbb3f69ef0e5b9b9d090ef4da7f9dda698361bdd2fdc1d223c238a1"
+    },
+    {
+      "run": "npz",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/npz_timing_canary_v1/reports/20260916T102919362266Z",
+      "report": "npz_canary_report.json",
+      "report_status": "NPZ_CANARY_COMPLETE_REVIEW_REQUIRED_NO_TRAINING",
+      "selected_files": 22,
+      "original_report_sha256": "5aeb195d95f3c60a2598ef1280bbce66a25ef67794ecf0d48e8583e2797a25d2"
+    },
+    {
+      "run": "source_resolution",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/consolidated_resolution_v1/reports/20260916T125903405600Z",
+      "report": "resolution_report.json",
+      "report_status": "EVIDENCE_BATCH_COMPLETE_DECISIONS_REQUIRED_NO_REPAIRS",
+      "selected_files": 4,
+      "original_report_sha256": "c81eb2979139d9e387322929cb94f09967876d28dbfe3953d2a3158587f056d9"
+    },
+    {
+      "run": "temporal_index",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z",
+      "report": "temporal_manifest_report.json",
+      "report_status": "TEMPORAL_INDEX_BUILT_TIMING_AND_LABEL_CLEARANCE_PENDING",
+      "selected_files": 4,
+      "original_report_sha256": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b"
+    },
+    {
+      "run": "roles_v1",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z",
+      "report": "cross_cycle_assignment_report.json",
+      "report_status": "CROSS_CYCLE_ROLE_PROPOSAL_BUILT_NOT_FROZEN",
+      "selected_files": 6,
+      "original_report_sha256": "43c69fc3aaf759e32111ddd9fe5f24cf4e3db813c801daf2d4e1d5c7e552d5f6"
+    },
+    {
+      "run": "real_sequence",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z",
+      "report": "real_sequence_canary_report.json",
+      "report_status": "REAL_SEQUENCE_ENGINEERING_CANARY_COMPLETE_FULL_CLEARANCE_PENDING",
+      "selected_files": 16,
+      "original_report_sha256": "636fcc295f4e049de459ce9b96031ac3bf4f5506b4ad90ece20b63f683aea38a"
+    },
+    {
+      "run": "model_integration",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z",
+      "report": "model_integration_report.json",
+      "report_status": "MULTIMODAL_ENGINEERING_CHECK_PASSED_NOT_A_FORECAST_BENCHMARK",
+      "selected_files": 4,
+      "original_report_sha256": "81952461a61344ff788719e315af5ffee1679485de2e2506a1116150bf027158"
+    },
+    {
+      "run": "roles_v2",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z",
+      "report": "broad_cycle24_fit_report.json",
+      "report_status": "BROAD_CYCLE24_FIT_PROPOSAL_BUILT_NOT_FROZEN",
+      "selected_files": 8,
+      "original_report_sha256": "5c26430f7856ad73bb880e83fe3cd6da36e795b78a38d27522a68bcde016b923"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_folder": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z",
+      "report": "sharp_array_build_report.json",
+      "report_status": "CYCLE24_SHARP_ARRAYS_BUILT_NO_TRAINING_OR_CLEARANCE",
+      "selected_files": 3,
+      "original_report_sha256": "c0a0dec849e3a599686eed7b94fb11bf72049d88edc5ae44409bb760866e868f"
+    }
+  ],
+  "excluded_artifacts_not_backed_up": [
+    {
+      "run": "archive",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/reports/20260916T073559880010Z/target_object_register.csv",
+      "recorded_sha256": "b4bbf9098d2005cfacd7eff7649fdbac3b82fc55162fcbfb822024b1abcd6931",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "temporal_index",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/temporal_sequence_candidates.jsonl.gz",
+      "recorded_sha256": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "roles_v1",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/cross_cycle_role_proposal_v1/reports/20260916T151222233858Z/cross_cycle_role_assignments.csv.gz",
+      "recorded_sha256": "c6984a0aede49ff42e1239d93100a9dc980b25027d377279963cd44910f00e92",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "real_sequence",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/engineering_batch.npy",
+      "recorded_sha256": "bd74bf8201366aa9a2e93dd0d1aaf084012dce1042d2e010d6fe22303567eab2",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "real_sequence",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/real_sequence_canary_v1/reports/20260916T172352521004Z/manifest_targets.npy",
+      "recorded_sha256": "dbe1cc8058e6d4a4659f0927fdb2f04712f8e63b879026c70966ceea6659350b",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "model_integration",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/sharp_three_slot_raw.npy",
+      "recorded_sha256": "7651cc1fa91898e885f021aa52dbe672d65f4b7bdc70c3ec53653bedf5720f03",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "model_integration",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/model_integration_v1/reports/20260916T181303106801Z/sharp_three_slot_scaled_DEBUG_ONLY.npy",
+      "recorded_sha256": "b223d6262bd4cc2e462c0877d8d473225651fefc39e8f2d3c4aa2fa09b87ed4e",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "roles_v2",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_final_role_candidates.csv.gz",
+      "recorded_sha256": "94a2910a663cef1f66ab73ea471d90541239bc74242f0f9b1a4c82ef0ae10350",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "roles_v2",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/forward_development_fold_candidates.csv.gz",
+      "recorded_sha256": "2934b0fc3e23d0c5631ce281f9f965e7268af2004c20b819dd1ff7c28581daa9",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/cycle24_array_rows.csv.gz",
+      "recorded_sha256": "0f333465bc5ccd83a742da25a8efff87973a5b59b5b9a17448d598ffb3c70ab2",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/forward_development_array_rows.csv.gz",
+      "recorded_sha256": "ed0dc2424af80b412b1125e8aeb4b22390a7ec808233d1d62e449fbcf7b632cf",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/original_manifest_targets.npy",
+      "recorded_sha256": "5c1c83f1dc8832585bb97788cc02ebb4b2cc18382fbe6e9ffce40810a0eb2303",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/sharp_finite_mask.npy",
+      "recorded_sha256": "561a9776882ff099dcb6519d50dd6d63cdb2a4ae9e1879a7f9086d1984910160",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/sharp_raw_three_slot.npy",
+      "recorded_sha256": "9121b5ca6f0d6273252674ea93cdb44f59d104d1836cc742b05adbdb075ed425",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/sharp_record_match_counts.npy",
+      "recorded_sha256": "38b04c1d8c87d892ec5b08eed794f989f406d2ef28f3dae85f1e080b98e717d2",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    },
+    {
+      "run": "sharp_arrays",
+      "original_path": "/home/abmoses2000/aia17_metadata_stage1/sharp_arrays_cycle24_v1/reports/20260916T195026327454Z/unique_sharp_source_records.jsonl.gz",
+      "recorded_sha256": "58982c9b08490ddba0e9f748bf117b83acb23e49509df44cac5b8b90a22f0707",
+      "reason": "large/binary/compressed output or not locally present; contents NOT verified or backed up by this checkpoint"
+    }
+  ],
+  "self_hash_excluded": "docs/research_audit/2026-09-16/checkpoint_copy_manifest.json",
+  "scientific_runs_repeated": false,
+  "models_trained": false,
+  "originals_moved": false,
+  "original_labels_changed": false,
+  "configuration_frozen": false,
+  "committed": false,
+  "pushed": false,
+  "notes": [
+    "Files/tests are preserved, not an assertion that every stage is portable or newly tested.",
+    "Paths and completion hashes are provenance; excluded artifacts require a separate verified durable backup.",
+    "Secret-pattern screening is limited; review all staged content before publication.",
+    "The internal proposal and its embedding copier are excluded from this public selection. The original 128-file staged snapshot is preserved outside Git by the selection tool. Existing run hashes remain the evidence for each original computation, not a claim all referenced arrays were copied into this repository."
+  ],
+  "publication_review_date": "2026-09-17",
+  "publication_selection": {
+    "basis": "Review of the user-supplied staged_publication_review.zip at the recorded base commit.",
+    "original_staged_paths": 128,
+    "public_staged_paths": 126,
+    "original_copy_manifest_sha256": "f5420fb91ca133ed88674ae90a7bab99773e069f07e80a2ee32f465ab87650bb",
+    "input_zip_sha256": "e49a74719e5c1cd96b726ae24a2c30cf603f0e930b3fc7e580158d346fa1aa17",
+    "held_out_paths": [
+      "docs/AIA_MASTER_PROPOSAL_2026-09-16.md",
+      "reproducibility/continuation_20260916/aia18_prepare_documentation_checkpoint.py"
+    ],
+    "held_out_reason": "Internal proposal and its embedding copier kept local, not included in this public checkpoint; no original confidential correspondence was found in the supplied stage.",
+    "baseline_phase": "Existing image-only, magnetic-only and intermediate-fusion experiments remain unchanged.",
+    "extension_phase": "Later cross-cycle temporal preparation and engineering evidence; no new scored cross-cycle result claimed.",
+    "scientific_files_changed": false,
+    "all_original_working_files_removed": false
+  }
+}

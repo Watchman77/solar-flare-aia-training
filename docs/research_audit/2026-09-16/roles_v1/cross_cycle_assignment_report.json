@@ -1,0 +1,202 @@
+{
+  "version": "aia17-cross-cycle-role-proposal-v1",
+  "status": "CROSS_CYCLE_ROLE_PROPOSAL_BUILT_NOT_FROZEN",
+  "created_utc": "2026-09-16T15:12:33.515795+00:00",
+  "source_directory": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z",
+  "source_files_sha256": {
+    "COMPLETE.json": "f42de7a77c78e4599f77631ff34b33fc729643c5acf29890362801521bc684d7",
+    "temporal_manifest_report.json": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b",
+    "temporal_sequence_candidates.jsonl.gz": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba"
+  },
+  "target_rows_preserved": 141644,
+  "source_index_history_status_counts": {
+    "NOMINAL_HISTORY_INCOMPLETE_OR_EXCLUDED": 23427,
+    "NOMINAL_HISTORY_OBJECTS_AVAILABLE_TIMING_PENDING": 118217
+  },
+  "proposed_roles": [
+    {
+      "name": "train",
+      "start_utc_inclusive": "2010-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-01-01T00:00:00Z",
+      "purpose": "Fit preprocessing and model weights on this subset of Cycle 24."
+    },
+    {
+      "name": "model_validation",
+      "start_utc_inclusive": "2014-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-07-01T00:00:00Z",
+      "purpose": "Model/epoch/hyperparameter selection, not weight fitting."
+    },
+    {
+      "name": "calibration_fit",
+      "start_utc_inclusive": "2014-07-01T00:00:00Z",
+      "end_utc_exclusive": "2015-01-01T00:00:00Z",
+      "purpose": "Fit a prespecified calibrator to the frozen selected model."
+    },
+    {
+      "name": "threshold_selection",
+      "start_utc_inclusive": "2015-01-01T00:00:00Z",
+      "end_utc_exclusive": "2016-01-01T00:00:00Z",
+      "purpose": "Assess calibration and select operating threshold; not independent test."
+    },
+    {
+      "name": "late_period_diagnostic",
+      "start_utc_inclusive": "2016-01-01T00:00:00Z",
+      "end_utc_exclusive": "2020-01-01T00:00:00Z",
+      "purpose": "Post-freeze diagnostic only; this block includes the late-2019 cycle transition."
+    },
+    {
+      "name": "early_cycle25_diagnostic",
+      "start_utc_inclusive": "2020-01-01T00:00:00Z",
+      "end_utc_exclusive": "2021-01-01T00:00:00Z",
+      "purpose": "Separate 2020 low-activity diagnostic, never a development set."
+    },
+    {
+      "name": "independent_cycle25_test",
+      "start_utc_inclusive": "2021-01-01T00:00:00Z",
+      "end_utc_exclusive": "2026-01-01T00:00:00Z",
+      "purpose": "Primary held-out 2021-2025 cross-cycle evaluation, no tuning/refitting."
+    },
+    {
+      "name": "supplementary_2026",
+      "start_utc_inclusive": "2026-01-01T00:00:00Z",
+      "end_utc_exclusive": "2027-01-01T00:00:00Z",
+      "purpose": "Only the actually covered 2026 records, not a complete-year claim."
+    }
+  ],
+  "role_support": [
+    {
+      "role": "train",
+      "start_utc_inclusive": "2010-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-01-01T00:00:00Z",
+      "targets": 38781,
+      "nominal_complete": 33692,
+      "role_retained": 33613,
+      "retained_original_positives": 1024,
+      "retained_original_negatives": 32589,
+      "retained_region_components": 636,
+      "positive_region_components": 40
+    },
+    {
+      "role": "model_validation",
+      "start_utc_inclusive": "2014-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-07-01T00:00:00Z",
+      "targets": 6434,
+      "nominal_complete": 5522,
+      "role_retained": 5391,
+      "retained_original_positives": 346,
+      "retained_original_negatives": 5045,
+      "retained_region_components": 101,
+      "positive_region_components": 13
+    },
+    {
+      "role": "calibration_fit",
+      "start_utc_inclusive": "2014-07-01T00:00:00Z",
+      "end_utc_exclusive": "2015-01-01T00:00:00Z",
+      "targets": 5219,
+      "nominal_complete": 4599,
+      "role_retained": 4380,
+      "retained_original_positives": 157,
+      "retained_original_negatives": 4223,
+      "retained_region_components": 77,
+      "positive_region_components": 6
+    },
+    {
+      "role": "threshold_selection",
+      "start_utc_inclusive": "2015-01-01T00:00:00Z",
+      "end_utc_exclusive": "2016-01-01T00:00:00Z",
+      "targets": 11259,
+      "nominal_complete": 9795,
+      "role_retained": 9627,
+      "retained_original_positives": 462,
+      "retained_original_negatives": 9165,
+      "retained_region_components": 176,
+      "positive_region_components": 15
+    },
+    {
+      "role": "late_period_diagnostic",
+      "start_utc_inclusive": "2016-01-01T00:00:00Z",
+      "end_utc_exclusive": "2020-01-01T00:00:00Z",
+      "targets": 13116,
+      "nominal_complete": 11196,
+      "role_retained": 11181,
+      "retained_original_positives": 76,
+      "retained_original_negatives": 11105,
+      "retained_region_components": 235,
+      "positive_region_components": 4
+    },
+    {
+      "role": "early_cycle25_diagnostic",
+      "start_utc_inclusive": "2020-01-01T00:00:00Z",
+      "end_utc_exclusive": "2021-01-01T00:00:00Z",
+      "targets": 2089,
+      "nominal_complete": 1850,
+      "role_retained": 1838,
+      "retained_original_positives": 0,
+      "retained_original_negatives": 1838,
+      "retained_region_components": 34,
+      "positive_region_components": 0
+    },
+    {
+      "role": "independent_cycle25_test",
+      "start_utc_inclusive": "2021-01-01T00:00:00Z",
+      "end_utc_exclusive": "2026-01-01T00:00:00Z",
+      "targets": 61545,
+      "nominal_complete": 49359,
+      "role_retained": 49329,
+      "retained_original_positives": 2351,
+      "retained_original_negatives": 46978,
+      "retained_region_components": 985,
+      "positive_region_components": 89
+    },
+    {
+      "role": "supplementary_2026",
+      "start_utc_inclusive": "2026-01-01T00:00:00Z",
+      "end_utc_exclusive": "2027-01-01T00:00:00Z",
+      "targets": 3201,
+      "nominal_complete": 2204,
+      "role_retained": 2086,
+      "retained_original_positives": 135,
+      "retained_original_negatives": 1951,
+      "retained_region_components": 49,
+      "positive_region_components": 6
+    }
+  ],
+  "structural_exclusion_reason_counts": {
+    "NOMINAL_HISTORY_INCOMPLETE_OR_EXCLUDED": 23427,
+    "FORECAST_ENDPOINT_REACHES_NEXT_ROLE": 345,
+    "REGION_COMPONENT_SPANS_ROLES": 774,
+    "AIA_NOMINAL_HISTORY_CROSSES_ROLE": 36,
+    "TARGET_LABEL_BOUNDARY_REVIEW_PENDING": 1
+  },
+  "reason_counts_can_overlap": true,
+  "cross_role_region_components": 12,
+  "group_policy": "Conservative connected components of retained HARP-NOAA associations; exclude whole components spanning calendar roles.",
+  "components_are_not_certified_independent_physical_regions": true,
+  "retained_cross_role_pinned_aia_object_overlap": 0,
+  "development_structural_blockers": [],
+  "development_support_warnings": [],
+  "split_dates_frozen": false,
+  "model_fitted": false,
+  "preprocessing_fitted": false,
+  "calibration_fitted": false,
+  "threshold_selected": false,
+  "training_authorised": false,
+  "original_labels_changed": false,
+  "cycle25_used_for_model_selection": false,
+  "limitations": [
+    "This is an explicit FIRST benchmark proposal. Only 2010-2013 fits model weights; it does not use all Cycle-24 data for fitting.",
+    "2014 model-selection/calibration subperiods must have their retained support reviewed. No automatic date fallback.",
+    "2015 is a threshold/calibration-assessment development set, not an independent test.",
+    "2016-2019 diagnostics must not be used to revise the selected model; late 2019 spans the physical cycle transition.",
+    "The 2021-2025 test period remains independent; 2020 and the covered portion of 2026 are separate.",
+    "Only canonical timestamps and forecast endpoints already in the locked index are used; no new TAI/UTC conversion occurs.",
+    "48-hour endpoint and AIA nominal-history boundary checks are structural; actual exposure and product availability are still pending.",
+    "SHARP history construction, contributing observation windows, availability, and any further boundary embargo remain to be verified.",
+    "A nominal history pass is not source-time clearance. Labels and continuous follow-up are still not certified.",
+    "Region links are conservative identifier associations, not independently established physical-region identities.",
+    "No calibration-method, significance threshold, model-selection metric or architecture is selected by this program.",
+    "Retained class/group counts are based on original labels; diagnostic statistics are not performance results.",
+    "A model-time or group cutoff can remove a whole region; excluded targets remain in the sidecar with their reasons.",
+    "This new sidecar does not rewrite the source index, fit a model, authorize a GPU, or publish to GitHub."
+  ]
+}

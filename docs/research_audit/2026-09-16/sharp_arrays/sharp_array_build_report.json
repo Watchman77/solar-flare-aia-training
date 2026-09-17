@@ -1,0 +1,149 @@
+{
+  "version": "18a-cycle24-raw-sharp-three-slot-arrays-v1",
+  "status": "CYCLE24_SHARP_ARRAYS_BUILT_NO_TRAINING_OR_CLEARANCE",
+  "created_utc": "2026-09-16T19:50:32.980332+00:00",
+  "input_sha256": {
+    "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/COMPLETE.json": "2640ccd14013cfb6621739a0b0979b7beb3ecbd96707bc15ad0e43974104637e",
+    "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_fit_report.json": "5c26430f7856ad73bb880e83fe3cd6da36e795b78a38d27522a68bcde016b923",
+    "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_protocol_PROPOSED.json": "31ade696c2bbd683239bbd577b2341ea465eeee6ac6976bdbeb953b04cb95b4e",
+    "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/broad_cycle24_final_role_candidates.csv.gz": "94a2910a663cef1f66ab73ea471d90541239bc74242f0f9b1a4c82ef0ae10350",
+    "/home/abmoses2000/aia17_metadata_stage1/broad_cycle24_finalfit_v2/reports/20260916T191645934223Z/forward_development_fold_candidates.csv.gz": "2934b0fc3e23d0c5631ce281f9f965e7268af2004c20b819dd1ff7c28581daa9",
+    "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/COMPLETE.json": "f42de7a77c78e4599f77631ff34b33fc729643c5acf29890362801521bc684d7",
+    "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/temporal_manifest_report.json": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b",
+    "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z/temporal_sequence_candidates.jsonl.gz": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba",
+    "/home/abmoses2000/solar_flare_aia/docs/research_audit/2026-09-15/stage1/source_lock_snapshot.json": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+    "/home/abmoses2000/aia17_metadata_stage1/cache/sharp96_1778506816063678.csv": "07f11b1d560a971b9519e01e6eda11d1ed28446ed341bc2415c6d8a480f43525"
+  },
+  "script_sha256": "b133051cc0303ad673a20aa867deb47008e8bc91db78ad8ea37461abff8a7fd6",
+  "numpy_version": "2.2.6",
+  "array_shape": [
+    64725,
+    3,
+    15
+  ],
+  "array_dtype": "float64",
+  "feature_order": [
+    "MEANGBZ",
+    "MEANGAM",
+    "MEANGBT",
+    "MEANGBH",
+    "MEANJZD",
+    "TOTUSJZ",
+    "MEANALP",
+    "MEANJZH",
+    "ABSNJZH",
+    "SAVNCPP",
+    "MEANSHR",
+    "SHRGT45",
+    "R_VALUE",
+    "USFLUX",
+    "TOTPOT"
+  ],
+  "lag_minutes_oldest_to_newest": [
+    288,
+    192,
+    96
+  ],
+  "role_support": [
+    {
+      "role": "cycle24_final_refit_pool",
+      "targets": 52155,
+      "original_positive": 1759,
+      "three_unique_exact_records": 52155,
+      "complete_raw_numeric_no_explicit_noaa_conflict": 52013,
+      "missing_or_duplicate_source_record": 0,
+      "explicit_noaa_conflict_targets": 0
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "targets": 6253,
+      "original_positive": 133,
+      "three_unique_exact_records": 6253,
+      "complete_raw_numeric_no_explicit_noaa_conflict": 6213,
+      "missing_or_duplicate_source_record": 0,
+      "explicit_noaa_conflict_targets": 0
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "targets": 6317,
+      "original_positive": 202,
+      "three_unique_exact_records": 6317,
+      "complete_raw_numeric_no_explicit_noaa_conflict": 6293,
+      "missing_or_duplicate_source_record": 0,
+      "explicit_noaa_conflict_targets": 0
+    }
+  ],
+  "unique_requested_sharp_keys": 70217,
+  "unique_exact_source_keys": 70217,
+  "missing_source_keys": 0,
+  "duplicate_source_keys": 0,
+  "scan": {
+    "source_rows_scanned": 663265,
+    "TOTUSJH_present_in_source": false,
+    "TOTUSJH_used": false,
+    "numeric_input_flags": [
+      {
+        "feature": "MEANALP",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANGAM",
+        "issue": "missing_or_unparseable",
+        "count": 38
+      },
+      {
+        "feature": "MEANGBH",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANGBT",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANGBZ",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANJZD",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANJZH",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      },
+      {
+        "feature": "MEANSHR",
+        "issue": "missing_or_unparseable",
+        "count": 99
+      },
+      {
+        "feature": "SHRGT45",
+        "issue": "missing_or_unparseable",
+        "count": 37
+      }
+    ]
+  },
+  "test_arrays_constructed": false,
+  "calibration_or_threshold_fitted": false,
+  "imputation_or_scaling_fitted": false,
+  "model_trained": false,
+  "training_authorised": false,
+  "split_frozen": false,
+  "original_labels_replaced": false,
+  "source_quality_filter_applied": false,
+  "semantic_note": "Exact HARP/TAI key join; NOAA_ARS retained as provenance, not a certified association. Three sparse historical steps, not a 24h aggregate.",
+  "remaining_gates": [
+    "Label provenance, completeness and 48h follow-up remain pending.",
+    "SHARP contributing-time support, historical availability and final quality rules remain pending.",
+    "AIA full-population timing remains pending; this step reads no images.",
+    "Missing or duplicated records remain explicit; no automatic deletion or source substitution.",
+    "Fit preprocessing only inside each development training fold; later refit on accepted final training pool.",
+    "Calibration and threshold holdouts are retrospective region holdouts, not chronological future holdouts."
+  ]
+}

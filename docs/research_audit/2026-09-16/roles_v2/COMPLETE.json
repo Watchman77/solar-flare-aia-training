@@ -1,0 +1,14 @@
+{
+  "status": "BROAD_CYCLE24_FIT_PROPOSAL_BUILT_NOT_FROZEN",
+  "output_sha256": {
+    "research_log_broad_cycle24_proposal.md": "a11c9ca24c089248c32cf0f13207caffafefb6ac2b8046ead7efb771223a110e",
+    "region_reservations.csv": "fd3991ef230d328c1598a4b4b4f6e659e81b28bc6216cc51cda84a54cacce3c3",
+    "final_roles_by_year.csv": "46031a7f72139aa1313bf51f66470c3b5d32364c72c931fa5c96bcce68ccd4c3",
+    "broad_cycle24_final_role_candidates.csv.gz": "94a2910a663cef1f66ab73ea471d90541239bc74242f0f9b1a4c82ef0ae10350",
+    "forward_development_fold_candidates.csv.gz": "2934b0fc3e23d0c5631ce281f9f965e7268af2004c20b819dd1ff7c28581daa9",
+    "final_role_support.csv": "603384c6e6480d43dafd44ce3ee22c3d3251c92a32d7dc522e51d9d74fb307d7",
+    "broad_cycle24_fit_report.json": "5c26430f7856ad73bb880e83fe3cd6da36e795b78a38d27522a68bcde016b923",
+    "broad_cycle24_protocol_PROPOSED.json": "31ade696c2bbd683239bbd577b2341ea465eeee6ac6976bdbeb953b04cb95b4e",
+    "forward_fold_support.csv": "1dbeabe65b87c854238f4304c46609bb24088ef4d78b83608aefa6231e6c94f4"
+  }
+}

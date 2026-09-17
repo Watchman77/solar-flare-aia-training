@@ -1,0 +1,201 @@
+{
+  "sample_id": "20100831_0624_HARP145_NOAA11101",
+  "stored_year": 2010,
+  "original_label": 0,
+  "generation": "1778509949512890",
+  "npz_members": {
+    "x": {
+      "shape": [
+        512,
+        512,
+        6
+      ],
+      "dtype": "float32"
+    },
+    "y": {
+      "shape": [],
+      "dtype": "int32"
+    },
+    "sample_id": {
+      "shape": [],
+      "dtype": "<U31"
+    },
+    "T_REC_dt": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "HARPNUM": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "NOAA_AR_clean": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "used_timestamp": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "used_s3_path": {
+      "shape": [],
+      "dtype": "<U46"
+    },
+    "center_lon": {
+      "shape": [],
+      "dtype": "float64"
+    },
+    "center_lat": {
+      "shape": [],
+      "dtype": "float64"
+    },
+    "channels": {
+      "shape": [
+        6
+      ],
+      "dtype": "<U6"
+    },
+    "pixel_cx": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "pixel_cy": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "crop_size_raw": {
+      "shape": [],
+      "dtype": "int64"
+    }
+  },
+  "issues": [],
+  "timing_evidence": [
+    {
+      "field": "used_timestamp_shared_not_per_channel",
+      "channel": null,
+      "raw_value": "2010-08-31 06:24:00",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 34.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": 0.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS"
+    }
+  ],
+  "metadata": {
+    "sample_id": "20100831_0624_HARP145_NOAA11101",
+    "T_REC_dt": "2010-08-31 06:24:00",
+    "HARPNUM": 145,
+    "NOAA_AR_clean": 11101,
+    "used_timestamp": "2010-08-31 06:24:00",
+    "used_s3_path": "s3://nasa-surya-bench/2010/08/20100831_0624.nc",
+    "y": 0
+  },
+  "observation_headers_verified": false,
+  "training_authorised": false,
+  "channel_declarations": {
+    "channels": [
+      94,
+      131,
+      171,
+      193,
+      211,
+      335
+    ]
+  },
+  "tensor_shape": [
+    512,
+    512,
+    6
+  ],
+  "tensor_dtype": "float32",
+  "channel_statistics": [
+    {
+      "wavelength": 94,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.3276921808719635,
+      "std": 0.12331324815750122,
+      "zero_fraction": 2.6702880859375e-05
+    },
+    {
+      "wavelength": 131,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.34806519746780396,
+      "std": 0.09606369584798813,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 171,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.39330780506134033,
+      "std": 0.13522875308990479,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 193,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.327912837266922,
+      "std": 0.14499826729297638,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 211,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.37601330876350403,
+      "std": 0.14788176119327545,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 335,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4181670844554901,
+      "std": 0.12150975316762924,
+      "zero_fraction": 3.814697265625e-06
+    }
+  ],
+  "embedded_label_comparisons": {
+    "y": {
+      "value": 0,
+      "matches_original_manifest_label": true
+    }
+  },
+  "raw_T_REC": "2010.08.31_06:24:00_TAI",
+  "derived_issue_utc": "2010-08-31T06:23:26.000000Z",
+  "format": "SHARED_USED_TIMESTAMP",
+  "content_status": "CONTENT_CHECKS_PASSED_ON_THIS_FILE",
+  "timing_status": "TIMING_PROVENANCE_REVIEW_REQUIRED",
+  "download_receipt": {
+    "uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2010/20100831_0624_HARP145_NOAA11101.npz",
+    "generation": "1778509949512890",
+    "fetched_utc": "2026-09-16T08:40:11.650828+00:00",
+    "hashes": {
+      "bytes": 5500226,
+      "sha256": "42f98fe96e131f0a354a461caf6d4f2b62dc75c98af562384d3532b67f3b3250",
+      "md5Hash": "pSrDPAgE39IBJ+THCNPQmQ==",
+      "crc32c": "uixvkA=="
+    },
+    "reused": true
+  },
+  "selection_reason": "one_label_independent_hash_sample_per_stored_year"
+}

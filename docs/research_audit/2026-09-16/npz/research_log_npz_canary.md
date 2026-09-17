@@ -1,0 +1,38 @@
+# 17B small NPZ content / timing-evidence canary
+
+**Review required; no training clearance or source repairs.**
+
+Candidate files: 18; locked payload: 94.45 MiB.
+
+|Sample|Content check|Format|
+|---|---|---|
+|20100831_0624_HARP145_NOAA11101|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20110509_2312_HARP590_NOAA11211|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20120723_1012_HARP1866_NOAA11524|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20130411_2036_HARP2651_NOAA11721|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20140311_2312_HARP3845_NOAA12003|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20150313_0312_HARP5315_NOAA12302|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20160618_1112_HARP6617_NOAA12558|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20170917_1336_HARP7131_NOAA12680|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20180513_0300_HARP7256_NOAA12709|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20190901_1412_HARP7384_NOAA12748|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20201123_1712_HARP7472_NOAA12783|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20210323_0624_HARP7558_NOAA12810|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20220613_0348_HARP8294_NOAA13031|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20230506_2224_HARP9481_NOAA13297|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20240825_1736_HARP11760_NOAA13800|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+|20250426_1736_HARP13117_NOAA14068|CONTENT_CHECKS_PASSED_ON_THIS_FILE|PER_CHANNEL_METADATA|
+|20260116_1036_HARP14277_NOAA14340|CONTENT_CHECKS_PASSED_ON_THIS_FILE|PER_CHANNEL_METADATA|
+|20240714_0724_HARP11520_NOAA13753|CONTENT_CHECKS_PASSED_ON_THIS_FILE|SHARED_USED_TIMESTAMP|
+
+## Limitations
+
+- A small deterministic one-per-year canary plus a targeted boundary case is not a representative accuracy/completeness test.
+- Original binary labels are only preserved and compared to embedded labels, never replaced.
+- Naive serialized timestamps are compared under both UTC and TAI hypotheses; neither is silently adopted.
+- Filename Z timestamps and explicit metadata tags do not certify the original per-channel observation headers.
+- Positive signed deltas mean after issue time in that calculation, not automatic proof of archive-wide leakage.
+- Zero-byte, missing, ambiguous or alternate objects were not silently accepted as canary inputs.
+- Existing successful caches are reused without a new inventory or automatic refresh.
+- A missing object is not a negative solar-flare label; missingness support uses existing, not recertified, labels.
+- Catalogue coverage, feature availability, sequence support and the final split still require review.

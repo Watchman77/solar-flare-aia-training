@@ -1,0 +1,7 @@
+fold_id,role,targets,retained,positive,negative,components,positive_components
+cycle24_forward_validate_2013,train,20564,17894,456,17438,337,18
+cycle24_forward_validate_2013,validation,10416,8883,337,8546,169,14
+cycle24_forward_validate_2014,train,30980,27023,793,26230,510,32
+cycle24_forward_validate_2014,validation,9464,8093,456,7637,146,16
+cycle24_forward_validate_2015,train,40444,35252,1278,33974,657,48
+cycle24_forward_validate_2015,validation,8881,7603,414,7189,138,13

@@ -1,0 +1,9 @@
+{
+  "status": "TEMPORAL_INDEX_BUILT_TIMING_AND_LABEL_CLEARANCE_PENDING",
+  "output_sha256": {
+    "sequence_coverage_by_year_and_original_label.csv": "14fba73eed3ce382921c69cfc7c5181d4db2a92adcf20bb1bae57680d9aaaba1",
+    "research_log_temporal_manifest.md": "31f2e37444908b6ea737d8c61ab65622affe5fc862c883b98e4352cbe6440241",
+    "temporal_sequence_candidates.jsonl.gz": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba",
+    "temporal_manifest_report.json": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b"
+  }
+}

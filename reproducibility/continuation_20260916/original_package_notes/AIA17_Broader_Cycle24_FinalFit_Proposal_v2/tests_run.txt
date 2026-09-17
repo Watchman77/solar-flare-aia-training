@@ -1,0 +1,27 @@
+test_80_10_10_counts_are_components_not_rows (test_broad_cycle24.BroadTests.test_80_10_10_counts_are_components_not_rows) ... ok
+test_actual_cli_entrypoint_preserves_source (test_broad_cycle24.BroadTests.test_actual_cli_entrypoint_preserves_source) ... ok
+test_all_original_rows_and_labels_preserved (test_broad_cycle24.BroadTests.test_all_original_rows_and_labels_preserved) ... ok
+test_bad_helper_checksum_rejected (test_broad_cycle24.BroadTests.test_bad_helper_checksum_rejected) ... ok
+test_cycle25_never_fitting_or_holdout_calibration (test_broad_cycle24.BroadTests.test_cycle25_never_fitting_or_holdout_calibration) ... ok
+test_deterministic_reservations_ignore_input_order (test_broad_cycle24.BroadTests.test_deterministic_reservations_ignore_input_order) ... ok
+test_each_forward_fold_is_region_disjoint (test_broad_cycle24.BroadTests.test_each_forward_fold_is_region_disjoint) ... ok
+test_final_holdouts_excluded_from_every_development_fold (test_broad_cycle24.BroadTests.test_final_holdouts_excluded_from_every_development_fold) ... ok
+test_forecast_boundary_equality_is_excluded (test_broad_cycle24.BroadTests.test_forecast_boundary_equality_is_excluded) ... ok
+test_forward_folds_are_temporally_ordered (test_broad_cycle24.BroadTests.test_forward_folds_are_temporally_ordered) ... ok
+test_full_fixture_has_no_structural_development_blocker (test_broad_cycle24.BroadTests.test_full_fixture_has_no_structural_development_blocker) ... ok
+test_input_files_unchanged (test_broad_cycle24.BroadTests.test_input_files_unchanged) ... ok
+test_known_label_review_retained_as_exclusion_not_repaired (test_broad_cycle24.BroadTests.test_known_label_review_retained_as_exclusion_not_repaired) ... ok
+test_later_years_enter_final_fit (test_broad_cycle24.BroadTests.test_later_years_enter_final_fit) ... ok
+test_original_temporal_checksum_mismatch_fails (test_broad_cycle24.BroadTests.test_original_temporal_checksum_mismatch_fails) ... ok
+test_outer_boundary_is_explicit (test_broad_cycle24.BroadTests.test_outer_boundary_is_explicit) ... ok
+test_output_cannot_be_inside_source (test_broad_cycle24.BroadTests.test_output_cannot_be_inside_source) ... ok
+test_output_checksums_and_small_bundle (test_broad_cycle24.BroadTests.test_output_checksums_and_small_bundle) ... ok
+test_region_components_are_never_split_across_final_roles (test_broad_cycle24.BroadTests.test_region_components_are_never_split_across_final_roles) ... ok
+test_region_outer_crossing_is_excluded (test_broad_cycle24.BroadTests.test_region_outer_crossing_is_excluded) ... ok
+test_retrospective_calibration_disclosed_no_fit_claim (test_broad_cycle24.BroadTests.test_retrospective_calibration_disclosed_no_fit_claim) ... ok
+test_test_label_changes_cannot_change_reservations (test_broad_cycle24.BroadTests.test_test_label_changes_cannot_change_reservations) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 1.014s
+
+OK

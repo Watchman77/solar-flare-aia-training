@@ -1,0 +1,14 @@
+{
+  "status": "CYCLE24_SHARP_ARRAYS_BUILT_NO_TRAINING_OR_CLEARANCE",
+  "output_sha256": {
+    "sharp_array_build_report.json": "c0a0dec849e3a599686eed7b94fb11bf72049d88edc5ae44409bb760866e868f",
+    "unique_sharp_source_records.jsonl.gz": "58982c9b08490ddba0e9f748bf117b83acb23e49509df44cac5b8b90a22f0707",
+    "cycle24_array_rows.csv.gz": "0f333465bc5ccd83a742da25a8efff87973a5b59b5b9a17448d598ffb3c70ab2",
+    "original_manifest_targets.npy": "5c1c83f1dc8832585bb97788cc02ebb4b2cc18382fbe6e9ffce40810a0eb2303",
+    "sharp_finite_mask.npy": "561a9776882ff099dcb6519d50dd6d63cdb2a4ae9e1879a7f9086d1984910160",
+    "sharp_record_match_counts.npy": "38b04c1d8c87d892ec5b08eed794f989f406d2ef28f3dae85f1e080b98e717d2",
+    "forward_development_array_rows.csv.gz": "ed0dc2424af80b412b1125e8aeb4b22390a7ec808233d1d62e449fbcf7b632cf",
+    "research_log_sharp_arrays.md": "e6bb0c279a2400bfd1938bdfc0404a32fcdacdf2e5c1e97b62d150b851fef6e5",
+    "sharp_raw_three_slot.npy": "9121b5ca6f0d6273252674ea93cdb44f59d104d1836cc742b05adbdb075ed425"
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "version": "aia17-broad-cycle24-finalfit-proposal-v2",
+  "status": "BROAD_CYCLE24_FIT_PROPOSAL_BUILT_NOT_FROZEN",
+  "created_utc": "2026-09-16T19:17:22.119209+00:00",
+  "source_directory": "/home/abmoses2000/aia17_metadata_stage1/temporal_manifest_v1/reports/20260916T143622218859Z",
+  "source_files_sha256": {
+    "COMPLETE.json": "f42de7a77c78e4599f77631ff34b33fc729643c5acf29890362801521bc684d7",
+    "temporal_manifest_report.json": "de9b755a0e6d446dcb2e44796c24ed7dcd34932ef79cc6e89e66364baac52c7b",
+    "temporal_sequence_candidates.jsonl.gz": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba"
+  },
+  "original_role_reader_sha256": "1273dbbcf12fd554db40380bb7d10470e11b8b1b3b52076a5563483dcb460bc6",
+  "target_rows_preserved": 141644,
+  "source_index_nominal_counts": {
+    "NOMINAL_HISTORY_INCOMPLETE_OR_EXCLUDED": 23427,
+    "NOMINAL_HISTORY_OBJECTS_AVAILABLE_TIMING_PENDING": 118217
+  },
+  "role_support": [
+    {
+      "role": "cycle24_calibration_holdout",
+      "targets": 7329,
+      "nominal_histories": 6253,
+      "retained": 6253,
+      "positive": 133,
+      "negative": 6120,
+      "components": 122,
+      "positive_components": 7
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "targets": 59867,
+      "nominal_histories": 52155,
+      "retained": 52155,
+      "positive": 1759,
+      "negative": 50396,
+      "components": 988,
+      "positive_components": 64
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "targets": 188,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0,
+      "components": 0,
+      "positive_components": 0
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "targets": 7340,
+      "nominal_histories": 6317,
+      "retained": 6317,
+      "positive": 202,
+      "negative": 6115,
+      "components": 122,
+      "positive_components": 7
+    },
+    {
+      "role": "cycle25_early_diagnostic",
+      "targets": 2174,
+      "nominal_histories": 1929,
+      "retained": 1917,
+      "positive": 0,
+      "negative": 1917,
+      "components": 36,
+      "positive_components": 0
+    },
+    {
+      "role": "independent_cycle25_test",
+      "targets": 61545,
+      "nominal_histories": 49359,
+      "retained": 49329,
+      "positive": 2351,
+      "negative": 46978,
+      "components": 985,
+      "positive_components": 89
+    },
+    {
+      "role": "supplementary_2026",
+      "targets": 3201,
+      "nominal_histories": 2204,
+      "retained": 2086,
+      "positive": 135,
+      "negative": 1951,
+      "components": 49,
+      "positive_components": 6
+    }
+  ],
+  "support_by_stored_year": [
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2010,
+      "targets": 270,
+      "nominal_histories": 223,
+      "retained": 223,
+      "positive": 0,
+      "negative": 223
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2011,
+      "targets": 853,
+      "nominal_histories": 728,
+      "retained": 728,
+      "positive": 63,
+      "negative": 665
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2012,
+      "targets": 992,
+      "nominal_histories": 883,
+      "retained": 883,
+      "positive": 0,
+      "negative": 883
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2013,
+      "targets": 1375,
+      "nominal_histories": 1144,
+      "retained": 1144,
+      "positive": 27,
+      "negative": 1117
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2014,
+      "targets": 1100,
+      "nominal_histories": 939,
+      "retained": 939,
+      "positive": 25,
+      "negative": 914
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2015,
+      "targets": 1358,
+      "nominal_histories": 1209,
+      "retained": 1209,
+      "positive": 9,
+      "negative": 1200
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2016,
+      "targets": 678,
+      "nominal_histories": 570,
+      "retained": 570,
+      "positive": 0,
+      "negative": 570
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2017,
+      "targets": 424,
+      "nominal_histories": 347,
+      "retained": 347,
+      "positive": 9,
+      "negative": 338
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2018,
+      "targets": 217,
+      "nominal_histories": 160,
+      "retained": 160,
+      "positive": 0,
+      "negative": 160
+    },
+    {
+      "role": "cycle24_calibration_holdout",
+      "stored_year": 2019,
+      "targets": 62,
+      "nominal_histories": 50,
+      "retained": 50,
+      "positive": 0,
+      "negative": 50
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2010,
+      "targets": 2723,
+      "nominal_histories": 2350,
+      "retained": 2350,
+      "positive": 0,
+      "negative": 2350
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2011,
+      "targets": 9143,
+      "nominal_histories": 8143,
+      "retained": 8143,
+      "positive": 243,
+      "negative": 7900
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2012,
+      "targets": 8698,
+      "nominal_histories": 7503,
+      "retained": 7503,
+      "positive": 213,
+      "negative": 7290
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2013,
+      "targets": 10416,
+      "nominal_histories": 9106,
+      "retained": 9106,
+      "positive": 366,
+      "negative": 8740
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2014,
+      "targets": 9464,
+      "nominal_histories": 8240,
+      "retained": 8240,
+      "positive": 456,
+      "negative": 7784
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2015,
+      "targets": 8881,
+      "nominal_histories": 7726,
+      "retained": 7726,
+      "positive": 414,
+      "negative": 7312
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2016,
+      "targets": 5531,
+      "nominal_histories": 4722,
+      "retained": 4722,
+      "positive": 8,
+      "negative": 4714
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2017,
+      "targets": 2616,
+      "nominal_histories": 2292,
+      "retained": 2292,
+      "positive": 59,
+      "negative": 2233
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2018,
+      "targets": 1484,
+      "nominal_histories": 1260,
+      "retained": 1260,
+      "positive": 0,
+      "negative": 1260
+    },
+    {
+      "role": "cycle24_final_refit_pool",
+      "stored_year": 2019,
+      "targets": 911,
+      "nominal_histories": 813,
+      "retained": 813,
+      "positive": 0,
+      "negative": 813
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2010,
+      "targets": 3,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2011,
+      "targets": 2,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2012,
+      "targets": 1,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2013,
+      "targets": 128,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2016,
+      "targets": 50,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_no_structural_candidates",
+      "stored_year": 2017,
+      "targets": 4,
+      "nominal_histories": 0,
+      "retained": 0,
+      "positive": 0,
+      "negative": 0
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2010,
+      "targets": 320,
+      "nominal_histories": 272,
+      "retained": 272,
+      "positive": 23,
+      "negative": 249
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2011,
+      "targets": 1279,
+      "nominal_histories": 1103,
+      "retained": 1103,
+      "positive": 61,
+      "negative": 1042
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2012,
+      "targets": 1164,
+      "nominal_histories": 973,
+      "retained": 973,
+      "positive": 20,
+      "negative": 953
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2013,
+      "targets": 1414,
+      "nominal_histories": 1264,
+      "retained": 1264,
+      "positive": 37,
+      "negative": 1227
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2014,
+      "targets": 1089,
+      "nominal_histories": 942,
+      "retained": 942,
+      "positive": 22,
+      "negative": 920
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2015,
+      "targets": 1020,
+      "nominal_histories": 860,
+      "retained": 860,
+      "positive": 39,
+      "negative": 821
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2016,
+      "targets": 626,
+      "nominal_histories": 558,
+      "retained": 558,
+      "positive": 0,
+      "negative": 558
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2017,
+      "targets": 418,
+      "nominal_histories": 338,
+      "retained": 338,
+      "positive": 0,
+      "negative": 338
+    },
+    {
+      "role": "cycle24_threshold_holdout",
+      "stored_year": 2018,
+      "targets": 10,
+      "nominal_histories": 7,
+      "retained": 7,
+      "positive": 0,
+      "negative": 7
+    },
+    {
+      "role": "cycle25_early_diagnostic",
+      "stored_year": 2019,
+      "targets": 85,
+      "nominal_histories": 79,
+      "retained": 79,
+      "positive": 0,
+      "negative": 79
+    },
+    {
+      "role": "cycle25_early_diagnostic",
+      "stored_year": 2020,
+      "targets": 2089,
+      "nominal_histories": 1850,
+      "retained": 1838,
+      "positive": 0,
+      "negative": 1838
+    },
+    {
+      "role": "independent_cycle25_test",
+      "stored_year": 2021,
+      "targets": 5828,
+      "nominal_histories": 5104,
+      "retained": 5104,
+      "positive": 126,
+      "negative": 4978
+    },
+    {
+      "role": "independent_cycle25_test",
+      "stored_year": 2022,
+      "targets": 11534,
+      "nominal_histories": 9999,
+      "retained": 9999,
+      "positive": 119,
+      "negative": 9880
+    },
+    {
+      "role": "independent_cycle25_test",
+      "stored_year": 2023,
+      "targets": 14677,
+      "nominal_histories": 12392,
+      "retained": 12392,
+      "positive": 278,
+      "negative": 12114
+    },
+    {
+      "role": "independent_cycle25_test",
+      "stored_year": 2024,
+      "targets": 14732,
+      "nominal_histories": 12554,
+      "retained": 12553,
+      "positive": 1316,
+      "negative": 11237
+    },
+    {
+      "role": "independent_cycle25_test",
+      "stored_year": 2025,
+      "targets": 14774,
+      "nominal_histories": 9310,
+      "retained": 9281,
+      "positive": 512,
+      "negative": 8769
+    },
+    {
+      "role": "supplementary_2026",
+      "stored_year": 2026,
+      "targets": 3201,
+      "nominal_histories": 2204,
+      "retained": 2086,
+      "positive": 135,
+      "negative": 1951
+    }
+  ],
+  "forward_fold_support": [
+    {
+      "fold_id": "cycle24_forward_validate_2013",
+      "role": "train",
+      "targets": 20564,
+      "retained": 17894,
+      "positive": 456,
+      "negative": 17438,
+      "components": 337,
+      "positive_components": 18
+    },
+    {
+      "fold_id": "cycle24_forward_validate_2013",
+      "role": "validation",
+      "targets": 10416,
+      "retained": 8883,
+      "positive": 337,
+      "negative": 8546,
+      "components": 169,
+      "positive_components": 14
+    },
+    {
+      "fold_id": "cycle24_forward_validate_2014",
+      "role": "train",
+      "targets": 30980,
+      "retained": 27023,
+      "positive": 793,
+      "negative": 26230,
+      "components": 510,
+      "positive_components": 32
+    },
+    {
+      "fold_id": "cycle24_forward_validate_2014",
+      "role": "validation",
+      "targets": 9464,
+      "retained": 8093,
+      "positive": 456,
+      "negative": 7637,
+      "components": 146,
+      "positive_components": 16
+    },
+    {
+      "fold_id": "cycle24_forward_validate_2015",
+      "role": "train",
+      "targets": 40444,
+      "retained": 35252,
+      "positive": 1278,
+      "negative": 33974,
+      "components": 657,
+      "positive_components": 48
+    },
+    {
+      "fold_id": "cycle24_forward_validate_2015",
+      "role": "validation",
+      "targets": 8881,
+      "retained": 7603,
+      "positive": 414,
+      "negative": 7189,
+      "components": 138,
+      "positive_components": 13
+    }
+  ],
+  "reservation_support_by_component_stratum": [
+    {
+      "positive_component_stratum": 0,
+      "components": 1154,
+      "calibration_components": 115,
+      "threshold_components": 115,
+      "refit_components": 924
+    },
+    {
+      "positive_component_stratum": 1,
+      "components": 78,
+      "calibration_components": 7,
+      "threshold_components": 7,
+      "refit_components": 64
+    }
+  ],
+  "outer_crossing_components": 3,
+  "structural_exclusion_reason_counts": {
+    "NOMINAL_HISTORY_INCOMPLETE_OR_EXCLUDED": 23427,
+    "REGION_HAS_NO_ELIGIBLE_DEVELOPMENT_RECORD": 188,
+    "FORECAST_ENDPOINT_REACHES_OUTER_BOUNDARY": 76,
+    "TARGET_LABEL_BOUNDARY_REVIEW_PENDING": 1,
+    "REGION_COMPONENT_SPANS_OUTER_PERIODS": 181,
+    "AIA_HISTORY_CROSSES_OUTER_BOUNDARY": 9
+  },
+  "reason_counts_overlap": true,
+  "cross_final_role_pinned_objects": 0,
+  "within_fold_train_validation_pinned_objects": 0,
+  "structural_blockers": [],
+  "support_warnings": [],
+  "warning_does_not_certify_support": true,
+  "source_index_rewritten": false,
+  "v1_assignment_rewritten": false,
+  "model_fitted": false,
+  "training_authorised": false,
+  "final_dates_frozen": false,
+  "test_predictions_or_scores_computed": false,
+  "final_calibration_is_chronological": false,
+  "next_if_accepted": "Generate full SHARP feature arrays on these pinned memberships, then score prespecified CPU development baselines. Final fits/testing remain gated by separate scientific checks."
+}

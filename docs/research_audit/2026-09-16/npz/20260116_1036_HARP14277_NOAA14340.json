@@ -1,0 +1,402 @@
+{
+  "sample_id": "20260116_1036_HARP14277_NOAA14340",
+  "stored_year": 2026,
+  "original_label": 0,
+  "generation": "1782180868006381",
+  "npz_members": {
+    "x": {
+      "shape": [
+        512,
+        512,
+        6
+      ],
+      "dtype": "float32"
+    },
+    "y": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "sample_id": {
+      "shape": [],
+      "dtype": "<U33"
+    },
+    "T_REC_dt": {
+      "shape": [],
+      "dtype": "<U19"
+    },
+    "HARPNUM": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "NOAA_AR_clean": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "label_48h_final": {
+      "shape": [],
+      "dtype": "int64"
+    },
+    "wavelengths": {
+      "shape": [
+        6
+      ],
+      "dtype": "int64"
+    },
+    "source": {
+      "shape": [],
+      "dtype": "<U49"
+    },
+    "block_id": {
+      "shape": [],
+      "dtype": "<U42"
+    },
+    "channel_metadata": {
+      "shape": [],
+      "dtype": "<U2200"
+    }
+  },
+  "issues": [],
+  "timing_evidence": [
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 94,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 94,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.94.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 131,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 131,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.131.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 171,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 171,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.171.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 193,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 193,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.193.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 211,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 211,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.211.image.fits"
+    },
+    {
+      "field": "channel_metadata.used_time",
+      "channel": 335,
+      "raw_value": "2026-01-16 10:35:59",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "naive_scale_unresolved",
+      "utc_hypothesis": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "tai_hypothesis": {
+        "delta_seconds_frame_minus_issue": -1.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": true,
+        "passes_both_timing_rules": true
+      },
+      "status": "UNRESOLVED_SCALE_CONDITIONAL_COMPARISONS",
+      "stored_absolute_delta_seconds": 1.0
+    },
+    {
+      "field": "source_file.Z_timestamp_not_header",
+      "channel": 335,
+      "raw_value": "2026-01-16T10:35:59Z",
+      "observation_header_verified": false,
+      "report_availability_verified": false,
+      "representation": "explicit_UTC_suffix",
+      "utc_declared": {
+        "delta_seconds_frame_minus_issue": 36.0,
+        "within_180_seconds": true,
+        "at_or_before_issue": false,
+        "passes_both_timing_rules": false
+      },
+      "status": "DECLARED_SCALE_METADATA_ONLY",
+      "source_file": "aia.lev1_euv_12s.2026-01-16T103559Z.335.image.fits"
+    }
+  ],
+  "metadata": {
+    "sample_id": "20260116_1036_HARP14277_NOAA14340",
+    "T_REC_dt": "2026-01-16 10:36:00",
+    "HARPNUM": 14277,
+    "NOAA_AR_clean": 14340,
+    "source": "JSOC HARP-block tracked im_patch + local WCS crop",
+    "block_id": "2026_HARP14277_20260116_1036_20260117_0548",
+    "channel_metadata": "{\"94\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.94.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000495\", \"crop\": {\"block_shape\": [675, 675], \"local_bounds\": [135, 543, 130, 538], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}, \"131\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.131.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000501\", \"crop\": {\"block_shape\": [674, 674], \"local_bounds\": [134, 541, 130, 537], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}, \"171\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.171.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000504\", \"crop\": {\"block_shape\": [676, 676], \"local_bounds\": [134, 542, 130, 538], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}, \"193\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.193.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000513\", \"crop\": {\"block_shape\": [674, 674], \"local_bounds\": [135, 542, 129, 537], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}, \"211\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.211.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000522\", \"crop\": {\"block_shape\": [674, 674], \"local_bounds\": [135, 542, 130, 537], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}, \"335\": {\"source_file\": \"aia.lev1_euv_12s.2026-01-16T103559Z.335.image.fits\", \"used_time\": \"2026-01-16 10:35:59\", \"delta_seconds\": 1.0, \"request_id\": \"JSOC_20260623_000531\", \"crop\": {\"block_shape\": [674, 674], \"local_bounds\": [134, 541, 130, 537], \"target_geometry\": {\"x_arcsec\": 228.58300979302638, \"y_arcsec\": 240.00710368158678, \"box_arcsec\": 244.0287482827526}}}}",
+    "y": 0,
+    "label_48h_final": 0
+  },
+  "observation_headers_verified": false,
+  "training_authorised": false,
+  "channel_declarations": {
+    "wavelengths": [
+      94,
+      131,
+      171,
+      193,
+      211,
+      335
+    ]
+  },
+  "tensor_shape": [
+    512,
+    512,
+    6
+  ],
+  "tensor_dtype": "float32",
+  "channel_statistics": [
+    {
+      "wavelength": 94,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4027121663093567,
+      "std": 0.11420682072639465,
+      "zero_fraction": 0.000492095947265625
+    },
+    {
+      "wavelength": 131,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.39018920063972473,
+      "std": 0.1506253033876419,
+      "zero_fraction": 0.0014190673828125
+    },
+    {
+      "wavelength": 171,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4041347801685333,
+      "std": 0.16814953088760376,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 193,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.39756444096565247,
+      "std": 0.17307430505752563,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 211,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.40375640988349915,
+      "std": 0.1803651601076126,
+      "zero_fraction": 3.814697265625e-06
+    },
+    {
+      "wavelength": 335,
+      "nonfinite_pixels": 0,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.25155404210090637,
+      "std": 0.18147066235542297,
+      "zero_fraction": 0.0687713623046875
+    }
+  ],
+  "embedded_label_comparisons": {
+    "y": {
+      "value": 0,
+      "matches_original_manifest_label": true
+    },
+    "label_48h_final": {
+      "value": 0,
+      "matches_original_manifest_label": true
+    }
+  },
+  "raw_T_REC": "2026.01.16_10:36:00_TAI",
+  "derived_issue_utc": "2026-01-16T10:35:23.000000Z",
+  "format": "PER_CHANNEL_METADATA",
+  "content_status": "CONTENT_CHECKS_PASSED_ON_THIS_FILE",
+  "timing_status": "TIMING_PROVENANCE_REVIEW_REQUIRED",
+  "download_receipt": {
+    "uri": "gs://suryabench-sharp-pipeline-bamidele/jsoc_2025_2026_production_v1/samples_npz/2026/20260116_1036_HARP14277_NOAA14340.npz",
+    "generation": "1782180868006381",
+    "fetched_utc": "2026-09-16T10:36:16.981448+00:00",
+    "hashes": {
+      "bytes": 5455358,
+      "sha256": "8f5e212ced008ba771456f3c3e57fe32214411a41dd48cec7b9591203027903c",
+      "md5Hash": "6NfemAR7S42mu+e6IsOViw==",
+      "crc32c": "9lx6vw=="
+    },
+    "reused": false
+  },
+  "selection_reason": "one_label_independent_hash_sample_per_stored_year"
+}

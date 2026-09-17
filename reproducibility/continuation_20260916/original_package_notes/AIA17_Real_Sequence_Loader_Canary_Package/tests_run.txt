@@ -1,0 +1,65 @@
+test_bad_input_checksum_rejected (test_aia17_real_sequence.Tests.test_bad_input_checksum_rejected) ... ok
+test_conflicting_scales_rejected (test_aia17_real_sequence.Tests.test_conflicting_scales_rejected) ... ok
+test_duplicate_role_ids_rejected (test_aia17_real_sequence.Tests.test_duplicate_role_ids_rejected) ... ok
+test_full_four_sequence_real_npz_workflow (test_aia17_real_sequence.Tests.test_full_four_sequence_real_npz_workflow) ... Sequence train / label 0: 20110316_1200_HARP1_NOAA11001
+  Historical slot t-288 min: 20110316_0712_HARP1_NOAA11001
+  Historical slot t-192 min: 20110316_0848_HARP1_NOAA11001
+  Historical slot t-96 min: 20110316_1024_HARP1_NOAA11001
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence train / label 1: 20110317_1200_HARP2_NOAA11002
+  Historical slot t-288 min: 20110317_0712_HARP2_NOAA11002
+  Historical slot t-192 min: 20110317_0848_HARP2_NOAA11002
+  Historical slot t-96 min: 20110317_1024_HARP2_NOAA11002
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence model_validation / label 0: 20140318_1200_HARP3_NOAA11003
+  Historical slot t-288 min: 20140318_0712_HARP3_NOAA11003
+  Historical slot t-192 min: 20140318_0848_HARP3_NOAA11003
+  Historical slot t-96 min: 20140318_1024_HARP3_NOAA11003
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence model_validation / label 1: 20140319_1200_HARP4_NOAA11004
+  Historical slot t-288 min: 20140319_0712_HARP4_NOAA11004
+  Historical slot t-192 min: 20140319_0848_HARP4_NOAA11004
+  Historical slot t-96 min: 20140319_1024_HARP4_NOAA11004
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence train / label 0: 20110316_1200_HARP1_NOAA11001
+  Historical slot t-288 min: 20110316_0712_HARP1_NOAA11001
+  Historical slot t-192 min: 20110316_0848_HARP1_NOAA11001
+  Historical slot t-96 min: 20110316_1024_HARP1_NOAA11001
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence train / label 1: 20110317_1200_HARP2_NOAA11002
+  Historical slot t-288 min: 20110317_0712_HARP2_NOAA11002
+  Historical slot t-192 min: 20110317_0848_HARP2_NOAA11002
+  Historical slot t-96 min: 20110317_1024_HARP2_NOAA11002
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence model_validation / label 0: 20140318_1200_HARP3_NOAA11003
+  Historical slot t-288 min: 20140318_0712_HARP3_NOAA11003
+  Historical slot t-192 min: 20140318_0848_HARP3_NOAA11003
+  Historical slot t-96 min: 20140318_1024_HARP3_NOAA11003
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+Sequence model_validation / label 1: 20140319_1200_HARP4_NOAA11004
+  Historical slot t-288 min: 20140319_0712_HARP4_NOAA11004
+  Historical slot t-192 min: 20140319_0848_HARP4_NOAA11004
+  Historical slot t-96 min: 20140319_1024_HARP4_NOAA11004
+  Real sequence loaded: (3, 6, 512, 512); recorded-time screen passed; strict bound remains unverified.
+ok
+test_future_observation_not_admitted (test_aia17_real_sequence.Tests.test_future_observation_not_admitted) ... ok
+test_mean_end_estimate_does_not_pass_strict_gate (test_aia17_real_sequence.Tests.test_mean_end_estimate_does_not_pass_strict_gate) ... ok
+test_missing_original_header_rejected (test_aia17_real_sequence.Tests.test_missing_original_header_rejected) ... ok
+test_no_fallback_if_positive_stratum_missing (test_aia17_real_sequence.Tests.test_no_fallback_if_positive_stratum_missing) ... ok
+test_original_exposure_used_not_processed_one (test_aia17_real_sequence.Tests.test_original_exposure_used_not_processed_one) ... ok
+test_output_overwrite_rejected (test_aia17_real_sequence.Tests.test_output_overwrite_rejected) ... ok
+test_quality_not_silently_ignored (test_aia17_real_sequence.Tests.test_quality_not_silently_ignored) ... ok
+test_read_real_synthetic_hdf_attributes (test_aia17_real_sequence.Tests.test_read_real_synthetic_hdf_attributes) ... ok
+test_retained_flag_conflict_rejected (test_aia17_real_sequence.Tests.test_retained_flag_conflict_rejected) ... ok
+test_safe_npz_rejects_pickle (test_aia17_real_sequence.Tests.test_safe_npz_rejects_pickle) ... ok
+test_selection_is_deterministic_and_development_only (test_aia17_real_sequence.Tests.test_selection_is_deterministic_and_development_only) ... ok
+test_source_header_start_conflicts_rejected (test_aia17_real_sequence.Tests.test_source_header_start_conflicts_rejected) ... ok
+test_stale_source_not_admitted (test_aia17_real_sequence.Tests.test_stale_source_not_admitted) ... ok
+test_symlink_input_rejected (test_aia17_real_sequence.Tests.test_symlink_input_rejected) ... ok
+test_unknown_csv_time_not_silently_utc (test_aia17_real_sequence.Tests.test_unknown_csv_time_not_silently_utc) ... ok
+test_uploaded_summary_hashes (test_aia17_real_sequence.Tests.test_uploaded_summary_hashes) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.636s
+
+OK

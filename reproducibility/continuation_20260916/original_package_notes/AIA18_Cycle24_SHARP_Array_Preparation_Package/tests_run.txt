@@ -1,0 +1,23 @@
+test_all_output_hashes (test_sharp_arrays.Tests.test_all_output_hashes) ... ok
+test_duplicate_invalidates_entire_slot (test_sharp_arrays.Tests.test_duplicate_invalidates_entire_slot) ... ok
+test_explicit_noaa_conflict_flagged (test_sharp_arrays.Tests.test_explicit_noaa_conflict_flagged) ... ok
+test_full_build_shapes_roles_and_no_test_arrays (test_sharp_arrays.Tests.test_full_build_shapes_roles_and_no_test_arrays) ... ok
+test_holdout_cannot_enter_forward_fold (test_sharp_arrays.Tests.test_holdout_cannot_enter_forward_fold) ... ok
+test_later_years_preserved_in_role_array (test_sharp_arrays.Tests.test_later_years_preserved_in_role_array) ... ok
+test_missing_feature_not_invented (test_sharp_arrays.Tests.test_missing_feature_not_invented) ... ok
+test_missing_record_stays_missing (test_sharp_arrays.Tests.test_missing_record_stays_missing) ... ok
+test_no_tai_tag_rejected (test_sharp_arrays.Tests.test_no_tai_tag_rejected) ... ok
+test_no_training_clearance_granted (test_sharp_arrays.Tests.test_no_training_clearance_granted) ... ok
+test_nonfinite_values_not_zero_filled (test_sharp_arrays.Tests.test_nonfinite_values_not_zero_filled) ... ok
+test_quality_preserved_not_filtered (test_sharp_arrays.Tests.test_quality_preserved_not_filtered) ... ok
+test_raw_values_not_scaled (test_sharp_arrays.Tests.test_raw_values_not_scaled) ... ok
+test_role_report_count_mismatch (test_sharp_arrays.Tests.test_role_report_count_mismatch) ... ok
+test_source_checksum_failure (test_sharp_arrays.Tests.test_source_checksum_failure) ... ok
+test_source_unchanged (test_sharp_arrays.Tests.test_source_unchanged) ... ok
+test_tai_time_difference_is_exact (test_sharp_arrays.Tests.test_tai_time_difference_is_exact) ... ok
+test_wrong_lag_rejected (test_sharp_arrays.Tests.test_wrong_lag_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.073s
+
+OK

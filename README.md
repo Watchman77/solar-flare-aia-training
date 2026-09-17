@@ -1,5 +1,10 @@
 # Solar Flare AIA Deep Learning Pipeline
 
+<!-- aia-continuation-documentation-20260916 -->
+> **16 September 2026 continuation evidence; publication review 17 September.** The completed AIA-only, SHARP-only and AIA + SHARP experiments remain the **baseline phase**. The newer temporal and cross-cycle work is a separate extension. See [AIA start here](docs/AIA_START_HERE.md) and the [dated status](docs/AIA_RESEARCH_STATUS_2026-09-16.md) for the completed engineering and data-preparation evidence. No new scored cross-cycle result, final protocol freeze or full scientific clearance is claimed. Internal proposal documents are not included in this public checkpoint. Historical records below remain unchanged.
+<!-- /aia-continuation-documentation-20260916 -->
+
+
 <!-- aia17-checkpoint-20260915 -->
 > **Current checkpoint: 15 September 2026.** 17A/17B metadata, source and conditional timing reviews have run in Cloud Shell. Full 17B readiness is NOT yet cleared. UQ requirements are installed; UQ, calibration and the separate PINN/PIML experiments are not claimed as completed. The GPU environment below is historical, not a claim that a VM currently exists. See [the current checkpoint](docs/RESEARCH_CHECKPOINT_2026-09-15.md).
 <!-- /aia17-checkpoint-20260915 -->

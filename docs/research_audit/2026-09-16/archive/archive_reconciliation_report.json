@@ -1,0 +1,2521 @@
+{
+  "version": "aia17-archive-reconciliation-v1",
+  "status": "OBJECT_RECONCILIATION_COMPLETE_CONTENT_AND_TIMING_NOT_VERIFIED",
+  "created_utc": "2026-09-16T07:36:01.866698+00:00",
+  "input_contract": {
+    "version": "aia17-archive-reconciliation-v1",
+    "project": "sonorous-shore-450510-i4",
+    "bucket": "suryabench-sharp-pipeline-bamidele",
+    "years": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "source_sha256": {
+      "docs/research_audit/2026-09-15/stage1/source_lock_snapshot.json": "ee9d925154f1a4d3552e65cdaabb598fd6e669e48f37792d4bb9be56829df705",
+      "docs/research_audit/2026-09-15/stage1/stage1_report.json": "66db8d2ed86469f3e9d605ced011e8c078c2b3259a14f3a9f0d7e9de6f8d7bc8",
+      "/home/abmoses2000/aia17_metadata_stage1/cache/curated_master_1779365306452636.csv": "ee22eb72195f3d63b76f58a688cb0afa41218dee0ef418eeb16b18e735a580ba",
+      "/home/abmoses2000/aia17_metadata_stage1/cache/baseline_manifest_1779066912067459.csv": "d6dee261b5f63e12136278b5034bbb659ff195b6ea4ac455ad01b25bb3c22a52"
+    },
+    "listing_limit": 25001,
+    "label_column_unchanged": "label_48h_final"
+  },
+  "listing_receipts": [
+    {
+      "year": 2010,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2010/",
+      "started_utc": "2026-09-16T07:34:03.876659+00:00",
+      "finished_utc": "2026-09-16T07:34:07.360173+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 3306,
+      "sha256": "0f656b4c450fd33049b4bd407948b21927e66b57220186eccfbfcb27ba4167ff",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2010.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2010,
+        "prefix": "samples_npz/2010/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00001.json",
+          "sha256": "ba8ca50e205d885ba574c42ae0133f8b12fd73fbe49b1d92f4c54ba017b6614e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:05.130087+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00002.json",
+          "sha256": "4d93ee0db8438d4dc947ebba6afed7c177a6ec414836e12de6720435200cd250",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:05.222625+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00003.json",
+          "sha256": "26332bd8996d2fefb1dfb6a61b4a714e204bf840876257f11fb0d6edd9b135ca",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:05.755698+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00004.json",
+          "sha256": "77b43d369da88f2ccedba51e7fffa7cde694e85a7e6ac8c307ce83a489e68970",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:05.822652+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00005.json",
+          "sha256": "78559dff00f7e20a5520d8e98ba8c14322df71ca8d20cde471fd67ccd9385437",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:06.756164+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00006.json",
+          "sha256": "4768c50201513ae47a6b16a90baa74e5fa56b5511c9d5b60cbe234379849e79f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:07.293698+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2010/page_00007.json",
+          "sha256": "01b8a0d7dc8a3f09739a192596efa3c87c3a20bf1ec8b3b3b34dfe6b93efd3e7",
+          "object_count": 306,
+          "finished_utc": "2026-09-16T07:34:07.360173+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2011,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2011/",
+      "started_utc": "2026-09-16T07:34:07.426382+00:00",
+      "finished_utc": "2026-09-16T07:34:14.735681+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 11142,
+      "sha256": "a0af1db33db93b2ce812e041fc5f0551566ca589ca9cbb7fc8186cc4bc40f734",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2011.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2011,
+        "prefix": "samples_npz/2011/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00001.json",
+          "sha256": "2c3c06c1ad13ab0f01bc876d4edf657ee1acd9a1ca353e6f4bf1241fd21d5f27",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:07.951350+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00002.json",
+          "sha256": "133945a6b77a2990a1b76d5acc72aa3b5016deef8a57a70759bdeec78e7a57f1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:08.463019+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00003.json",
+          "sha256": "d71684b4f61f822911e77c6b1dc096b6cc7f5092e4fbac4b27226d018c84545b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:08.752177+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00004.json",
+          "sha256": "a345cdc9ba09ae442b723269fa6479b4bc2e37e68f9cfd97464e3541ef2f0911",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:09.034397+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00005.json",
+          "sha256": "8eee7de0d9b9b7297abeeb2bcb5d8a16f255532b437da6fa49f8d7fcc2072277",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:09.348442+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00006.json",
+          "sha256": "ff10cfa4a2d703c9e6ca0dd29b5ac4d34f425b78380c86a073300bded6e4b96d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:09.417431+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00007.json",
+          "sha256": "44e5146b2636629a2c41ad1067fd0bff99439cebe2d34c69a33292a697975d99",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:09.754205+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00008.json",
+          "sha256": "2790ef8ceee55c34dfa03b5b0696cd48b21bbf811182246be976709ff9951da5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:10.665776+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00009.json",
+          "sha256": "50585e613b95e503b80affac1a1a127d768380b958b1e3fa962957a5bf2b2b89",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:11.179747+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00010.json",
+          "sha256": "83ad6e2df560894aef68a7d0a6bcb76b7876c52d121660b505eb0f2a021d819e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:11.250331+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00011.json",
+          "sha256": "cc2faedfdcdb03b096db896fdc47ca1e63c4bf4e16e90a2c4cae91fee1251f83",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:11.764059+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00012.json",
+          "sha256": "3778192e3c3dd2a10b5fe1a655e887b584848c86e047386a13694e5fd0fc5e54",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:11.838811+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00013.json",
+          "sha256": "123f59344656fe76b03315daac8491f67ccf7b2c0dd0115399e4e14e949b5511",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:12.346157+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00014.json",
+          "sha256": "10f6a9c06c01a8cc07db868a92d5c14e4cc6d68e9b347571e00d35bf47ce03b7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:12.411609+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00015.json",
+          "sha256": "2e5d6632c12135e0e328ce28d39838b4dd8c0310288ecceedb2d44f3089bd221",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:12.711511+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00016.json",
+          "sha256": "649afac042678a3277cfc6ca8675706e9e4740e8aa58ef5e1d60514dbe6fd650",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:12.780215+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00017.json",
+          "sha256": "f8ff5581be0499abb815a64de6492efb80a15726d50fe2a451cdee020bd1d421",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:13.309901+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00018.json",
+          "sha256": "64214f0b852aaa25fc3806bdeb66ff0fa5255392ce7db3a0a75ca52331d74f23",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:13.867563+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00019.json",
+          "sha256": "0794d9ac8d94b428f4a887bc9537c1efbd90367a4b73c6f1aed561439bd25a8e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:14.446050+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00020.json",
+          "sha256": "de62e74d5cd273108d891b23bf5e50a788969e725c78a1af23b48a80c50990c9",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:14.520095+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00021.json",
+          "sha256": "cefd5ceb1c6a6d4294c74ae8af8575103fe62566ba8b17395711ba724c3ca9a3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:14.594817+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00022.json",
+          "sha256": "c712f46f16520d3b3a7e2e4bef3140b42fe5ac63aa82aa368e2d54191ee83807",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:14.675921+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2011/page_00023.json",
+          "sha256": "71045b7a86549cfa41808ac38be933c19e14683a5624f74ac31ed3a0f843c44d",
+          "object_count": 142,
+          "finished_utc": "2026-09-16T07:34:14.735681+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2012,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2012/",
+      "started_utc": "2026-09-16T07:34:14.919666+00:00",
+      "finished_utc": "2026-09-16T07:34:23.766186+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 10815,
+      "sha256": "ff7abb99bbba3966c533706769c3ef97618e8ea9b1eebb0d14af23375c250a91",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2012.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2012,
+        "prefix": "samples_npz/2012/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00001.json",
+          "sha256": "945316e8c2ef4be467d94b4728e7438e2d19563f0d1a507a3ee728822a07ef86",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:15.443706+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00002.json",
+          "sha256": "073550788345c2bc213e653425ef83f3e8e3cc25db1d5c263c7c89edaea9f398",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:15.728520+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00003.json",
+          "sha256": "4bfc3bd3f5aa383a4c022d911bc61ea14e85b7fc948abe3c80ecb4f9a996006d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:15.800481+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00004.json",
+          "sha256": "e13574fb043290967fcbcef358f329de13494ab56a00e2181908db5038e197bd",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:16.277296+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00005.json",
+          "sha256": "0b161c6e7345cc00a134b07f4cb248f1b5ec46960fa5f82a8110c2db76dc83ee",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:16.777676+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00006.json",
+          "sha256": "c3040858ddfb21916a6b1513d56d930c855940d55821c9395b78ac8bf737788c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:16.857623+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00007.json",
+          "sha256": "99a87c97d54d1bc517d092a8c6344aad73d52e735d54c35f84a711f09d59b3cf",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:17.951675+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00008.json",
+          "sha256": "9280dc41a28cad9c90e62c9a7e1d79237971e5e8b4405c3c53036d5aa5049150",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:18.462158+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00009.json",
+          "sha256": "0d71a8db8ed1423dc9c30502fdedada9b99e37991e16e8387bf250447ad82ced",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:19.057090+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00010.json",
+          "sha256": "953245e6da60ffe28b2cf591625055b1195b18d8349b87d35af581b67e239613",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:19.340005+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00011.json",
+          "sha256": "c60b7903714963d9e1223197e770bece72612edf9a87a4928bab98e7935fdfc3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:19.845662+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00012.json",
+          "sha256": "0e59629314b84424e7b6641a4af34cd564d49690ece16108f2356626491e3891",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:20.142233+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00013.json",
+          "sha256": "88645ba38bc28ecba8e8ccc3c7d3c6033e58f38779be33ce91b55ac4cab40b55",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:20.452103+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00014.json",
+          "sha256": "5872f1ed4bf77fd08687b0cb43943408c949e6ee07c1d2e2d142a62b952e3406",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:21.038775+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00015.json",
+          "sha256": "6a4fd3bb8954708a9c6e43594897ab0bfc5ec9880dc870c7bca34a5761b55084",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:21.156560+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00016.json",
+          "sha256": "4fac2fba7b7aa6f015b07a746632944a89dd4977c5fe5211ce19717393b88e91",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:21.767550+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00017.json",
+          "sha256": "19c82aa60af1f7351ead4ea2a974db428a03f09e8a1c8d55e94283f5eadf6981",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:22.306338+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00018.json",
+          "sha256": "36399e92cb482b1301691097134e90cd06c2cbfeb76e7e56bfb80ceca418b12f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:22.390679+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00019.json",
+          "sha256": "e75e599085514c43f0280487cdc992dce1bc81e31d7a1df301e42dfe6f13c2d2",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:22.908130+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00020.json",
+          "sha256": "3b2fb0c1e6862751debc4f16ee116f6ef6f566597eca4e498a873f93dc76f0c9",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:23.411757+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00021.json",
+          "sha256": "f9c8f103ec137d08c239a443a7ef3c4162caf05df55988b7f8709d474079cd28",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:23.694936+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2012/page_00022.json",
+          "sha256": "7ec024beda48869e11c940f8f723b6fe91c1c26020980f9b67680e7a7ca0b3db",
+          "object_count": 315,
+          "finished_utc": "2026-09-16T07:34:23.766186+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2013,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2013/",
+      "started_utc": "2026-09-16T07:34:23.957414+00:00",
+      "finished_utc": "2026-09-16T07:34:35.671592+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 13066,
+      "sha256": "690f18f9069f9e3b8e7658e48e4fcd801252a0e0633335f2c670dcea0bf1b97f",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2013.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2013,
+        "prefix": "samples_npz/2013/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00001.json",
+          "sha256": "776711a2683b7dcf78f98762ca8c6c1ef614a17a5d0211540746a79684358afa",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:24.531303+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00002.json",
+          "sha256": "8eb0f0a7b96a59ede4fe648fd81e05cf886e169c9cbc8577809ddb326e475135",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:25.117528+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00003.json",
+          "sha256": "987d3d22cc9dae513a40ef4183f502a3e88cbf82b641c51cf2f82dab1a5352e7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:26.112997+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00004.json",
+          "sha256": "114ccaaf7594d1d0d72a690aecb9b43a4ad7df9272326adc1ae58018f2930977",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:26.704547+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00005.json",
+          "sha256": "bc65eb83e5a522f3b19008c46ccce68accecd84dddb4877bc5a6dacab7c84f78",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:27.225856+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00006.json",
+          "sha256": "a1e2c25967f71e9d2ef52caae52f2c437de78403689d549d104ccf974665f512",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:27.738677+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00007.json",
+          "sha256": "3915e2ac94bd5195384c2401deb3a7c05d296462b5b9681c9e41b66db010ac3d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:28.050616+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00008.json",
+          "sha256": "2dbc71e1fdcbc1f3f019780e637cf99473652a12a4f25ae13abd36f05b56904c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:28.566785+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00009.json",
+          "sha256": "6df5a542ec26dc23763051c977de81ad9729a14061882011c23de99d8fd6afa1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:28.660838+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00010.json",
+          "sha256": "6222b063b98e7cfc02737c091f14142d475e6f4bf23c3462045c0da80cf587b5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:28.742317+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00011.json",
+          "sha256": "156dc3d0584559bb2e7e13d0bee6fe8e88d631b42ce3e3956b33259a75cf038e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:29.243893+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00012.json",
+          "sha256": "e66dc01cc8fa7ca9f8cda240145128b0a054ab35b5613fda9ed6a18e730b5a43",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:29.328640+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00013.json",
+          "sha256": "ee8863f4847e57b8f645988b25f6a2c6c795e948c4f5ed1342bf020ea59e5c8c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:29.862442+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00014.json",
+          "sha256": "f9393d15c429456abb8ed953e06b09ff962d48622adafb6fbe4511d3d64d33f8",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:30.135993+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00015.json",
+          "sha256": "ace536dcdd63c8e12f39636c26fd6877d33325239d295b81236b2f219e083d2a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:30.413238+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00016.json",
+          "sha256": "8947a2c6ca79d79d8b3243a8da7e936d1c7990d4357c4875bf89ce50866eb202",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:30.690327+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00017.json",
+          "sha256": "71c85a07c999ded32b4441adc64677566d27513330f592f8eae62fc0873ff73d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:31.187922+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00018.json",
+          "sha256": "42e0e42957dc0baffab7094297bb47e8d6ccfd6a5b46b4cbfcb7ab2f0f632e5a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:31.699346+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00019.json",
+          "sha256": "40fac5c78b1b2594a04599231b122870ac5cb111806325cb11a6a2c3a98df823",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:31.779874+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00020.json",
+          "sha256": "3721c593ba7f1d7c5e3990b86eb6428891bd49c5ef9d08069174fe2f4f9dc702",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:32.766059+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00021.json",
+          "sha256": "fe36d93109ab691bad46e5ed3fddf94097bca27d4dfb3e2401e7759e60274722",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:33.372214+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00022.json",
+          "sha256": "e6f963e645015ae8637cd32b9888b56d32fa921208be60518b6788a47c843a50",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:33.652946+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00023.json",
+          "sha256": "2225ea9fdbce51a53e63236b72f6c279b84bd05a2e893eb3b029a52040fb9693",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:34.542715+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00024.json",
+          "sha256": "132d46dbd4d34117280d3a3ffb5670a6b4f6bc463231a08c44362c432a3b00f0",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:35.057998+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00025.json",
+          "sha256": "0ad5fd6c7379264208261e2b5bc4b57514108917e1c5f73fb2bfffd4492ba1db",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:35.335216+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00026.json",
+          "sha256": "748991d00101e1b8f56eaf124aba4b0bb37bcbacd9a922296eef245da8edf0a6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:35.409975+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2013/page_00027.json",
+          "sha256": "c93c3e04644dc1b1af6159acb916e0d765224175ae33f980c8e94fec4f2c74e1",
+          "object_count": 66,
+          "finished_utc": "2026-09-16T07:34:35.671592+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2014,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2014/",
+      "started_utc": "2026-09-16T07:34:35.900880+00:00",
+      "finished_utc": "2026-09-16T07:34:44.370200+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 11627,
+      "sha256": "c1097316b6be20e0386611644efbab730a1b88f4dc428e215ae4ec69d1ed2fe4",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2014.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2014,
+        "prefix": "samples_npz/2014/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00001.json",
+          "sha256": "8ae9a77344ff3c4cbdd8cc46a142865ad2e21f303ce9dbd74dcc341df1a0f97c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:36.024063+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00002.json",
+          "sha256": "a29abaf2df2f86892b1b0da863f8015851b1d75f70155635c3b0748309305535",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:36.343201+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00003.json",
+          "sha256": "db7c3f14dfac2c84fdd5502801ca166b7622788634e00757ecb57b7d94d216b2",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:36.635475+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00004.json",
+          "sha256": "32de5bd13279bdde8b0f068f567a306960d4976e89a39a4ebd4365600f6d5859",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:37.154130+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00005.json",
+          "sha256": "327488021265ee9b42a7478493bf9756c964c06f572e70e9640fca12a5669948",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:37.434388+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00006.json",
+          "sha256": "7660ba5469b4e621d2295b0f77bdf9877be731d9308e6ade7ed52ba768090a6f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:37.732947+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00007.json",
+          "sha256": "8c1597d9166545ff09ebeb447c1a459e3600bf33c6278e16be37ca097950171a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:37.813910+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00008.json",
+          "sha256": "f5ce69a7bae8edc40eed2af1daca47a7af461e96e7b2f5ee23e505f094d6b6d0",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:37.899623+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00009.json",
+          "sha256": "94c320c801123a664037b6dae0898ac2cb71c5fddf18db4a7d4cd41a9b0e0846",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:38.185235+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00010.json",
+          "sha256": "63ebbbde441a12e189d50b065a030ab387abc9d668d75e3036e9e73a05a189bb",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:38.789436+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00011.json",
+          "sha256": "8932ad95a9d79d8ecd515962725c453caf0781ef79c83ebb3a857cb48e34a67e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:39.066067+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00012.json",
+          "sha256": "3d6120ff3d53b2865fb56d601875b51800acd74664121b7d08b674d7a2e56d15",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:39.669634+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00013.json",
+          "sha256": "06e5dca9976a626b8a0454876fa142f6523a7b337ca60d73d0f216f32473071f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:39.738483+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00014.json",
+          "sha256": "5e27cbe159667dbdff3453c7934d7f56932cfa136d6e372aa11d280e601a4f14",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:40.022069+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00015.json",
+          "sha256": "dad457868e86762ad743cd81b05ce2bacae7e8ae7a51eafe131fd85aac7b9db1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:40.853716+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00016.json",
+          "sha256": "f14479847c9995fe36250dd7af13ba1c69d5b1add382b4fc94c40b96784bf83a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:41.370358+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00017.json",
+          "sha256": "33d849ac485bcb3dfc81484a85a1a982d8c70c009b7c12429f97418354c19390",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:41.860705+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00018.json",
+          "sha256": "ddaec01eb96e8b5b5d69bc00f4e84bb63d26d898a4f3c6329650149bb5595639",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:42.375155+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00019.json",
+          "sha256": "1315a7c5450cea76b066a66164ca54127cc989600556de4809dab9fcbf6a0141",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:42.450711+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00020.json",
+          "sha256": "3c1a955400f7605a0e8c21f5f62ad5468ac25fd917c61e359927f3bf6ab26fb3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:42.746774+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00021.json",
+          "sha256": "c13faf925c61bb47ec403b10bc3578c3a4e694de386f15ef34eb2811b7108bc9",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:43.272693+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00022.json",
+          "sha256": "5f642df34b09e9c4ae27f85f6a7418b32c06fabce0e7609902ce884f00a103bb",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:43.797807+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00023.json",
+          "sha256": "31efd47b9db7c4a0fa1ac5688fdbf31d8fb5960848f77daeefd5d8d72844a9a7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:43.864908+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2014/page_00024.json",
+          "sha256": "c9b13a8e8901747d89a7aa63091fdd01e3d5a06d6d36bcdca5dc535a02bc84d3",
+          "object_count": 127,
+          "finished_utc": "2026-09-16T07:34:44.370200+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2015,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2015/",
+      "started_utc": "2026-09-16T07:34:44.558664+00:00",
+      "finished_utc": "2026-09-16T07:34:51.900010+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 11236,
+      "sha256": "069dbd399c6a7d75af9c0197ff3c2b48dc552dbd41607da968186265059b3497",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2015.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2015,
+        "prefix": "samples_npz/2015/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00001.json",
+          "sha256": "b457b004cdc20296de39eae6fb7d9236a438329509ebfa123e06f39af7eb27a4",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:44.860329+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00002.json",
+          "sha256": "c4e32aafd9b4ea4843168132b9ac491fe084682ef940b9fda8dd26fd8392f083",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:45.163169+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00003.json",
+          "sha256": "80c2cdf34fd3a6a443cd73478fdb444d2bcfdab06f05dcd5166dea396b2d4032",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:45.472598+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00004.json",
+          "sha256": "735ff862129644cda46965ff4ed9672fd8ddcb6ece0387e5c5083d5b01cb0001",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:45.755670+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00005.json",
+          "sha256": "f2721ad7d006de88e673997c8e16ef6443b3afeb658827bebee2fa8e2a9dd0e5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:45.848600+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00006.json",
+          "sha256": "187dbbaed1c7163f416b1542f03d9a02ffd1ed19f450793cff68ca159dd24490",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:46.361364+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00007.json",
+          "sha256": "12ecef4f79bbd15f3a0e60830f9c392be3a5478db959da6c7645bc7bf6824d22",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:46.696363+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00008.json",
+          "sha256": "910a840b177d0243824135585bb6ee8df0a5326b95b16e1d3503b46277a3e5dc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:47.211663+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00009.json",
+          "sha256": "52830d265d8cade7f1252018758db6f00343e375d7484d58fea7db1f4959bbf6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:47.283074+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00010.json",
+          "sha256": "a72e353c0614adf24f7eb1e6aa0c7826cca7ab596b2663b2498615d7000bda8a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:47.570396+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00011.json",
+          "sha256": "92cc11090be450a94bafa9abca52fa33bb108f3f9e4655bea5b06b1f2189c294",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:47.836212+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00012.json",
+          "sha256": "fac869d96e87ef2f349d5bc66b75e55078da21c7575a9cb37f4c7c16e347a751",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:48.123487+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00013.json",
+          "sha256": "fd3318199a58fd01daa210a7d6902e303f9aecd4ea655d31787d11e97d614030",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:48.194767+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00014.json",
+          "sha256": "d48aebd940840ea2cf5e76c12d45b5b70c0381a1b71fa1e24b057050729bb3d3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:48.510086+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00015.json",
+          "sha256": "d6881de8f670b4b1982ab110bcf80baf2d1c452c0b67355a2877696434a78c75",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:49.369952+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00016.json",
+          "sha256": "237545d17c342c27fc7b790a3ba11da6dd9a08f397bf8ff9cb638e4d590358dc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:49.647532+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00017.json",
+          "sha256": "6cfd3627983e24eb94fb20797cd714b41b82accfcdd9031faf1de6deab0aaae2",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:50.127744+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00018.json",
+          "sha256": "ffe084d5759749c469aa82d6d955073086bd68cd8eb9b3febc2cd2a9a45e5d5c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:50.399259+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00019.json",
+          "sha256": "06ad85028bc63afecd16b378faf6ef244d9e664b04259a50b03f05ba26efe7cc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:50.966156+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00020.json",
+          "sha256": "8e7a0ad09061c7f792085b0ea9c0cc4cf2bbe2cecf7858893665e66fb4a68586",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:51.252953+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00021.json",
+          "sha256": "5f74adf43c4ba15c81f015a94bbaed1fe9f48d6e1c79101df232fd7422a95b07",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:51.551314+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00022.json",
+          "sha256": "ba3ed6488fa7edd251968bc72919cf4e336c48a8400415f72a713b77b6b8e777",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:51.833808+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2015/page_00023.json",
+          "sha256": "68ede5404b02cf75218156ebc65e32aa9455462b6b6a14100dfd85116161063b",
+          "object_count": 236,
+          "finished_utc": "2026-09-16T07:34:51.900010+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2016,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2016/",
+      "started_utc": "2026-09-16T07:34:52.082917+00:00",
+      "finished_utc": "2026-09-16T07:34:57.014672+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 6818,
+      "sha256": "583307d5baec4086bf6a4713627c2a1f4beb074aa2177f1b3ab7ac0d5ccfd760",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2016.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2016,
+        "prefix": "samples_npz/2016/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00001.json",
+          "sha256": "2fae5b36bb06728be8099fb674fc04e5625a8df80e0f1d8a159cbe4e0759b888",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:52.384458+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00002.json",
+          "sha256": "4709d020bd613eb5ed1ee5a3f52be80e7ce76ac50d3e658716db2e8fbc578170",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:52.674823+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00003.json",
+          "sha256": "9e68b36c2929672e4cdbe0390f3e6abfd448cd8a2a0711351025036f79a90110",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:52.970087+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00004.json",
+          "sha256": "4f45fbad078ff7e367b34ac73d76e3fb14634c1357ffcca54b68080ec37a3079",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:53.044500+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00005.json",
+          "sha256": "4651684c768914d57d1bfb19bb2a951b6f24e600c1d69afa07626e8e40a870c5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:53.534611+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00006.json",
+          "sha256": "c5aad4785f48a805482d6a98a83fa349e4568f55178c1e572049d1ad65306416",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:53.807079+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00007.json",
+          "sha256": "36c705db9c7247ddf54ec68e5768d6c97d38864cb694ef0a391f2ea29ccd21e6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:54.086548+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00008.json",
+          "sha256": "a395e176108d35d39edb651f3932b70313acd4ba342665c777baaae994b91373",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:54.165959+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00009.json",
+          "sha256": "218f3479085708e31e22a065c95d26d143720a28fb60b3d2028bf1d1bc76add2",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:54.445617+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00010.json",
+          "sha256": "97edbcd9cc7ce5a8dce90bac66289686e07a31e75bed31e51ef9abc6b3ce9db0",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:54.959850+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00011.json",
+          "sha256": "6e866fcdcc4318776d56f75b742d6738324144ccb2f935e80cc15d6f58274a9f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:55.440942+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00012.json",
+          "sha256": "24b0d687db7f3a304bf9e2f754050cd5c7722892cd4c7374e5813d9fed382b17",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:55.938816+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00013.json",
+          "sha256": "35cb21a27cac1255526066f7a97fefbe06c90323e2ec66325f61fddb4c4cec63",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:56.436553+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2016/page_00014.json",
+          "sha256": "e809131377ae202177746ec38ed6be1c6d7b9f37dc56f3a4e3cdbb0d68f6daf8",
+          "object_count": 318,
+          "finished_utc": "2026-09-16T07:34:57.014672+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2017,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2017/",
+      "started_utc": "2026-09-16T07:34:57.140397+00:00",
+      "finished_utc": "2026-09-16T07:35:00.329829+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 3444,
+      "sha256": "e22865619e354b1a8f7b0b017292891b9def5670a207d3e11e801f0ae2417054",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2017.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2017,
+        "prefix": "samples_npz/2017/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00001.json",
+          "sha256": "75522897230a13940cdc496d779ed5c47cff053377a83c019bcefe48d3ed8374",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:57.230849+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00002.json",
+          "sha256": "437a175fd8256ef9b259f53a0047d4179901d181d02f33eaabd27ba2f861cf7f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:58.415222+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00003.json",
+          "sha256": "8be6e36882fbc71be0f0a5316ef34bc4716b73ac9b509593b88b46909d508431",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:58.926483+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00004.json",
+          "sha256": "6b12ea3adb3d3a1fb98d08cabd500bea1cea1e099721378f81018e14b7504801",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:59.232746+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00005.json",
+          "sha256": "72c60f5441267d509ef6ea91233da5bd9683f043a791f94ecf66f5a4b9431d58",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:34:59.752426+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00006.json",
+          "sha256": "880473b79a06244252583ac4a98a204b923cf93651fe0a40b8d8269f9f070c5f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:00.258768+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2017/page_00007.json",
+          "sha256": "c0375c31a806cbf0032f27b5917286d17457bfa4ece878159e9fdd03995c4f96",
+          "object_count": 444,
+          "finished_utc": "2026-09-16T07:35:00.329829+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2018,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2018/",
+      "started_utc": "2026-09-16T07:35:00.404592+00:00",
+      "finished_utc": "2026-09-16T07:35:01.556447+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 1711,
+      "sha256": "a206de09ddff9110fc9bd69d161984fb66741d2b1e2e267e47977a562a0545b0",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2018.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2018,
+        "prefix": "samples_npz/2018/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2018/page_00001.json",
+          "sha256": "1b7e44010b931308fc0709d668fd292ab8fd9662a5b81c1ae0bd90edd59a9544",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:00.687773+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2018/page_00002.json",
+          "sha256": "7c6cf2f7877a475fa8d426f1c44281a5fa423af575f8e2dd736ab16c07847826",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:00.977272+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2018/page_00003.json",
+          "sha256": "b5e4046dd38dce626a2781b57f0acc92798e2ed47a2910923124286bd035a86f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:01.288097+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2018/page_00004.json",
+          "sha256": "e1e3d2ef06c10a64b2fc258b76c58c6f897d2bd570bb56defa4a04e30e3969ef",
+          "object_count": 211,
+          "finished_utc": "2026-09-16T07:35:01.556447+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2019,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2019/",
+      "started_utc": "2026-09-16T07:35:01.606208+00:00",
+      "finished_utc": "2026-09-16T07:35:02.934670+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 1057,
+      "sha256": "97ce1f8825a36dde9dddcf3aed05c6de4485d54352b4618767d1194a81be67a3",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2019.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2019,
+        "prefix": "samples_npz/2019/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2019/page_00001.json",
+          "sha256": "ae4407ff7afb5d6e60097386854f2a0704fbfaeeadd4b0439af523ca7982ff9e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:01.880687+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2019/page_00002.json",
+          "sha256": "aba42a9c3a087a19723fc59d23ecd02b710fa7e2e236adcb3d0e823c07ec9529",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:02.677010+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2019/page_00003.json",
+          "sha256": "c7ae977e680a623f9bcf8360a67e4f2b1923954bd4d8c1755b3094887c531b5f",
+          "object_count": 57,
+          "finished_utc": "2026-09-16T07:35:02.934670+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2020,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2020/",
+      "started_utc": "2026-09-16T07:35:02.975786+00:00",
+      "finished_utc": "2026-09-16T07:35:04.189257+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 2089,
+      "sha256": "e33cd5af8b9982e5418442e309c7dd1592312d1b1e938b6fba2b10773f80f062",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2020.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2020,
+        "prefix": "samples_npz/2020/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2020/page_00001.json",
+          "sha256": "2d22a6b725b723652491a2721fe635eb623a79c3a7b466bcb239fd670e4ec59b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:03.046205+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2020/page_00002.json",
+          "sha256": "3cead6fe48ada40006c3a01e6e45b760b74f0d507817842343a4f1f2cc6820b8",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:03.323312+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2020/page_00003.json",
+          "sha256": "bf3b43d3adbf601a98fd070019d24c8b42348dd1aa594fa6a2ebf7393ec5dbdf",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:03.445335+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2020/page_00004.json",
+          "sha256": "b82676275057239333468d460ce7a4f298381f0fd9553bbbc88701de2bfa005b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:03.720163+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2020/page_00005.json",
+          "sha256": "ee99b998a6d46605e4096867e92c4507f6f8d598f74f65c79d3e844c766251a3",
+          "object_count": 89,
+          "finished_utc": "2026-09-16T07:35:04.189257+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2021,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2021/",
+      "started_utc": "2026-09-16T07:35:04.255934+00:00",
+      "finished_utc": "2026-09-16T07:35:09.146339+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 5797,
+      "sha256": "bef3979270e9ecc7fc6c5ea75c6fc5453687c05163b8e73c96a9b14431c80039",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2021.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2021,
+        "prefix": "samples_npz/2021/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00001.json",
+          "sha256": "f31d85aee93dab3695f7fa9e10468ffb49eb77ccd3880dd0a3f238772f42ab5d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:04.351095+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00002.json",
+          "sha256": "367f88e957c5d585222a7436f62f8e3ac6dab41d43054e88a0bd0b2fd6f9c0cf",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:04.629879+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00003.json",
+          "sha256": "fe8c39320014bb389f69c2d5032abd634cabfa3e8554b6f84b3d53f0e9f07afd",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:04.895924+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00004.json",
+          "sha256": "a8873d8f12c27e38eedcfd43decba4c735d3c222d1c05b0b59381cb69ad44047",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:05.186200+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00005.json",
+          "sha256": "e6000cd709d3040114b93b1bb9c7fddaebc6bfea62e267f51f7fec0e85106dcb",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:05.722236+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00006.json",
+          "sha256": "7c936e643908132a1a7a068093084967a0c42272552b053f4a0ea598b5ff3519",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:06.239449+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00007.json",
+          "sha256": "98f0abe5a09a3036f149a3a1f501a138bf00082bf0eac4c7b849771b83b98d89",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:06.537418+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00008.json",
+          "sha256": "3ce6e468c781517d8d9a12fae38edcacf8d4455fc85e57516471fc0a138a8f43",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:06.815244+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00009.json",
+          "sha256": "fc53fbd9ae234bdc010654159d31abe58042061ba34b0cdf6dfeadea4315a82a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:07.601316+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00010.json",
+          "sha256": "f2f0415ed8e260ce161a971ce73d54cfeb63f2176a5e17efc86db981e598df24",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:08.582203+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00011.json",
+          "sha256": "d0845a0d7cb1676f694dec1fcb632e5d834b76149b45a818a0c37498ba6d226b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:08.656013+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2021/page_00012.json",
+          "sha256": "8df297c36ad5e35197854486fc2eb4d46afc96c40aaf76b9a9e043e30613c307",
+          "object_count": 297,
+          "finished_utc": "2026-09-16T07:35:09.146339+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2022,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2022/",
+      "started_utc": "2026-09-16T07:35:09.254541+00:00",
+      "finished_utc": "2026-09-16T07:35:18.236673+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 11506,
+      "sha256": "778bec7d4296c7eb545c170c3212bb3606b78b766624c8a72f4b461ff27bdd23",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2022.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2022,
+        "prefix": "samples_npz/2022/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00001.json",
+          "sha256": "b64f32f18944623bae5d76e959dd8e92a28fcb35b6a5d8b6b14d601d21dc1735",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:09.796849+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00002.json",
+          "sha256": "6e934e2148be54728d549a63c0704d7b603e2b674d590b41e465864235be6133",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:10.311224+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00003.json",
+          "sha256": "20751a81acc6d25a44c3f88650f3a07fbe8dc197eb8bae970b7e41aa7da1adeb",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:10.828947+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00004.json",
+          "sha256": "db20f111bb9b38767c1563e3715c910e161df984651ac6c4001f2818349d74aa",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:11.356987+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00005.json",
+          "sha256": "6dfcb9ca056c3ae62970f031b9f70c499ffd65b386a58d073a0355ace96d6095",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:11.880622+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00006.json",
+          "sha256": "277950a9be1ae0719eed6a52adfbc7530eb678316e59c5d56b71f20bb86f518f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:12.372943+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00007.json",
+          "sha256": "f3bb812fb8840b72b25baf7491b6d9e38da67f504f2ee3ef260ce3c115daac23",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:12.890659+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00008.json",
+          "sha256": "1025361e71e8ea15d1811a77ce820c7c1d1e24da4506c7e46c7d04575a42598b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:13.414844+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00009.json",
+          "sha256": "60d73863c030d217166ff572a5ca660235fcaf1e4f48909ee9435d8d5369c748",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:13.703336+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00010.json",
+          "sha256": "b7f58ec11d5f56c2c6f2830c4226e8ff6100c11bf12217535f843d4ef70d336d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:14.039575+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00011.json",
+          "sha256": "aab8e9d49bac8b8e387137686dabf601493be07a4a62296ddd57bba40d49177c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:14.548991+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00012.json",
+          "sha256": "44fa47a8cf6220c69f2466ce13572693ba4c1091ae7ed146ff654cfbb0a2b93b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:15.109493+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00013.json",
+          "sha256": "861b58e62b73205f3aa9bff378743803f58599d3190509a1e99c1598c2739b6b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:15.416874+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00014.json",
+          "sha256": "e0714fa80a25fd8256aa5dbd9400d575a4f92b163ea250d6b3f64917b3debecf",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:15.514224+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00015.json",
+          "sha256": "3b95a7d5fcd0eaebcfece49bd9f6f4edb0c87f0afb1ae51d88aa57cd74cf15c3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:15.797259+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00016.json",
+          "sha256": "644e26613d035df7cc88a3ca94b793ead8efffc4a803c7b347cefe10b3229074",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:16.314525+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00017.json",
+          "sha256": "255bee12c6f31af6e696b94b98fa37a5121f3e6b92eeecf501ca2eb8dcf83140",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:16.591945+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00018.json",
+          "sha256": "4d6180fbb35f6e84e70cfd327ee88a96fd17931dc874e9c77dff3354dc1732f6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:16.949880+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00019.json",
+          "sha256": "92b14480a2cd335ee1fd900d35dedfb063435d82949b2dd40571da1e17389a98",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:17.243322+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00020.json",
+          "sha256": "74a930d29e9225f4ff7cd1f5dcdee52f132c24337485679353e4970e58a4bee6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:17.310402+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00021.json",
+          "sha256": "169776e73c7ebf511738ece718409e134e43db097711c68914a0c2a723074eb4",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:17.396338+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00022.json",
+          "sha256": "a47c54b7ec1998e7f46445bff38e0412e4d5ce597449e2100787e1dc1c06dab1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:17.902577+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00023.json",
+          "sha256": "928ea2a4a4aee80a3954bea8fe756bfd2416dcc310ae2fc6c0f8f28b91f8c485",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:18.180963+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2022/page_00024.json",
+          "sha256": "5114a12a89a219ef2f00c948da63b20ed646599b417209f8c401136d0e3802f2",
+          "object_count": 6,
+          "finished_utc": "2026-09-16T07:35:18.236673+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2023,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2023/",
+      "started_utc": "2026-09-16T07:35:18.428431+00:00",
+      "finished_utc": "2026-09-16T07:35:31.369280+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 14308,
+      "sha256": "3d286e1f8c151854c71ff90c9dc8647036ebc1720124d19c00f244ba93aee5b0",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2023.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2023,
+        "prefix": "samples_npz/2023/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00001.json",
+          "sha256": "9149a846e10dfcfbee2261d72f359726aa6bca73199846f4322cfe43fc238718",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:18.942631+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00002.json",
+          "sha256": "4a0be35afb6b08c83a838339e20be84d91cd10f153c1a1477c50b7f1d5e06150",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:19.807582+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00003.json",
+          "sha256": "e90e974408cf73858b92f3c960c65c21108d6be4b75b94c323e8c1d9a99cd1ee",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:20.307820+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00004.json",
+          "sha256": "e06efef756303b81b4a7738ca92d45b645d165b6891d7978bbead48323deebb3",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:20.610624+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00005.json",
+          "sha256": "23c605e1d461faff81204780f5cab6fd85d19d6b4b7205aacedebc076bbdfb09",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:20.693024+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00006.json",
+          "sha256": "c18a930249bcf70cdcf0b917c5c97b31cbe565ff317c03f20709ac41849e733c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:21.206960+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00007.json",
+          "sha256": "ad72e43ec7253b1bc2222b231d2d6f19c83428988e3e7ad85f7e2190fa0d0485",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:21.285066+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00008.json",
+          "sha256": "e801df61a2884b286ca3827ff819265c50341016fefff08a74da05cb32e36227",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:22.031421+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00009.json",
+          "sha256": "6cc040357fa34000978b336e24d40347f90762d81439544133f871557f247dbc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:22.314959+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00010.json",
+          "sha256": "39b42d80828b1a4bceb72346a04fd11255d30ecfe509487c7a48d3ba73d239b7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:22.644949+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00011.json",
+          "sha256": "19e750caa5aa18a36c2dff3f74e7ce206a8543e9d6a380407efe7e817a4cdc76",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:22.924199+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00012.json",
+          "sha256": "280812a8f5dd3d086ed5e8e0c6c072749cf213f1a29e41f68d79b30185c5a327",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:23.195222+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00013.json",
+          "sha256": "61912dd1024f3b8ee2605e2e6210aa80996af56a40f63341742015de0042e5c5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:23.790957+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00014.json",
+          "sha256": "58015c15303591275476ecd4c7aa293311168f59b376549e20f6113322fc585e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:24.068307+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00015.json",
+          "sha256": "3859bb1f86ad5bd816b14781a9c2699f5b8c46cd1d43336b78eca63a2c81f98a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:24.337794+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00016.json",
+          "sha256": "4fcab64ddf4fca01f827d40c19a4ea87f7017618bb0440a79c38d27884d54d34",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:24.626843+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00017.json",
+          "sha256": "c09ac7a691065b0a4e58bf7bf3444bcdbbf17d148102d801a5a9ce87c4d473fe",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:25.565148+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00018.json",
+          "sha256": "0032f55fb4bfdd03afe6d7c4d9179ba952c0090492d403d1f446cfc341197041",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:26.173171+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00019.json",
+          "sha256": "131c0570d631050b60476c8eab7a6fb2e3b611a6b93c8089b4a7f4ef385cf14e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:26.665993+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00020.json",
+          "sha256": "327e47fb946163f84ecf7c5af829b419533110f2f819a8281d9a6e8724543564",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:26.942804+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00021.json",
+          "sha256": "194ccf73330c01f9796070438ddf9d4aea95b9575ba2617a4d398f02a63197fe",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:27.451025+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00022.json",
+          "sha256": "c473a9cd492a5d8edca0e85856b254db45a66e14020d42c3186eb1cb4390474d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:27.752542+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00023.json",
+          "sha256": "01e66ccaa2916693a86d69d2944b83f85cedd910ebc3d4b925dc8f36ba786fc4",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:28.037884+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00024.json",
+          "sha256": "587cb58caef0b47850d974ccf1200cf177b5ec337607653ee406dfb02c91acba",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:28.593972+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00025.json",
+          "sha256": "ffc9acff1fb0bb15ce5e6158df8fea2fe1926baf7a0503c915b6fd0710d5c710",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:29.712087+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00026.json",
+          "sha256": "283ac6f74774277af9638d5c20def6bd4be5ee1c0876183af0cb8907a0efb2c1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:29.993754+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00027.json",
+          "sha256": "f6ca86b12f1ab00f8f2ae00b6be06f765e98fc731755fa3600bec6613837d75c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:30.308050+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00028.json",
+          "sha256": "4b64e0e5c2ae79e82bf098dceab399372d8c7e9c8601c79475a98c88723fe11a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:30.855153+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2023/page_00029.json",
+          "sha256": "6bba361c40da5e0210e438f2fc0ad5fd23c6d44c82fbb122c3ac392010a53a03",
+          "object_count": 308,
+          "finished_utc": "2026-09-16T07:35:31.369280+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2024,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "samples_npz/2024/",
+      "started_utc": "2026-09-16T07:35:31.602681+00:00",
+      "finished_utc": "2026-09-16T07:35:43.025421+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 14720,
+      "sha256": "6177fa6a2ac032285921c61651ff424a81afd81982b5df76203fb0449a7d723f",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2024.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2024,
+        "prefix": "samples_npz/2024/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00001.json",
+          "sha256": "be083a5229ba4a3a87f1567bf0d08c2b232882abc0d0e5d41da5f2ba85a177d6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:32.114716+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00002.json",
+          "sha256": "1491b1e2c54910b59c20e8537d03f76cf54a07a2a5826e68ff7295539a0ee625",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:32.436588+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00003.json",
+          "sha256": "cb1fe47df347dc83ea21e72056caf15037fdefafb043ade7f285de4f1da7d0e0",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:32.535854+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00004.json",
+          "sha256": "e149425f703ac8c2524b11a81e7217cbe7dac78369386bc6aa0f07c2f2cc800a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:32.867881+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00005.json",
+          "sha256": "c3d03ce9252a7a3e7dc5ad85e481621547c8a81b923b6ec9c829088ccecb156c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:33.162275+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00006.json",
+          "sha256": "bcfd6acac648c215cdf94df9af4552dd73c4de62ea7b261297372c40b306452a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:33.460043+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00007.json",
+          "sha256": "2d7a1cbb283bfd4ee75e06bb27c61bc8142ee06f611a86eea636f065893825e5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:33.785020+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00008.json",
+          "sha256": "e0a710b86e1f31503dce18be2a8ba58c4263bd34d2503361c2b26fb080fb285b",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:35.471277+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00009.json",
+          "sha256": "d20bc81a208a572ab4a680eb8b6c7993b055b39f15b80271207ff9470dbce74d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:35.545594+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00010.json",
+          "sha256": "e60aae455daaba7aa5fc1bf3be3d517d20f719e3fc99b8d2e39f027b47beb5aa",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:35.819708+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00011.json",
+          "sha256": "c82c1455057cd4537ca188803f83f1a4ca6cd1cdc5a2e0dd3cbfab888287d483",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:35.900427+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00012.json",
+          "sha256": "b3a8db1eb0d786068f2542ac99244174a62573b940dbd8c5a30877f07add64b6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:36.197169+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00013.json",
+          "sha256": "340259c2a72882b312759d72b9112262016734628dda996c45ffbb4e93b6e8f5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:36.268510+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00014.json",
+          "sha256": "e97970c56d8fdd4fcbe3dd7e86a614dc391319123d70fc89e02dc62a74f7f9ef",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:36.600537+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00015.json",
+          "sha256": "dd33ff3643b927966a595fbf9810c6fa179cb16d62e5404f2e1b2dcc4309a2d7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.128042+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00016.json",
+          "sha256": "e8d8e57aabe85b685f09918bc564a677648d1a9917dcb9d59e8eafd357d178b6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.220175+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00017.json",
+          "sha256": "c740a66c8576bb0610a42c49c3f947b505dcee7245b80b013b6698bd14bf68c5",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.504642+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00018.json",
+          "sha256": "e527f56ba0568b2c2ad8b589f3ddfa28d540bf1f789365686ad889d64df9ea09",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.797977+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00019.json",
+          "sha256": "ca92bb90d3291d9ac83ad45df9ad8f1f5769fed42a0fc223922273fa3b42af46",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.886622+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00020.json",
+          "sha256": "5b05246d3134c6f2847311d6b0e4b3408a8bbc22b0a28294f8d53dff099c3afc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:37.973001+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00021.json",
+          "sha256": "bf6f0ab7e7938371f1fe070c8798757300b4d88ae90ad72cb805632cbb7c62e4",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:38.241039+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00022.json",
+          "sha256": "95215623a43456b522b3f9fc336eb56ebde0deb961a0cdc87046ff5ccb2b476c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:38.522898+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00023.json",
+          "sha256": "9535f27259e27df46970f31cae42664473cbf15fdfc2ac22a84426e6aa6c0db7",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:39.051363+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00024.json",
+          "sha256": "6e24352f3b5a21e7a2327d7b37c5c23fe9fdff5dadd66f223763724e3493ae62",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:39.141087+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00025.json",
+          "sha256": "883b633449d9eaff175769f31c5948d70aa00bd3a6500225992a98771670442c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:39.654369+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00026.json",
+          "sha256": "cc7fe84d20fe393f6a2711ea22338e9de2989038ce18611c1f330fc602f8a92f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:39.939640+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00027.json",
+          "sha256": "54dbb90984ef658d09944e0323a6300b551f81fe208b4116dad5999a97a9e582",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:40.531121+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00028.json",
+          "sha256": "c1d85ec2f514b605320affe81bfd992d3a9de3dcf4c626a04eed9aa23ff6d169",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:40.811310+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00029.json",
+          "sha256": "42f766a64adce1bb81c193937dc239aa0a0f643a17d46d76c44e41fca18f5004",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:42.508078+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2024/page_00030.json",
+          "sha256": "4928dba7833ef72df6c65b9f44601fdec123c7d08a4d55df64d20725cb6e09db",
+          "object_count": 220,
+          "finished_utc": "2026-09-16T07:35:43.025421+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2025,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "jsoc_2025_2026_production_v1/samples_npz/2025/",
+      "started_utc": "2026-09-16T07:35:43.282664+00:00",
+      "finished_utc": "2026-09-16T07:35:53.498721+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 12133,
+      "sha256": "22865977e2db51c5a21dc3d10513a0b8fc23a09c99f1b91043025bbcc9bfe57e",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2025.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2025,
+        "prefix": "jsoc_2025_2026_production_v1/samples_npz/2025/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00001.json",
+          "sha256": "30b8634ea374cabec99d2d8c1e7f2124f7f48b2fce70140331a08d95f906cc3c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:43.570611+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00002.json",
+          "sha256": "7058fa4b5b5616b2ffc465aaecfc53e66084429e9660892788fe4791243b3273",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:44.587817+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00003.json",
+          "sha256": "256d7a10e3f0c8ee6ba97f3bb1a078fdaa055f75ec1480eb1dda17a297165c5f",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:45.337358+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00004.json",
+          "sha256": "022821037b9abaeded68614459442d18a8c1d607e9bf4330d6eedc3da34222dd",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:45.628008+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00005.json",
+          "sha256": "7a2d88cc9e75d3e5301c61d5c26169562013b9cca0c5dc490e10d35a0f0d36cc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:45.925341+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00006.json",
+          "sha256": "cf91b392e88da6897362be923bfebd6b88e292ba6bc07d231a70cfffc1c8a1e9",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:46.216419+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00007.json",
+          "sha256": "0943e559160d61d9d989b283c6c78fe2783224fbcb5f055fab7069132d9dbafc",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:46.701056+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00008.json",
+          "sha256": "2fa17b2d3e41206925762339743a7062c94227248ee69203ec86b264b4804c17",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:46.982943+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00009.json",
+          "sha256": "d703859246e79c78dedb2b7ef70030770ac2f08a19e42bb4f785d0dd2508def6",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:47.267796+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00010.json",
+          "sha256": "cbea4359103e80596eeb7e05ac73995516b80bda11a8a152316aaf0241aa14ac",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:47.775478+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00011.json",
+          "sha256": "06f40fb968921ec963cf6b9407baaf24e2d85985741d29cb2c7ea8f195fbfd2c",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:48.343976+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00012.json",
+          "sha256": "2e161430b69925666d797f47cc83696ca4e39bd36477adb80ead37be55f2f846",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:48.835160+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00013.json",
+          "sha256": "372703707d3933f03f0504561f663d6d61d25c0cc9010fcbaa8da0a862073576",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:48.952359+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00014.json",
+          "sha256": "8a35bad928580301b5e33c2d158b4df2b34a89bbf739b7fef268eb5267e0dc88",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:49.522317+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00015.json",
+          "sha256": "2f898ba43dba17f43b960ef34e769ce0ce57c0d7f8ad5ff328c781096bc64fdb",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:49.804195+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00016.json",
+          "sha256": "3c878b1dfc37338b926a11b276b1ed92092427392ec91d4b89ea7526c94a8f58",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:50.309874+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00017.json",
+          "sha256": "549053cf75dc65c361635d8b74fc25083be6be8f69d5438e140a612542aee93d",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:50.864279+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00018.json",
+          "sha256": "b4d82c0a25ddd61363735a460d6fe4fa211cdd510dabcfee56be14f50be66a3e",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:51.147319+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00019.json",
+          "sha256": "34a2c598f5b2854c676d763bedb9e2b632be75879a98352dddb3bd8aade805fe",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:51.238447+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00020.json",
+          "sha256": "805f7f7452fdeb6d414b43481534b6dbd99dad3aba8fdeef6afb7c2fcb1ee3aa",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:51.510046+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00021.json",
+          "sha256": "e83be43945e7686e221b82c7aaaabd79888a6bc968e7a2d7b4129bdca93eec84",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:52.042502+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00022.json",
+          "sha256": "7793c2fab4da0ad3a4d7fed7dc5e3851a380814daeea76697910f21dd203358a",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:52.546654+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00023.json",
+          "sha256": "a879be2768f08b27c6d8d78a9087c72557bf2e19507f29c8194161107fa94f65",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:52.630090+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00024.json",
+          "sha256": "06c41ca56f203d4577096f45d8ff6743e1580d502f44002d1edce9e7bbdf4846",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:53.430563+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2025/page_00025.json",
+          "sha256": "9aa8847503443a991742f811bc85254c3cccdee7dc5a48dd593a2996eac70810",
+          "object_count": 133,
+          "finished_utc": "2026-09-16T07:35:53.498721+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    },
+    {
+      "year": 2026,
+      "bucket": "suryabench-sharp-pipeline-bamidele",
+      "prefix": "jsoc_2025_2026_production_v1/samples_npz/2026/",
+      "started_utc": "2026-09-16T07:35:53.710815+00:00",
+      "finished_utc": "2026-09-16T07:35:57.049349+00:00",
+      "complete": true,
+      "completion_basis": "TERMINAL_PAGE_WITHOUT_NEXT_PAGE_TOKEN",
+      "object_count": 2939,
+      "sha256": "888a8c31308461f686bb2a3106f14d5053c8193e3ad20527405d991285e3ba5c",
+      "listing_file": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/objects_2026.json",
+      "reused": false,
+      "transport": "aia17-archive-paged-transport-v1",
+      "original_reconciliation_script_sha256": "3ac43cf67057a6f0cc622c408c7a6dad2d2ca2e161665ff6d29d90d6c12ff274",
+      "transport_script_sha256": "2e71e7ebbafc9692170e5be5844846f031339de68457cc2b1f90a13674acda36",
+      "protocol": {
+        "transport": "aia17-archive-paged-transport-v1",
+        "bucket": "suryabench-sharp-pipeline-bamidele",
+        "project": "sonorous-shore-450510-i4",
+        "year": 2026,
+        "prefix": "jsoc_2025_2026_production_v1/samples_npz/2026/",
+        "maxResults": 500,
+        "fields": "kind,nextPageToken,prefixes,items(name,bucket,size,generation,crc32c,md5Hash,timeCreated,updated)",
+        "projection": "noAcl",
+        "versions": false
+      },
+      "pages": [
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00001.json",
+          "sha256": "954ec16476a0555d2bda8238257947aad51ebba19ba6a2fad1c9f6e44ff70f38",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:54.212182+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00002.json",
+          "sha256": "fba6e7c07f876f18e30753f8a0e88d6f7aa15a3ed5d5b57d8367bf18ad954550",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:54.731667+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00003.json",
+          "sha256": "c84757bf42ff155a21221c00158d3c6d4a675540f015d8f1772436f301416c17",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:56.408792+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00004.json",
+          "sha256": "701b77f19bbf316e584c92c1f1c1296e3c0379b33c1ed14a30d777a476d7f7b1",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:56.686702+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00005.json",
+          "sha256": "d1c5b77a02d749c7a22d1eceeb9a1d9a985c02b78d3179f951cc386a55ee72b2",
+          "object_count": 500,
+          "finished_utc": "2026-09-16T07:35:56.973352+00:00"
+        },
+        {
+          "path": "/home/abmoses2000/aia17_metadata_stage1/archive_reconciliation_v1/listings/pages_2026/page_00006.json",
+          "sha256": "6c59a996b57711ca749b6a590c5324fec156ffdc42982cf9b41943b4de30d1fa",
+          "object_count": 439,
+          "finished_utc": "2026-09-16T07:35:57.049349+00:00"
+        }
+      ],
+      "atomic_archive_snapshot": false
+    }
+  ],
+  "master_targets": 141644,
+  "status_counts": {
+    "NOT_FOUND_IN_AUDITED_PREFIX": 3930,
+    "EXACT_NONEMPTY_OBJECT": 137714
+  },
+  "yearly": [
+    {
+      "stored_year": 2010,
+      "expected_targets": 3316,
+      "listed_objects": 3306,
+      "exact_nonempty": 3306,
+      "not_found": 10,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 3306,
+      "baseline_exact_nonempty": 3306
+    },
+    {
+      "stored_year": 2011,
+      "expected_targets": 11277,
+      "listed_objects": 11142,
+      "exact_nonempty": 11142,
+      "not_found": 135,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 11142,
+      "baseline_exact_nonempty": 11142
+    },
+    {
+      "stored_year": 2012,
+      "expected_targets": 10855,
+      "listed_objects": 10815,
+      "exact_nonempty": 10815,
+      "not_found": 40,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 10815,
+      "baseline_exact_nonempty": 10815
+    },
+    {
+      "stored_year": 2013,
+      "expected_targets": 13333,
+      "listed_objects": 13066,
+      "exact_nonempty": 13066,
+      "not_found": 267,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 13066,
+      "baseline_exact_nonempty": 13066
+    },
+    {
+      "stored_year": 2014,
+      "expected_targets": 11653,
+      "listed_objects": 11627,
+      "exact_nonempty": 11627,
+      "not_found": 26,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 11627,
+      "baseline_exact_nonempty": 11627
+    },
+    {
+      "stored_year": 2015,
+      "expected_targets": 11259,
+      "listed_objects": 11236,
+      "exact_nonempty": 11236,
+      "not_found": 23,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 11236,
+      "baseline_exact_nonempty": 11236
+    },
+    {
+      "stored_year": 2016,
+      "expected_targets": 6885,
+      "listed_objects": 6818,
+      "exact_nonempty": 6818,
+      "not_found": 67,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 6818,
+      "baseline_exact_nonempty": 6818
+    },
+    {
+      "stored_year": 2017,
+      "expected_targets": 3462,
+      "listed_objects": 3444,
+      "exact_nonempty": 3444,
+      "not_found": 18,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2018,
+      "expected_targets": 1711,
+      "listed_objects": 1711,
+      "exact_nonempty": 1711,
+      "not_found": 0,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2019,
+      "expected_targets": 1058,
+      "listed_objects": 1057,
+      "exact_nonempty": 1057,
+      "not_found": 1,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2020,
+      "expected_targets": 2089,
+      "listed_objects": 2089,
+      "exact_nonempty": 2089,
+      "not_found": 0,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2021,
+      "expected_targets": 5828,
+      "listed_objects": 5797,
+      "exact_nonempty": 5797,
+      "not_found": 31,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2022,
+      "expected_targets": 11534,
+      "listed_objects": 11506,
+      "exact_nonempty": 11506,
+      "not_found": 28,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2023,
+      "expected_targets": 14677,
+      "listed_objects": 14308,
+      "exact_nonempty": 14308,
+      "not_found": 369,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2024,
+      "expected_targets": 14732,
+      "listed_objects": 14720,
+      "exact_nonempty": 14720,
+      "not_found": 12,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2025,
+      "expected_targets": 14774,
+      "listed_objects": 12133,
+      "exact_nonempty": 12133,
+      "not_found": 2641,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    },
+    {
+      "stored_year": 2026,
+      "expected_targets": 3201,
+      "listed_objects": 2939,
+      "exact_nonempty": 2939,
+      "not_found": 262,
+      "zero_byte": 0,
+      "ambiguous_ids": 0,
+      "alternate_paths": 0,
+      "other_objects": 0,
+      "baseline_targets": 0,
+      "baseline_exact_nonempty": 0
+    }
+  ],
+  "boundary_case": {
+    "sample_id": "20240714_0724_HARP11520_NOAA13753",
+    "stored_year": 2024,
+    "HARPNUM": "11520",
+    "NOAA_AR_clean": "13753",
+    "original_label": 1,
+    "stored_issue_time": "2024-07-14 07:24:00",
+    "expected_uri": "gs://suryabench-sharp-pipeline-bamidele/samples_npz/2024/20240714_0724_HARP11520_NOAA13753.npz",
+    "path_basis": "documented_layout_plus_sample_id",
+    "in_baseline": 0,
+    "object_status": "EXACT_NONEMPTY_OBJECT",
+    "same_id_object_count": 1,
+    "exact_object_present": 1,
+    "generation": "1779211772626400",
+    "object_bytes": 5535844,
+    "crc32c_as_listed": "jGcARw==",
+    "candidate_uris": "[\"gs://suryabench-sharp-pipeline-bamidele/samples_npz/2024/20240714_0724_HARP11520_NOAA13753.npz\"]",
+    "image_contents_checked": false,
+    "image_observation_times_checked": false
+  },
+  "canary_candidate_count": 18,
+  "canary_images_downloaded": 0,
+  "source_labels_replaced": false,
+  "training_authorised": false,
+  "limitations": [
+    "Listings are current-object metadata as observed at the recorded times, not an atomic archive snapshot.",
+    "Cached successful listings are deliberately reused, not silently refreshed.",
+    "Missing means no matching object in the specified yearly prefix, not absence everywhere or a negative flare label.",
+    "Names, nonzero byte sizes and listed checksums do not validate NPZ contents.",
+    "Storage creation/update times and sample-ID clocks are NOT AIA observation times.",
+    "Neither the 180-second tolerance nor no-future-image condition has been tested in this run.",
+    "Next canary selection is deterministic and not a representative statistical sample or a completeness certificate.",
+    "Catalogue completeness, reporting availability, qualified histories and final split/calibration design remain open."
+  ]
+}

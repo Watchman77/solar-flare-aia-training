@@ -1,0 +1,71 @@
+{
+  "status": "PROPOSED_FIRST_BENCHMARK_NOT_FROZEN",
+  "roles": [
+    {
+      "name": "train",
+      "start_utc_inclusive": "2010-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-01-01T00:00:00Z",
+      "purpose": "Fit preprocessing and model weights on this subset of Cycle 24."
+    },
+    {
+      "name": "model_validation",
+      "start_utc_inclusive": "2014-01-01T00:00:00Z",
+      "end_utc_exclusive": "2014-07-01T00:00:00Z",
+      "purpose": "Model/epoch/hyperparameter selection, not weight fitting."
+    },
+    {
+      "name": "calibration_fit",
+      "start_utc_inclusive": "2014-07-01T00:00:00Z",
+      "end_utc_exclusive": "2015-01-01T00:00:00Z",
+      "purpose": "Fit a prespecified calibrator to the frozen selected model."
+    },
+    {
+      "name": "threshold_selection",
+      "start_utc_inclusive": "2015-01-01T00:00:00Z",
+      "end_utc_exclusive": "2016-01-01T00:00:00Z",
+      "purpose": "Assess calibration and select operating threshold; not independent test."
+    },
+    {
+      "name": "late_period_diagnostic",
+      "start_utc_inclusive": "2016-01-01T00:00:00Z",
+      "end_utc_exclusive": "2020-01-01T00:00:00Z",
+      "purpose": "Post-freeze diagnostic only; this block includes the late-2019 cycle transition."
+    },
+    {
+      "name": "early_cycle25_diagnostic",
+      "start_utc_inclusive": "2020-01-01T00:00:00Z",
+      "end_utc_exclusive": "2021-01-01T00:00:00Z",
+      "purpose": "Separate 2020 low-activity diagnostic, never a development set."
+    },
+    {
+      "name": "independent_cycle25_test",
+      "start_utc_inclusive": "2021-01-01T00:00:00Z",
+      "end_utc_exclusive": "2026-01-01T00:00:00Z",
+      "purpose": "Primary held-out 2021-2025 cross-cycle evaluation, no tuning/refitting."
+    },
+    {
+      "name": "supplementary_2026",
+      "start_utc_inclusive": "2026-01-01T00:00:00Z",
+      "end_utc_exclusive": "2027-01-01T00:00:00Z",
+      "purpose": "Only the actually covered 2026 records, not a complete-year claim."
+    }
+  ],
+  "forecast_horizon_hours": 48,
+  "aia_lags_minutes": [
+    288,
+    192,
+    96
+  ],
+  "channels": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "test_fitting_allowed": false,
+  "training_authorised": false,
+  "pinn_track": "SEPARATE_20A_20B_20C",
+  "source_index_sha256": "d779f5f7cc156b9a288bb6a00d8ffae1bcd5eac12014fecf846ae900705278ba"
+}

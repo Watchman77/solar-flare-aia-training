@@ -1,0 +1,11 @@
+{
+  "status": "OBJECT_RECONCILIATION_COMPLETE_CONTENT_AND_TIMING_NOT_VERIFIED",
+  "output_sha256": {
+    "archive_reconciliation_report.json": "241295bb6cbb3f69ef0e5b9b9d090ef4da7f9dda698361bdd2fdc1d223c238a1",
+    "objects_without_target.csv": "dbfe952d997993e7330a6226abec36d582a93e9021702312b0923271ac193f01",
+    "research_log_archive_reconciliation.md": "148086951cf3f28b9105384b25bda52db462c27034ec5898e0e3b5fe02487d00",
+    "target_object_register.csv": "b4bbf9098d2005cfacd7eff7649fdbac3b82fc55162fcbfb822024b1abcd6931",
+    "timing_canary_candidates.csv": "cd77abefb42f044389ce434d2ec051ef495958502fbbe0c3fc43c5b24e068ea8",
+    "yearly_object_coverage.csv": "6b355f0809ee8bb29e3375742abe2dc3a8a1bedd0ca1a2e34ae74377455783d7"
+  }
+}
