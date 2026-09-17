@@ -1,0 +1,72 @@
+[
+  {
+    "model": "logistic_regression",
+    "fit_seconds": 2.7332301139831543,
+    "calibration_raw": {
+      "roc_auc": 0.9483205211324134,
+      "pr_auc": 0.20916472535394437,
+      "brier": 0.07416858274260109,
+      "log_loss": 0.24898904553968532
+    },
+    "calibration_calibrated": {
+      "roc_auc": 0.9483205211324134,
+      "pr_auc": 0.20916472535394437,
+      "brier": 0.020052314616372437,
+      "log_loss": 0.0692598397300463
+    },
+    "threshold_holdout_probability_metrics": {
+      "roc_auc": 0.9156975182123145,
+      "pr_auc": 0.4979651813080132,
+      "brier": 0.022273440718055277,
+      "log_loss": 0.08749249821240253
+    },
+    "selected_threshold": 0.023132347367379614,
+    "threshold_holdout_classification": {
+      "threshold": 0.023132347367379614,
+      "tn": 4292,
+      "fp": 979,
+      "fn": 29,
+      "tp": 144,
+      "tss": 0.6466366847501269,
+      "hss": 0.17689181093485304,
+      "precision": 0.12822796081923418,
+      "recall": 0.8323699421965318,
+      "f1": 0.2222222222222222
+    }
+  },
+  {
+    "model": "random_forest",
+    "fit_seconds": 23.832895040512085,
+    "calibration_raw": {
+      "roc_auc": 0.942656139050971,
+      "pr_auc": 0.19505001254794388,
+      "brier": 0.02188411636520337,
+      "log_loss": 0.07365981549115312
+    },
+    "calibration_calibrated": {
+      "roc_auc": 0.9426561390509709,
+      "pr_auc": 0.19505001254794388,
+      "brier": 0.019575973441261222,
+      "log_loss": 0.06942256751056748
+    },
+    "threshold_holdout_probability_metrics": {
+      "roc_auc": 0.9077776425265083,
+      "pr_auc": 0.49081084386881857,
+      "brier": 0.022369501416621976,
+      "log_loss": 0.09368546024909337
+    },
+    "selected_threshold": 0.08272120160111422,
+    "threshold_holdout_classification": {
+      "threshold": 0.08272120160111422,
+      "tn": 4913,
+      "fp": 358,
+      "fn": 44,
+      "tp": 129,
+      "tss": 0.677745938897863,
+      "hss": 0.3609391982217747,
+      "precision": 0.2648870636550308,
+      "recall": 0.7456647398843931,
+      "f1": 0.39090909090909093
+    }
+  }
+]

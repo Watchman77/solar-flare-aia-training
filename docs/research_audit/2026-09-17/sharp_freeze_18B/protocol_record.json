@@ -1,0 +1,15 @@
+{
+  "status": "CYCLE24_REFERENCE_PIPELINE_FROZEN_PENDING_INDEPENDENT_CYCLE25_EVALUATION",
+  "cycle25_used": false,
+  "supplementary_2026_used": false,
+  "train_role": "cycle24_final_refit_pool",
+  "calibration_role": "cycle24_calibration_holdout",
+  "threshold_role": "cycle24_threshold_holdout",
+  "models": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "calibration_method": "Platt/sigmoid fitted only on calibration holdout",
+  "threshold_method": "TSS-maximising threshold selected only on threshold holdout after calibration",
+  "scientific_clearance": false
+}
