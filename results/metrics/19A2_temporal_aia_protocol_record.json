@@ -1,0 +1,11 @@
+{
+  "status": "TEMPORAL_AIA_CNN_GRU_CYCLE24_BASE_MODEL_FROZEN_PENDING_CALIBRATION",
+  "recovery_stage": "19A2R",
+  "best_epoch": 2,
+  "cycle25_used": false,
+  "calibration_holdout_used": false,
+  "threshold_holdout_used": false,
+  "embedded_npz_y_used": false,
+  "final_model_path": "/home/abmoses2000/aia19_cnn_gru_20260917/models/cnn_gru_cycle24_final_refit.pt",
+  "scientific_clearance": false
+}

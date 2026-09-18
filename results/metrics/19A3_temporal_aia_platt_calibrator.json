@@ -1,0 +1,20 @@
+{
+  "method": "Platt scaling on frozen raw logits",
+  "fit_role": "cycle24_calibration_holdout",
+  "coefficient": 0.5846760189574352,
+  "intercept": -3.6728404851652265,
+  "raw_metrics": {
+    "roc_auc": 0.6841527839205856,
+    "pr_auc": 0.03811900155090733,
+    "brier": 0.204366078756317,
+    "log_loss": 0.5727020749467667,
+    "prevalence": 0.021269790500559733
+  },
+  "calibrated_metrics": {
+    "roc_auc": 0.6841527839205856,
+    "pr_auc": 0.03811900155090733,
+    "brier": 0.020625139637751,
+    "log_loss": 0.09874373777229457,
+    "prevalence": 0.021269790500559733
+  }
+}

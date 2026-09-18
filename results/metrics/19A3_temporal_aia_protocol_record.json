@@ -1,0 +1,51 @@
+{
+  "status": "TEMPORAL_AIA_CNN_GRU_CYCLE24_PIPELINE_FROZEN_PENDING_INDEPENDENT_CYCLE25_EVALUATION",
+  "base_model_path": "/home/abmoses2000/aia19_cnn_gru_20260917/models/cnn_gru_cycle24_final_refit.pt",
+  "base_model_sha256": "11dc35e089101c8b79d2a6ba6f82d02cdb470d583552cad73e6071016c2a2d76",
+  "normalisation_path": "/home/abmoses2000/aia19_cnn_gru_20260917/normalisation.json",
+  "normalisation_sha256": "c7552cebf1629f799936edf41365d0ab0e0eb16ed47207ea90490d501962503e",
+  "channel_order": [
+    "aia94",
+    "aia131",
+    "aia171",
+    "aia193",
+    "aia211",
+    "aia335"
+  ],
+  "history_lags_minutes": [
+    -288,
+    -192,
+    -96
+  ],
+  "forecast_horizon_hours": 48,
+  "authoritative_label": "label_48h_final",
+  "embedded_npz_y_used": false,
+  "calibration_method": "Platt scaling on frozen raw logits",
+  "calibration_role": "cycle24_calibration_holdout",
+  "platt_coefficient": 0.5846760189574352,
+  "platt_intercept": -3.6728404851652265,
+  "threshold_role": "cycle24_threshold_holdout",
+  "threshold_selection_rule": "maximum TSS",
+  "frozen_threshold": 0.030438695842933242,
+  "threshold_holdout_metrics": {
+    "roc_auc": 0.7823895145033718,
+    "pr_auc": 0.0903245909115584,
+    "brier": 0.03042529373197073,
+    "log_loss": 0.13088905893715028,
+    "prevalence": 0.03197720436916258,
+    "threshold": 0.030438695842933242,
+    "tn": 4024,
+    "fp": 2091,
+    "fn": 44,
+    "tp": 158,
+    "tss": 0.4402321834799997,
+    "hss": 0.07462250000360221,
+    "precision": 0.07025344597598933,
+    "recall": 0.7821782178217822,
+    "f1": 0.12892696858425132
+  },
+  "cycle25_used": false,
+  "supplementary_2026_used": false,
+  "model_weights_updated": false,
+  "scientific_clearance": false
+}
