@@ -1,0 +1,27 @@
+{
+  "status": "2026_AIA_PRODUCTION_INPUT_VERIFICATION_COMPLETE_NO_TUNING",
+  "primary_2021_2025_result_unchanged": true,
+  "sample_objects_2025": 400,
+  "sample_objects_2026": 400,
+  "pixels_per_object": 2048,
+  "seed": 20260919,
+  "expected_wavelengths": [
+    94,
+    131,
+    171,
+    193,
+    211,
+    335
+  ],
+  "model_weights_changed": false,
+  "normalisation_changed": false,
+  "calibrator_changed": false,
+  "threshold_changed": false,
+  "2026_merged_into_primary_test": false,
+  "notes": [
+    "2026 remains supplementary.",
+    "This verifies production/schema/input-distribution behavior only.",
+    "Final 2026 frozen performance must be evaluated separately after the September refresh is complete.",
+    "Distribution differences do not by themselves identify physical cause."
+  ]
+}

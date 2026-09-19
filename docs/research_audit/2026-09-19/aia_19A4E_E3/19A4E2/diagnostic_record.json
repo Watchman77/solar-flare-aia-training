@@ -1,0 +1,22 @@
+{
+  "status": "POST_TEST_2024_2025_AIA_INPUT_SHIFT_AUDIT_COMPLETE_NO_TUNING",
+  "sample_objects_per_year": 400,
+  "pixels_per_object": 2048,
+  "seed": 20260919,
+  "years": [
+    2024,
+    2025
+  ],
+  "frozen_model_changed": false,
+  "frozen_normalisation_changed": false,
+  "calibrator_changed": false,
+  "threshold_changed": false,
+  "primary_cycle25_metrics_changed": false,
+  "outputs": [
+    "object_level_input_statistics.csv.gz",
+    "channel_distribution_summary.csv",
+    "channel_ks_2024_vs_2025.csv",
+    "production_metadata_summary.csv"
+  ],
+  "interpretation_constraint": "Observed input-distribution differences establish covariate/production shift but do not by themselves identify physical cause."
+}

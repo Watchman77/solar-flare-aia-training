@@ -1,0 +1,104 @@
+{
+  "status": "POST_TEST_SCORE_SHIFT_DIAGNOSTIC_COMPLETE_NO_TUNING",
+  "primary_test_result_unchanged": true,
+  "frozen_threshold": 0.030438695842933242,
+  "year_2024": {
+    "n": 12553.0,
+    "positives": 1316.0,
+    "prevalence": 0.10483549749063968,
+    "positive_fraction_above_threshold": 0.7013677811550152,
+    "negative_fraction_above_threshold": 0.34279611996084364,
+    "positive_median_calibrated_probability": 0.03847834692238675,
+    "negative_median_calibrated_probability": 0.018868837787244,
+    "positive_median_raw_logit": 0.7772150635719299,
+    "negative_median_raw_logit": -0.476082295179367,
+    "roc_auc": 0.7372442941833767,
+    "pr_auc": 0.23444630426879465
+  },
+  "year_2025": {
+    "n": 9281.0,
+    "positives": 512.0,
+    "prevalence": 0.05516646913048163,
+    "positive_fraction_above_threshold": 0.0078125,
+    "negative_fraction_above_threshold": 0.02942182689018132,
+    "positive_median_calibrated_probability": 0.00716251656219755,
+    "negative_median_calibrated_probability": 0.0057298481952749,
+    "positive_median_raw_logit": -2.1531087160110474,
+    "negative_median_raw_logit": -2.5372674465179443,
+    "roc_auc": 0.7280856434955525,
+    "pr_auc": 0.108026067957784
+  },
+  "ks_2024_vs_2025": [
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "all",
+      "variable": "raw_logit",
+      "ks_statistic": 0.6454810764088527,
+      "p_value": 0.0,
+      "n_2024": 12553,
+      "n_2025": 9281
+    },
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "positive",
+      "variable": "raw_logit",
+      "ks_statistic": 0.768806990881459,
+      "p_value": 2.0024772404949205e-217,
+      "n_2024": 1316,
+      "n_2025": 512
+    },
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "negative",
+      "variable": "raw_logit",
+      "ks_statistic": 0.6522936051403827,
+      "p_value": 0.0,
+      "n_2024": 11237,
+      "n_2025": 8769
+    },
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "all",
+      "variable": "calibrated_probability",
+      "ks_statistic": 0.6454810764088527,
+      "p_value": 0.0,
+      "n_2024": 12553,
+      "n_2025": 9281
+    },
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "positive",
+      "variable": "calibrated_probability",
+      "ks_statistic": 0.768806990881459,
+      "p_value": 2.0024772404949205e-217,
+      "n_2024": 1316,
+      "n_2025": 512
+    },
+    {
+      "reference_year": 2024,
+      "comparison_year": 2025,
+      "class": "negative",
+      "variable": "calibrated_probability",
+      "ks_statistic": 0.6522936051403827,
+      "p_value": 0.0,
+      "n_2024": 11237,
+      "n_2025": 8769
+    }
+  ],
+  "model_weights_updated": false,
+  "calibrator_refit": false,
+  "threshold_reselected": false,
+  "metrics_reoptimised": false,
+  "notes": [
+    "This notebook is diagnostic only and does not alter the frozen 19A4 result.",
+    "ROC-AUC/PR-AUC characterize ranking; the frozen operating point characterizes threshold transfer.",
+    "A large shift in positive score distribution with preserved ranking is consistent with score/probability distribution shift.",
+    "Statistical distribution shift alone does not establish whether the cause is solar-regime shift, acquisition/preprocessing shift, or both.",
+    "AIA source-image statistics and production metadata should be compared separately before attributing cause."
+  ]
+}

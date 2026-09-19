@@ -1,0 +1,3 @@
+year,metadata_mode,schema,source,count
+2025,wavelengths,HARPNUM|NOAA_AR_clean|T_REC_dt|block_id|channel_metadata|label_48h_final|sample_id|source|wavelengths|x|y,JSOC HARP-block tracked im_patch + local WCS crop,400
+2026,wavelengths,HARPNUM|NOAA_AR_clean|T_REC_dt|block_id|channel_metadata|label_48h_final|sample_id|source|wavelengths|x|y,JSOC HARP-block tracked im_patch + local WCS crop,400
