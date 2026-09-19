@@ -1,0 +1,24 @@
+{
+  "year": 2025,
+  "unique_objects_scanned": 10879,
+  "schema_count": 10879,
+  "npz_keys": [
+    "HARPNUM",
+    "NOAA_AR_clean",
+    "T_REC_dt",
+    "block_id",
+    "channel_metadata",
+    "label_48h_final",
+    "sample_id",
+    "source",
+    "wavelengths",
+    "x",
+    "y"
+  ],
+  "x_shape": [512, 512, 6],
+  "x_dtype": "float32",
+  "finite": true,
+  "wavelengths": [94, 131, 171, 193, 211, 335],
+  "finding": "2025 production-v1 stores physical channel order in wavelengths rather than legacy channels metadata.",
+  "scientific_action": "Loader compatibility was corrected without changing model weights, normalisation, calibration or threshold."
+}

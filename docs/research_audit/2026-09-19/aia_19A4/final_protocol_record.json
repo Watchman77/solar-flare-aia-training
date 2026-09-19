@@ -1,0 +1,51 @@
+{
+  "status": "FROZEN_TEMPORAL_AIA_PIPELINE_EVALUATED_ON_INDEPENDENT_CYCLE25_2021_2025",
+  "test_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "n": 49329,
+  "positives": 2351,
+  "base_model_sha256": "11dc35e089101c8b79d2a6ba6f82d02cdb470d583552cad73e6071016c2a2d76",
+  "platt_coefficient": 0.5846760189574352,
+  "platt_intercept": -3.6728404851652265,
+  "frozen_threshold": 0.030438695842933242,
+  "combined_prediction_file": "/home/abmoses2000/aia19_cycle25_final_evaluation/cycle25_2021_2025_frozen_predictions.csv.gz",
+  "combined_prediction_sha256": "e2cd080649f6b72ed52dc3eeecd28eff4dbcb73aca666b0a58aebba75497e505",
+  "overall_metrics": {
+    "n": 49329,
+    "positives": 2351,
+    "prevalence": 0.0476595917208944,
+    "roc_auc": 0.6641056216092824,
+    "pr_auc": 0.09054473836203072,
+    "pr_lift_over_prevalence": 1.8998219475374793,
+    "brier": 0.045664789917961794,
+    "log_loss": 0.20070592480358507,
+    "threshold": 0.030438695842933242,
+    "tn": 33613,
+    "fp": 13365,
+    "fn": 1159,
+    "tp": 1192,
+    "tss": 0.2225234201502032,
+    "hss": 0.06420170649324619,
+    "precision": 0.08188500377825102,
+    "recall": 0.5070182900893236,
+    "f1": 0.14099834397918146
+  },
+  "yearwise_metrics_file": "/home/abmoses2000/aia19_cycle25_final_evaluation/cycle25_yearwise_metrics.csv",
+  "model_weights_updated_after_cycle25": false,
+  "calibrator_refit_after_cycle25": false,
+  "threshold_reselected_after_cycle25": false,
+  "cycle25_used_for_tuning": false,
+  "post_test_tuning_permitted": false,
+  "scientific_clearance": false,
+  "notes": [
+    "All five yearly prediction shards were generated with the same frozen Cycle-24 model, normalisation, Platt calibrator and operating threshold.",
+    "Metrics were computed only after the complete 49,329-row prediction set passed integrity checks.",
+    "Year-wise metrics are descriptive and were not used for model selection or tuning.",
+    "Earlier historical-source and label-clearance limitations remain inherited."
+  ]
+}

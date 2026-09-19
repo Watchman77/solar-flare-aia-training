@@ -1,0 +1,19 @@
+{
+  "status": "CYCLE25_2024_FROZEN_AIA_PREDICTION_SHARD_COMPLETE_NO_METRICS",
+  "year": 2024,
+  "targets": 12553,
+  "positives": 1316,
+  "base_model_sha256": "11dc35e089101c8b79d2a6ba6f82d02cdb470d583552cad73e6071016c2a2d76",
+  "normalisation_path": "/home/abmoses2000/aia19_cnn_gru_20260917/normalisation.json",
+  "platt_coefficient": 0.5846760189574352,
+  "platt_intercept": -3.6728404851652265,
+  "frozen_threshold": 0.030438695842933242,
+  "prediction_file": "/home/abmoses2000/aia19_cycle25_predictions/cycle25_2024_frozen_predictions.csv.gz",
+  "prediction_sha256": "879b13129a15ab19ad5355f5eac2cce6aba5f885181451a1f54255aa171a4987",
+  "model_weights_updated": false,
+  "calibrator_refit": false,
+  "threshold_reselected": false,
+  "performance_metrics_computed": false,
+  "cycle25_used_for_tuning": false,
+  "scientific_clearance": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "CYCLE25_2022_FROZEN_AIA_PREDICTION_SHARD_COMPLETE_NO_METRICS",
+  "year": 2022,
+  "targets": 9999,
+  "positives": 119,
+  "base_model_sha256": "11dc35e089101c8b79d2a6ba6f82d02cdb470d583552cad73e6071016c2a2d76",
+  "normalisation_path": "/home/abmoses2000/aia19_cnn_gru_20260917/normalisation.json",
+  "platt_coefficient": 0.5846760189574352,
+  "platt_intercept": -3.6728404851652265,
+  "frozen_threshold": 0.030438695842933242,
+  "prediction_file": "/home/abmoses2000/aia19_cycle25_predictions/cycle25_2022_frozen_predictions.csv.gz",
+  "prediction_sha256": "5ce62b87fbea391020528983972fdd6b58514bca2f935cf1b08a94eb10e6d75b",
+  "model_weights_updated": false,
+  "calibrator_refit": false,
+  "threshold_reselected": false,
+  "performance_metrics_computed": false,
+  "cycle25_used_for_tuning": false,
+  "scientific_clearance": false
+}

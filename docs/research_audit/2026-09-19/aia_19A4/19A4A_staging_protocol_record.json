@@ -1,0 +1,23 @@
+{
+  "status": "CYCLE25_YEARWISE_AIA_STAGING_PLAN_PREPARED_NO_MODEL_EVALUATION",
+  "test_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "targets": 49329,
+  "positives": 2351,
+  "unique_objects_total": 54697,
+  "frame_references_total": 147987,
+  "yearwise_policy": "stage -> frozen inference -> preserve predictions -> verify -> delete payload -> next year",
+  "cache_root": "/mnt/disks/aia-cache/cycle25_yearwise",
+  "model_loaded": false,
+  "predictions_generated": false,
+  "metrics_computed": false,
+  "recalibration_permitted": false,
+  "threshold_reselection_permitted": false,
+  "cycle25_used_for_tuning": false,
+  "scientific_clearance": false
+}
